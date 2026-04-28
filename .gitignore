@@ -14,3 +14,6 @@ wheels/
 
 # Output
 digests/
+
+# Subscriber emails — do not commit
+subscribers.json

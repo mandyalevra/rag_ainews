@@ -5,8 +5,10 @@ import json
 import re
 
 import anthropic
+import numpy as np
 import resend
 from dotenv import load_dotenv
+from fastembed import TextEmbedding
 from perplexity import Perplexity
 
 from email_template import build_email_html
@@ -47,7 +49,7 @@ CATEGORIES = [
 ]
 
 SCHEMA_PROMPT = """\
-You are an AI news curator for the platform "daily.exe". Given raw search results, produce a structured JSON digest.
+You are an AI news curator for the platform "by mandy, daily". Given raw search results, produce a structured JSON digest.
 
 Return ONLY valid JSON — no markdown fences, no commentary, no explanation.
 
@@ -89,10 +91,20 @@ Fixed values per category (do not vary):
 Rules:
 - Exactly 3 categories in order: tools, money, world
 - 3–5 stories per category; drop duplicates and low-signal results
-- headline: 2–3 words, lowercase, evocative (e.g. "court drama", "apple opens up")
 - readMin: integer between 3 and 5
 - source: domain only, no scheme or www (e.g. "github.blog" not "https://github.blog")
-- Return only the JSON object, nothing else\
+- Return only the JSON object, nothing else
+
+Headline rules (most important — read carefully):
+- 2–4 words, all lowercase, captures the day's single biggest story
+- Vary the STRUCTURE day to day — rotate between these forms and never repeat a form used recently:
+    noun phrase:    "court drama",  "the llama escape",  "a quiet coup"
+    verb phrase:    "apple opens up",  "models go free",  "sam moves fast"
+    fragment/twist: "billion reasons",  "nobody saw that",  "it's complicated"
+    alliterative:   "models, money, mayhem",  "funding frenzy"
+    punny/playful:  "token economics",  "prompt and circumstance"
+- Avoid generic filler words: "big", "news", "update", "new", "today"
+- The headline should feel like a magazine cover line — specific, a little witty, impossible to ignore\
 """
 
 
@@ -128,11 +140,28 @@ def next_issue_number() -> int:
     return len(existing) + 1
 
 
+def recent_headlines(n: int = 5) -> list[str]:
+    files = sorted(Path("digests").glob("*.json"), reverse=True)[:n] if Path("digests").exists() else []
+    out = []
+    for f in files:
+        try:
+            out.append(json.loads(f.read_text()).get("headline", ""))
+        except Exception:
+            pass
+    return [h for h in out if h]
+
+
 def generate_digest(claude: anthropic.Anthropic, raw: str, today_date: date) -> dict:
     issue = next_issue_number()
     weekday = today_date.strftime("%A")
     date_str = today_date.strftime("%B %d, %Y")
     iso = today_date.isoformat()
+
+    past = recent_headlines()
+    past_note = (
+        f"\nRecent headlines to avoid repeating in structure or style: {past}\n"
+        if past else ""
+    )
 
     response = claude.messages.create(
         model="claude-sonnet-4-6",
@@ -148,7 +177,7 @@ def generate_digest(claude: anthropic.Anthropic, raw: str, today_date: date) -> 
             {
                 "role": "user",
                 "content": (
-                    f"Today is {date_str} ({weekday}), ISO: {iso}, issue number: {issue}.\n\n"
+                    f"Today is {date_str} ({weekday}), ISO: {iso}, issue number: {issue}.{past_note}\n\n"
                     f"Raw search results:\n\n{raw}\n\n"
                     f"Return the digest JSON."
                 ),
@@ -208,11 +237,14 @@ def send_digest_email(digest: dict) -> None:
     params: resend.Emails.SendParams = {
         "from": from_email,
         "to": subscribers,
-        "subject": f"daily.exe — {digest['date']}",
+        "subject": f"by mandy, daily — {digest['date']}",
         "html": html,
     }
-    resend.Emails.send(params)
-    print(f"  [email] Sent to {len(subscribers)} subscriber(s).")
+    try:
+        resend.Emails.send(params)
+        print(f"  [email] Sent to {len(subscribers)} subscriber(s).")
+    except Exception as e:
+        print(f"  [email] Failed to send: {e}")
 
 
 def build_web_data() -> None:
@@ -228,6 +260,42 @@ def build_web_data() -> None:
         "window.ARCHIVE = " + json.dumps(digests, indent=2) + ";\n"
     )
     Path("web/data.js").write_text(js)
+
+
+def build_embeddings_index() -> None:
+    json_files = sorted(Path("digests").glob("*.json"))
+    if not json_files:
+        return
+
+    print("Building embeddings index...")
+    model = TextEmbedding("BAAI/bge-small-en-v1.5")
+
+    stories = []
+    for f in json_files:
+        try:
+            digest = json.loads(f.read_text())
+        except Exception:
+            continue
+        for cat in digest.get("categories", []):
+            for s in cat.get("stories", []):
+                stories.append({
+                    "digestIso": digest["iso"],
+                    "digestDate": digest["date"],
+                    "catId": cat["id"],
+                    "catName": cat["name"],
+                    "catEmoji": cat["emoji"],
+                    "catAccent": cat["accent"],
+                    **s,
+                })
+
+    texts = [f"{s['title']}. {s['summary']}" for s in stories]
+    embeddings = list(model.embed(texts))
+
+    for story, vec in zip(stories, embeddings):
+        story["embedding"] = vec.tolist()
+
+    Path("web/embeddings.json").write_text(json.dumps(stories))
+    print(f"  → Embedded {len(stories)} stories into web/embeddings.json")
 
 
 def main() -> None:
@@ -257,6 +325,7 @@ def main() -> None:
     md_path.write_text(markdown_from_digest(digest))
 
     build_web_data()
+    build_embeddings_index()
 
     print("Sending digest email to subscribers...")
     send_digest_email(digest)

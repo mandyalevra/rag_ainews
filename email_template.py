@@ -73,7 +73,7 @@ def build_email_html(digest: dict) -> str:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>daily.exe — {digest['date']}</title>
+  <title>by mandy, daily — {digest['date']}</title>
 </head>
 <body style="margin:0;padding:0;background:#f5f0eb;font-family:'Helvetica Neue',Arial,sans-serif;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#f5f0eb;padding:32px 16px;">
@@ -92,7 +92,7 @@ def build_email_html(digest: dict) -> str:
                   <td>
                     <p style="margin:0;font-family:monospace;font-size:18px;
                                font-weight:600;color:#FBF7F4;letter-spacing:-0.02em;">
-                      daily.exe ✦
+                      by mandy, daily ✦
                     </p>
                     <p style="margin:4px 0 0;font-family:monospace;font-size:11px;
                                color:rgba(251,247,244,0.55);">
@@ -166,7 +166,7 @@ def build_email_html(digest: dict) -> str:
                         background:color-mix(in srgb,#1A1613 4%,#FBF7F4);">
               <p style="margin:0;font-family:monospace;font-size:11px;
                          color:rgba(26,22,19,0.5);text-align:center;line-height:1.6;">
-                daily.exe — built with curiosity ·
+                by mandy, daily — built with curiosity ·
                 <a href="http://localhost:8080" style="color:rgba(26,22,19,0.5);">
                   read in browser
                 </a>
