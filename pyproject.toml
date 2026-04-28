@@ -1,0 +1,15 @@
+[project]
+name = "rag-ainews"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=0.97.0",
+    "fastapi>=0.136.1",
+    "perplexityai>=0.32.1",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.27",
+    "resend>=2.29.0",
+    "uvicorn>=0.46.0",
+]
