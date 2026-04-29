@@ -60,7 +60,11 @@ Schema:
   "issue": 1,
   "weekday": "Monday",
   "readMin": 4,
-  "tldr": "1–2 sentence summary of the day's most important AI story.",
+  "tldr": [
+    {"catId": "tools", "text": "One sentence on the standout tools or product story today."},
+    {"catId": "money", "text": "One sentence on the standout funding or startup story today."},
+    {"catId": "world", "text": "One sentence on the standout policy, regulation, or industry story today."}
+  ],
   "headline": "court drama",
   "categories": [
     {
@@ -91,6 +95,7 @@ Fixed values per category (do not vary):
 Rules:
 - Exactly 3 categories in order: tools, money, world
 - 3–5 stories per category; drop duplicates and low-signal results
+- tldr: array of exactly 3 objects in order tools → money → world; each "text" is one tight sentence, no markdown
 - readMin: integer between 3 and 5
 - source: domain only, no scheme or www (e.g. "github.blog" not "https://github.blog")
 - Return only the JSON object, nothing else
@@ -200,7 +205,7 @@ def markdown_from_digest(digest: dict) -> str:
     lines = [
         f"# AI Daily Digest — {digest['date']}",
         "",
-        f"**TL;DR:** {digest['tldr']}",
+        f"**TL;DR:** {' · '.join(b['text'] for b in digest['tldr']) if isinstance(digest['tldr'], list) else digest['tldr']}",
         "",
     ]
     for cat in digest["categories"]:
@@ -298,34 +303,39 @@ def build_embeddings_index() -> None:
     print(f"  → Embedded {len(stories)} stories into web/embeddings.json")
 
 
-def main() -> None:
-    perp = Perplexity()
-    claude = anthropic.Anthropic()
+def main(force: bool = False) -> None:
     today = date.today()
-
-    print(f"Fetching AI news for {today.strftime('%B %d, %Y')}...\n")
-
-    all_results: dict[str, list[dict]] = {}
-    for cat in CATEGORIES:
-        print(f"  [{cat['name']}] searching...")
-        all_results[cat["name"]] = fetch_category(perp, cat)
-        print(f"    → {len(all_results[cat['name']])} results")
-
-    print("\nSynthesizing digest with Claude...\n")
-    raw = build_raw_context(all_results)
-    digest = generate_digest(claude, raw, today)
-
     out_dir = Path("digests")
     out_dir.mkdir(exist_ok=True)
-
     json_path = out_dir / f"{today.isoformat()}.json"
-    json_path.write_text(json.dumps(digest, indent=2))
+    md_path   = out_dir / f"{today.isoformat()}.md"
 
-    md_path = out_dir / f"{today.isoformat()}.md"
-    md_path.write_text(markdown_from_digest(digest))
+    # Guard: skip fetch + generate if today's digest already exists
+    if json_path.exists() and not force:
+        print(f"Digest for {today.strftime('%B %d, %Y')} already exists — skipping fetch & generate.")
+        print("Run with --force to regenerate.\n")
+        digest = json.loads(json_path.read_text())
+    else:
+        perp = Perplexity()
+        claude = anthropic.Anthropic()
 
-    build_web_data()
-    build_embeddings_index()
+        print(f"Fetching AI news for {today.strftime('%B %d, %Y')}...\n")
+
+        all_results: dict[str, list[dict]] = {}
+        for cat in CATEGORIES:
+            print(f"  [{cat['name']}] searching...")
+            all_results[cat["name"]] = fetch_category(perp, cat)
+            print(f"    → {len(all_results[cat['name']])} results")
+
+        print("\nSynthesizing digest with Claude...\n")
+        raw = build_raw_context(all_results)
+        digest = generate_digest(claude, raw, today)
+
+        json_path.write_text(json.dumps(digest, indent=2))
+        md_path.write_text(markdown_from_digest(digest))
+
+        build_web_data()
+        build_embeddings_index()
 
     print("Sending digest email to subscribers...")
     send_digest_email(digest)
@@ -336,8 +346,9 @@ def main() -> None:
     print(divider)
     print(f"\nSaved → {json_path}")
     print(f"Saved → {md_path}")
-    print(f"Web data → web/data.js ({len(digests := json.loads(json_path.read_text()).get('categories', []))} categories)")
+    print(f"Web data → web/data.js ({len(digest.get('categories', []))} categories)")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    main(force="--force" in sys.argv)
