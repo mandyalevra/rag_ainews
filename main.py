@@ -310,32 +310,32 @@ def main(force: bool = False) -> None:
     json_path = out_dir / f"{today.isoformat()}.json"
     md_path   = out_dir / f"{today.isoformat()}.md"
 
-    # Guard: skip fetch + generate if today's digest already exists
+    # Guard: skip everything if today's digest already exists
     if json_path.exists() and not force:
-        print(f"Digest for {today.strftime('%B %d, %Y')} already exists — skipping fetch & generate.")
-        print("Run with --force to regenerate.\n")
-        digest = json.loads(json_path.read_text())
-    else:
-        perp = Perplexity()
-        claude = anthropic.Anthropic()
+        print(f"Digest for {today.strftime('%B %d, %Y')} already exists — nothing to do.")
+        print("Run with --force to regenerate and resend.")
+        return
 
-        print(f"Fetching AI news for {today.strftime('%B %d, %Y')}...\n")
+    perp = Perplexity()
+    claude = anthropic.Anthropic()
 
-        all_results: dict[str, list[dict]] = {}
-        for cat in CATEGORIES:
-            print(f"  [{cat['name']}] searching...")
-            all_results[cat["name"]] = fetch_category(perp, cat)
-            print(f"    → {len(all_results[cat['name']])} results")
+    print(f"Fetching AI news for {today.strftime('%B %d, %Y')}...\n")
 
-        print("\nSynthesizing digest with Claude...\n")
-        raw = build_raw_context(all_results)
-        digest = generate_digest(claude, raw, today)
+    all_results: dict[str, list[dict]] = {}
+    for cat in CATEGORIES:
+        print(f"  [{cat['name']}] searching...")
+        all_results[cat["name"]] = fetch_category(perp, cat)
+        print(f"    → {len(all_results[cat['name']])} results")
 
-        json_path.write_text(json.dumps(digest, indent=2))
-        md_path.write_text(markdown_from_digest(digest))
+    print("\nSynthesizing digest with Claude...\n")
+    raw = build_raw_context(all_results)
+    digest = generate_digest(claude, raw, today)
 
-        build_web_data()
-        build_embeddings_index()
+    json_path.write_text(json.dumps(digest, indent=2))
+    md_path.write_text(markdown_from_digest(digest))
+
+    build_web_data()
+    build_embeddings_index()
 
     print("Sending digest email to subscribers...")
     send_digest_email(digest)
