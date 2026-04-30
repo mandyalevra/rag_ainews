@@ -101,6 +101,29 @@ const Header = ({ onHome, onArchive, route, currentDigest }) => html`
 `;
 
 // ─── HERO / TLDR ───────────────────────────────────────────────────────────
+const TldrBullets = ({ digest }) => {
+  // Support both new array format and old string format
+  if (!Array.isArray(digest.tldr)) {
+    return html`<p className="tldr-text">${digest.tldr}</p>`;
+  }
+  const catMap = Object.fromEntries(digest.categories.map(c => [c.id, c]));
+  return html`
+    <ul className="tldr-list">
+      ${digest.tldr.map((item, i) => {
+        const cat = catMap[item.catId] || {};
+        const a = ACCENTS[cat.accent] || ACCENTS.pink;
+        return html`
+          <li key=${i} className="tldr-item">
+            <span className="tldr-bullet" style=${{ background: a.deep }} />
+            <span className="tldr-cat-emoji">${cat.emoji}</span>
+            <span className="tldr-item-text">${item.text}</span>
+          </li>
+        `;
+      })}
+    </ul>
+  `;
+};
+
 const Hero = ({ digest, isHistorical, onArchive }) => html`
   <section className="hero">
     <div className="hero-meta">
@@ -124,7 +147,7 @@ const Hero = ({ digest, isHistorical, onArchive }) => html`
         <span>TL;DR</span>
         <${Sparkle} size=${14} color="#1A1613" />
       </div>
-      <p className="tldr-text">${digest.tldr}</p>
+      <${TldrBullets} digest=${digest} />
     </div>
     <div className="hero-decor">
       <${Squiggle} width=${120} color="var(--accent-pink-deep)" style=${{ position: "absolute", top: 18, right: -8, transform: "rotate(-12deg)" }} />
@@ -363,7 +386,7 @@ const ArchiveCard = ({ digest, onOpen, isToday, index }) => {
           ${isToday && html`<span className="arch-today-pill">today</span>`}
         </div>
         <h3 className="arch-headline">"${digest.headline}"</h3>
-        <p className="arch-tldr">${digest.tldr}</p>
+        <p className="arch-tldr">${Array.isArray(digest.tldr) ? digest.tldr.map(b => b.text).join(" · ") : digest.tldr}</p>
         <div className="arch-cats">
           ${digest.categories.map((c, i) => html`
             <span key=${i} className="arch-cat-chip" style=${{ background: accents[i].bg, color: accents[i].ink, borderColor: accents[i].deep }}>
