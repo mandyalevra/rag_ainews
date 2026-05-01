@@ -1,3 +1,39 @@
+def _render_tldr(digest: dict) -> str:
+    cat_colors = {
+        "tools": "#E8369A",
+        "money": "#7C4DFF",
+        "world": "#6B9E00",
+    }
+    cat_emoji = {"tools": "🔧", "money": "💰", "world": "🌐"}
+    tldr = digest.get("tldr", "")
+
+    if not isinstance(tldr, list):
+        return f"""<p style="margin:0;font-family:Georgia,serif;font-size:18px;line-height:1.45;color:#1A1613;">{tldr}</p>"""
+
+    rows = ""
+    for item in tldr:
+        cat_id = item.get("catId", "tools")
+        color = cat_colors.get(cat_id, "#E8369A")
+        emoji = cat_emoji.get(cat_id, "")
+        rows += f"""
+        <tr>
+          <td style="padding:5px 0;vertical-align:top;">
+            <table cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding-right:8px;vertical-align:middle;padding-top:2px;">
+                  <div style="width:7px;height:7px;border-radius:50%;background:{color};"></div>
+                </td>
+                <td style="padding-right:6px;font-size:13px;line-height:1;">{emoji}</td>
+                <td style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:1.5;color:#1A1613;">
+                  {item.get("text", "")}
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>"""
+    return f'<table cellpadding="0" cellspacing="0" width="100%">{rows}</table>'
+
+
 def build_email_html(digest: dict) -> str:
     cat_colors = {
         "tools": {"bg": "#FFD6E7", "ink": "#5A0F36", "deep": "#E8369A"},
@@ -141,10 +177,7 @@ def build_email_html(digest: dict) -> str:
                         TL;DR ✦
                       </span>
                     </p>
-                    <p style="margin:0;font-family:Georgia,serif;font-size:18px;
-                               line-height:1.45;color:#1A1613;">
-                      {digest['tldr']}
-                    </p>
+                    {_render_tldr(digest)}
                   </td>
                 </tr>
               </table>
@@ -167,7 +200,7 @@ def build_email_html(digest: dict) -> str:
               <p style="margin:0;font-family:monospace;font-size:11px;
                          color:rgba(26,22,19,0.5);text-align:center;line-height:1.6;">
                 by mandy, daily — built with curiosity ·
-                <a href="http://localhost:8080" style="color:rgba(26,22,19,0.5);">
+                <a href="https://ainews.mandyalevra.com" style="color:rgba(26,22,19,0.5);">
                   read in browser
                 </a>
               </p>
