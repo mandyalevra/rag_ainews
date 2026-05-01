@@ -128,4 +128,7 @@ app.mount("/", StaticFiles(directory="web", html=True), name="web")
 
 
 if __name__ == "__main__":
-    uvicorn.run("server:app", host="0.0.0.0", port=8080, reload=True)
+    import os
+    port = int(os.environ.get("PORT", 8080))
+    reload = os.environ.get("RAILWAY_ENVIRONMENT") is None  # no reload in production
+    uvicorn.run("server:app", host="0.0.0.0", port=port, reload=reload)

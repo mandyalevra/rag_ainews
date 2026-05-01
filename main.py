@@ -1,4 +1,5 @@
 import os
+import subprocess
 from datetime import date
 from pathlib import Path
 import json
@@ -266,6 +267,18 @@ def build_web_data() -> None:
     )
     Path("web/data.js").write_text(js)
 
+    # Cache-bust the data.js script tag in index.html with today's date
+    # so every browser always loads the fresh file without needing a hard refresh
+    index_path = Path("web/index.html")
+    html = index_path.read_text()
+    today_str = date.today().isoformat()
+    html = re.sub(
+        r'<script src="data\.js(?:\?v=[^"]*)?"></script>',
+        f'<script src="data.js?v={today_str}"></script>',
+        html,
+    )
+    index_path.write_text(html)
+
 
 def build_embeddings_index() -> None:
     json_files = sorted(Path("digests").glob("*.json"))
@@ -347,6 +360,16 @@ def main(force: bool = False) -> None:
     print(f"\nSaved → {json_path}")
     print(f"Saved → {md_path}")
     print(f"Web data → web/data.js ({len(digest.get('categories', []))} categories)")
+
+    # Push updated web files to GitHub so Railway auto-deploys with fresh data
+    print("\nPushing to GitHub...")
+    try:
+        subprocess.run(["git", "add", "web/data.js", "web/embeddings.json", "web/index.html"], check=True)
+        subprocess.run(["git", "commit", "-m", f"digest: {today.isoformat()}"], check=True)
+        subprocess.run(["git", "push", "origin", "main"], check=True)
+        print("  → Pushed to GitHub")
+    except subprocess.CalledProcessError as e:
+        print(f"  → Git push failed (non-fatal): {e}")
 
 
 if __name__ == "__main__":
