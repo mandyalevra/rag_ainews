@@ -99,6 +99,7 @@ Rules:
 - tldr: array of exactly 3 objects in order tools → money → world; each "text" is one tight sentence, no markdown
 - readMin: integer between 3 and 5
 - source: domain only, no scheme or www (e.g. "github.blog" not "https://github.blog")
+- Drop any story whose URL is a homepage or generic listing page (i.e. the path is empty, just "/", or a top-level section like "/articles" or "/news" with no specific slug)
 - Return only the JSON object, nothing else
 
 Headline rules (most important — read carefully):
