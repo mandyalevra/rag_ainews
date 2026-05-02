@@ -221,6 +221,228 @@ window.ARCHIVE = [
     ]
   },
   {
+    "date": "May 1, 2026",
+    "iso": "2026-05-01",
+    "issue": 6,
+    "weekday": "Friday",
+    "readMin": 4,
+    "tldr": [
+      {
+        "catId": "tools",
+        "text": "NVIDIA dropped a sweeping open-model blitz on Hugging Face, headlined by Nemotron 3 Nano \u2014 a 30B/3B-active hybrid with a 1M-token context window and 4x faster inference than its predecessor."
+      },
+      {
+        "catId": "money",
+        "text": "Anthropic is reportedly weeks away from closing a round at a $900B+ valuation, while Meta quietly acquired humanoid robotics startup Assured Robot Intelligence to stock its Superintelligence Labs division."
+      },
+      {
+        "catId": "world",
+        "text": "Elon Musk's week on the stand against OpenAI went poorly by most accounts, and separately the Pentagon quietly cut Anthropic from classified AI contracts while greenlighting xAI, OpenAI, and Palantir."
+      }
+    ],
+    "headline": "musk fumbles badly",
+    "categories": [
+      {
+        "id": "tools",
+        "emoji": "\ud83d\udd27",
+        "name": "Tools & Products",
+        "tagline": "What shipped today",
+        "blurb": "The models, APIs, and dev tools that actually landed this week.",
+        "accent": "pink",
+        "stories": [
+          {
+            "title": "NVIDIA's Nemotron 3 Nano rewrites on-device AI",
+            "summary": "NVIDIA released Nemotron 3 Nano on Hugging Face, a hybrid Mamba-2 + Transformer MoE model with 30B total but only 3B active parameters, a 1-million-token context window, and up to 4x faster inference than its predecessor. It features reasoning ON/OFF modes with configurable thinking budgets and is served via vLLM and SGLang. NVIDIA simultaneously dropped Nemotron Nano VL, Cosmos Predict 2.5, and millions of open training samples \u2014 making this one of the largest single-day open-model drops in recent memory.",
+            "source": "huggingface.co",
+            "url": "https://huggingface.co/nvidia",
+            "tags": [
+              "open-source",
+              "on-device",
+              "NVIDIA",
+              "LLM"
+            ]
+          },
+          {
+            "title": "Kling Video 3.0 and MiniMax Speech 2.6 land on Replicate",
+            "summary": "Replicate added Kling Video 3.0 Omni \u2014 a unified multimodal video generation model with native audio, reference images, video editing, and multi-shot control \u2014 alongside MiniMax Speech 2.6 Turbo, which brings 300+ voices and multilingual emotional text-to-speech at real-time-friendly pricing. The additions round out a growing production-ready video and voice stack on the platform.",
+            "source": "replicate.com",
+            "url": "https://replicate.com/collections/official",
+            "tags": [
+              "video-gen",
+              "text-to-speech",
+              "API",
+              "multimodal"
+            ]
+          },
+          {
+            "title": "FLUX.2 family goes deep on multi-reference editing",
+            "summary": "Black Forest Labs' FLUX.2 line \u2014 Max, Pro, and the sub-second Klein 4B \u2014 now supports up to 10 reference images for character and product consistency, structured JSON prompting for precise camera and lighting control, and hex-code color matching for brand work. FLUX.2 Klein generates images in under a second, making it practical for live-preview and consumer hardware use cases.",
+            "source": "replicate.com",
+            "url": "https://replicate.com/collections/flux",
+            "tags": [
+              "image-gen",
+              "FLUX",
+              "API",
+              "editing"
+            ]
+          },
+          {
+            "title": "Microsoft embeds a legal agent directly into Word",
+            "summary": "Microsoft is rolling out a new legal AI agent inside Word, targeted at in-house and firm legal teams. The move follows a broader pattern of Microsoft weaving Copilot-style agents into existing Office surfaces rather than standalone apps, lowering the adoption barrier for professional users who live in Word already.",
+            "source": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=KVQNFxX1zrc",
+            "tags": [
+              "Microsoft",
+              "legal-AI",
+              "productivity",
+              "agents"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "money",
+        "emoji": "\ud83d\udcb0",
+        "name": "Startups & Money",
+        "tagline": "Who got paid",
+        "blurb": "Rounds, acquisitions, and the deals defining who builds what next.",
+        "accent": "lilac",
+        "stories": [
+          {
+            "title": "Anthropic's $900B+ valuation round could close within two weeks",
+            "summary": "Sources tell TechCrunch that Anthropic is in late-stage talks for a $50B raise that would peg its valuation north of $900 billion \u2014 a figure that would make it one of the most valuable private companies ever. The timing tracks with growing interest from sovereign wealth and strategic investors looking to lock in positions before a potential public offering. If it closes, it sets a new ceiling for AI startup valuations.",
+            "source": "techcrunch.com",
+            "url": "https://techcrunch.com",
+            "tags": [
+              "Anthropic",
+              "funding",
+              "valuation",
+              "AI"
+            ]
+          },
+          {
+            "title": "Meta acquires humanoid robotics startup Assured Robot Intelligence",
+            "summary": "Meta has bought ARI \u2014 Assured Robot Intelligence \u2014 for an undisclosed sum, folding its founding team into the Superintelligence Labs division. ARI had raised only a seed round from AI-focused Aix Ventures, making this an acqui-hire at the frontier of embodied AI. The deal mirrors Meta's acquisition of Fauna and signals the company is racing to staff up physical AI capabilities alongside its model research.",
+            "source": "techcrunch.com",
+            "url": "https://techcrunch.com/2026/05/01/meta-buys-robotic-startup-to-bolster-its-humanoid-ai-ambitions/",
+            "tags": [
+              "Meta",
+              "robotics",
+              "acquisition",
+              "humanoid"
+            ]
+          },
+          {
+            "title": "Anduril closes ~$4B round at $60B valuation",
+            "summary": "Defense tech startup Anduril is finalizing roughly $4 billion in new funding led by Andreessen Horowitz and Thrive Capital, valuing the company at $60 billion. The round cements Anduril as the most valuable private defense-tech company in the US and reflects surging investor appetite for AI-powered national security infrastructure.",
+            "source": "theinformation.com",
+            "url": "https://www.theinformation.com/articles",
+            "tags": [
+              "defense-tech",
+              "Anduril",
+              "a16z",
+              "funding"
+            ]
+          },
+          {
+            "title": "Legal AI startup Legora hits $5.6B valuation",
+            "summary": "Legora, a legal AI platform, has reached a $5.6 billion valuation in its latest round, putting it in direct competition with Harvey \u2014 the other high-profile AI legal unicorn. The dual-unicorn dynamic in legal AI mirrors what happened in cybersecurity AI a year ago, and both companies are now racing to lock up BigLaw and enterprise contracts.",
+            "source": "techcrunch.com",
+            "url": "https://techcrunch.com",
+            "tags": [
+              "legal-AI",
+              "Legora",
+              "valuation",
+              "Harvey"
+            ]
+          },
+          {
+            "title": "Skio sells for $105M after raising just $8M",
+            "summary": "Y Combinator alum Skio, a subscription commerce platform, was acquired for $105 million in cash \u2014 despite having raised only $8 million total, according to its founder. The outcome is a rare clean capital-efficient exit in a funding climate dominated by mega-rounds, and will likely circulate widely in founder communities as a counternarrative to the raise-at-all-costs playbook.",
+            "source": "techcrunch.com",
+            "url": "https://techcrunch.com",
+            "tags": [
+              "YC",
+              "exit",
+              "bootstrapped",
+              "ecommerce"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world",
+        "emoji": "\ud83c\udf10",
+        "name": "The Bigger Picture",
+        "tagline": "Policy, drama, court",
+        "blurb": "The regulatory fights, geopolitical moves, and industry shake-ups shaping AI's future.",
+        "accent": "lime",
+        "stories": [
+          {
+            "title": "Musk's OpenAI testimony backfired, say observers",
+            "summary": "After a week on the stand in his lawsuit against OpenAI, Elon Musk reportedly spent much of the time arguing with opposing and even his own lawyers while struggling to maintain a consistent account of his founding role. Commentators describe his testimony as unlikely to sway a jury that already needed persuading. With the dramatic narrative faltering, legal watchers say the case may now hinge on the paper trail of corporate history rather than courtroom theater.",
+            "source": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=KVQNFxX1zrc",
+            "tags": [
+              "Musk",
+              "OpenAI",
+              "court",
+              "lawsuit"
+            ]
+          },
+          {
+            "title": "Pentagon cuts Anthropic, keeps xAI and OpenAI for classified AI work",
+            "summary": "The Department of Defense has granted classified operational AI contracts to OpenAI, Palantir, and xAI while labeling Anthropic a supply chain risk \u2014 a sharp reversal after the company had previously worked with the Pentagon on classified systems. Anthropic had refused to loosen its red lines on mass surveillance and autonomous weapons, was subsequently banned from federal use, and won a temporary injunction after suing. The standoff sets up a defining question about whether national security AI contracts will reward compliance over safety constraints.",
+            "source": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=KVQNFxX1zrc",
+            "tags": [
+              "Pentagon",
+              "Anthropic",
+              "xAI",
+              "government"
+            ]
+          },
+          {
+            "title": "DOJ joins xAI's lawsuit to kill Colorado's AI Act",
+            "summary": "The Department of Justice has filed a motion to intervene in xAI's federal suit against Colorado's attorney general, seeking to block enforcement of the state's AI discrimination law on constitutional grounds. Andreessen Horowitz has separately published a framework arguing Commerce Clause doctrine should be used to strike down state AI regulations. The coordinated federal and industry push signals a major legal campaign to establish national preemption before more states pass similar laws.",
+            "source": "insideaipolicy.com",
+            "url": "https://insideaipolicy.com",
+            "tags": [
+              "regulation",
+              "Colorado",
+              "DOJ",
+              "xAI"
+            ]
+          },
+          {
+            "title": "Dark money campaign pays influencers to push pro-US AI messaging",
+            "summary": "Wired reports that a group called Build American AI, tied to a super PAC called Leading the Future with backing from tech figures, is paying content creators thousands of dollars per video to promote American AI dominance and frame China as a threat. The campaign runs in phases, starting with lifestyle influencers before escalating to more policy-oriented messaging. OpenAI and Palantir both deny corporate involvement, but the operation raises pointed questions about undisclosed lobbying through creator channels.",
+            "source": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=KVQNFxX1zrc",
+            "tags": [
+              "influence",
+              "policy",
+              "dark-money",
+              "China"
+            ]
+          },
+          {
+            "title": "South Korea mandates AI labels across the full content distribution chain",
+            "summary": "South Korea is finalizing amendments that would require AI-generated photos and videos to carry clear labels, with obligations falling not just on developers but on uploaders, distributors, and platform operators. The framework targets fake celebrity endorsements and synthetic personas used in advertising, and includes faster takedown authority and stiffer financial penalties. For global brands using AI-enhanced content tied to Korean IP or distributed on Korean platforms, compliance workflows may need a full redesign.",
+            "source": "kentertechhub.com",
+            "url": "https://www.kentertechhub.com/south-korea-tightens-ai-media-rules-as-2026-oversight-takes-shape/",
+            "tags": [
+              "South Korea",
+              "regulation",
+              "deepfakes",
+              "labeling"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "April 30, 2026",
     "iso": "2026-04-30",
     "issue": 4,
