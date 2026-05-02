@@ -9,71 +9,71 @@ window.ARCHIVE = [
     "tldr": [
       {
         "catId": "tools",
-        "text": "NVIDIA dropped a wave of open models on Hugging Face, headlined by Nemotron 3 Nano \u2014 a 30B hybrid model with a 1M-token context window built for on-device agentic work."
+        "text": "NVIDIA dropped a wave of open models on Hugging Face, headlined by Nemotron 3 Nano \u2014 a 30B hybrid model with a 1M-token context window and 4x faster inference than its predecessor."
       },
       {
         "catId": "money",
-        "text": "Anthropic is reportedly weeks away from closing a round that could push its valuation past $900 billion, while Meta quietly acquired humanoid robotics startup Assured Robot Intelligence."
+        "text": "Anthropic is reportedly days away from closing a round that could value it at over $900 billion, while legal AI startup Legora hit a $5.6B valuation and Meta quietly acquired humanoid robotics startup ARI."
       },
       {
         "catId": "world",
-        "text": "Elon Musk had a rough week on the stand in his OpenAI lawsuit, while the DOJ moved to help xAI fight Colorado's AI Act and a dark-money campaign was caught paying influencers to push pro-American AI messaging."
+        "text": "Elon Musk's week on the stand against OpenAI went badly, the Pentagon cut Anthropic over 'supply chain risk,' and a dark-money influencer campaign pushing pro-US AI narratives was exposed by Wired."
       }
     ],
-    "headline": "musk stumbles, billions follow",
+    "headline": "musk takes the stand",
     "categories": [
       {
         "id": "tools",
         "emoji": "\ud83d\udd27",
         "name": "Tools & Products",
         "tagline": "What shipped today",
-        "blurb": "A flood of open models, video generators, and image editors hit production APIs this week.",
+        "blurb": "New models, APIs, and developer tools that landed this week.",
         "accent": "pink",
         "stories": [
           {
-            "title": "NVIDIA unleashes Nemotron 3 Nano on Hugging Face",
-            "summary": "NVIDIA published a sweeping collection of open models on Hugging Face, with Nemotron 3 Nano leading the charge \u2014 a hybrid Mamba-2 + Transformer MoE architecture with 30B total parameters (3B active), a 1M-token context window, and reasoning modes you can toggle on or off. The model runs via vLLM and SGLang and is explicitly designed for on-device agentic tasks, delivering up to 4x faster inference than its predecessor. NVIDIA also dropped Cosmos Predict 2.5 for physics-aware video generation and a Nano VL vision-language model trained on 39.5M samples.",
+            "title": "NVIDIA floods Hugging Face with open models",
+            "summary": "NVIDIA released a sweeping collection of open weights and datasets on Hugging Face, anchored by Nemotron 3 Nano \u2014 a 30B-total/3B-active hybrid Mamba-2 + Transformer MoE model with a 1M-token context window and reasoning ON/OFF modes. The release also includes Nemotron Nano VL (12B) for vision-language tasks, Cosmos Predict 2.5 for physics-aware video generation, and millions of rows of multilingual and OCR datasets. Everything ships under permissive licenses with training recipes included.",
             "source": "huggingface.co",
             "url": "https://huggingface.co/nvidia",
             "tags": [
-              "open-models",
+              "open-source",
+              "models",
               "nvidia",
-              "agents",
-              "on-device"
+              "datasets"
             ]
           },
           {
-            "title": "FLUX.2 family lands on Replicate with sub-second tiers",
-            "summary": "Black Forest Labs' FLUX.2 lineup is now fully available via Replicate's production API, spanning FLUX.2 Max for high-fidelity product photography with up to 8 reference images, FLUX.2 Pro for structured JSON-prompted generation, and FLUX.2 Klein \u2014 a 4B distilled model capable of sub-second inference for real-time apps. The family supports hex color codes for brand consistency and multi-reference character continuity across large batches. It's the most complete image-generation suite Replicate has offered under one roof.",
+            "title": "FLUX.2 Max raises the bar for image APIs",
+            "summary": "Black Forest Labs' FLUX.2 Max is now the top-tier option on Replicate, supporting up to 8 reference images for character consistency, hex color control for brand accuracy, and structured JSON prompting for precise composition. A distilled 4B-parameter FLUX.2 Klein variant delivers sub-second generation for real-time apps. The lineup cements FLUX as the go-to family for production image pipelines.",
             "source": "replicate.com",
             "url": "https://replicate.com/collections/flux",
             "tags": [
-              "image-gen",
+              "image-generation",
               "api",
-              "black-forest-labs"
+              "diffusion"
             ]
           },
           {
-            "title": "Kling Video 3.0 Omni arrives with native audio and multi-shot control",
-            "summary": "Kling Video 3.0 Omni is now live on Replicate, unifying text-to-video generation with reference image support, in-video editing, native audio tracks, and multi-shot scene control in a single model. The standard Kling 3.0 produces cinematic clips up to 15 seconds with improved consistency. Both models are available via production-ready APIs at launch.",
+            "title": "Kling Video 3.0 lands on Replicate with native audio",
+            "summary": "Kling Video 3.0 Omni arrived on Replicate with unified multimodal video generation, supporting reference images, video editing, native audio, and multi-shot control in a single model. The standard 3.0 tier generates cinematic clips up to 15 seconds with improved consistency. It joins a growing slate of production-ready video models now available via one-line API calls.",
             "source": "replicate.com",
             "url": "https://replicate.com/collections/official",
             "tags": [
-              "video-gen",
+              "video-generation",
               "multimodal",
               "api"
             ]
           },
           {
-            "title": "Microsoft embeds a legal agent directly into Word",
-            "summary": "Microsoft is rolling out a dedicated legal AI agent inside Word, aimed at legal teams who want to draft, review, and annotate documents without leaving the editor. The move continues Microsoft's push to embed vertical-specific Copilot agents across its Office suite rather than keeping AI as a general-purpose overlay. No pricing details have been confirmed, but enterprise licensing is expected.",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com",
+            "title": "Microsoft embeds a legal agent inside Word",
+            "summary": "Microsoft is rolling out a new legal AI agent directly inside Word, designed for legal teams to draft, review, and analyze documents without leaving their workflow. The move is part of a broader push to embed autonomous agents into Microsoft 365 applications. It signals that agentic features are shifting from standalone tools into the software people already use daily.",
+            "source": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=KVQNFxX1zrc",
             "tags": [
+              "agents",
+              "enterprise",
               "microsoft",
-              "legal-tech",
-              "copilot",
-              "enterprise"
+              "legal"
             ]
           }
         ]
@@ -83,14 +83,14 @@ window.ARCHIVE = [
         "emoji": "\ud83d\udcb0",
         "name": "Startups & Money",
         "tagline": "Who got paid",
-        "blurb": "Nine-figure rounds, a near-trillion-dollar valuation, and a robotics acquisition signal the market is still running hot.",
+        "blurb": "The funding rounds, acquisitions, and valuations moving the market.",
         "accent": "lilac",
         "stories": [
           {
             "title": "Anthropic closing in on a $900B+ valuation round",
-            "summary": "Sources tell TechCrunch that Anthropic could close a new $50 billion funding round within two weeks, pushing its valuation above $900 billion \u2014 a figure that would make it one of the most valuable private companies ever. The round follows rapid enterprise uptake and the high-profile restricted rollout of its Claude Mythos cybersecurity model. White House AI advisor David Sacks acknowledged the Mythos delay made sense from a security standpoint, hinting at growing government interest in Anthropic's work.",
+            "summary": "Sources tell TechCrunch that Anthropic could raise a new $50B round at a valuation exceeding $900 billion, potentially closing within two weeks. The round would be one of the largest private financings in tech history and comes as the company faces simultaneous pressure from a Pentagon ban and a high-profile copyright lawsuit. If it closes, it repositions Anthropic as the most valuable private AI lab on earth.",
             "source": "techcrunch.com",
-            "url": "https://techcrunch.com",
+            "url": "https://techcrunch.com/2026/05/02/beyond-lovable-and-mistral-21-european-startups-to-watch/",
             "tags": [
               "anthropic",
               "funding",
@@ -99,8 +99,8 @@ window.ARCHIVE = [
             ]
           },
           {
-            "title": "Meta acquires humanoid robotics startup Assured Robot Intelligence",
-            "summary": "Meta has bought ARI, a humanoid robotics startup, for an undisclosed sum, folding its team and co-founders into the company's Superintelligence Labs research division. The deal is part of a broader industry sprint into humanoid robots, with analysts projecting the market anywhere from $38 billion by 2035 to $5 trillion by 2050. ARI had raised only a seed round from AI-focused firm Aix Ventures before the acquisition.",
+            "title": "Meta acquires humanoid robotics startup ARI",
+            "summary": "Meta has bought Assured Robot Intelligence for an undisclosed sum, folding the team and its co-founders into the Superintelligence Labs research division. The deal is part of a broader industry sprint into humanoid robotics, where forecasts range wildly from Goldman Sachs' $38B by 2035 to Morgan Stanley's $5T by 2050. Meta has now made multiple robotics bets in quick succession as it races to compete in physical AI.",
             "source": "techcrunch.com",
             "url": "https://techcrunch.com/2026/05/01/meta-buys-robotic-startup-to-bolster-its-humanoid-ai-ambitions/",
             "tags": [
@@ -111,39 +111,38 @@ window.ARCHIVE = [
             ]
           },
           {
-            "title": "Anduril valued at $60B as a16z leads $4B round",
-            "summary": "Andreessen Horowitz and Thrive Capital are leading a roughly $4 billion investment in defense tech firm Anduril at a $60 billion valuation, according to The Information. The raise underscores surging investor appetite for AI-powered defense infrastructure as government AI contracts multiply. The deal is one of the largest single rounds in the defense-tech category to date.",
+            "title": "Legal AI startup Legora hits $5.6B valuation",
+            "summary": "Legora has reached a $5.6 billion valuation, intensifying its rivalry with Harvey in the fast-growing legal AI sector. The milestone comes as law firms and enterprise legal teams race to adopt AI-powered drafting and research tools. The competition between Legora and Harvey is shaping up to be one of the defining startup battles of 2026.",
+            "source": "techcrunch.com",
+            "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
+            "tags": [
+              "legal-ai",
+              "valuation",
+              "enterprise"
+            ]
+          },
+          {
+            "title": "Anduril raises ~$4B at a $60B valuation",
+            "summary": "Defense tech giant Anduril is closing a roughly $4 billion round led by Andreessen Horowitz and Thrive Capital, valuing the company at $60 billion. The raise cements Anduril's position as the dominant private player in AI-powered defense infrastructure. It also reflects how national security spending is increasingly funneling into AI-native startups rather than legacy contractors.",
             "source": "theinformation.com",
             "url": "https://www.theinformation.com/articles",
             "tags": [
-              "defense-tech",
-              "anduril",
-              "a16z",
-              "funding"
-            ]
-          },
-          {
-            "title": "Skio sells for $105M after raising only $8M \u2014 a rare efficient exit",
-            "summary": "Y Combinator alum Skio has been acquired for $105 million in cash, a striking return given the company raised just $8 million total, its founder confirmed. The deal stands out in a funding climate where many well-capitalized startups struggle to exit at multiples above their last round. Skio built subscription commerce infrastructure primarily for Shopify brands.",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com",
-            "tags": [
-              "yc",
-              "exit",
-              "ecommerce",
-              "acquisition"
-            ]
-          },
-          {
-            "title": "Legal AI startup Legora hits $5.6B valuation",
-            "summary": "Legora has reached a $5.6 billion valuation following its latest funding round, putting it squarely in competition with Harvey in the fast-moving legal AI space. The two companies are now the leading contenders in a sector where law firms are under pressure to adopt AI or fall behind. The rivalry is intensifying as both pursue enterprise contracts with large law firms and in-house legal teams.",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com",
-            "tags": [
-              "legal-tech",
-              "legora",
+              "defense",
               "funding",
-              "enterprise"
+              "a16z",
+              "anduril"
+            ]
+          },
+          {
+            "title": "Y Combinator alum Skio exits for $105M on just $8M raised",
+            "summary": "Skio, a subscription commerce startup that went through Y Combinator, sold for $105 million in cash despite having raised only $8 million \u2014 a rare capital-efficient exit in a market obsessed with mega-rounds. The founder confirmed the deal publicly, making it an instant case study in lean startup strategy. It stands out sharply against the billion-dollar raises dominating the AI headlines this week.",
+            "source": "techcrunch.com",
+            "url": "https://techcrunch.com",
+            "tags": [
+              "exit",
+              "yc",
+              "startup",
+              "efficient"
             ]
           }
         ]
@@ -153,14 +152,14 @@ window.ARCHIVE = [
         "emoji": "\ud83c\udf10",
         "name": "The Bigger Picture",
         "tagline": "Policy, drama, court",
-        "blurb": "Musk stumbled on the stand, the DOJ picked a side in a state AI law fight, and a covert influence campaign got exposed.",
+        "blurb": "The legal fights, government moves, and geopolitical tensions shaping AI's future.",
         "accent": "lime",
         "stories": [
           {
-            "title": "Musk's OpenAI testimony backfires badly",
-            "summary": "Elon Musk's week on the stand in his lawsuit against OpenAI did not go as planned \u2014 reports from The Vergecast describe him arguing with his own lawyers, contradicting earlier statements, and failing to land clean punches with the jury. The case centers on OpenAI's nonprofit origins and Musk's claim that the company betrayed its founding mission. Legal observers say if Musk cannot make his version of events stick in court, the fight shifts back toward the paper trail and corporate history \u2014 territory that may favor OpenAI.",
-            "source": "theinformation.com",
-            "url": "https://www.theinformation.com/topics/meta",
+            "title": "Musk's courtroom week against OpenAI went sideways",
+            "summary": "Elon Musk took the stand in his lawsuit against OpenAI and reportedly spent much of the week arguing with lawyers \u2014 including his own \u2014 and shifting his account of events. Commentators at the Vergecast described him as unlikely to sway a jury that may have already needed heavy persuading. If Musk can't make his version of OpenAI's origins stick, the legal pressure shifts back to the company and the fight moves to documentary evidence.",
+            "source": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=KVQNFxX1zrc",
             "tags": [
               "musk",
               "openai",
@@ -169,259 +168,52 @@ window.ARCHIVE = [
             ]
           },
           {
-            "title": "DOJ backs xAI in fight to block Colorado's AI Act",
-            "summary": "The Department of Justice has filed a motion to intervene in xAI's lawsuit against Colorado's Attorney General, supporting the company's argument that the state's AI anti-discrimination law violates the Constitution's equal protection clause. Colorado's AG agreed to a temporary stay on enforcement, prompting the CDT to blast the move. Andreessen Horowitz partners have separately published a proposal for courts to use the Commerce Clause to review state AI laws \u2014 a sign the industry is building a coordinated legal strategy against state-level regulation.",
+            "title": "Pentagon cuts Anthropic, calls it a supply chain risk",
+            "summary": "The Defense Department has designated Anthropic a supply chain risk and barred its products from classified use, a notable reversal after the company had previously worked with the Pentagon. Anthropic had refused to loosen red lines on mass domestic surveillance and fully autonomous weapons, and after its products were banned it sued and won a temporary injunction. The DoD meanwhile signed classified AI deals with OpenAI, xAI, and Palantir.",
+            "source": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=KVQNFxX1zrc",
+            "tags": [
+              "anthropic",
+              "pentagon",
+              "policy",
+              "national-security"
+            ]
+          },
+          {
+            "title": "Dark money campaign pays influencers to push pro-US AI talking points",
+            "summary": "Wired reports that Build American AI, a dark money group tied to a super PAC called Leading the Future and backed by tech figures, is paying creators thousands of dollars per video to promote American AI and frame China as a threat. The campaign uses lifestyle influencers to launder policy messaging as organic content. It raises sharp questions about transparency in AI policy debates happening on social media.",
+            "source": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=KVQNFxX1zrc",
+            "tags": [
+              "policy",
+              "influence",
+              "dark-money",
+              "geopolitics"
+            ]
+          },
+          {
+            "title": "xAI sues Colorado over its AI Act; DOJ joins in",
+            "summary": "xAI filed suit in a Colorado federal court arguing the Colorado AI Act violates the equal protection clause of the Fourteenth Amendment, and the DOJ has moved to intervene in support of xAI's position. Colorado has agreed to a temporary stay on enforcement while the case proceeds. The case is shaping up as a key test of whether states can regulate AI discrimination without running afoul of federal constitutional limits.",
             "source": "insideaipolicy.com",
             "url": "https://insideaipolicy.com",
             "tags": [
               "regulation",
-              "xai",
               "colorado",
-              "doj"
+              "xai",
+              "doj",
+              "court"
             ]
           },
           {
-            "title": "Dark-money campaign caught paying influencers to hype American AI",
-            "summary": "Wired reports that a group called Build American AI, tied to a super PAC called Leading the Future backed by tech figures, is paying content creators thousands of dollars per video to promote US AI development and frame China as a threat. The campaign ran in phases, starting with lifestyle creators before escalating to more explicit policy messaging. OpenAI and Palantir both denied corporate involvement, but the operation raises hard questions about undisclosed influence in AI policy debates playing out on social media.",
-            "source": "insideaipolicy.com",
-            "url": "https://insideaipolicy.com",
-            "tags": [
-              "influence",
-              "policy",
-              "dark-money",
-              "china"
-            ]
-          },
-          {
-            "title": "Pentagon locks in AI deals \u2014 but cuts out Anthropic",
-            "summary": "The Defense Department has formalized classified AI contracts with OpenAI, Palantir, and xAI for lawful operational use in sensitive settings, while explicitly designating Anthropic a supply chain risk and excluding it from federal work. Anthropic, which had refused to loosen red lines around mass surveillance and autonomous weapons, won a temporary injunction after its products were banned. The standoff is becoming a test case for how national security agencies will choose AI vendors going forward.",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com",
-            "tags": [
-              "pentagon",
-              "anthropic",
-              "defense",
-              "regulation"
-            ]
-          },
-          {
-            "title": "South Korea targets the full AI content chain with new labeling rules",
-            "summary": "South Korea is finalizing amendments that would require clear labels on AI-generated photos and videos, expand enforcement powers to block harmful synthetic content faster, and impose obligations not just on AI developers but on uploaders, distributors, and platform operators. The rules are aimed at fake celebrity endorsements and manipulated personas used in advertising. For global entertainment and ad-tech companies working with Korean IP, the shift could require redesigned disclosure workflows and moderation systems.",
+            "title": "South Korea moves to label all AI-generated media",
+            "summary": "South Korea is finalizing amendments that would require AI-generated photos and videos to carry clear labels, while extending compliance obligations across the full content distribution chain \u2014 not just AI developers. Authorities would gain faster tools to block manipulated content, with tougher financial penalties for violations. The framework targets fake celebrity endorsements and synthetic personas in advertising, with ripple effects for any global brand using Korean IP.",
             "source": "kentertechhub.com",
             "url": "https://www.kentertechhub.com/south-korea-tightens-ai-media-rules-as-2026-oversight-takes-shape/",
             "tags": [
+              "regulation",
               "south-korea",
-              "regulation",
               "deepfakes",
-              "content-labeling"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "May 1, 2026",
-    "iso": "2026-05-01",
-    "issue": 5,
-    "weekday": "Friday",
-    "readMin": 5,
-    "tldr": [
-      {
-        "catId": "tools",
-        "text": "OpenAI's GPT-5.5 rolls out to paid ChatGPT tiers while Black Forest Labs drops a full FLUX.2 model lineup with sub-second generation and multi-reference editing."
-      },
-      {
-        "catId": "money",
-        "text": "Anthropic is racing toward a $50B raise at a near-$900B valuation, while DeepMind alum David Silver's Ineffable Intelligence lands $1.1B just months after founding."
-      },
-      {
-        "catId": "world",
-        "text": "Elon Musk took the stand in his Oakland trial against OpenAI, the DOJ joined xAI in suing Colorado over its AI Act, and Anthropic's new Mythos model is raising alarms at the Pentagon."
-      }
-    ],
-    "headline": "musk takes the stand",
-    "categories": [
-      {
-        "id": "tools",
-        "emoji": "\ud83d\udd27",
-        "name": "Tools & Products",
-        "tagline": "What shipped today",
-        "blurb": "New model drops and API upgrades are making image generation, spreadsheet AI, and frontier reasoning more accessible than ever.",
-        "accent": "pink",
-        "stories": [
-          {
-            "title": "GPT-5.5 lands for paid users",
-            "summary": "OpenAI began rolling out GPT-5.5 and GPT-5.5 Thinking to Plus, Pro, Business, and Enterprise ChatGPT subscribers today. The new Thinking variant is pitched as OpenAI's most capable reasoning model for real-world hard tasks, handling multi-step research, spreadsheet editing, and complex code. API access is coming soon, pending additional safety reviews.",
-            "source": "help.openai.com",
-            "url": "https://help.openai.com/pt-pt/articles/11909943-gpt-5-no-chatgpt",
-            "tags": [
-              "openai",
-              "models",
-              "chatgpt"
-            ]
-          },
-          {
-            "title": "FLUX.2 family goes wide on Replicate",
-            "summary": "Black Forest Labs launched its full FLUX.2 lineup on Replicate, ranging from the ultra-high-fidelity FLUX.2 Max \u2014 with hex color control and 8-reference-image support \u2014 down to the 4B-parameter FLUX.2 Klein, which generates images in under a second on consumer hardware. The suite covers product photography, text rendering, inpainting, depth-based retexturing, and edge-preserving style transfer. It's the most comprehensive image API refresh the platform has seen in months.",
-            "source": "replicate.com",
-            "url": "https://replicate.com/collections/flux",
-            "tags": [
-              "image-generation",
-              "api",
-              "black-forest-labs"
-            ]
-          },
-          {
-            "title": "ChatGPT comes to Excel and Google Sheets",
-            "summary": "OpenAI launched a beta of ChatGPT for Excel and Google Sheets, letting Business, Enterprise, Edu, and paid consumer users summon an AI sidebar directly inside their spreadsheets. It can build trackers and budgets from scratch, repair broken formulas, run scenario analyses, and summarize unfamiliar models. Skills \u2014 reusable playbooks for specific workflows \u2014 are already included for financial modeling and corporate finance formatting.",
-            "source": "help.openai.com",
-            "url": "https://help.openai.com/ja-jp/articles/20001063-chatgpt-for-excel-and-google-sheets-in-beta",
-            "tags": [
-              "openai",
-              "productivity",
-              "spreadsheets"
-            ]
-          },
-          {
-            "title": "Anthropic's Mythos raises the security stakes",
-            "summary": "Anthropic quietly released a model called Mythos with unusually strong software vulnerability detection capabilities, and the reaction has been swift. Bloomberg called it globally alarming, while US senators and defense officials urged the Pentagon to deploy it for cybersecurity gap analysis. The release is complicating Anthropic's already fraught relationship with the federal government.",
-            "source": "distillintelligence.com",
-            "url": "https://www.distillintelligence.com/briefings/ai-leaders-2026-05-01",
-            "tags": [
-              "anthropic",
-              "security",
-              "models"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "money",
-        "emoji": "\ud83d\udcb0",
-        "name": "Startups & Money",
-        "tagline": "Who got paid",
-        "blurb": "Jaw-dropping rounds at every stage \u2014 from a near-trillion-dollar AI lab to a brand-new British startup nobody had heard of six months ago.",
-        "accent": "lilac",
-        "stories": [
-          {
-            "title": "Anthropic at $900B \u2014 and the clock is ticking",
-            "summary": "Anthropic is asking investors to submit allocations within 48 hours for what could become a $50 billion fundraise at a valuation approaching $900 billion. Multiple pre-emptive offers have landed in the $850B\u2013$900B range, sources told TechCrunch, making it one of the largest private funding rounds ever attempted. The urgency signals intense competition among investors to get in before terms harden.",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com",
-            "tags": [
-              "anthropic",
-              "fundraising",
-              "valuation"
-            ]
-          },
-          {
-            "title": "DeepMind's David Silver raises $1.1B before anyone knew his startup existed",
-            "summary": "Ineffable Intelligence, a British AI lab founded just months ago by former DeepMind researcher David Silver \u2014 the architect of AlphaGo \u2014 has closed a $1.1 billion round at a $5.1 billion valuation. The lab is pursuing AI that learns without human-labeled data, a research direction Silver championed at DeepMind. The raise is a striking vote of confidence in a founder with deep credibility but zero product yet.",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/category/artificial-intelligence/",
-            "tags": [
-              "deepmind",
-              "seed",
-              "reinforcement-learning"
-            ]
-          },
-          {
-            "title": "Legal AI war: Legora hits $5.6B as it battles Harvey",
-            "summary": "Legora, a legal AI startup, has reached a $5.6 billion valuation and is locked in an escalating rivalry with Harvey \u2014 complete with dueling ad campaigns and head-to-head market expansion. Both companies have raised massive sums in quick succession and are now pushing into each other's core customer bases. The legal AI sector is shaping up as one of the most competitive enterprise software fights of 2026.",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com",
-            "tags": [
-              "legal-ai",
-              "valuation",
-              "competition"
-            ]
-          },
-          {
-            "title": "Anduril nears $60B as Founders Fund writes a big check",
-            "summary": "Andreessen Horowitz and Thrive Capital are co-leading a roughly $4 billion round in defense tech darling Anduril at a $60 billion valuation, but Founders Fund is emerging as a notable participant with a larger-than-expected allocation. The round cements Anduril's position as the dominant private defense-tech company amid surging government AI and autonomy spending.",
-            "source": "theinformation.com",
-            "url": "https://www.theinformation.com/articles",
-            "tags": [
-              "defense",
-              "anduril",
-              "venture"
-            ]
-          },
-          {
-            "title": "Parag Agrawal's Parallel Web hits $2B after back-to-back $100M raises",
-            "summary": "Parallel Web Systems, the AI agent-tooling startup founded by former Twitter CEO Parag Agrawal, has raised another $100 million led by Sequoia, reaching a $2 billion valuation just five months after its previous $100 million round. The rapid re-up signals strong investor conviction that enterprise agent infrastructure is a winner-take-most market.",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com",
-            "tags": [
-              "agents",
-              "sequoia",
-              "enterprise-ai"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "world",
-        "emoji": "\ud83c\udf10",
-        "name": "The Bigger Picture",
-        "tagline": "Policy, drama, court",
-        "blurb": "The Musk v. OpenAI trial kicked into high gear, the DOJ picked a side in state AI regulation fights, and Washington's appetite for AI in defense keeps growing.",
-        "accent": "lime",
-        "stories": [
-          {
-            "title": "Musk testifies: OpenAI was my idea and they looted it",
-            "summary": "Elon Musk took the stand in an Oakland courtroom in his lawsuit against OpenAI, claiming the company was originally his concept and that executives later 'looted' its nonprofit mission. The trial, which could force OpenAI to restructure or undo its for-profit transition, is also surfacing embarrassing details \u2014 including xAI's admission that it trained Grok on OpenAI model outputs. Legal observers say a loss for OpenAI could effectively eliminate it in its current form.",
-            "source": "distillintelligence.com",
-            "url": "https://www.distillintelligence.com/briefings/ai-leaders-2026-05-01",
-            "tags": [
-              "openai",
-              "musk",
-              "litigation"
-            ]
-          },
-          {
-            "title": "DOJ sides with xAI against Colorado's AI Act",
-            "summary": "The Department of Justice filed a joint motion with xAI to stay enforcement of Colorado's SB 24-205, an algorithmic discrimination law, marking the first time the federal government has intervened to challenge a state AI law. A federal magistrate judge granted the stay, and the DOJ's move is being read as a broad signal that the Trump administration will use federal power to preempt state-level AI regulation it views as innovation-hostile.",
-            "source": "insideaipolicy.com",
-            "url": "https://insideaipolicy.com",
-            "tags": [
-              "regulation",
-              "colorado",
-              "doj"
-            ]
-          },
-          {
-            "title": "Google's Gemini clears classified networks; 600 employees protest",
-            "summary": "Google amended its $200 million Pentagon contract to allow Gemini AI models to operate on classified government networks for 'any lawful governmental purpose,' following similar deals OpenAI and xAI struck with the Defense Department in March. More than 600 Google AI and Cloud employees signed a letter urging CEO Sundar Pichai to reject the move, warning it could enable lethal autonomous weapons and surveillance the company cannot oversee.",
-            "source": "techpolicy.press",
-            "url": "https://www.techpolicy.press/april-2026-us-tech-policy-roundup/",
-            "tags": [
-              "google",
-              "pentagon",
-              "ethics"
-            ]
-          },
-          {
-            "title": "Massachusetts court: Meta faces Instagram addiction suit despite Section 230",
-            "summary": "The Massachusetts Supreme Judicial Court ruled unanimously that Meta must face a state lawsuit alleging it deliberately designed Instagram to addict children, becoming the first state high court to hold that Section 230 does not shield platforms from design-based liability claims. Attorney General Andrea Joy Campbell's suit argues the harm stems from how Meta built the platform, not from user-posted content \u2014 a distinction that could open the door to similar suits nationwide.",
-            "source": "techpolicy.press",
-            "url": "https://www.techpolicy.press/april-2026-us-tech-policy-roundup/",
-            "tags": [
-              "meta",
-              "section-230",
-              "kids-safety"
-            ]
-          },
-          {
-            "title": "OpenAI sued over Canada mass shooting suspect's ChatGPT use",
-            "summary": "Seven families filed a lawsuit against OpenAI alleging that a mass shooting suspect's extensive use of ChatGPT contributed to the attack in Canada, making it one of the first major tort cases directly linking a generative AI product to real-world violence. The suit is likely to become a landmark test of AI company liability and could shape how platforms design safety guardrails going forward.",
-            "source": "jdsupra.com",
-            "url": "https://www.jdsupra.com/legalnews/ai-today-in-5-may-1-2026-the-may-day-22403/",
-            "tags": [
-              "openai",
-              "litigation",
-              "safety"
+              "media"
             ]
           }
         ]
@@ -437,73 +229,69 @@ window.ARCHIVE = [
     "tldr": [
       {
         "catId": "tools",
-        "text": "Google celebrated AI Max's first birthday by expanding it to Shopping campaigns and launching an AI Brief tool that lets advertisers steer ad messaging in plain English."
+        "text": "Google's AI Max turns one and expands into Shopping campaigns and travel formats, while inclusionAI open-sources a trillion-parameter model claiming open-source SOTA on coding benchmarks."
       },
       {
         "catId": "money",
-        "text": "Legal AI startup Legora hit a $5.6B valuation backed by Nvidia after crossing $100M ARR, while Anthropic is reportedly eyeing a jaw-dropping $50B raise at a $900B valuation."
+        "text": "Anthropic is reportedly in talks to raise a staggering $50B round at a $900B valuation, as AI customer-service startups Netomi and Cresta both hit major milestones."
       },
       {
         "catId": "world",
-        "text": "The EU AI Act's Omnibus delay deal collapsed in Brussels, leaving the August 2026 high-risk deadline intact, while the White House pushes federal preemption of state AI laws with limited success."
+        "text": "The EU AI Act's high-risk deadline stays intact after the Digital Omnibus deal collapsed in Brussels, leaving founders without the delay they were counting on."
       }
     ],
-    "headline": "states vs. washington",
+    "headline": "billion-dollar birthdays",
     "categories": [
       {
         "id": "tools",
         "emoji": "\ud83d\udd27",
         "name": "Tools & Products",
         "tagline": "What shipped today",
-        "blurb": "New model drops, ad platform upgrades, and open-source releases worth bookmarking.",
+        "blurb": "New model drops and ad-tech upgrades signal a busy shipping week.",
         "accent": "pink",
         "stories": [
           {
-            "title": "Google's AI Max turns 1, hits Shopping",
-            "summary": "Google's AI Max for Search campaigns is now expanding to Shopping and travel ad formats, marking one year since its launch as the fastest-growing AI-powered Search ads product. The new AI Brief tool, powered by Gemini, lets advertisers give plain-language instructions about messaging, audience targeting, and what the AI should never say. Text disclaimers are also rolling out to ensure regulated-industry ads stay compliant even when Final URL Expansion is active.",
+            "title": "Google AI Max turns one, goes shopping",
+            "summary": "Google's AI Max for Search celebrates its first birthday by expanding into Shopping campaigns and travel-specific ad formats. A new Gemini-powered tool called AI Brief lets advertisers steer messaging, audience targeting, and search matching in plain language before committing to any changes. Text disclaimers for regulated industries are also rolling out, finally letting compliance-heavy advertisers use Final URL expansion.",
             "source": "blog.google",
             "url": "https://blog.google/products/ads-commerce/ai-max-new-features/",
             "tags": [
               "google",
               "ads",
-              "ai-max",
-              "gemini"
+              "ai-max"
             ]
           },
           {
-            "title": "SenseNova U1 goes open source",
-            "summary": "Chinese AI lab SenseNova open-sourced two sizes of its U1 model series, a native multimodal architecture that unifies image understanding and generation without a separate visual encoder or VAE. The NEO-Unify backbone lets the model reason across text and images end-to-end, and early benchmarks put it at open-source state-of-the-art for unified multimodal tasks. A free browser playground and an agent-ready OpenClaw skill interface are available now.",
+            "title": "inclusionAI drops a trillion-parameter open-source model",
+            "summary": "Ling-2.6-1T is a one-trillion-parameter model that combines MLA and Linear Attention for lower VRAM and faster inference on long contexts. The team claims open-source SOTA on AIME26, SWE-bench Verified, and several agent execution benchmarks. A 'fast thinking' mechanism cuts chain-of-thought verbosity, reducing token costs without sacrificing reasoning quality.",
             "source": "huggingface.co",
-            "url": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT-SFT",
+            "url": "https://huggingface.co/inclusionAI/Ling-2.6-1T",
             "tags": [
               "open-source",
-              "multimodal",
-              "vision",
-              "models"
+              "llm",
+              "agents"
             ]
           },
           {
-            "title": "Ling-2.6 ships flash and trillion-param flagship",
-            "summary": "inclusionAI released two models today: Ling-2.6-flash, a 104B-total-parameter MoE model hitting 340 tokens/second on 4x H20 GPUs, and Ling-2.6-1T, a trillion-parameter flagship targeting complex agentic workflows. Both adopt a hybrid MLA plus linear attention architecture to slash VRAM usage and latency on long-context tasks. The 1T model claims open-source SOTA on SWE-bench Verified, BFCL-V4, and AIME26.",
-            "source": "huggingface.co",
-            "url": "https://huggingface.co/inclusionAI/Ling-2.6-flash",
-            "tags": [
-              "open-source",
-              "moe",
-              "agentic",
-              "models"
-            ]
-          },
-          {
-            "title": "IBM Granite embeddings get a multilingual R2 upgrade",
-            "summary": "IBM released Granite-Embedding-97M-Multilingual-R2, swapping XLM-RoBERTa for ModernBERT and extending context from 512 to 32,768 tokens. The model covers 200-plus languages with enhanced support for 52, and a +14.5 point average gain over the prior generation makes it competitive well above its weight class. It ships with ONNX, OpenVINO, and GGUF formats and an Apache 2.0 license.",
+            "title": "IBM Granite gets a multilingual embedding upgrade",
+            "summary": "IBM's Granite-Embedding-97M-Multilingual-R2 swaps XLM-RoBERTa for ModernBERT and stretches context from 512 to 32,768 tokens. The 97M parameter model supports 200-plus languages with enhanced retrieval training across 52 of them, plus nine programming languages. It ships with ONNX and OpenVINO exports and posts a 14.5-point average gain over its predecessor on multilingual benchmarks.",
             "source": "huggingface.co",
             "url": "https://huggingface.co/ibm-granite/granite-embedding-97m-multilingual-r2",
             "tags": [
+              "ibm",
               "embeddings",
-              "open-source",
-              "multilingual",
-              "ibm"
+              "open-source"
+            ]
+          },
+          {
+            "title": "FLUX 2 lands on Replicate with sub-second generation",
+            "summary": "Black Forest Labs' FLUX 2 family is now fully available via Replicate's production API, covering Max, Pro, and the four-billion-parameter Klein model that generates images in under a second. The lineup supports up to ten reference images for multi-image blending and structured JSON prompting for precise camera and lighting control. FLUX.1 Fill, Depth, and Canny round out the suite for inpainting and structure-preserving edits.",
+            "source": "replicate.com",
+            "url": "https://replicate.com/collections/flux",
+            "tags": [
+              "image-gen",
+              "api",
+              "flux"
             ]
           }
         ]
@@ -513,67 +301,62 @@ window.ARCHIVE = [
         "emoji": "\ud83d\udcb0",
         "name": "Startups & Money",
         "tagline": "Who got paid",
-        "blurb": "Nine-figure rounds, stratospheric valuations, and the investors placing big bets on AI infrastructure.",
+        "blurb": "Nine-figure rounds and near-trillion valuations dominated Thursday's funding headlines.",
         "accent": "lilac",
         "stories": [
           {
-            "title": "Anthropic eyes $50B round at $900B valuation",
-            "summary": "Sources say Anthropic is in discussions to raise a new $50 billion funding round that would push its valuation close to $900 billion, a figure that would make it one of the most valuable private companies ever. The potential raise comes as Microsoft deepens its OpenAI partnership and as demand for frontier AI compute continues to accelerate. No deal has been confirmed.",
+            "title": "Anthropic eyes $50B raise at a $900B valuation",
+            "summary": "Sources say Anthropic is in talks to close a new $50 billion funding round that would push its valuation toward $900 billion, a figure that would make it one of the most valuable private companies ever. The round comes as the company's Claude models gain traction across enterprise and consumer use cases. No lead investor has been named publicly yet.",
             "source": "techcrunch.com",
             "url": "https://techcrunch.com",
             "tags": [
               "anthropic",
               "funding",
-              "valuation",
-              "frontier-ai"
+              "mega-round"
             ]
           },
           {
-            "title": "Legora hits $5.6B backed by Nvidia",
-            "summary": "Swedish legal AI startup Legora extended its Series D to $600M total after crossing $100M ARR, with Nvidia's NVentures and Atlassian joining the cap table in a $50M extension round. The new valuation puts Legora at $5.6B, closing the gap somewhat on rival Harvey's $11B. The Nvidia backing marks the chipmaker's first reported investment in the legal AI sector.",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
-            "tags": [
-              "legal-ai",
-              "nvidia",
-              "series-d",
-              "arr"
-            ]
-          },
-          {
-            "title": "Netomi pulls $110M with Accenture and Adobe",
-            "summary": "Customer service AI startup Netomi closed a $110M round led by Accenture Ventures, with Adobe Ventures, Silver Lake Waterman, and WndrCo also participating, and DreamWorks co-founder Jeffrey Katzenberg joining its board. The raise comes as rivals Sierra ($10B valuation) and Decagon ($4.5B) set a high bar for the enterprise customer service AI market. Alongside the investment, Accenture signed a global alliance to bring Netomi to its Fortune 100 client base.",
+            "title": "Netomi raises $110M with Accenture and Adobe leading",
+            "summary": "AI customer-service startup Netomi closed a $110 million round led by Accenture Ventures, with Adobe Ventures, Silver Lake Waterman, and WndrCo also participating. DreamWorks co-founder Jeffrey Katzenberg joins the board, and Accenture has signed a global alliance to bring Netomi to its Fortune 100 client base. The raise lands in a crowded field where Sierra is valued at $10 billion and Decagon at $4.5 billion.",
             "source": "venturebeat.com",
             "url": "https://venturebeat.com/technology/netomi-raises-110-million-as-accenture-and-adobe-bet-on-ai-for-customer-service",
             "tags": [
               "customer-service-ai",
               "funding",
-              "accenture",
               "enterprise"
             ]
           },
           {
-            "title": "137 Ventures raises $700M for growth-stage bets",
-            "summary": "SpaceX-backer 137 Ventures announced over $700M across two new growth-stage funds focused on defense, AI, and industrial systems. The firm, founded by former Founders Fund investor Justin Fishner-Wolfson, says it deployed more than a billion dollars in the past year alone. The raise signals continued appetite for late-stage private bets outside the traditional mega-round cycle.",
+            "title": "137 Ventures pulls in $700M for growth-stage bets",
+            "summary": "SpaceX backer 137 Ventures announced two new growth-stage funds totaling more than $700 million, focused on defense, AI, and industrial systems. Founded by former Founders Fund investor Justin Fishner-Wolfson, the firm says it has deployed over a billion dollars in the past year alone. The raise signals continued appetite for late-stage private market exposure in hard-tech.",
             "source": "techcrunch.com",
             "url": "https://techcrunch.com/2026/04/30/spacex-backer-137-ventures-raises-700m-for-two-growth-stage-funds/",
             "tags": [
               "vc",
-              "funding",
-              "growth-stage",
-              "defense"
+              "defense",
+              "growth-stage"
             ]
           },
           {
-            "title": "Cresta crosses $100M ARR quietly",
-            "summary": "Contact-center AI startup Cresta, backed by a16z and Sequoia, confirmed it has surpassed $100M in annual recurring revenue in an exclusive to Axios. The milestone comes without a new funding announcement, setting the company apart from louder competitors in the crowded customer service AI space. Cresta was last valued at $1.6B in 2022.",
+            "title": "Cresta quietly hits $100M ARR",
+            "summary": "a16z and Sequoia-backed Cresta has crossed $100 million in annual recurring revenue, competing in the same AI customer-service arena as Netomi, Sierra, and Decagon. The company was last valued at $1.6 billion in 2022 and raised a $125 million round in late 2024 at an undisclosed valuation. With revenue now at nine figures, a re-pricing is likely overdue.",
             "source": "axios.com",
             "url": "https://www.axios.com/pro/enterprise-software-deals/2026/04/30/a16z-sequoia-ai-startup-cresta-100-million-arr",
             "tags": [
               "cresta",
               "arr",
-              "customer-service-ai",
-              "a16z"
+              "customer-service-ai"
+            ]
+          },
+          {
+            "title": "Legora extends Series D to $600M with Nvidia aboard",
+            "summary": "Swedish legal-tech unicorn Legora added a $50 million extension to its Series D, bringing the total to $600 million and valuing the company at $5.6 billion. Nvidia's venture arm NVentures and Atlassian joined as new corporate investors alongside Adams Street Partners, Barclays, and Insight Partners. The extension follows a $550 million raise just six weeks earlier in March.",
+            "source": "sifted.eu",
+            "url": "https://sifted.eu/articles/backed-by-nvidia-legal-tech-unicorn-legora-extends-series-d-to-600m",
+            "tags": [
+              "legaltech",
+              "nvidia",
+              "europe"
             ]
           }
         ]
@@ -583,55 +366,51 @@ window.ARCHIVE = [
         "emoji": "\ud83c\udf10",
         "name": "The Bigger Picture",
         "tagline": "Policy, drama, court",
-        "blurb": "The EU AI Act deadline survives a last-ditch delay attempt, while U.S. federal and state governments race to set the rules of the road.",
+        "blurb": "The EU's AI Act reprieve vanished overnight, while US preemption battles heat up across every level of government.",
         "accent": "lime",
         "stories": [
           {
-            "title": "EU AI Act delay deal dies in Brussels",
-            "summary": "The Digital Omnibus political agreement that would have pushed the EU AI Act's Annex III high-risk deadline from August 2026 to December 2027 collapsed Monday after twelve hours of trilogue negotiations. The next formal session is May 13, and nothing has changed legally, meaning the August deadline remains live for high-risk AI system providers. Founders who were banking on the delay now have no fallback.",
+            "title": "EU Omnibus collapses, AI Act deadline holds",
+            "summary": "Twelve hours of trilogue negotiations in Brussels ended Monday without a deal, meaning the EU AI Act's Annex III high-risk system deadline remains August 2, 2026 \u2014 not pushed to December 2027 as founders had hoped. The next trilogue is scheduled for May 13, but nothing has changed legally in the meantime. Startups banking on the delay now face a hard compliance sprint.",
             "source": "aigovernanceplaybook.com",
             "url": "https://www.aigovernanceplaybook.com/p/ai-deadline-thursday-30april-2026",
             "tags": [
               "eu-ai-act",
               "regulation",
-              "brussels",
               "compliance"
             ]
           },
           {
-            "title": "White House AI framework wants states out of the game",
-            "summary": "A deep dive into the White House's March 2026 National Policy Framework for AI reveals its most controversial feature: broad federal preemption of state AI laws covering development, liability, and AI-enabled activities. The framework rejects a centralized AI regulator and defers copyright questions to the courts, leaving major gaps. Legal experts say no court has yet struck down any state AI law, and the practical advice is to comply with the strictest applicable state standard today.",
+            "title": "White House AI framework pushes federal preemption \u2014 courts will decide",
+            "summary": "The White House's March 2026 National Policy Framework for AI strongly endorses federal preemption of state AI laws covering development, liability, and AI-enabled activities, while carving out zoning, fraud, and child safety. Legal experts note an executive order cannot actually preempt state law \u2014 only Congress or the courts can \u2014 and no court has struck down any state AI statute yet. The DOJ AI Litigation Task Force has already joined xAI's lawsuit against Colorado's SB 205 as its opening move.",
             "source": "consumerfinancemonitor.com",
             "url": "https://www.consumerfinancemonitor.com/2026/04/30/todays-podcast-episode-the-white-house-ai-framework-ambition-preemption-and-uncertainty-ahead/",
             "tags": [
               "policy",
               "preemption",
-              "white-house",
-              "regulation"
+              "white-house"
             ]
           },
           {
-            "title": "State AI laws pile up faster than federal clarity",
-            "summary": "New York's RAISE Act for frontier AI models is now finalized and takes effect January 1, 2027, while Washington State enacted a first-of-its-kind Chatbot Disclosure Act requiring companion AI operators to identify themselves. California's metadata labeling law kicks in August 2, and the DOJ AI Litigation Task Force made its first move April 24 by joining xAI's lawsuit against Colorado's SB 205. With no federal preemption law passed and no court ruling yet, businesses face a patchwork of deadlines across dozens of states.",
-            "source": "jdsupra.com",
-            "url": "https://www.jdsupra.com/topics/new-legislation/transparency/artificial-intelligence/",
+            "title": "State AI rules are getting teeth \u2014 and deadlines",
+            "summary": "New York mandates AI-generated performer disclosure starting June 9, California requires embedded metadata on all AI content by August 2 with $5,000-per-day fines for stripping it, and Tennessee already treats unauthorized AI voice cloning as a criminal misdemeanor under the ELVIS Act. The FTC, meanwhile, has ramped up AI-washing enforcement with a 40% increase in actions in 2025 and penalties up to $51,744 per violation. Legal experts say the only safe strategy is to build compliance around the strictest applicable state standard now.",
+            "source": "billo.app",
+            "url": "https://billo.app/blog/us-ai-regulations/",
             "tags": [
               "state-law",
-              "regulation",
-              "compliance",
-              "chatbots"
+              "ftc",
+              "compliance"
             ]
           },
           {
-            "title": "Supreme Court gives AI a liability shield boost",
-            "summary": "A recent Supreme Court ruling limiting copyright contributory liability for Cox Communications has broader implications for AI companies, according to a new legal analysis. The Court clarified that platforms are not liable for user-driven infringement unless they intentionally encouraged it, a standard that could protect AI providers from third-party misuse claims. Legal experts say the ruling aligns with the White House framework's push to limit AI developer liability.",
-            "source": "broadbandbreakfast.com",
-            "url": "https://broadbandbreakfast.com/supreme-court-ruling-strengthens-legal-shield-for-ai-internet-providers-legal-expert-says/",
+            "title": "Elon Musk takes the stand again in OpenAI trial",
+            "summary": "Musk appeared for a second day of testimony in his ongoing legal challenge against OpenAI, a case that observers say could reshape governance norms across the AI industry. The trial centers on whether OpenAI violated its founding nonprofit mission by pursuing a for-profit restructuring. No verdict is expected imminently, but each day of testimony generates fresh public attention on AI corporate structure.",
+            "source": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=zAT7tVBdgMY",
             "tags": [
-              "supreme-court",
-              "copyright",
-              "liability",
-              "legal"
+              "openai",
+              "musk",
+              "trial"
             ]
           }
         ]
