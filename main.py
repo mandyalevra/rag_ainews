@@ -240,17 +240,21 @@ def send_digest_email(digest: dict) -> None:
     resend.api_key = api_key
     html = build_email_html(digest)
 
-    params: resend.Emails.SendParams = {
-        "from": from_email,
-        "to": subscribers,
-        "subject": f"by mandy, daily — {digest['date']}",
-        "html": html,
-    }
-    try:
-        resend.Emails.send(params)
-        print(f"  [email] Sent to {len(subscribers)} subscriber(s).")
-    except Exception as e:
-        print(f"  [email] Failed to send: {e}")
+    sent, failed = 0, 0
+    for email in subscribers:
+        params: resend.Emails.SendParams = {
+            "from": from_email,
+            "to": [email],
+            "subject": f"by mandy, daily — {digest['date']}",
+            "html": html,
+        }
+        try:
+            resend.Emails.send(params)
+            sent += 1
+        except Exception as e:
+            print(f"  [email] Failed to send to {email}: {e}")
+            failed += 1
+    print(f"  [email] Sent to {sent} subscriber(s). {failed} failed.")
 
 
 def build_web_data() -> None:
