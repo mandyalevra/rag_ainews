@@ -111,6 +111,8 @@ Headline rules (most important — read carefully):
     alliterative:   "models, money, mayhem",  "funding frenzy"
     punny/playful:  "token economics",  "prompt and circumstance"
 - Avoid generic filler words: "big", "news", "update", "new", "today"
+- Never repeat the same person, company, or topic two days in a row — if recent headlines focused on Musk or OpenAI, pick a different angle entirely
+- Prioritise the money or tools story if the world story dominated the last two headlines
 - The headline should feel like a magazine cover line — specific, a little witty, impossible to ignore\
 """
 
