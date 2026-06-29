@@ -470,7 +470,7 @@ const ArchiveView = ({ onOpen, onOpenCat }) => {
             <span>the archive</span>
           </div>
           <h1 className="arch-hero-title">
-            Every <em className="hl-lime">brief</em>, in one place.
+            Every <em className="hl-lime">brief,</em> in one place.
           </h1>
           <p className="arch-hero-sub">
             ${DIGESTS.length} issues · ${DIGESTS.reduce((n, d) => n + d.categories.reduce((m, c) => m + c.stories.length, 0), 0)} articles. Click any to read.
