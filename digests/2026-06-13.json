@@ -1,86 +1,76 @@
 {
   "date": "June 13, 2026",
   "iso": "2026-06-13",
-  "issue": 48,
+  "issue": 64,
   "weekday": "Saturday",
-  "readMin": 5,
+  "readMin": 4,
   "tldr": [
     {
       "catId": "tools",
-      "text": "Anthropic launched Claude Fable 5, its most capable public model ever, alongside the restricted Mythos 5 for cyberdefenders \u2014 both priced at less than half of the previous Mythos Preview."
+      "text": "Google's Gemma 4 12B lands as a laptop-ready, encoder-free multimodal model that runs on 16GB of RAM and handles audio, vision, and text natively."
     },
     {
       "catId": "money",
-      "text": "Jeff Bezos's AI startup Prometheus raised $12 billion at a $41 billion valuation, with JPMorgan, Goldman Sachs, and BlackRock all writing checks."
+      "text": "India's Sarvam hit unicorn status with a $234M round led by HCLTech, while no-revenue AI startups are manufacturing billion-dollar valuations from thin air."
     },
     {
       "catId": "world",
-      "text": "A coalition of 42 U.S. state attorneys general is reportedly investigating OpenAI over consumer protection and data handling, while Florida separately sued the company over chatbot safety risks."
+      "text": "The Trump administration forced Anthropic to suspend its Mythos model over national security concerns, then partially lifted the ban \u2014 signaling a new era of government-gated AI releases."
     }
   ],
-  "headline": "bezos prints billions",
+  "headline": "anthropic, grounded",
   "categories": [
     {
       "id": "tools",
       "emoji": "\ud83d\udd27",
       "name": "Tools & Products",
       "tagline": "What shipped today",
-      "blurb": "From Anthropic's most powerful public model to OpenAI's rapid model versioning, the AI product pace refuses to slow.",
+      "blurb": "From multimodal models you can run on your laptop to a ChatGPT that rewrites itself mid-thought.",
       "accent": "pink",
       "stories": [
         {
-          "title": "Claude Fable 5 arrives \u2014 with a locked twin",
-          "summary": "Anthropic launched Claude Fable 5, its first Mythos-class model made safe for general use, setting new state-of-the-art marks in software engineering, vision, and scientific research. Alongside it, Claude Mythos 5 \u2014 the same model with certain safeguards lifted \u2014 is being deployed to cyberdefenders through the US government's Project Glasswing. Both models are priced at $10 per million input tokens and $50 per million output tokens, less than half the cost of the previous Mythos Preview.",
-          "source": "anthropic.com",
-          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "title": "Gemma 4 12B runs multimodal on your laptop",
+          "summary": "Google released Gemma 4 12B, a model that ditches separate audio and vision encoders entirely \u2014 both flow straight into the LLM backbone. It runs locally on 16GB of VRAM, supports native audio input, and is available under Apache 2.0 on Hugging Face and Kaggle. Performance reportedly approaches Google's larger 26B MoE model at less than half the memory footprint.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
           "tags": [
-            "anthropic",
-            "models",
-            "safety"
+            "open-source",
+            "multimodal",
+            "on-device"
           ]
         },
         {
-          "title": "GPT-5.2 is dead; long live GPT-5.5 and beyond",
-          "summary": "OpenAI retired all GPT-5.2 models as of June 12, automatically migrating existing conversations to GPT-5.5. The release notes also reveal ChatGPT Images 2.0, a new speech-to-text dictation model, and ChatGPT for Clinicians \u2014 a free verified version for US healthcare providers. Developer mode for Codex's in-app browser now gives coders direct Chrome DevTools Protocol access to profile JavaScript and inspect network traffic.",
+          "title": "GPT-5.5 Instant gets a readability overhaul",
+          "summary": "OpenAI updated GPT-5.5 Instant to produce more natural, better-paced responses with fewer bullet-heavy walls of text. As part of the update, the Canvas editing interface is being deprecated for this model tier \u2014 writing and code now live directly in chat via blocks. Paid users get a grace period on Canvas through legacy models before they're sunset.",
           "source": "help.openai.com",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
           "tags": [
             "openai",
             "chatgpt",
-            "devtools"
+            "ux"
           ]
         },
         {
-          "title": "Google's May wave: Gemini Omni, Googlebook, and Universal Cart",
-          "summary": "Google's official May 2026 recap confirms Gemini 3.5 and Gemini Omni as the centrepieces of its new agentic era, with Omni able to generate high-quality video from mixed image, audio, and text inputs. The Googlebook laptop \u2014 built by Acer, Asus, Dell, HP, and Lenovo \u2014 ships with a Magic Pointer for contextual AI suggestions, while Universal Cart lets users add purchases from Search, YouTube, or Gmail into a single cross-merchant checkout.",
+          "title": "Google's May I/O recap: Gemini Omni, Googlebook, Universal Cart",
+          "summary": "Google's official May 2026 roundup confirms Gemini Omni can generate video from any combination of text, audio, image, or video input. The Googlebook \u2014 a Gemini-native laptop built with Acer, Asus, Dell, HP, and Lenovo \u2014 adds a Magic Pointer for contextual suggestions. Universal Cart lets users add items while browsing Search, YouTube, or Gmail, all from one checkout hub.",
           "source": "blog.google",
           "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
           "tags": [
             "google",
             "gemini",
-            "hardware"
+            "hardware",
+            "shopping"
           ]
         },
         {
-          "title": "Gemma 4 12B runs on a laptop \u2014 no encoder needed",
-          "summary": "Google's Gemma 4 12B is a new open-weight multimodal model that skips traditional vision and audio encoders entirely, feeding those inputs straight into the LLM backbone. It fits in 16 GB of VRAM, supports native audio input, and benchmarks close to the larger 26B MoE model. Released under Apache 2.0, it arrives with Multi-Token Prediction drafters to cut inference latency.",
+          "title": "Android's June drop adds book insights and safety tools",
+          "summary": "Google's June Android update brings Book Insights to Google Play Books, surfacing key ideas from select English titles \u2014 thousands of which are free. The drop also includes new personalization and safety features baked into the OS.",
           "source": "blog.google",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-june-2026/",
           "tags": [
+            "android",
             "google",
-            "open-source",
-            "multimodal"
-          ]
-        },
-        {
-          "title": "GPT-5.3-Codex merges reasoning and code generation",
-          "summary": "OpenAI launched GPT-5.3-Codex, the first model to combine its Codex and GPT-5 training stacks into a single general-purpose coding agent. It runs roughly 25 percent faster than its predecessor and lets users steer the model mid-task rather than waiting for a finished output. A smaller GPT-5-Codex-Mini variant is also available for CLI and IDE users, offering up to four times more usage within a standard ChatGPT subscription.",
-          "source": "help.openai.com",
-          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
-          "tags": [
-            "openai",
-            "coding",
-            "devtools"
+            "features"
           ]
         }
       ]
@@ -90,62 +80,65 @@
       "emoji": "\ud83d\udcb0",
       "name": "Startups & Money",
       "tagline": "Who got paid",
-      "blurb": "Mega-rounds are the new normal \u2014 from Bezos's $41B bet to India's freshest unicorn.",
+      "blurb": "Unicorns in India, robots in France, and a Forbes expos\u00e9 on how pre-revenue startups conjure billion-dollar valuations.",
       "accent": "lilac",
       "stories": [
         {
-          "title": "Bezos's Prometheus hits $41B valuation",
-          "summary": "Prometheus, Jeff Bezos's AI startup, closed $12 billion in fresh funding at a $41 billion valuation, with JPMorgan Chase, Goldman Sachs, BlackRock, and Bezos himself among the investors. The raise cements Bezos as one of the most significant individual players in the AI boom alongside his existing Amazon ecosystem. No product details were disclosed alongside the financing announcement.",
-          "source": "bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
-          "tags": [
-            "funding",
-            "bezos",
-            "mega-round"
-          ]
-        },
-        {
-          "title": "Sarvam becomes India's newest AI unicorn",
-          "summary": "Indian AI startup Sarvam raised $234 million led by HCLTech \u2014 which contributed $150 million \u2014 pushing its valuation to $1.5 billion and making it India's latest AI unicorn. Bessemer Venture Partners, Khosla Ventures, and Peak XV Partners also participated in what Sarvam hopes will total $300 million for its Series B. The raise follows the company's launch of 30B and 105B open-source models earlier this year.",
+          "title": "Sarvam is India's newest AI unicorn",
+          "summary": "Indian AI startup Sarvam raised $234 million at a $1.5 billion valuation, with HCLTech writing the lead $150M check. Bessemer, Khosla Ventures, and Peak XV also joined the Series B, which Sarvam aims to grow to $300M total. The company has already shipped open-source models at 30B and 105B parameters this year.",
           "source": "techcrunch.com",
           "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
           "tags": [
-            "funding",
             "india",
-            "unicorn"
+            "unicorn",
+            "series-b",
+            "open-source"
           ]
         },
         {
-          "title": "PhysicsX raises $300M to bring AI to jet engines",
-          "summary": "London-based PhysicsX, which builds AI models for manufacturing components including jet engines and semiconductors, raised $300 million at a $2.4 billion valuation in a Series C led by Singapore's Temasek. Nvidia and Applied Materials are among the existing backers, and the company's valuation has more than doubled since its last round at roughly $1 billion. The startup is competing in an increasingly crowded physical-AI field.",
-          "source": "bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "title": "No revenue, no problem: how AI startups inflate valuations",
+          "summary": "Forbes details how Ineffable Intelligence raised $1.1 billion at a $5.1 billion seed valuation despite having no product or revenue \u2014 its valuation jumped 70x in a matter of weeks between two tranches. Lightspeed, Index, DST Global, and Sequoia all participated at the elevated price. The UK's sovereign AI fund, backed by British taxpayers, also wrote a check.",
+          "source": "forbes.com",
+          "url": "https://www.forbes.com/sites/rashishrivastava/2026/06/25/ai-startups-with-no-revenue-are-using-this-tactic-to-supersize-their-valuations/",
           "tags": [
-            "funding",
-            "manufacturing",
-            "physical-ai"
+            "valuation",
+            "seed",
+            "hype",
+            "europe"
           ]
         },
         {
-          "title": "Menlo Ventures raises $3B on the back of its Anthropic bet",
-          "summary": "Menlo Ventures announced $3 billion in new funds \u2014 the largest in its 50-year history \u2014 driven largely by its AI portfolio, most notably a bet-the-firm $500 million investment in Anthropic's Series D that now carries a stake worth roughly $14 billion. The firm says that single trade from 2024, when Anthropic was valued at $18 billion, reshaped its trajectory. The raise signals that returns from frontier model investing are already flowing back to early backers.",
-          "source": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+          "title": "Baseten hits $13B valuation on $1.5B raise",
+          "summary": "AI infrastructure startup Baseten closed a $1.5 billion round led by Sands Capital and Wellington Management, pushing its valuation to $13 billion. Australian VC Blackbird made its largest-ever single investment in the round. Baseten provides the compute layer for businesses building and running AI tools.",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/world/asia-pacific/ai-startup-baseten-hits-13-billion-valuation-australias-blackbird-makes-record-2026-06-23/",
           "tags": [
-            "vc",
-            "anthropic",
-            "returns"
-          ]
-        },
-        {
-          "title": "Coralogix banks $200M to watch the watchers",
-          "summary": "AI-agent monitoring startup Coralogix raised $200 million in a Series F led by Advent and the Canada Pension Plan Investment Board, valuing the company at $1.6 billion. The round came just 11 months after a $115 million Series E, a pace that reflects surging investor appetite for infrastructure that keeps autonomous AI systems in check. Coralogix has now raised $550 million in total.",
-          "source": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
-          "tags": [
-            "funding",
             "infrastructure",
-            "agents"
+            "series-c",
+            "australia"
+          ]
+        },
+        {
+          "title": "Genesis AI unveils non-humanoid robot with $105M in the bank",
+          "summary": "French robotics startup Genesis AI, backed by ex-Google CEO Eric Schmidt, revealed its first general-purpose robot \u2014 pointedly not humanoid in design. The company has raised $105M, matching Mistral AI's record European seed round. Founded in early 2025, Genesis is betting that a non-humanoid form factor gives it an edge in a crowded field.",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/business/french-startup-bets-non-humanoid-design-crowded-ai-robot-race-2026-06-16/",
+          "tags": [
+            "robotics",
+            "france",
+            "hardware",
+            "seed"
+          ]
+        },
+        {
+          "title": "General Intuition banks $320M to train AI on gaming content",
+          "summary": "General Intuition, which uses gaming data as its core training signal, raised $320 million in a Khosla-led Series A at a $2.3 billion valuation \u2014 and is already scouting a Series B. General Catalyst, Hedosophia, Bezos Expeditions, and Nico Rosberg also joined the cap table.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/2026/06/26/general-intuition-ai-gaming",
+          "tags": [
+            "gaming",
+            "series-a",
+            "training-data"
           ]
         }
       ]
@@ -155,62 +148,55 @@
       "emoji": "\ud83c\udf10",
       "name": "The Bigger Picture",
       "tagline": "Policy, drama, court",
-      "blurb": "Forty-two attorneys general, a landmark prompt-discovery ruling, and a White House executive order \u2014 AI's legal reckoning is accelerating fast.",
+      "blurb": "Washington is now the gatekeeper for who can access frontier AI \u2014 and nobody voted on that.",
       "accent": "lime",
       "stories": [
         {
-          "title": "42 AGs investigating OpenAI, Florida already sued",
-          "summary": "A coalition of 42 U.S. state attorneys general is reportedly investigating OpenAI over consumer protection, data handling, and safety concerns, with document requests spanning a broad range of company activities. Florida separately filed the first state-led civil lawsuit against OpenAI and CEO Sam Altman, alleging the company concealed serious risks of ChatGPT and marketed it aggressively to children. AI regulation in Congress, meanwhile, remains stalled despite the growing state-level pressure.",
-          "source": "myfloridalegal.com",
-          "url": "https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-first-nation-state-led-lawsuit-against-openai-ceo",
+          "title": "Trump pulls the plug on Anthropic's Mythos \u2014 then partially relents",
+          "summary": "The Trump administration ordered Anthropic to suspend customer access to its Mythos and Fable 5 models, citing national security concerns over Mythos's ability to exploit cybersecurity vulnerabilities at unprecedented speed. Anthropic complied but publicly disagreed, warning the move could set a dangerous regulatory precedent. By Friday, the government partially reversed course, allowing Mythos to be redeployed to a small group of vetted cyber defenders.",
+          "source": "cnn.com",
+          "url": "https://www.cnn.com/2026/06/13/business/anthropic-mythos-model-national-security",
+          "tags": [
+            "anthropic",
+            "regulation",
+            "national-security",
+            "trump"
+          ]
+        },
+        {
+          "title": "OpenAI's GPT-5.6 Sol also gated behind government approval",
+          "summary": "OpenAI announced that its new GPT-5.6 Sol model will only be accessible to customers pre-approved by the Trump administration, following the same framework applied to Anthropic. CEO Sam Altman negotiated directly with Commerce Secretary Howard Lutnick this week. A Democratic congresswoman called the arrangement lawless \u2014 \"no law, no process, no oversight, just appointees deciding who's in and who's out.\"",
+          "source": "securityweek.com",
+          "url": "https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/",
           "tags": [
             "openai",
             "regulation",
-            "litigation"
+            "trump",
+            "export-controls"
           ]
         },
         {
-          "title": "Court rules expert AI prompts are discoverable",
-          "summary": "In Conservation Law Foundation v. Shell Oil Company, a federal magistrate judge ordered a plaintiff to hand over the AI prompts its expert used to prepare her report, treating them as part of the expert's methodology rather than protected drafting material. The ruling is one of the clearest signals yet that AI-assisted legal work carries new disclosure obligations. Litigators who use AI tools to support expert witnesses now face the prospect of those inputs entering the discovery fight.",
-          "source": "alston.com",
-          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "title": "States pile on: Florida sues OpenAI, NY subpoenas follow",
+          "summary": "Florida's attorney general filed the first state civil lawsuit against OpenAI and Sam Altman, a sprawling 83-page complaint alleging the company prioritized profit over safety and engaged in false advertising. Separately, New York, joined by 41 other states, issued a sweeping subpoena demanding OpenAI documents on advertising, user engagement, data handling, and policies for minors and seniors.",
+          "source": "ai.blab.com",
+          "url": "https://ai.blab.com/2026-06-13-u-s-ai-policy-in-flux-executive-orders-state-lawsuits-and-export-controls-clash",
           "tags": [
-            "court",
-            "litigation",
-            "discovery"
-          ]
-        },
-        {
-          "title": "Trump signs AI executive order \u2014 no licensing required",
-          "summary": "President Trump signed the executive order 'Promoting Advanced Artificial Intelligence Innovation and Security' on June 2, directing agencies to harden government and critical infrastructure systems against AI-related cyber threats. The order explicitly rejects any licensing, preclearance, or permitting requirements for AI model development, favouring voluntary industry collaboration instead. It also establishes benchmarks for AI cyber capabilities and creates a clearinghouse for AI cybersecurity information.",
-          "source": "alston.com",
-          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
-          "tags": [
-            "policy",
-            "executive-order",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "New York passes kids chatbot ban and AI training data law",
-          "summary": "New York legislators closed their 2026 session on June 1 by passing a children's chatbot safety bill, an AI training data transparency act, the FAIR News Act, a data center moratorium, and a ban on AI-assisted surveillance pricing. Governor Hochul has until December 31 to sign the package, which also includes an algorithm discrimination audit bill. The legislative sprint makes New York one of the most active state-level AI regulators in the country.",
-          "source": "transparencycoalition.ai",
-          "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june12-2026",
-          "tags": [
-            "policy",
-            "new-york",
+            "openai",
+            "lawsuit",
+            "states",
             "regulation"
           ]
         },
         {
-          "title": "UK's CMA gives publishers opt-out from Google AI",
-          "summary": "The UK Competition and Markets Authority imposed new conduct requirements on Google Search, letting publishers choose whether their content is used in AI Overviews and other AI-generated summaries. Google must also provide clear attribution with clickable links inside AI-generated results and offer a mechanism for publishers to refuse their content being used for fine-tuning. The intervention hands news organisations meaningful leverage they previously lacked in negotiations with Google.",
-          "source": "note.com",
-          "url": "https://note.com/yasuhitoo/n/n6007ab8cfa88",
+          "title": "Court rules AI prompts are discoverable in litigation",
+          "summary": "A federal magistrate judge ordered a plaintiff to hand over the AI prompts its expert used to prepare a legal report, ruling they are part of the expert's methodology rather than protected drafting material. The case, Conservation Law Foundation v. Shell Oil, is one of the clearest signals yet that AI-assisted legal work leaves a discoverable paper trail.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
           "tags": [
-            "regulation",
-            "google",
-            "publishers"
+            "legal",
+            "courts",
+            "discovery",
+            "policy"
           ]
         }
       ]
