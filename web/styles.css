@@ -1023,5 +1023,12 @@ body {
   .story-toggle { display: none; }
   .story-body p, .story-link { padding-left: 18px; margin-left: 18px; }
   .subscribe-inner { padding: 36px 24px; }
-  .nav-date, .nav-dot, .nav-status { display: none; }
+  .nav-date, .nav-dot, .nav-status, .nav-spacer { display: none; }
+  .hdr { padding: 14px 20px; }
+  .logo-sub { display: none; }
+  .logo-name { font-size: 14px; }
+  .logo-mark { width: 30px; height: 30px; }
+  .logo { gap: 8px; }
+  .nav { gap: 6px; }
+  .nav-link { padding: 5px 10px; font-size: 12px; }
 }
