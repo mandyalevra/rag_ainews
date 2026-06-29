@@ -1,0 +1,219 @@
+{
+  "date": "June 29, 2026",
+  "iso": "2026-06-29",
+  "issue": 63,
+  "weekday": "Monday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Cursor 2.0 ships multi-agent parallelism, a proprietary coding model called Composer, and browser GA \u2014 the biggest IDE release of the year."
+    },
+    {
+      "catId": "money",
+      "text": "China mints two robotics unicorns worth over $1.4B each as Arena, the AI leaderboard startup, crosses $100M in annualized revenue."
+    },
+    {
+      "catId": "world",
+      "text": "The Pentagon's unprecedented designation of Anthropic as a supply chain risk \u2014 while OpenAI's GPT-5.6 Sol is locked to 20 government-vetted partners \u2014 reshapes the AI security landscape overnight."
+    }
+  ],
+  "headline": "pentagon blinks first",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "A massive Cursor drop, Google's open-source health AI, and a new frontier model from China's Zhipu lab all landed today.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Cursor 2.0: eight agents, one prompt",
+          "summary": "Cursor's 2.0 release lets developers run up to eight parallel agents on a single prompt, each working in an isolated git worktree to avoid conflicts. The update also introduces Composer \u2014 Cursor's own frontier coding model described as 4x faster than comparable models \u2014 alongside voice control, sandboxed terminals GA, and a full audit log for enterprise teams. It's the most ambitious IDE release since Copilot launched.",
+          "source": "changelog.cursor.sh",
+          "url": "https://changelog.cursor.sh",
+          "tags": [
+            "devtools",
+            "agents",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "Google open-sources Medical Data Toolkit, powers India's Aarogya Setu 2.0",
+          "summary": "India's National Health Authority launched Aarogya Setu 2.0 today, built on Google's Gemma 4 open models and a newly open-sourced Medical Data Toolkit. The toolkit extracts structured FHIR data from messy lab reports and imaging records, making health history portable across hospitals. Google is releasing the toolkit to developers and health organizations at no cost.",
+          "source": "blog.google",
+          "url": "https://blog.google/intl/en-in/company-news/india-aarogya-setu-gemma-medical-data-toolkit/",
+          "tags": [
+            "healthtech",
+            "open-source",
+            "gemma"
+          ]
+        },
+        {
+          "title": "GLM-5 arrives at 744B parameters with cheaper deployment",
+          "summary": "Zhipu AI released GLM-5, scaling from the 355B-parameter GLM-4.5 to a 744B-parameter MoE architecture with only 40B active parameters per forward pass. The model integrates DeepSeek Sparse Attention to cut deployment costs while maintaining long-context performance, and is deployable today via vLLM and SGLang. It targets complex systems engineering and long-horizon agentic tasks.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/unsloth/GLM-5-GGUF",
+          "tags": [
+            "open-source",
+            "llm",
+            "china"
+          ]
+        },
+        {
+          "title": "GPT-5.5 Instant is now ChatGPT's default model",
+          "summary": "OpenAI has begun rolling out GPT-5.5 Instant as the new default model for all ChatGPT users, replacing GPT-5.3 Instant with improvements to accuracy, image understanding, and STEM reasoning. Alongside it, ChatGPT for Excel and Google Sheets is now available globally, embedding an AI sidebar directly into spreadsheets. Paid users can stick with GPT-5.3 Instant for three more months via model settings.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/fr-ca/articles/6825453-chatgpt-notes-de-version",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "model-update"
+          ]
+        },
+        {
+          "title": "Ornith-1.0 brings self-improving agentic coding to open source",
+          "summary": "A new MIT-licensed model family called Ornith-1.0 launched today in four sizes \u2014 9B, 31B, 35B MoE, and 397B MoE \u2014 post-trained on Gemma 4 and Qwen 3.5 for agentic coding. Its key innovation is joint RL optimization of both the solution and the scaffold driving it, letting the model discover better search trajectories over time. It claims state-of-the-art results on SWE-Bench and Terminal-Bench 2.1 among open-source models of comparable size.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/mofazzelhmorshed/Ornith-1.0-35B-GGUF",
+          "tags": [
+            "open-source",
+            "agents",
+            "coding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Robotics unicorns, data center cooling plays, and the AI leaderboard that quietly became a $100M business \u2014 Monday's funding news ran deep.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "China mints two robotics unicorns in one day",
+          "summary": "AI\u00b2 Robotics raised nearly 5 billion yuan ($736M) and Alibaba-backed X Square Robot closed consecutive rounds, pushing both companies past 20 billion yuan ($2.9B+) valuations. The back-to-back announcements signal sustained investor appetite for humanoid and industrial robotics despite a crowded field. Both firms are positioning as direct challengers to Tesla and Figure AI.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-29/china-births-two-robot-unicorns-as-sector-funding-stays-strong",
+          "tags": [
+            "robotics",
+            "china",
+            "unicorn"
+          ]
+        },
+        {
+          "title": "Arena, the AI benchmark everyone uses, hits $100M ARR",
+          "summary": "Chatbot Arena \u2014 the crowdsourced model leaderboard backed by a16z, Kleiner Perkins, and Lightspeed \u2014 has grown its annualized revenue from $30M in January to $100M, just five months after its $150M Series A at a $1.7B valuation. The company has now raised $250M in total and is expanding its evaluation platform into enterprise model selection. It's a quiet reminder that AI infrastructure, not models, can be the stickiest business.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+          "tags": [
+            "benchmarks",
+            "enterprise",
+            "series-a"
+          ]
+        },
+        {
+          "title": "Omen AI raises $31M to cool data centers with liquid",
+          "summary": "Omen AI, which uses AI to optimize liquid cooling systems for data centers, closed a $31M Series A led by Nava Ventures with participation from CRV and Vanderbilt University. The startup is already working with a dozen data center customers including AMD-focused compute cloud TensorWave, and has raised $40M in total since founding in 2024. With AI power demand spiraling, cooling optimization is becoming a genuine infrastructure category.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+          "tags": [
+            "infrastructure",
+            "climate",
+            "series-a"
+          ]
+        },
+        {
+          "title": "Pocket raises $11M for AI note-taking hardware",
+          "summary": "Y Combinator-backed Pocket has raised $11M from Accel, YC, and ElevenLabs CEO Mati Staniszewski to scale its AI note-taking device, which has already sold over 130,000 units since launching last year. The raise comes as the wearable AI space heats up with multiple competing devices, and Pocket is betting on design and pricing to break through. The ElevenLabs founder's personal investment signals a voice-first roadmap.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/",
+          "tags": [
+            "hardware",
+            "wearables",
+            "seed"
+          ]
+        },
+        {
+          "title": "European deeptech shatters annual funding record in six months",
+          "summary": "European deeptech startups have already exceeded the all-time annual fundraising record with six months still to go in 2026, according to Sifted data. The surge reflects a broader global shift toward hard-tech and AI infrastructure investment as software multiples compress. Analysts expect the second half to slow, but H1 2026 has already rewritten the playbook for European venture.",
+          "source": "sifted.eu",
+          "url": "https://sifted.eu/articles/european-deeptech-investment-h1-2026",
+          "tags": [
+            "europe",
+            "deeptech",
+            "venture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The U.S. government's crackdown on its own AI industry dominated the week, with Anthropic fighting a Pentagon blacklist in court and OpenAI's newest model locked behind a government gate.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Pentagon designates Anthropic a supply chain risk \u2014 Anthropic fights back",
+          "summary": "The Department of Defense has made the unprecedented move of listing Anthropic as a supply chain risk, a designation that threatens the $380B company's government and enterprise contracts ahead of its planned IPO. Anthropic CEO Dario Amodei immediately vowed to challenge the designation in court, calling it unjustified. The move follows the temporary ban on Anthropic's Mythos 5 model, which reportedly identified real vulnerabilities in classified U.S. government systems during a security test.",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/ai-artificial-intelligence/",
+          "tags": [
+            "anthropic",
+            "pentagon",
+            "regulation"
+          ]
+        },
+        {
+          "title": "OpenAI's GPT-5.6 Sol restricted to 20 government-vetted partners",
+          "summary": "The White House's ONCD and OSTP directed OpenAI to limit the initial commercial rollout of its new GPT-5.6 model family \u2014 including flagship agentic model Sol \u2014 to roughly 20 government-screened commercial partners rather than a public release. The directive invokes the voluntary pre-release framework under Trump's June 2 executive order on AI security. OpenAI has said the review process shouldn't become a permanent default, but for now Sol is effectively off-limits to most businesses.",
+          "source": "apnews.com",
+          "url": "https://apnews.com/hub/artificial-intelligence",
+          "tags": [
+            "openai",
+            "regulation",
+            "white-house"
+          ]
+        },
+        {
+          "title": "Trump partially reverses Mythos ban after industry pressure",
+          "summary": "The Trump administration has walked back part of its ban on Anthropic's Mythos 5 model, allowing trusted partners to access it following two weeks of restrictions that rattled enterprise customers and spooked investors. The episode triggered what sources told the WSJ was a $7.4B DeepSeek fundraising round, after China's DeepSeek reportedly accelerated investment plans in response to Mythos' demonstrated cybersecurity capabilities. The reversal underscores the administration's struggle to balance security reviews with economic stakes.",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/tech/ai",
+          "tags": [
+            "anthropic",
+            "policy",
+            "mythos"
+          ]
+        },
+        {
+          "title": "AOC and Sanders introduce AI Data Center Moratorium Act",
+          "summary": "Representative Alexandria Ocasio-Cortez and Senator Bernie Sanders introduced companion bills proposing a temporary federal moratorium on new data center construction until Congress passes comprehensive AI regulation covering economic, environmental, and safety impacts. The legislation follows a House subcommittee advancing separate bipartisan bills to protect consumers from electricity rate hikes tied to AI infrastructure. With three-quarters of Americans now favoring more AI regulation, the political math is shifting fast.",
+          "source": "techieray.substack.com",
+          "url": "https://techieray.substack.com/p/ctrlaireg-29-june-2026",
+          "tags": [
+            "policy",
+            "data-centers",
+            "congress"
+          ]
+        },
+        {
+          "title": "Pax Silica expands to 24 nations as US counters China on AI diplomacy",
+          "summary": "The U.S. State Department's Pax Silica AI initiative gained ten new signatories at its second summit \u2014 including the EU, Germany, Argentina, and Kazakhstan \u2014 bringing total membership to 24 countries. The expansion comes as Washington publicly assured India it would not use AI 'kill switches' against partner nations, a concern that had stalled some bilateral agreements. The diplomatic push is explicitly designed to build a counterweight to China's growing AI influence.",
+          "source": "techieray.substack.com",
+          "url": "https://techieray.substack.com/p/ctrlaireg-29-june-2026",
+          "tags": [
+            "geopolitics",
+            "diplomacy",
+            "china"
+          ]
+        }
+      ]
+    }
+  ]
+}
