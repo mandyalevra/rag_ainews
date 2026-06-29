@@ -99,7 +99,7 @@ Rules:
 - tldr: array of exactly 3 objects in order tools → money → world; each "text" is one tight sentence, no markdown
 - readMin: integer between 3 and 5
 - source: domain only, no scheme or www (e.g. "github.blog" not "https://github.blog")
-- Drop any story whose URL is a homepage or generic listing page (i.e. the path is empty, just "/", or a top-level section like "/articles" or "/news" with no specific slug)
+- Drop any story whose URL does not link to a specific article. The URL path must contain a unique slug or identifier (e.g. "/blog/cursor-2-0" or "/p/openai-raises"). Drop if the path is empty, just "/", a top-level section ("/news", "/articles", "/blog" with no slug), or a root changelog/listing page with no specific post path
 - Return only the JSON object, nothing else
 
 Headline rules (most important — read carefully):
