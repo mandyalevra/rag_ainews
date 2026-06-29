@@ -1,0 +1,232 @@
+{
+  "date": "June 28, 2026",
+  "iso": "2026-06-28",
+  "issue": 64,
+  "weekday": "Sunday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's Interactions API hit general availability, becoming the primary unified endpoint for all Gemini models and agents with managed sandboxes, background execution, and multimodal generation baked in."
+    },
+    {
+      "catId": "money",
+      "text": "A wave of AI startups are gaming valuation optics \u2014 one seed-stage company with zero revenue landed a $5.1B valuation, while mega-rounds now make up 94% of all AI funding."
+    },
+    {
+      "catId": "world",
+      "text": "The US government blocked Anthropic's newest models from public release, forcing the company to distribute only to vetted partners \u2014 and now Austria wants the EU to poach Anthropic entirely."
+    }
+  ],
+  "headline": "models, borders, mayhem",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Fresh model drops, API launches, and hardware announcements shaping what developers can build right now.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Google's Interactions API goes GA",
+          "summary": "Google has officially moved its Interactions API to general availability, making it the primary interface for all Gemini models and agents. The release adds Managed Agents, background execution, built-in tool mixing, and a 50% cost reduction via Flex tier. It's now the default in Google AI Studio and all official documentation.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/interactions-api-general-availability/",
+          "tags": [
+            "google",
+            "gemini",
+            "api",
+            "devtools"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs on your laptop",
+          "summary": "Google released Gemma 4 12B, a multimodal open-weight model that fits in 16GB of RAM and introduces native audio inputs without any separate encoder. It benchmarks close to the larger 26B MoE model and ships under Apache 2.0, with support across Ollama, LM Studio, Hugging Face, and vLLM. Google also released an official Skills Repository to help agents build with the model.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+          "tags": [
+            "google",
+            "open-source",
+            "multimodal",
+            "on-device"
+          ]
+        },
+        {
+          "title": "OpenAI ships GPT-5.3-Codex",
+          "summary": "OpenAI launched GPT-5.3-Codex, its first model to merge the Codex and GPT-5 training stacks into a single general-purpose coding agent. It's roughly 25% faster than its predecessor and is available today across the CLI, IDE extension, cloud, and code review surfaces. A smaller GPT-5-Codex-Mini variant also launched, offering up to 4x more usage within existing ChatGPT subscriptions.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "tags": [
+            "openai",
+            "coding",
+            "agents",
+            "devtools"
+          ]
+        },
+        {
+          "title": "GPT-5.5 Instant is now ChatGPT's default",
+          "summary": "OpenAI rolled out GPT-5.5 Instant as the new default model for all ChatGPT users, replacing GPT-5.3 Instant with improvements in accuracy, image understanding, and conversational quality. The update also retired the canvas tool from Instant and Thinking tiers, replacing it with native writing and code blocks directly in chat. Paid users get a three-month grace period to continue using GPT-5.3 Instant.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "models"
+          ]
+        },
+        {
+          "title": "Google's May recap: Gemini Omni, Universal Cart, Googlebook",
+          "summary": "Google's consolidated May 2026 update spans Gemini Omni \u2014 a model that generates video from any combination of inputs \u2014 and Universal Cart, a cross-merchant shopping hub woven into Search, YouTube, and Gmail. New hardware includes the Googlebook laptop built around Gemini Intelligence, and Fitbit Air, a pebble-sized wellness tracker with Afib monitoring and SpO2. Google also committed $10M via the REPLIQA program to apply quantum AI to life sciences.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "hardware",
+            "multimodal",
+            "shopping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "The funding rounds, valuation games, and capital flows defining the AI startup economy.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Zero revenue, $5.1B valuation \u2014 meet Ineffable Intelligence",
+          "summary": "Ineffable Intelligence raised $1.1 billion in seed funding at a $5.1 billion valuation despite having no product and no revenue, in what is being called the largest seed round in European history. Within a single month, its valuation jumped over 70x \u2014 from a $55M pre-money figure with Sequoia to $4B pre-money with Lightspeed, Index Ventures, and DST Global. Part of the funding came from UK taxpayers via a new \u00a3670M sovereign AI fund.",
+          "source": "forbes.com",
+          "url": "https://www.forbes.com/sites/rashishrivastava/2026/06/25/ai-startups-with-no-revenue-are-using-this-tactic-to-supersize-their-valuations/",
+          "tags": [
+            "seed",
+            "valuation",
+            "europe",
+            "fundraising"
+          ]
+        },
+        {
+          "title": "Mega-rounds now dominate: 94% of AI funding",
+          "summary": "Deals over $100 million now account for 94% of all AI funding, and the median Series D valuation in the US hit $2.5 billion in Q1 2026 \u2014 surpassing the 2021 peak. Early-stage funding was up 41% year-over-year, with seed investments rising 31%. The concentration of capital is reshaping what a funding check even means for the average AI startup.",
+          "source": "forbes.com",
+          "url": "https://www.forbes.com/councils/forbesfinancecouncil/2026/06/24/what-the-188-billion-ai-mega-rounds-actually-mean-for-the-rest-of-us/",
+          "tags": [
+            "funding",
+            "trends",
+            "venture"
+          ]
+        },
+        {
+          "title": "Sarvam becomes India's newest AI unicorn",
+          "summary": "Sarvam raised $234 million in a Series B round led by HCLTech, vaulting the Indian AI startup to a $1.5 billion valuation. The round also includes Bessemer Venture Partners, Khosla Ventures, and Peak XV Partners, with Sarvam aiming to close a total of $300 million. The company earlier launched open-source models at 30B and 105B parameters designed for Indian languages.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "series-b",
+            "open-source"
+          ]
+        },
+        {
+          "title": "General Intuition in talks for $300M at $2B valuation",
+          "summary": "General Intuition, which builds foundation models for teaching AI agents to navigate space and time, is in advanced talks to raise $300 million at a roughly $2 billion valuation. The NY-based startup spun out of gaming clip platform Medal just eight months ago with a $134M seed round. Backers in the new round include Jeff Bezos, Eric Schmidt, Khosla Ventures, and General Catalyst.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+          "tags": [
+            "agents",
+            "spatial-ai",
+            "series-a",
+            "fundraising"
+          ]
+        },
+        {
+          "title": "France's Genesis AI matches Mistral's record seed",
+          "summary": "Genesis AI, a French robotics startup founded in early 2025, has raised $105 million in seed funding \u2014 matching the record set by Mistral AI, Europe's most prominent AI company. The startup is betting on non-humanoid robot designs to differentiate itself in the increasingly crowded AI robotics market. Its valuation has not been disclosed.",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/business/french-startup-bets-non-humanoid-design-crowded-ai-robot-race-2026-06-16/",
+          "tags": [
+            "robotics",
+            "france",
+            "seed",
+            "europe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Governments, courts, and regulators are rewriting the rules \u2014 and the AI industry is scrambling to keep up.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "US gates Anthropic's models \u2014 and Europe wants them",
+          "summary": "The US government has restricted Anthropic's Fable 5 and Claude Mythos 5 models, allowing release only to a small group of vetted trusted partners rather than the public. Austria has now formally proposed that the EU consider hosting Anthropic within its borders as a counter-move to US export controls on advanced AI. The episode has reanimated the industry's complicated relationship with the regulation it once lobbied against.",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/",
+          "tags": [
+            "anthropic",
+            "export-controls",
+            "eu",
+            "us-policy"
+          ]
+        },
+        {
+          "title": "OpenAI delays GPT-5.6 at government request",
+          "summary": "OpenAI confirmed it is delaying the full public launch of GPT-5.6 at the explicit request of the US government, restricting initial access to a limited pool of vetted partners whose identities were shared with federal authorities. The move marks an unprecedented checkpoint moment for a commercial AI model release. Critics note the irony: AI companies that fought hard against oversight are now operating under de facto government release approval.",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/",
+          "tags": [
+            "openai",
+            "gpt-5.6",
+            "regulation",
+            "us-policy"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over child safety",
+          "summary": "Florida filed a landmark civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly concealed ChatGPT's risks and marketed addictive, unsafe technology to children. The complaint cites deceptive trade practices, responses that allegedly encouraged self-harm, dependency-inducing design, and data collection from minors. OpenAI has rejected the claims, and the case is being closely watched as a template for other state attorneys general.",
+          "source": "tlt.com",
+          "url": "https://www.tlt.com/insights-events/insight/tlts-ai-brief-june-2026",
+          "tags": [
+            "openai",
+            "litigation",
+            "child-safety",
+            "florida"
+          ]
+        },
+        {
+          "title": "AI prompts are now discoverable in court",
+          "summary": "A federal magistrate judge ruled in Conservation Law Foundation v. Shell Oil that the AI prompts an expert used to prepare their report must be produced in discovery, treating them as methodology rather than protected drafting material. The decision is one of the clearest signals yet that courts will scrutinize how AI was used to build expert testimony. Legal teams using AI for case work will need to document their prompt strategies accordingly.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "discovery",
+            "legal",
+            "policy"
+          ]
+        },
+        {
+          "title": "State AI laws multiply as federal preemption stalls",
+          "summary": "All 50 US states have now introduced AI-related legislation, with over 2,182 bills filed as of May 2026, creating a patchwork of conflicting obligations for multi-state operators. A proposed 10-year moratorium on state AI enforcement was struck down 99-1 in the Senate, and comprehensive federal preemption language was also rejected in the NDAA. Colorado's landmark AI law was gutted after an xAI lawsuit and DOJ intervention, underscoring how quickly state-level frameworks can collapse.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "regulation",
+            "states",
+            "preemption",
+            "policy"
+          ]
+        }
+      ]
+    }
+  ]
+}
