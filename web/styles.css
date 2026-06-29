@@ -200,6 +200,41 @@ body {
   line-height: 1.35;
   text-wrap: pretty;
 }
+.tldr-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tldr-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.tldr-bullet {
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-top: 1px;
+  display: inline-block;
+  position: relative;
+  top: -1px;
+}
+.tldr-cat-emoji {
+  flex-shrink: 0;
+  font-size: 13px;
+  line-height: 1;
+}
+.tldr-item-text {
+  font-family: var(--font-body);
+  opacity: 0.9;
+}
 .hero-decor { position: absolute; top: 0; right: 8%; width: 0; height: 0; }
 
 /* ─── CATEGORY GRID ─────────────────────────────────────────────────────── */
@@ -631,6 +666,24 @@ body {
   opacity: 0.5;
   flex-wrap: wrap; gap: 16px;
 }
+
+.audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  background: var(--accent-pink-bg);
+  color: var(--accent-pink-ink);
+  border: 1px solid color-mix(in oklab, var(--accent-pink-deep), transparent 60%);
+  border-radius: 999px;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.audio-btn:hover { background: var(--accent-pink-deep); color: #fff; }
 
 .hero-archive-pill {
   display: inline-block;

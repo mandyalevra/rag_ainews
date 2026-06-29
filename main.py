@@ -287,6 +287,55 @@ def build_web_data() -> None:
     index_path.write_text(html)
 
 
+def build_audio_script(digest: dict) -> str:
+    lines = [
+        f"Good morning. This is by mandy, daily — your AI briefing for {digest.get('weekday')}, {digest.get('date')}.",
+        f"Today: {digest.get('headline')}.",
+        "",
+        "Here's your quick take.",
+    ]
+    if isinstance(digest.get("tldr"), list):
+        for item in digest["tldr"]:
+            lines.append(item["text"])
+    lines.append("")
+    for cat in digest.get("categories", []):
+        lines.append(f"{cat['name']}.")
+        for story in cat.get("stories", []):
+            lines.append(f"{story['title']}. {story['summary']}")
+        lines.append("")
+    lines.append("That's your AI briefing for today. See you tomorrow.")
+    return "\n".join(lines)
+
+
+def generate_audio(digest: dict) -> None:
+    import urllib.request
+    api_key = os.environ.get("ELEVENLABS_API_KEY", "")
+    if not api_key:
+        print("  [audio] ELEVENLABS_API_KEY not set — skipping.")
+        return
+    script = build_audio_script(digest)
+    voice_id = "21m00Tcm4TlvDq8ikWAM"  # Rachel
+    data = json.dumps({
+        "text": script,
+        "model_id": "eleven_monolingual_v1",
+        "voice_settings": {"stability": 0.5, "similarity_boost": 0.75},
+    }).encode()
+    req = urllib.request.Request(
+        f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
+        data=data,
+        headers={"xi-api-key": api_key, "Content-Type": "application/json", "Accept": "audio/mpeg"},
+    )
+    try:
+        audio_dir = Path("web/audio")
+        audio_dir.mkdir(exist_ok=True)
+        with urllib.request.urlopen(req) as resp:
+            audio_path = audio_dir / f"{digest['iso']}.mp3"
+            audio_path.write_bytes(resp.read())
+        print(f"  [audio] Saved → {audio_path}")
+    except Exception as e:
+        print(f"  [audio] Failed: {e}")
+
+
 def build_embeddings_index() -> None:
     json_files = sorted(Path("digests").glob("*.json"))
     if not json_files:
@@ -380,6 +429,9 @@ def main(force: bool = False) -> None:
 
     print("Sending digest email to subscribers...")
     send_digest_email(digest)
+
+    print("Generating audio digest...")
+    generate_audio(digest)
 
     build_embeddings_index()
 

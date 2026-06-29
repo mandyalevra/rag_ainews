@@ -137,6 +137,8 @@ const Hero = ({ digest, isHistorical, onArchive }) => html`
           <span className="hero-archive-pill">from the archive</span>
         </${React.Fragment}>
       `}
+      <span className="hero-meta-dot">·</span>
+      <${AudioPlayer} iso=${digest.iso} />
     </div>
     <h1 className="hero-title">
       Today, <em className="hl-pink">${digest.headline}</em>.
@@ -155,6 +157,50 @@ const Hero = ({ digest, isHistorical, onArchive }) => html`
     </div>
   </section>
 `;
+
+// ─── AUDIO PLAYER ──────────────────────────────────────────────────────────
+const AudioPlayer = ({ iso }) => {
+  const [state, setState] = useState("idle"); // idle | loading | playing | paused | unavailable
+  const audioRef = useRef(null);
+
+  const toggle = async () => {
+    if (state === "unavailable") return;
+    if (!audioRef.current) {
+      audioRef.current = new Audio(`/audio/${iso}.mp3`);
+      audioRef.current.onended = () => setState("idle");
+      audioRef.current.onerror = () => setState("unavailable");
+    }
+    const a = audioRef.current;
+    if (state === "playing") {
+      a.pause();
+      setState("paused");
+    } else {
+      setState("loading");
+      try {
+        await a.play();
+        setState("playing");
+      } catch {
+        setState("unavailable");
+      }
+    }
+  };
+
+  useEffect(() => () => audioRef.current?.pause(), [iso]);
+
+  if (state === "unavailable") return null;
+
+  const label = state === "playing" ? "pause" : state === "loading" ? "…" : "listen";
+  const icon = state === "playing"
+    ? html`<path d="M6 5 H8 V15 H6 Z M11 5 H13 V15 H11 Z" fill="currentColor" />`
+    : html`<path d="M6 4 L18 11 L6 18 Z" fill="currentColor" />`;
+
+  return html`
+    <button className="audio-btn" onClick=${toggle} title="Listen to today's digest">
+      <svg width="16" height="16" viewBox="0 0 20 20">${icon}</svg>
+      <span>${label}</span>
+    </button>
+  `;
+};
 
 // ─── CATEGORY CARDS ────────────────────────────────────────────────────────
 const CategoryCard = ({ cat, index, onOpen }) => {

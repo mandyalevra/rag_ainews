@@ -17,3 +17,6 @@ digests/
 
 # Subscriber emails — do not commit
 subscribers.json
+
+# Audio files — generated on VPS, served directly, not committed
+web/audio/
