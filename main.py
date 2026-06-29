@@ -293,9 +293,20 @@ def build_embeddings_index() -> None:
         return
 
     print("Building embeddings index...")
-    model = TextEmbedding("BAAI/bge-small-en-v1.5")
 
-    stories = []
+    # Load existing embeddings to avoid re-embedding unchanged stories
+    existing_path = Path("web/embeddings.json")
+    existing: dict[str, dict] = {}
+    if existing_path.exists():
+        try:
+            for s in json.loads(existing_path.read_text()):
+                key = f"{s['digestIso']}:{s['url']}"
+                existing[key] = s
+        except Exception:
+            pass
+
+    all_stories = []
+    new_stories = []
     for f in json_files:
         try:
             digest = json.loads(f.read_text())
@@ -303,7 +314,7 @@ def build_embeddings_index() -> None:
             continue
         for cat in digest.get("categories", []):
             for s in cat.get("stories", []):
-                stories.append({
+                story = {
                     "digestIso": digest["iso"],
                     "digestDate": digest["date"],
                     "catId": cat["id"],
@@ -311,16 +322,27 @@ def build_embeddings_index() -> None:
                     "catEmoji": cat["emoji"],
                     "catAccent": cat["accent"],
                     **s,
-                })
+                }
+                key = f"{digest['iso']}:{s.get('url', '')}"
+                if key in existing:
+                    story["embedding"] = existing[key]["embedding"]
+                else:
+                    new_stories.append((len(all_stories), story))
+                all_stories.append(story)
 
-    texts = [f"{s['title']}. {s['summary']}" for s in stories]
-    embeddings = list(model.embed(texts))
+    if new_stories:
+        model = TextEmbedding("BAAI/bge-small-en-v1.5")
+        texts = [f"{s['title']}. {s['summary']}" for _, s in new_stories]
+        embeddings = list(model.embed(texts))
+        for (idx, story), vec in zip(new_stories, embeddings):
+            story["embedding"] = vec.tolist()
+            all_stories[idx] = story
+        print(f"  → Embedded {len(new_stories)} new stories")
+    else:
+        print("  → No new stories to embed")
 
-    for story, vec in zip(stories, embeddings):
-        story["embedding"] = vec.tolist()
-
-    Path("web/embeddings.json").write_text(json.dumps(stories))
-    print(f"  → Embedded {len(stories)} stories into web/embeddings.json")
+    existing_path.write_text(json.dumps(all_stories))
+    print(f"  → {len(all_stories)} total stories in web/embeddings.json")
 
 
 def main(force: bool = False) -> None:
