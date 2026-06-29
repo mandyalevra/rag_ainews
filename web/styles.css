@@ -674,7 +674,7 @@ body {
   padding: 3px 10px;
   background: var(--accent-pink-bg);
   color: var(--accent-pink-ink);
-  border: 1px solid color-mix(in oklab, var(--accent-pink-deep), transparent 60%);
+  border: 1px solid var(--accent-pink-deep);
   border-radius: 999px;
   font-size: 10px;
   letter-spacing: 0.06em;
@@ -1023,4 +1023,5 @@ body {
   .story-toggle { display: none; }
   .story-body p, .story-link { padding-left: 18px; margin-left: 18px; }
   .subscribe-inner { padding: 36px 24px; }
+  .nav-date, .nav-dot, .nav-status { display: none; }
 }
