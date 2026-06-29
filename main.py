@@ -377,10 +377,11 @@ def main(force: bool = False) -> None:
     md_path.write_text(markdown_from_digest(digest))
 
     build_web_data()
-    build_embeddings_index()
 
     print("Sending digest email to subscribers...")
     send_digest_email(digest)
+
+    build_embeddings_index()
 
     divider = "─" * 60
     print(divider)
@@ -403,6 +404,31 @@ def main(force: bool = False) -> None:
         print(f"  → Git push failed (non-fatal): {e}")
 
 
+def send_failure_alert(error: str) -> None:
+    api_key = os.environ.get("RESEND_API_KEY", "")
+    if not api_key:
+        return
+    try:
+        import resend
+        resend.api_key = api_key
+        resend.Emails.send({
+            "from": os.environ.get("RESEND_FROM_EMAIL", "digest@mandyalevra.com"),
+            "to": ["mandy.alevra@gmail.com"],
+            "subject": f"⚠️ by mandy, daily — digest failed {date.today().isoformat()}",
+            "html": f"<p>The daily digest failed to run on {date.today().isoformat()}.</p><pre>{error}</pre><p>Check the VPS logs: <code>tail -50 ~/rag_ainews/digest.log</code></p>",
+        })
+        print("  → Failure alert sent to mandy.alevra@gmail.com")
+    except Exception as e:
+        print(f"  → Could not send failure alert: {e}")
+
+
 if __name__ == "__main__":
     import sys
-    main(force="--force" in sys.argv)
+    import traceback
+    try:
+        main(force="--force" in sys.argv)
+    except Exception:
+        err = traceback.format_exc()
+        print(f"FATAL ERROR:\n{err}")
+        load_dotenv(override=True)
+        send_failure_alert(err)
