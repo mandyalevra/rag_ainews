@@ -101,6 +101,7 @@ Rules:
 - source: domain only, no scheme or www (e.g. "github.blog" not "https://github.blog")
 - Drop any story whose URL does not link to a specific article. The URL path must contain a unique slug or identifier (e.g. "/blog/cursor-2-0" or "/p/openai-raises"). Drop if the path is empty, just "/", a top-level section ("/news", "/articles", "/blog" with no slug), or a root changelog/listing page with no specific post path
 - Return only the JSON object, nothing else
+- If a story's URL or title matches something in the "### Trending (most-covered today)" section, strongly prefer it: put it first in its category and treat it as a strong headline candidate
 
 Headline rules (most important — read carefully):
 - 2–4 words, all lowercase, captures the day's single biggest story
@@ -134,13 +135,31 @@ def fetch_category(perp: Perplexity, category: dict) -> list[dict]:
     ]
 
 
-def build_raw_context(all_results: dict[str, list[dict]]) -> str:
+def fetch_trending(perp: Perplexity) -> list[dict]:
+    resp = perp.search.create(
+        query="most covered AI news story today 2026 multiple outlets mainstream",
+        max_results=5,
+        max_tokens_per_page=512,
+        search_recency_filter="day",
+    )
+    return [
+        {"title": r.title, "url": r.url, "snippet": r.snippet}
+        for r in resp.results
+    ]
+
+
+def build_raw_context(all_results: dict[str, list[dict]], trending: list[dict] | None = None) -> str:
     sections = []
     for cat_name, results in all_results.items():
         items = "\n".join(
             f"- [{r['title']}]({r['url']})\n  {r['snippet']}" for r in results
         )
         sections.append(f"### {cat_name}\n{items}")
+    if trending:
+        items = "\n".join(
+            f"- [{r['title']}]({r['url']})\n  {r['snippet']}" for r in trending
+        )
+        sections.append(f"### Trending (most-covered today)\n{items}")
     return "\n\n".join(sections)
 
 
@@ -418,8 +437,16 @@ def main(force: bool = False) -> None:
         all_results[cat["name"]] = fetch_category(perp, cat)
         print(f"    → {len(all_results[cat['name']])} results")
 
+    print("  [Trending] finding most-covered stories...")
+    try:
+        trending = fetch_trending(perp)
+        print(f"    → {len(trending)} trending results")
+    except Exception as e:
+        print(f"    → trending fetch failed ({e}), skipping")
+        trending = None
+
     print("\nSynthesizing digest with Claude...\n")
-    raw = build_raw_context(all_results)
+    raw = build_raw_context(all_results, trending)
     digest = generate_digest(claude, raw, today)
 
     json_path.write_text(json.dumps(digest, indent=2))
