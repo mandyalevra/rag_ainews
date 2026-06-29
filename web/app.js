@@ -94,8 +94,7 @@ const Header = ({ onHome, onArchive, route, currentDigest }) => html`
       </button>
       <span className="nav-spacer" />
       <span className="nav-date">${currentDigest.date}</span>
-      <span className="nav-dot">●</span>
-      <span className="nav-status">live</span>
+      ${currentDigest.iso === TODAY.iso && html`<${React.Fragment}><span className="nav-dot">●</span><span className="nav-status">live</span></${React.Fragment}>`}
     </nav>
   </header>
 `;
