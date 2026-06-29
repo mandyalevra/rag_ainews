@@ -3,7 +3,7 @@ window.ARCHIVE = [
   {
     "date": "June 29, 2026",
     "iso": "2026-06-29",
-    "issue": 63,
+    "issue": 64,
     "weekday": "Monday",
     "readMin": 5,
     "tldr": [
@@ -222,7 +222,7 @@ window.ARCHIVE = [
   {
     "date": "June 28, 2026",
     "iso": "2026-06-28",
-    "issue": 64,
+    "issue": 63,
     "weekday": "Sunday",
     "readMin": 5,
     "tldr": [
