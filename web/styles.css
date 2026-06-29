@@ -124,6 +124,8 @@ body {
   margin-bottom: 28px;
 }
 .hero-meta-dot { opacity: 0.4; }
+.hero-date-short { display: none; }
+.hero-read-short { display: none; }
 .kbd {
   font-family: var(--font-mono);
   font-size: 11px;
@@ -1031,4 +1033,9 @@ body {
   .logo { gap: 8px; }
   .nav { gap: 6px; }
   .nav-link { padding: 5px 10px; font-size: 12px; }
+  .hero-date-full { display: none; }
+  .hero-date-short { display: inline; }
+  .hero-read-full { display: none; }
+  .hero-read-short { display: inline; }
+  .hero-meta { flex-wrap: nowrap; }
 }

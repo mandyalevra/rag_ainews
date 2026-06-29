@@ -123,14 +123,18 @@ const TldrBullets = ({ digest }) => {
   `;
 };
 
-const Hero = ({ digest, isHistorical, onArchive }) => html`
+const Hero = ({ digest, isHistorical, onArchive }) => {
+  const [y, m, d] = digest.iso.split("-");
+  const shortDate = `${m}.${d}.${y.slice(2)}`;
+  return html`
   <section className="hero">
     <div className="hero-meta">
       <span className="kbd">issue ${digest.issue}</span>
       <span className="hero-meta-dot">·</span>
-      <span>${digest.weekday}, ${digest.date}</span>
+      <span className="hero-date-full">${digest.weekday}, ${digest.date}</span>
+      <span className="hero-date-short">${shortDate}</span>
       <span className="hero-meta-dot">·</span>
-      <span>${digest.readMin} min read</span>
+      <span><span className="hero-read-full">${digest.readMin} min read</span><span className="hero-read-short">${digest.readMin} min</span></span>
       ${isHistorical && html`
         <${React.Fragment}>
           <span className="hero-meta-dot">·</span>
@@ -157,6 +161,7 @@ const Hero = ({ digest, isHistorical, onArchive }) => html`
     </div>
   </section>
 `;
+};
 
 // ─── AUDIO PLAYER ──────────────────────────────────────────────────────────
 const AudioPlayer = ({ iso }) => {
