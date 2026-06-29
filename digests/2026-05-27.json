@@ -1,0 +1,222 @@
+{
+  "date": "May 27, 2026",
+  "iso": "2026-05-27",
+  "issue": 31,
+  "weekday": "Wednesday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google I/O 2026 unleashed Gemini 3.5, Gemini Omni, a new Googlebook laptop, and a proactive Gemini app that manages your inbox and schedule around the clock."
+    },
+    {
+      "catId": "money",
+      "text": "Sarvam hit unicorn status with a $234M round led by HCLTech, while Pramaana Labs snagged $27M from Khosla to bring formal verification to AI outputs."
+    },
+    {
+      "catId": "world",
+      "text": "Connecticut signed one of the most sweeping state AI laws yet, covering companion chatbots, frontier models, and employment decisions \u2014 deepening the compliance patchwork that Congress refuses to resolve."
+    }
+  ],
+  "headline": "connecticut draws a line",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google's agentic era arrives, OpenAI refreshes its defaults, and a scrappy new open model fits in your laptop bag.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini 3.5 and Omni redefine what 'assistant' means",
+          "summary": "Google I/O 2026 marked the official start of the agentic Gemini era with two flagship launches: Gemini 3.5, built for complex multi-step workflows and coding, and Gemini Omni, which takes any mix of text, image, audio, and video and generates high-quality video output. The updated Gemini app now runs proactively in the background \u2014 managing your inbox, scheduling appointments, and sending daily briefings without being asked.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "agents",
+            "multimodal"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B: frontier multimodal on your laptop",
+          "summary": "Google released Gemma 4 12B under an Apache 2.0 license \u2014 a mid-sized open model that runs locally on 16GB of RAM and is the first in the Gemma family to accept native audio inputs without a separate encoder. Its encoder-free architecture funnels vision and audio directly into the LLM backbone, cutting latency and memory use while hitting benchmark scores close to the larger 26B MoE model.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-source",
+            "google",
+            "on-device",
+            "multimodal"
+          ]
+        },
+        {
+          "title": "GPT-5.5 Instant becomes ChatGPT's new default",
+          "summary": "OpenAI swapped out GPT-5.3 Instant for GPT-5.5 Instant as the default model for all ChatGPT users, promising sharper accuracy, cleaner prose, and better image understanding. The update also ships improved memory for Plus and Pro subscribers, a full-screen long-form writing editor, and ChatGPT for Clinicians \u2014 a free tier for verified US doctors that supports evidence review and CME credit tracking.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "models",
+            "healthcare"
+          ]
+        },
+        {
+          "title": "Google Dreambeans wants to replace the doom-scroll",
+          "summary": "Google Labs quietly launched Dreambeans, an experimental app that uses Personal Intelligence to pull signals from Gmail, Calendar, Photos, and YouTube history and turn them into a finite daily set of personalized stories \u2014 no infinite feed, no algorithmic rabbit holes. It's rolling out now for Google AI Ultra subscribers in the US on Android and iOS, with a waitlist for everyone else.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/dreambeans/",
+          "tags": [
+            "google",
+            "consumer",
+            "wellness",
+            "experimental"
+          ]
+        },
+        {
+          "title": "Microsoft's MAI models and Scout agent debut at Build",
+          "summary": "Microsoft unveiled seven in-house MAI models at Build 2026, headlined by MAI-Thinking-1, a 35B-parameter reasoning model built without distillation from third-party frontier models. Alongside it, Microsoft Scout arrived as an always-on background work agent running under its own Entra identity across Teams, Outlook, OneDrive, and SharePoint \u2014 initially for select Frontier organizations.",
+          "source": "promptinjection.net",
+          "url": "https://www.promptinjection.net/p/ai-news-roundup-may-26-june-07-2026",
+          "tags": [
+            "microsoft",
+            "agents",
+            "enterprise",
+            "models"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "India mints a new AI unicorn, formal verification gets serious seed money, and a compute marketplace lands a16z backing.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam closed $234M of a targeted $300M Series B at a $1.5 billion valuation, with HCLTech leading as strategic investor and Bessemer Venture Partners, Khosla Ventures, and Peak XV also participating. The raise follows Sarvam's launch of open-source models at 30B and 105B parameters and marks the largest AI-focused round ever led by an Indian IT major.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "funding",
+            "open-source"
+          ]
+        },
+        {
+          "title": "Pramaana Labs raises $27M to make AI outputs provably correct",
+          "summary": "Pramaana Labs announced a $27M seed round led by Khosla Ventures, with Accel, Nexus Venture Partners, Premji Invest, and Unbound also participating, to bring formal verification methods to AI systems. The startup argues that testing and evals alone can't guarantee correctness in high-stakes deployments \u2014 only mathematical proof can \u2014 and is targeting enterprise and government customers first.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "tags": [
+            "seed",
+            "safety",
+            "enterprise",
+            "khosla"
+          ]
+        },
+        {
+          "title": "General Intuition eyes $2B valuation on $300M raise",
+          "summary": "General Intuition, the New York startup training AI agents to navigate space and time using video game environments, is in talks to raise roughly $300M at a valuation just over $2 billion. The round \u2014 backed by Jeff Bezos, Eric Schmidt, Khosla Ventures, and General Catalyst \u2014 comes just eight months after the company spun out of gaming clip platform Medal with a $134M seed.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+          "tags": [
+            "funding",
+            "agents",
+            "gaming",
+            "spatial-ai"
+          ]
+        },
+        {
+          "title": "a16z backs Ornn's GPU compute marketplace",
+          "summary": "Ornn raised $33M in a seed round led by Andreessen Horowitz's crypto arm, alongside Galaxy Ventures, Nordstar, and SV Angel, to build a marketplace where AI compute power can be bought and sold like a commodity. General partner Ali Yahya called it a16z's first investment in a dedicated compute marketplace \u2014 a signal that the firm sees liquidity infrastructure as the next frontier of the AI stack.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "marketplace",
+            "a16z",
+            "infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Connecticut sets a new state-level benchmark, Colorado quietly retreats, and a federal court rules AI prompts are fair game in discovery.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Connecticut signs the most ambitious state AI law yet",
+          "summary": "Governor Ned Lamont signed Connecticut SB 4 into law on May 27, covering companion chatbots, frontier model governance, AI in employment decisions, data broker registration, bans on geolocation data sales, surveillance pricing limits, and genetic data protections. Analysts called it the most substantive state-level AI framework in the US to date, adding another layer to the compliance patchwork that now spans all 50 states.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "connecticut",
+            "regulation",
+            "state-law",
+            "compliance"
+          ]
+        },
+        {
+          "title": "Colorado quietly walks back its landmark AI Act",
+          "summary": "After xAI sued and the DOJ intervened, Colorado Governor Polis signed SB 26-189 on May 14, formally repealing and replacing the state's original landmark AI Act with a narrower transparency-and-notice framework that takes effect January 1, 2027. The episode is a cautionary tale for compliance teams: a law that was once the gold standard for state AI governance was rendered moot mid-implementation by industry pressure and a federal lawsuit.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "colorado",
+            "regulation",
+            "preemption",
+            "xai"
+          ]
+        },
+        {
+          "title": "Federal court: AI prompts are discoverable evidence",
+          "summary": "In Conservation Law Foundation v. Shell Oil, a federal magistrate judge ordered the plaintiff to hand over the AI prompts its expert used to prepare her report, ruling that prompts are part of the expert's methodology \u2014 not protected drafting material. The decision is one of the clearest signals yet that AI-assisted expert work carries real litigation risk, and that lawyers need to document their AI workflows with the same care as any other method.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "litigation",
+            "discovery",
+            "courts",
+            "expert-witnesses"
+          ]
+        },
+        {
+          "title": "Senate kills 10-year state AI moratorium 99\u20131",
+          "summary": "House Republicans inserted a proposed 10-year moratorium on state AI enforcement into the budget reconciliation process, only to watch the Senate strip it out by a 99-1 vote \u2014 the clearest congressional signal yet that federal preemption of state AI law is politically dead for now. With over 2,182 AI-related bills introduced across all 50 states, multi-state organizations face an accelerating patchwork with no federal resolution in sight.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "congress",
+            "preemption",
+            "state-law",
+            "policy"
+          ]
+        },
+        {
+          "title": "Anthropic's Mythos access suspended by Commerce order",
+          "summary": "The Commerce Department issued an export directive that led Anthropic to disable access to its Fable 5 and Mythos models, raising sharp questions about where national security law ends and AI safety governance begins. The administration later authorized over 100 US companies and agencies to use Mythos \u2014 but the episode has rattled the AI safety community and introduced a new axis of frontier model risk that no governance framework had anticipated.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "anthropic",
+            "export-controls",
+            "national-security",
+            "mythos"
+          ]
+        }
+      ]
+    }
+  ]
+}

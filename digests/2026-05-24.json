@@ -1,0 +1,208 @@
+{
+  "date": "May 24, 2026",
+  "iso": "2026-05-24",
+  "issue": 28,
+  "weekday": "Sunday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's I/O 2026 blitz delivered Gemini 3.5 with deep agentic workflows, a real-time 70-language translator, and a new Googlebook laptop built around AI."
+    },
+    {
+      "catId": "money",
+      "text": "Indian AI startup Sarvam hit unicorn status with a $234M round led by HCLTech, valuing it at $1.5 billion."
+    },
+    {
+      "catId": "world",
+      "text": "Colorado scrapped its landmark AI law and replaced it with a lighter notice-and-disclosure regime, while Connecticut passed the country's most sweeping state AI bill yet."
+    }
+  ],
+  "headline": "fifty states, zero consensus",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google's I/O 2026 wave keeps rolling \u2014 agents, translators, and new hardware all landed this month.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini 3.5 ships with full agent stack",
+          "summary": "Google launched Gemini 3.5 at I/O 2026, positioning it as the backbone of a new agentic era. The model handles complex multi-step workflows across apps and comes paired with Android Halo, a new phone space for tracking agent progress. Gemini 3.5 Flash also gains built-in computer use, letting developers build agents that see, reason, and click across browser, mobile, and desktop environments.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "gemini",
+            "agents",
+            "google-io"
+          ]
+        },
+        {
+          "title": "Gemini 3.5 Live Translate speaks 70+ languages in real time",
+          "summary": "Google's new Live Translate model does near-instant speech-to-speech translation across more than 70 languages, preserving the speaker's intonation and pitch. It's rolling out in Google Translate on Android and iOS now, and arrives in Google Meet for enterprise customers in private preview this month. Google Meet previously supported just five languages for live translation.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+          "tags": [
+            "translation",
+            "audio",
+            "google"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs multimodal AI on a laptop",
+          "summary": "Google released Gemma 4 12B, an open-weights model that handles images, audio, and text without separate encoders \u2014 inputs flow directly into the LLM backbone. It runs locally on consumer laptops with just 16GB of RAM and benchmarks close to Google's larger 26B mixture-of-experts model. It's available under Apache 2.0 and ready to run today in Ollama, LM Studio, and Google AI Edge.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-weights",
+            "multimodal",
+            "on-device"
+          ]
+        },
+        {
+          "title": "ChatGPT gets GPT-5.5 Instant as its new default",
+          "summary": "OpenAI quietly swapped out GPT-5.3 Instant and made GPT-5.5 Instant the default model for all ChatGPT users, improving accuracy, image understanding, and STEM answers. The release also added interactive charts, a full-screen writing editor with document saving, and memory improvements that pull context from past chats and connected Gmail. A new ChatGPT for Clinicians tier gives verified US doctors free access for clinical research and documentation.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "model-update"
+          ]
+        },
+        {
+          "title": "DeepMind and A24 team up on filmmaker-first AI research",
+          "summary": "Google DeepMind and indie film studio A24 announced a multi-project research partnership aimed at building AI tools shaped by working filmmakers rather than engineers alone. The collaboration is framed as a long-term R&D relationship, not a one-off integration deal. It's one of the first formal research pairings between a frontier AI lab and a major creative studio.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/",
+          "tags": [
+            "creative-ai",
+            "deepmind",
+            "film"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "India's AI sector claimed a new unicorn, and AI monitoring, compliance, and verification startups are pulling in serious capital.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn",
+          "summary": "Sarvam raised $234 million at a $1.5 billion valuation in a Series B round led by HCLTech, with Bessemer Venture Partners, Khosla Ventures, and Peak XV also participating. The Indian AI startup, known for open-source models in 30B and 105B parameters, is targeting a total raise of $300 million. The deal marks one of the largest AI funding rounds ever out of India.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "series-b"
+          ]
+        },
+        {
+          "title": "Coralogix raises $200M to monitor the agent era",
+          "summary": "AI monitoring startup Coralogix closed a $200 million Series F round just 11 months after its Series E, valuing it at $1.6 billion. The Boston-based, Israel-founded company is betting that the explosion of autonomous AI agents will create massive demand for observability and troubleshooting tools. The round was led by Advent and the Canada Pension Plan Investment Board.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "monitoring",
+            "infrastructure",
+            "series-f"
+          ]
+        },
+        {
+          "title": "Pramaana Labs wants to formally verify AI \u2014 and just raised $27M to try",
+          "summary": "Pramaana Labs announced a $27 million seed round led by Khosla Ventures to bring formal verification methods to AI systems, aiming to mathematically prove that AI outputs meet correctness guarantees. Accel, Nexus Venture Partners, and Premji Invest also joined the round. The startup is targeting enterprise and safety-critical deployments where hallucinations carry real consequences.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "tags": [
+            "safety",
+            "seed",
+            "verification"
+          ]
+        },
+        {
+          "title": "Swiss AI privacy startup Prem targets $500M valuation",
+          "summary": "Prem AI, which helps hedge funds and law firms run AI models on their own private infrastructure, is raising a $100 million Series A and targeting a valuation of at least $500 million. The Zurich-based company expects to close the round in Q3. It's one of several European AI infrastructure plays quietly gaining traction among clients who won't send data to the cloud.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-18/swiss-ai-startup-prem-is-raising-100-million-series-a-round",
+          "tags": [
+            "privacy",
+            "europe",
+            "series-a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The US federal vacuum on AI is now undeniable \u2014 states are writing the rules, one contradictory law at a time.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Colorado scraps its AI law, builds a lighter one",
+          "summary": "Colorado's governor signed SB 26-189 on May 14, repealing the country's first comprehensive AI law and replacing it with a narrower notice-and-disclosure framework that takes effect January 1, 2027. The original law was challenged by xAI in court, with the DOJ intervening on the company's side, before the legislature voted to tear it up entirely. The new law drops the 'algorithmic discrimination' standard and focuses instead on transparency around automated decision-making.",
+          "source": "mintz.com",
+          "url": "https://www.mintz.com/insights-center/viewpoints/54731/2026-06-12-colorados-not-finished-regulating-ai-reenacted-ai-law",
+          "tags": [
+            "colorado",
+            "regulation",
+            "policy"
+          ]
+        },
+        {
+          "title": "Connecticut passes the most sweeping state AI law yet",
+          "summary": "Connecticut enacted a comprehensive AI bill on May 27 covering AI companions, frontier model governance, synthetic media, and whistleblower protections for AI safety concerns. Analysts called it the most substantive state-level AI legislation in the US to date, going further than any prior state law in scope. It adds yet another compliance surface area for companies operating across multiple US states.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "connecticut",
+            "regulation",
+            "policy"
+          ]
+        },
+        {
+          "title": "Federal 'FDA for AI' idea quietly died in May",
+          "summary": "The Trump administration abandoned its proposal for a voluntary federal review process for frontier AI models before public release, shelving an executive order that President Trump felt could block AI development. The White House had gotten voluntary commitments from Google DeepMind, Microsoft, and xAI to share early model access with the Commerce Department, but the formal oversight framework never materialised. The retreat deepens US reliance on a fragmented tangle of state-level rules.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "federal-policy",
+            "trump",
+            "regulation"
+          ]
+        },
+        {
+          "title": "A court says your AI prompts are discoverable",
+          "summary": "A federal magistrate judge ruled in Conservation Law Foundation v. Shell Oil that the prompts an expert used to generate AI-assisted analysis must be handed over in discovery, treating them as part of the expert's methodology rather than protected drafting material. The decision is one of the clearest signals yet that courts will treat AI-generated work product differently from traditional expert drafting. Legal teams using AI in litigation should expect scrutiny of every prompt.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "litigation",
+            "discovery"
+          ]
+        },
+        {
+          "title": "State AI moratorium dies 99-1 in the Senate",
+          "summary": "A Republican-backed proposal to impose a 10-year moratorium on state AI enforcement, slipped into the budget reconciliation process, was stripped from the bill by a 99-1 Senate vote. Federal preemption language was also rejected in the National Defense Authorization Act, leaving states free to keep legislating. With over 2,182 AI-related bills introduced across all 50 states, the regulatory patchwork is only getting thicker.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "congress",
+            "preemption",
+            "states"
+          ]
+        }
+      ]
+    }
+  ]
+}

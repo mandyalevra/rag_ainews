@@ -1,0 +1,219 @@
+{
+  "date": "April 29, 2026",
+  "iso": "2026-04-29",
+  "issue": 4,
+  "weekday": "Wednesday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Gemini rolls out memory and chat-history import to UK users, letting people port their entire AI context from rival apps directly into Google's assistant."
+    },
+    {
+      "catId": "money",
+      "text": "Defense AI startup Scout AI landed $100M Series A to train autonomous military models, while clinical imaging company Aidoc closed a $150M Series E backed by Goldman Sachs and NVIDIA."
+    },
+    {
+      "catId": "world",
+      "text": "EU negotiators failed to reach a deal on AI Act amendments after 12 hours of talks, putting an August 2026 high-risk compliance deadline in serious jeopardy."
+    }
+  ],
+  "headline": "rules without a referee",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "From memory-powered assistants to sub-second image generation, the AI product pace is relentless.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini remembers you \u2014 and will steal your ChatGPT history",
+          "summary": "Google is rolling out a Memories feature to UK Gemini users that lets the assistant learn preferences across conversations over time. More aggressively, it now lets users import their full chat history and saved memories from rival AI apps via ZIP file or a copy-paste prompt flow. The move is a direct shot at user lock-in across the AI assistant market.",
+          "source": "blog.google",
+          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/gemini-launches-new-personalisation-features-in-the-uk/",
+          "tags": [
+            "gemini",
+            "personalization",
+            "google"
+          ]
+        },
+        {
+          "title": "Kiri.ai drops a 1-trillion-parameter open model on Replicate",
+          "summary": "Moonshot AI's Kimi model \u2014 1 trillion parameters, 262k context window, with vision and tool use \u2014 is now available via Replicate's API alongside a wave of other frontier models. The Replicate catalog now spans everything from OpenAI's GPT image generation to Anthropic's Claude Opus 4.7 and ByteDance's multimodal video model. The breadth signals that production-ready model access is becoming a commodity.",
+          "source": "replicate.com",
+          "url": "https://replicate.com/explore",
+          "tags": [
+            "open-models",
+            "api",
+            "devtools"
+          ]
+        },
+        {
+          "title": "FLUX 2 Max targets product photography and character consistency",
+          "summary": "Black Forest Labs' FLUX 2 family now covers the full spectrum from sub-second prototyping with FLUX 2 Klein to premium fidelity with FLUX 2 Max, which supports up to 8 reference images for character and product consistency. Structured JSON prompting and precise hex color control make it a serious contender for commercial creative workflows. The family is available production-ready via Replicate.",
+          "source": "replicate.com",
+          "url": "https://replicate.com/collections/flux",
+          "tags": [
+            "image-gen",
+            "creative-tools",
+            "api"
+          ]
+        },
+        {
+          "title": "Google Translate turns 20 with Gemini-powered idiom smarts",
+          "summary": "Google marked the 20th anniversary of Translate by integrating Gemini models into its Live interpretation feature, which now handles slang, idioms, and tonal nuance rather than just literal translation. Earbuds can now act as real-time interpreters that preserve a speaker's rhythm and register. The upgrade reflects how Gemini is quietly becoming the engine behind Google's entire product surface.",
+          "source": "blog.google",
+          "url": "https://blog.google/intl/zh-tw/products/explore-get-answers/google-translate-20/",
+          "tags": [
+            "google-translate",
+            "gemini",
+            "language"
+          ]
+        },
+        {
+          "title": "FIDO Alliance sets safety rules for AI agents buying things online",
+          "summary": "The FIDO Alliance announced new authentication standards specifically designed for AI agents that shop, log in, and transact on users' behalf. The initiative addresses a fast-growing identity problem: as agents proliferate, most organizations have no controls over which agents access which data or accounts. The standards aim to prevent agents from going rogue with payment credentials before the problem becomes widespread.",
+          "source": "aiagentstore.ai",
+          "url": "https://aiagentstore.ai/ai-agent-news/2026-april",
+          "tags": [
+            "ai-agents",
+            "security",
+            "standards"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Defense AI, medical imaging, and government tech all drew serious checks this week.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Scout AI raises $100M to train models for battlefield ATVs",
+          "summary": "Scout AI, a self-described frontier lab for defense founded in 2024, closed a $100M Series A led by Align Ventures and Draper Associates. The startup builds autonomous military all-terrain vehicles and trains the AI models that operate them. It previously raised a $15M seed in January 2025, making this a rapid scale-up in a sector attracting serious venture capital.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
+          "tags": [
+            "defense",
+            "robotics",
+            "series-a"
+          ]
+        },
+        {
+          "title": "Aidoc pulls in $150M Series E for clinical AI imaging",
+          "summary": "Clinical AI provider Aidoc secured $150M in a Series E led by Goldman Sachs Alternatives, with General Catalyst, SoftBank, and NVIDIA's NVentures also participating. The company, which applies AI to medical imaging workflows, has now raised $520M in total. The round comes weeks after rival RadAI closed a $60M Series C at a $525M valuation, signaling fierce competition in radiology AI.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/2026/04/29/exclusive-clinical-ai-provider-aidoc-raises-150m-series-e",
+          "tags": [
+            "healthtech",
+            "series-e",
+            "medical-ai"
+          ]
+        },
+        {
+          "title": "BMW i Ventures launches $300M fund with AI and robotics thesis",
+          "summary": "BMW's independent venture arm announced a $300M third fund focused on agentic AI, physical AI, robotics, and industrial software for the automotive sector. The new fund brings BMW i Ventures to $1.1B in total capital under management and will invest from early stage through Series B in North America and Europe. No investments from the new fund have been announced yet.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/04/29/bmw-i-ventures-has-a-new-300m-fund-and-ai-is-riding-shotgun/",
+          "tags": [
+            "corporate-vc",
+            "robotics",
+            "automotive"
+          ]
+        },
+        {
+          "title": "Pursuit lands $22M seed to help companies win government contracts",
+          "summary": "Pursuit, a platform that helps businesses find and win government contracts, announced a $22M seed round led by OpenGov co-founder Mike Rosengarten, with backing from Bill Gurley, Jack Altman, and Sam Hinkie. The company launched in 2023 out of a simple observation: selling to government is surprisingly hard for most companies. Total funding now stands at $25.5M.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/04/29/bill-gurley-jack-altman-back-startup-pursuit-which-helps-companies-sell-to-government/",
+          "tags": [
+            "govtech",
+            "seed",
+            "b2b"
+          ]
+        },
+        {
+          "title": "Shapes raises $8M for AI characters in your group chats",
+          "summary": "Shapes, an app that embeds AI characters directly into human group conversations, emerged from stealth with $8M in seed funding led by Lightspeed. Think Discord, but where AI personas are full participants in the chat alongside real users. The company plans to use the capital to accelerate user acquisition in what is shaping up to be a crowded social AI space.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/04/29/meet-shapes-the-app-bringing-humans-and-ai-into-the-same-group-chats/",
+          "tags": [
+            "social-ai",
+            "seed",
+            "consumer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Courts, classified contracts, and collapsing EU talks \u2014 AI governance is in full crisis mode.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "EU AI Act talks collapse after marathon session",
+          "summary": "After 12 hours of negotiations, EU member states and European Parliament lawmakers failed to agree on amendments to the AI Act that would have delayed high-risk compliance deadlines from August 2026 to 2027 or later. The core sticking point is whether AI embedded in already-regulated products like medical devices and toys should be exempt from additional AI Act requirements. If talks stall through May and June, companies that built their timelines around the extension could face immediate compliance obligations they are not ready for.",
+          "source": "thenextweb.com",
+          "url": "https://thenextweb.com/news/eu-ai-act-omnibus-deal-fails-april-2026-talks",
+          "tags": [
+            "eu-ai-act",
+            "regulation",
+            "policy"
+          ]
+        },
+        {
+          "title": "Google signed a classified AI deal with the Pentagon \u2014 quietly",
+          "summary": "Google reportedly agreed to let the US Department of Defense use its AI models for any lawful government purpose under a classified contract, placing it alongside OpenAI and xAI in the set of companies with secret military AI agreements. The deal reportedly bars the company from blocking lawful government uses and requires it to help adjust safety filters when asked. The contract was finalized less than a day after Google employees publicly asked Sundar Pichai to block Pentagon access.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=Ub6yRNolFgg",
+          "tags": [
+            "google",
+            "pentagon",
+            "defense"
+          ]
+        },
+        {
+          "title": "Musk takes the stand in his OpenAI trial",
+          "summary": "Elon Musk began testifying in his lawsuit against OpenAI, Sam Altman, and Greg Brockman in a California federal courtroom. Musk is alleging fraud, breach of charitable trust, and unjust enrichment, and is seeking to unwind OpenAI's for-profit restructuring and strip Altman and Brockman of authority. The trial is expected to call major industry witnesses including Microsoft CEO Satya Nadella and former OpenAI CTO Mira Murati.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=Ub6yRNolFgg",
+          "tags": [
+            "openai",
+            "musk",
+            "litigation"
+          ]
+        },
+        {
+          "title": "AI regulation is fracturing into sovereign bubbles",
+          "summary": "A new analysis argues that the long-anticipated convergence of global AI rules is not happening \u2014 instead, 2026 is seeing a mosaic of incompatible national regimes. Australia is advancing workplace AI law, Pakistan is restricting government hiring AI, US states are passing a flurry of bills while the White House pushes federal preemption, and the EU can't even agree with itself. For multinationals, the compliance burden is becoming a competitive disadvantage, and shadow AI use is growing as strict internal policies push employees toward personal accounts.",
+          "source": "questa-ai.com",
+          "url": "https://www.questa-ai.com/privacy-cafe/ai-regulation-in-2026-is-breaking-apart-globally",
+          "tags": [
+            "regulation",
+            "global-policy",
+            "compliance"
+          ]
+        },
+        {
+          "title": "The US should build AI standards, not bully AI companies",
+          "summary": "A sharp analysis argues that the Trump administration's confrontation with Anthropic \u2014 threatening to blacklist the company for refusing to remove safety guardrails from Pentagon access \u2014 is the wrong play, and risks damaging US credibility in international AI governance. The piece draws a historical parallel to how the US shaped the internet by leading protocol standards through DARPA and NIST, and argues that CAISI's new AI Agent Standards Initiative is the right model to follow. Countries considering adopting US-led AI infrastructure are watching the Anthropic episode carefully.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/the-us-is-fighting-for-control-of-ai-it-would-be-better-off-building-standards/",
+          "tags": [
+            "us-policy",
+            "standards",
+            "anthropic"
+          ]
+        }
+      ]
+    }
+  ]
+}

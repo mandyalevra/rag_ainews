@@ -1,0 +1,222 @@
+{
+  "date": "June 05, 2026",
+  "iso": "2026-06-05",
+  "issue": 40,
+  "weekday": "Friday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google dropped Gemma 4 QAT models today, shrinking the E2B footprint to just 1GB so the model runs on everyday phones and laptops."
+    },
+    {
+      "catId": "money",
+      "text": "Supabase doubled its valuation to $10 billion in eight months, raising a $500M Series F led by Singapore's GIC."
+    },
+    {
+      "catId": "world",
+      "text": "Congress unveiled the Great American Artificial Intelligence Act, a 269-page bipartisan bill that would freeze all state AI laws for three years."
+    }
+  ],
+  "headline": "freeze everything",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google dominates the release board, ChatGPT gets smarter memory, and on-device AI takes a big step forward.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemma 4 goes tiny with QAT models",
+          "summary": "Google released Quantization-Aware Training checkpoints for Gemma 4 today, cutting the E2B model's memory footprint to just 1GB \u2014 small enough to run on a phone. The Q4_0 and mobile formats are live on Hugging Face with ready-made support for llama.cpp, Ollama, LM Studio, and vLLM. It's the clearest sign yet that capable open models are becoming a genuinely everyday-hardware story.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+          "tags": [
+            "open-source",
+            "on-device",
+            "google",
+            "gemma"
+          ]
+        },
+        {
+          "title": "Computer use lands natively in Gemini 3.5 Flash",
+          "summary": "Google baked computer-use capability directly into Gemini 3.5 Flash, meaning developers no longer need a separate model to build agents that can see, click, and act across browser, mobile, and desktop environments. The move unlocks long-horizon automation like continuous software testing and enterprise knowledge work through the Gemini API. Two optional enterprise safeguards \u2014 explicit confirmation prompts and automatic prompt-injection detection \u2014 ship alongside it.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+          "tags": [
+            "agents",
+            "google",
+            "gemini",
+            "devtools"
+          ]
+        },
+        {
+          "title": "ChatGPT gets GPT-5.5 Instant and richer memory",
+          "summary": "OpenAI made GPT-5.5 Instant the new default model for all ChatGPT users, replacing GPT-5.3 Instant with improvements to accuracy, image understanding, and STEM reasoning. Alongside the model swap, memory upgrades are rolling out to Plus and Pro users that pull context from past chats, saved memories, and connected Gmail \u2014 so you stop repeating yourself. Interactive charts, a full-screen writing editor, and a personal finance experience round out this week's release push.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "chatgpt",
+            "openai",
+            "memory",
+            "models"
+          ]
+        },
+        {
+          "title": "June Pixel Drop: AI video, music, and emergency sharing",
+          "summary": "Google's June Pixel Drop brings Gemini Omni video creation and original music generation to Pixel phones \u2014 you describe an idea and get a full audio track with lyrics. Floating app bubbles enable easier multitasking, and a new Emergency Sharing feature automatically alerts your chosen contacts if Car Crash, Fall, or Loss of Pulse Detection triggers. The update begins rolling out today alongside Android 17 and Wear OS 7.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "pixel",
+            "google",
+            "gemini",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B bridges the laptop gap",
+          "summary": "Released earlier this week, the Gemma 4 12B is Google's first mid-sized open model with native audio input and an encoder-free multimodal architecture \u2014 vision and audio flow straight into the LLM backbone. It runs locally on 16GB of RAM, benchmarks close to the 26B MoE model, and ships under Apache 2.0. Today's QAT release makes it even more practical for everyday developer machines.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+          "tags": [
+            "open-source",
+            "multimodal",
+            "google",
+            "gemma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Valuations are stretching fast: a vibe-coding database, an AI expense platform, and an industrial simulation startup all print new highs this week.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Supabase doubles to $10B in eight months",
+          "summary": "Supabase, the open-source database that became the default backend for the vibe-coding generation, raised $500 million in a Series F at a $10 billion pre-money valuation \u2014 exactly double its October 2025 mark. GIC led the round, with Stripe, Georgian, and Salesforce Ventures joining. The company has now raised over $800 million total and is leaning hard into its position as infrastructure for AI-native apps.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
+          "tags": [
+            "database",
+            "open-source",
+            "series-f",
+            "funding"
+          ]
+        },
+        {
+          "title": "Ramp hits $44B as AI finance bets keep paying off",
+          "summary": "Corporate spend management platform Ramp raised $750 million at a $44 billion valuation, nearly tripling its worth in under a year. ICONIQ, Singapore's GIC, and Ontario Teachers' co-led, with Goldman Sachs, Morgan Stanley, D.E. Shaw, and Peter Thiel's Founders Fund all writing checks. Ramp has now raised $3 billion in total \u2014 a signal that AI-powered finance automation is one of the hottest categories in venture right now.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/04/ramp-raises-750m-at-44b-valuation-as-investors-hunger-for-fintechs-with-an-ai-story/",
+          "tags": [
+            "fintech",
+            "ai",
+            "funding",
+            "series"
+          ]
+        },
+        {
+          "title": "Sarvam becomes India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam closed $234 million of a targeted $300 million Series B, led by HCLTech with $150 million, pushing the company to a $1.5 billion valuation. Bessemer Venture Partners joined alongside existing backers Khosla Ventures and Peak XV. Sarvam earlier released open-source models at 30B and 105B parameters, positioning itself as a sovereign AI champion for India's language diversity.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "open-source",
+            "funding"
+          ]
+        },
+        {
+          "title": "PhysicsX raises $300M to AI-ify jet engines and chips",
+          "summary": "London-based PhysicsX, which builds AI simulation models for manufacturing components like jet engines and semiconductors, raised $300 million at a $2.4 billion valuation \u2014 more than double its previous mark. Singapore's Temasek led the Series C, with Nvidia and Applied Materials among the returning backers. The startup competes in a field that now includes Jeff Bezos-backed ventures.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "manufacturing",
+            "series-c",
+            "funding",
+            "hardware"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "A landmark federal AI bill, a Florida lawsuit against OpenAI, UK publisher rules, and Arizona's power-price shock define a consequential week for AI governance.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Congress drops 269-page bill to freeze state AI laws",
+          "summary": "Representatives Jay Obernolte (R-CA) and Lori Trahan (D-MA) published the Great American Artificial Intelligence Act on June 4 \u2014 a bipartisan 269-page discussion draft that would pre-empt state AI laws targeting frontier model development for three years. The bill requires companies with over $500 million in annual revenue to publish governance frameworks, report safety incidents, and support a $100M federal AI standards body. If it passes, it would immediately neutralize California's AI bills, Colorado's Act (due June 30), and dozens of other state-level rules.",
+          "source": "unrot.co",
+          "url": "https://unrot.co/blogs/ai-news-today-june-5-2026",
+          "tags": [
+            "regulation",
+            "congress",
+            "federal",
+            "preemption"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over ChatGPT safety failures",
+          "summary": "Florida's attorney general filed a lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly put a dangerous product into consumers' hands without adequately addressing safety risks. The complaint connects ChatGPT to violent incidents, suicides, and follows a criminal investigation into the technology's alleged role in a mass shooting. OpenAI disputes responsibility, but the case could set a landmark precedent for how courts assign liability to AI companies.",
+          "source": "marketingprofs.com",
+          "url": "https://www.marketingprofs.com/opinions/2026/54909/ai-update-june-5-2026-ai-news-and-views-from-the-past-week",
+          "tags": [
+            "lawsuit",
+            "openai",
+            "safety",
+            "florida"
+          ]
+        },
+        {
+          "title": "UK orders Google to give publishers AI opt-out controls",
+          "summary": "Britain's Competition and Markets Authority ruled that Google must provide publishers with tools to opt out of having their content used in AI-generated search features and model training. The order also mandates clearer attribution and linking when publisher content surfaces in AI answers. Regulators said the measures are designed to restore publishers' negotiating leverage and address concerns that AI search is draining traffic from original sources.",
+          "source": "marketingprofs.com",
+          "url": "https://www.marketingprofs.com/opinions/2026/54909/ai-update-june-5-2026-ai-news-and-views-from-the-past-week",
+          "tags": [
+            "regulation",
+            "uk",
+            "google",
+            "publishers"
+          ]
+        },
+        {
+          "title": "Arizona utility proposes 45% AI data center surcharge",
+          "summary": "Arizona Public Service, the state's largest utility serving 1.5 million customers, formally proposed a 45% electricity rate increase specifically targeting extra-large energy users \u2014 primarily AI data centers and chip manufacturers. It is the first major US utility to propose a dedicated AI surcharge at this scale. The move signals that the real-world energy costs of the AI buildout are starting to land on someone's balance sheet.",
+          "source": "unrot.co",
+          "url": "https://unrot.co/blogs/ai-news-today-june-5-2026",
+          "tags": [
+            "energy",
+            "infrastructure",
+            "data-centers",
+            "policy"
+          ]
+        },
+        {
+          "title": "Connecticut passes sweeping AI safety law, Illinois sends five bills to governor",
+          "summary": "Connecticut lawmakers approved SB 5, one of the nation's most comprehensive state AI measures, requiring consumer disclosures for subscription AI products, safety obligations for frontier AI developers, whistleblower protections, and labeling for AI-generated content. Separately, Illinois legislators passed five AI bills in an overnight session, covering health care approvals, teacher evaluations, rental price-fixing, and bot-driven ticket purchases. Both states are moving fast ahead of any potential federal preemption.",
+          "source": "transparencycoalition.ai",
+          "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june5-2026",
+          "tags": [
+            "regulation",
+            "state-law",
+            "connecticut",
+            "illinois"
+          ]
+        }
+      ]
+    }
+  ]
+}

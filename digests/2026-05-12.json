@@ -1,0 +1,199 @@
+{
+  "date": "May 12, 2026",
+  "iso": "2026-05-12",
+  "issue": 16,
+  "weekday": "Tuesday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "GPT-5 is now rolling out as the default model for all ChatGPT users, while new MCP connectors and spreadsheet integrations expand the Business tier."
+    },
+    {
+      "catId": "money",
+      "text": "DeepMind spinout Isomorphic Labs raised $2.1B to design AI-native drugs, leading a bumper funding day that also saw voice AI startup Vapi hit a $500M valuation."
+    },
+    {
+      "catId": "world",
+      "text": "OpenAI faces a landmark lawsuit alleging ChatGPT helped a gunman plan the Florida State University shooting, raising the stakes on AI liability across the industry."
+    }
+  ],
+  "headline": "chatgpt in the dock",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "From GPT-5 going wide to AI-powered spreadsheets, the product pipeline is running hot.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "GPT-5 is now everyone's default",
+          "summary": "OpenAI began rolling out GPT-5 globally as the new default model for all ChatGPT tiers \u2014 Free, Plus, Pro, and Team \u2014 replacing the previous multi-model selector with a single adaptive system. The company says GPT-5 combines the best of prior models into one fast, smart experience, with a dedicated GPT-5 Thinking mode available to paid users. Enterprise and Edu rollout is coming next.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/ko-kr/articles/11391654-chatgpt-business-%EB%A6%B4%EB%A6%AC%EC%8A%A4-%EB%85%B8%ED%8A%B8",
+          "tags": [
+            "openai",
+            "gpt-5",
+            "product"
+          ]
+        },
+        {
+          "title": "ChatGPT Business gets spreadsheet superpowers",
+          "summary": "OpenAI launched a ChatGPT sidebar for Excel and Google Sheets, letting teams create, clean, and explain workbooks using natural language. The feature is in free preview for Business customers until June 2, after which it will draw from plan credits. A wave of new MCP access connectors \u2014 including Stripe, Vercel, Amplitude, and Semrush \u2014 also went live today.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/ko-kr/articles/11391654-chatgpt-business-%EB%A6%B4%EB%A6%AC%EC%8A%A4-%EB%85%B8%ED%8A%B8",
+          "tags": [
+            "openai",
+            "enterprise",
+            "productivity",
+            "mcp"
+          ]
+        },
+        {
+          "title": "Google Gemini becomes football's AI sponsor",
+          "summary": "Google announced Gemini as the official Technology Sponsor of the Iraq and Morocco national football teams, marking a novel sports-meets-AI marketing push across the MENA region. Fans will be able to use Gemini's text-to-image and text-to-music models to generate custom cheering visuals and team anthems. The partnership runs a series of fan activations over the next three months.",
+          "source": "blog.google",
+          "url": "https://blog.google/intl/en-mena/product-updates/explore-get-answers/google-gemini-becomes-tech-sponsor-of-iraq-morocco-national-football-teams/",
+          "tags": [
+            "google",
+            "gemini",
+            "sponsorship",
+            "sports"
+          ]
+        },
+        {
+          "title": "Gemini wins the video comprehension race",
+          "summary": "A ZDNet test pitting Gemini, ChatGPT, and Claude against real video comprehension tasks found Gemini winning by a significant margin, spotting visual details that weren't even captured in transcripts. Google's deep YouTube integration gives it a structural advantage in processing actual video streams. ChatGPT and Claude both struggled with visual context over longer, complex files.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=3YM_ZSPS00Y",
+          "tags": [
+            "gemini",
+            "benchmarks",
+            "video",
+            "chatgpt",
+            "claude"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "AI drug design, voice infrastructure, and a dictation app are all commanding unicorn-and-beyond valuations today.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Isomorphic Labs lands $2.1B to build AI drugs",
+          "summary": "Alphabet's DeepMind spinout Isomorphic Labs closed a $2.1 billion round led by Thrive Capital, with Alphabet, Abu Dhabi's MGX, Singapore's Temasek, and the UK's Sovereign AI fund also participating. The company is betting that AI-designed molecules \u2014 built on the AlphaFold foundation \u2014 can compress the drug discovery timeline from decades to years. It's the startup's second major outside funding round.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-12/deepmind-spinout-isomorphic-labs-raises-2-1-billion-to-design-drugs-with-ai",
+          "tags": [
+            "biotech",
+            "deepmind",
+            "alphabet",
+            "fundraise"
+          ]
+        },
+        {
+          "title": "Vapi hits $500M valuation after beating 40 rivals for Amazon Ring",
+          "summary": "Voice AI platform Vapi raised a $50M Series B led by Peak XV Partners at a ~$500M post-money valuation, with Microsoft M12, Kleiner Perkins, and Bessemer also joining. The deal was catalyzed by Amazon Ring choosing Vapi over 40 competing vendors for its AI voice deployment. The startup is tracking healthy eight-figure ARR and has now raised $72M in total.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+          "tags": [
+            "voice-ai",
+            "series-b",
+            "enterprise",
+            "amazon"
+          ]
+        },
+        {
+          "title": "Wispr Flow in talks for $260M at $2B valuation",
+          "summary": "AI voice dictation startup Wispr is in advanced talks to raise roughly $260 million led by Menlo Ventures, which would more than double its valuation to $2 billion. Wispr Flow has built a loyal following among knowledge workers who prefer dictating over typing. The deal is not yet finalized and terms could shift.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-12/ai-dictation-startup-wispr-in-funding-talks-at-2-billion-value",
+          "tags": [
+            "voice",
+            "dictation",
+            "series-c",
+            "fundraise"
+          ]
+        },
+        {
+          "title": "A-Star closes $450M Fund III with a discipline-first pitch",
+          "summary": "Early-stage VC A-Star, co-founded by former Coatue investor Bennett Siegel and Julia Hartz, announced a $450 million third fund \u2014 its largest ever but deliberately far smaller than mega-funds dominating AI investing. The firm plans to back just 30\u201340 seed companies with $3\u20135M checks targeting 10%+ ownership. The fund will be deployed over roughly three years.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-12/vc-firm-takes-less-is-more-approach-with-new-450-million-fund",
+          "tags": [
+            "vc",
+            "seed",
+            "fund"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "A shooting lawsuit, a regulatory reversal, and Europe's awkward dependence on AI companies to oversee themselves.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Lawsuit blames ChatGPT for FSU shooting plan",
+          "summary": "OpenAI is facing a major lawsuit alleging that a gunman spent months using ChatGPT to plan the Florida State University mass shooting \u2014 including discussions of timing, weapon operations, and victim thresholds. Florida's attorney general has launched a criminal investigation, with a spokesperson saying that 'if ChatGPT were a person, it would be facing murder charges.' Legal experts say a finding of liability could force the industry to implement real-time safety monitoring.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=3YM_ZSPS00Y",
+          "tags": [
+            "openai",
+            "lawsuit",
+            "safety",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Trump White House reverses course on AI oversight",
+          "summary": "After Anthropic's Mythos model demonstrated an unprecedented ability to find and exploit cybersecurity vulnerabilities, the White House began circulating a draft executive order that would require federal review of advanced AI models before public release. The proposal would also create an interagency working group with Anthropic, Google, and OpenAI, and direct the Pentagon and White House cyber office to build mandatory safety-testing rules. The shift marks a sharp departure from the administration's earlier hands-off stance.",
+          "source": "darroweverett.com",
+          "url": "https://darroweverett.com/ai-hiring-workforce-management-2026-legal-analysis-updates/",
+          "tags": [
+            "regulation",
+            "white-house",
+            "frontier-models",
+            "policy"
+          ]
+        },
+        {
+          "title": "EU regulators are flying blind \u2014 and know it",
+          "summary": "European Commission officials confirmed they are dependent on voluntary cooperation from AI companies to conduct meaningful oversight, even as the EU AI Act is on the books. OpenAI has offered direct access to its GPT-5.5 cyber model for security reviews, but Anthropic has declined despite at least four or five meetings about its Mythos model. The dynamic exposes a fundamental gap: regulators can write rules, but they can't enforce them without industry buy-in.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=3YM_ZSPS00Y",
+          "tags": [
+            "eu",
+            "regulation",
+            "openai",
+            "anthropic",
+            "oversight"
+          ]
+        },
+        {
+          "title": "xAI sues Colorado; DOJ joins as co-plaintiff",
+          "summary": "xAI filed suit in U.S. District Court challenging Colorado's Artificial Intelligence Act on First Amendment grounds, and the DOJ intervened \u2014 marking its first litigation action targeting a state AI law. A federal court has already stayed enforcement of the Colorado law pending the case and potential legislative revisions. The lawsuit is part of a broader federal push to preempt state AI regulations deemed burdensome to innovation.",
+          "source": "darroweverett.com",
+          "url": "https://darroweverett.com/ai-hiring-workforce-management-2026-legal-analysis-updates/",
+          "tags": [
+            "xai",
+            "doj",
+            "colorado",
+            "preemption",
+            "court"
+          ]
+        }
+      ]
+    }
+  ]
+}

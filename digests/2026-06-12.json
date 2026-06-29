@@ -1,0 +1,198 @@
+{
+  "date": "June 12, 2026",
+  "iso": "2026-06-12",
+  "issue": 47,
+  "weekday": "Friday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's June Pixel Drop lands Gemini Omni video and music creation on Pixel devices today, while OpenAI quietly retires GPT-5.2 and rolls GPT-5.5 to all users."
+    },
+    {
+      "catId": "money",
+      "text": "Mistral is reportedly in talks to raise \u20ac3B at a \u20ac20B valuation, nearly doubling its worth in under a year."
+    },
+    {
+      "catId": "world",
+      "text": "The US Commerce Department issued an export control directive forcing Anthropic to suspend all access to Fable 5 and Mythos 5 globally."
+    }
+  ],
+  "headline": "fable, suspended",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest model drops, app updates, and hardware launches in AI right now.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Pixel gets AI video, music, and bubbles",
+          "summary": "Google's June Pixel Drop brings Gemini Omni to Pixel phones, letting users generate custom videos and original music tracks just by describing an idea. New floating app bubbles make multitasking easier, and emergency detection now auto-notifies contacts during crashes or falls. The rollout begins today across Pixel devices.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "google",
+            "pixel",
+            "gemini",
+            "hardware"
+          ]
+        },
+        {
+          "title": "GPT-5.2 is gone, GPT-5.5 is everyone's default",
+          "summary": "OpenAI retired all GPT-5.2 variants today \u2014 Instant, Thinking, and Pro \u2014 migrating existing conversations automatically to the corresponding GPT-5.5 models. GPT-5.5 Instant is also rolling out to all ChatGPT users globally starting today. The retirement follows the standard 90-day succession window after GPT-5.3 Instant launched.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "models",
+            "deprecation"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs frontier multimodal on your laptop",
+          "summary": "Google released Gemma 4 12B, an open Apache 2.0 model that handles text, images, and audio natively without separate encoders \u2014 a first for a mid-sized Gemma model. It runs locally on consumer hardware with just 16 GB of VRAM and benchmarks close to the larger 26B MoE model. Google also released a Skills Repository to help agents build on top of it.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "google",
+            "open-source",
+            "multimodal",
+            "local-AI"
+          ]
+        },
+        {
+          "title": "Google's agentic Gemini era, fully recapped",
+          "summary": "Google's May 2026 roundup confirms the full scope of its I/O push: Gemini 3.5 for agentic coding, Gemini Omni for any-to-video generation, Universal Cart across Search and YouTube, and the Googlebook laptop built for Gemini Intelligence. Android Halo gives users a dedicated space to monitor agent progress without disrupting their flow.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "agents",
+            "hardware"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Funding rounds, valuations, and the investors writing the big checks.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Mistral eyes \u20ac3B raise at nearly double last year's price",
+          "summary": "French AI lab Mistral is in early talks to raise roughly \u20ac3 billion ($3.5B), which would value it at \u20ac20 billion \u2014 up from \u20ac11.7 billion just nine months ago. The round would be one of Europe's largest AI financings ever, though Mistral has raised only about $4B total compared to OpenAI's $186B. No lead investor has been named yet.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+          "tags": [
+            "mistral",
+            "funding",
+            "europe",
+            "valuation"
+          ]
+        },
+        {
+          "title": "Bezos' Prometheus hits $41B valuation",
+          "summary": "Prometheus, Jeff Bezos' AI startup, closed $12 billion in fresh funding from JPMorgan, Goldman Sachs, BlackRock, and Bezos himself, pushing its valuation to $41 billion. The round cements Bezos as a major independent force in AI outside of his Amazon role. Details on Prometheus's specific products remain limited.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
+          "tags": [
+            "bezos",
+            "funding",
+            "unicorn",
+            "valuation"
+          ]
+        },
+        {
+          "title": "India's Sarvam crosses the unicorn line at $1.5B",
+          "summary": "Bengaluru-based Sarvam raised $234 million led by HCLTech, becoming India's newest AI unicorn at a $1.5 billion valuation. The company is targeting a full $300 million Series B and launched open-source models at 30B and 105B parameters earlier this year. Bessemer, Khosla, and Peak XV also participated.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "funding",
+            "open-source"
+          ]
+        },
+        {
+          "title": "Coralogix raises $200M to monitor the age of agents",
+          "summary": "AI observability startup Coralogix closed a $200 million Series F at a $1.6 billion valuation, betting that autonomous AI agents will create a massive new market for monitoring and troubleshooting tools. The round came just 11 months after its $115M Series E, led by Advent and the Canada Pension Plan Investment Board. The company has now raised $550 million in total.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "infrastructure",
+            "funding",
+            "agents",
+            "observability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Regulation, export controls, and the political forces reshaping AI.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "US export order kills access to Fable 5 and Mythos 5",
+          "summary": "The US Commerce Department issued an export control directive today ordering Anthropic to suspend all access to Fable 5 and Mythos 5 worldwide. Anthropic published a brief statement confirming compliance and flagging potential policy fallout for AI safety frameworks. The move marks one of the most direct uses of export law to restrict frontier AI model access.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news",
+          "tags": [
+            "anthropic",
+            "export-controls",
+            "regulation",
+            "national-security"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over harm to children",
+          "summary": "Florida became the first US state to sue OpenAI and CEO Sam Altman, alleging the company knowingly released addictive and harmful chatbot technology that has hurt minors. The suit seeks restrictions on data collection from under-13s and signals potential further action against other AI developers. OpenAI rejected the claims, pointing to its existing safety and parental controls.",
+          "source": "tlt.com",
+          "url": "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-june-2026",
+          "tags": [
+            "openai",
+            "lawsuit",
+            "children",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Colorado scraps its AI Act, rewrites the rules",
+          "summary": "Colorado replaced its landmark 2024 AI Act with SB 26-189, stripping out algorithmic discrimination requirements and shifting to a lighter notice-and-disclosure regime for automated decision-making. The rewrite followed an X.AI lawsuit and DOJ intervention that froze the original law, pushing its effective date to January 1, 2027. The move signals that states are still actively shaping \u2014 and reshaping \u2014 their AI governance experiments.",
+          "source": "transparencycoalition.ai",
+          "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june12-2026",
+          "tags": [
+            "colorado",
+            "regulation",
+            "policy",
+            "state-law"
+          ]
+        },
+        {
+          "title": "AI prompts now fair game in federal court discovery",
+          "summary": "A federal magistrate judge in Conservation Law Foundation v. Shell Oil ruled that AI prompts used by an expert witness are discoverable as part of her methodology, not protected drafting material. The decision is one of the sharpest judicial signals yet that AI-assisted expert work will face new scrutiny in litigation. Legal teams using AI for expert preparation should treat their prompts as potential exhibits.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "legal",
+            "courts",
+            "discovery",
+            "policy"
+          ]
+        }
+      ]
+    }
+  ]
+}

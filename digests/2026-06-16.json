@@ -1,0 +1,192 @@
+{
+  "date": "June 16, 2026",
+  "iso": "2026-06-16",
+  "issue": 51,
+  "weekday": "Tuesday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's June Pixel Drop lands today with Gemini Omni powering custom video creation, AI music generation, and floating app bubbles on Pixel devices."
+    },
+    {
+      "catId": "money",
+      "text": "Sarvam becomes India's newest AI unicorn after closing a $234M round led by HCLTech at a $1.5B valuation."
+    },
+    {
+      "catId": "world",
+      "text": "The US government's ban on Anthropic's cybersecurity models ignites backlash from security execs, while ChatGPT's market share falls below 50% for the first time."
+    }
+  ],
+  "headline": "google drops everything",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google floods Pixel phones with AI features while a new open-source image model quietly launches.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Pixel Drop: Gemini makes you a director",
+          "summary": "Google's June Pixel Drop is rolling out today, bringing Gemini Omni-powered video creation, AI music generation from photos or text prompts, and Screen Reactions that embed your selfie into screen recordings. Multitasking gets a boost too via floating app Bubbles, and emergency features now auto-notify your contacts during car crashes or falls. The updates hit Pixel devices starting today.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "google",
+            "pixel",
+            "gemini",
+            "mobile"
+          ]
+        },
+        {
+          "title": "Gemini 3.5 and the agentic Google era",
+          "summary": "Google's May recap confirms the company has fully pivoted to an agentic model, with Gemini 3.5 handling complex multi-step workflows and Gemini Omni creating video from any combination of inputs. New surfaces include the Googlebook laptop, the Google Health app, Fitbit Air, and a Universal Cart that works across Search, YouTube, and Gmail. Gemini 3.5 Pro is expected to land before the end of June.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "agents",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Boogu-Image-0.1 debuts as an open-source image powerhouse",
+          "summary": "Boogu-Image-0.1 launched today on Hugging Face under an Apache 2.0 license, offering a full family of models covering text-to-image, image editing, and a four-step Turbo variant for fast photorealistic generation. The model supports both English and Chinese text rendering and is described as competitive with leading closed alternatives. A ComfyUI integration ships tomorrow.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/Boogu/Boogu-Image-0.1-Base",
+          "tags": [
+            "open-source",
+            "image-gen",
+            "huggingface"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B brings multimodal AI to your laptop",
+          "summary": "Google released Gemma 4 12B earlier this month, a model that fits in 16GB of VRAM and matches the performance of its 26B MoE sibling on key benchmarks. It is the first mid-sized Gemma model to accept native audio input, with vision and audio flowing directly into the LLM backbone without separate encoders. It ships under Apache 2.0 and is available across Google Cloud and consumer hardware.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "google",
+            "open-source",
+            "on-device",
+            "multimodal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "A new Indian unicorn, a world-model bet backed by Amazon, and a VC firm reaping the rewards of its Anthropic gamble.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn",
+          "summary": "Sarvam raised $234 million in a Series B round led by HCLTech, valuing the Indian AI startup at $1.5 billion. Bessemer Venture Partners joined existing backers Khosla Ventures and Peak XV Partners, and the company is targeting a total raise of $300 million. Sarvam had previously raised just $41 million combined across its seed and Series A, making this a dramatic step-up built on its open-source 30B and 105B parameter models.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "series-b",
+            "open-source"
+          ]
+        },
+        {
+          "title": "Menlo Ventures cashes in on its Anthropic bet",
+          "summary": "Menlo Ventures announced $3 billion in new funds \u2014 its largest raise in 50 years \u2014 driven largely by its Anthropic stake, now worth roughly $14 billion. The firm made a bet-the-company move in 2024, preemptively leading Anthropic's Series D with more than $500 million when the model maker was valued at $18 billion. Its companion $100 million Anthology fund has since deployed closer to $250 million.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+          "tags": [
+            "vc",
+            "anthropic",
+            "fundraising"
+          ]
+        },
+        {
+          "title": "PhysicsX hits $2.4B making AI for jet engines",
+          "summary": "London-based PhysicsX raised $300 million at a $2.4 billion valuation in a Series C led by Singapore's Temasek, with Nvidia and Applied Materials among returning backers. The startup builds AI models that simulate the physics of manufacturing components like jet engines and semiconductors, a field attracting competition from Jeff Bezos-backed ventures. The new valuation is roughly 2.5 times what the company was worth at its last round.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "deep-tech",
+            "manufacturing",
+            "series-c"
+          ]
+        },
+        {
+          "title": "Pramaana Labs raises $27M to fact-check AI with formal verification",
+          "summary": "Pramaana Labs closed a $27 million seed round led by Khosla Ventures, with Accel, Nexus Venture Partners, Premji Invest, and others participating, to bring formal mathematical verification techniques to AI systems. The startup argues that as AI takes on higher-stakes decisions, probabilistic testing alone is insufficient and provable correctness is needed. The announcement is slated for Wednesday.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "tags": [
+            "ai-safety",
+            "seed",
+            "khosla"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Anthropic is caught between Washington and its users, while courts, states, and regulators all tighten their grip on AI.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "US bans Anthropic cybersecurity models, experts revolt",
+          "summary": "The US government's Commerce Department export directive has forced Anthropic to disable access to its cybersecurity-focused models, including Mythos, sparking immediate backlash from cybersecurity executives who argue the move weakens defensive capabilities. Anthropic is now reportedly in talks with the White House to negotiate terms around the ban. The episode marks one of the most direct government interventions in a specific AI model's deployment to date.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "anthropic",
+            "export-controls",
+            "regulation",
+            "national-security"
+          ]
+        },
+        {
+          "title": "ChatGPT's market share falls below 50%",
+          "summary": "For the first time, ChatGPT's share of the AI chatbot market has dropped below 50%, driven by accelerating competition from Gemini and Claude. The milestone underscores how quickly the landscape has diversified since ChatGPT's 2022 launch, when it effectively was the market. The decline coincides with mounting legal pressure on OpenAI, including Florida's state-led lawsuit alleging the company concealed safety risks.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=Fg_ZAgqnk2A",
+          "tags": [
+            "openai",
+            "market-share",
+            "competition"
+          ]
+        },
+        {
+          "title": "Courts rule AI prompts are discoverable evidence",
+          "summary": "A federal magistrate judge in Connecticut ordered a plaintiff's expert to hand over the AI prompts used to prepare her report in Conservation Law Foundation v. Shell Oil, treating them as part of the expert's methodology rather than protected work product. The ruling is one of the clearest signals yet that litigants cannot shield AI-assisted analysis from discovery. Legal teams using AI in expert work now face a new layer of evidentiary exposure.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "litigation",
+            "discovery",
+            "legal"
+          ]
+        },
+        {
+          "title": "Connecticut sets a new bar for state AI law",
+          "summary": "Connecticut enacted a comprehensive AI law on May 27 covering companion chatbots, frontier model governance, and AI use in employment decisions \u2014 one of the most substantive state-level AI frameworks in the US to date. It arrives as Congress continues to stall on federal AI legislation, with states increasingly filling the void. A draft federal bill, the Great American AI Act, is circulating in the House but faces an uphill battle against state momentum.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "regulation",
+            "state-law",
+            "policy",
+            "connecticut"
+          ]
+        }
+      ]
+    }
+  ]
+}

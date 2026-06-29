@@ -1,0 +1,186 @@
+{
+  "date": "June 24, 2026",
+  "iso": "2026-06-24",
+  "issue": 59,
+  "weekday": "Wednesday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "OpenAI makes GPT-5.5 Instant the new default model for all ChatGPT users, while also shipping ChatGPT for Excel and Google Sheets globally."
+    },
+    {
+      "catId": "money",
+      "text": "Menlo Ventures closes $3 billion in new funds \u2014 its largest ever \u2014 after its Anthropic bet turned a $500M investment into a $14 billion stake."
+    },
+    {
+      "catId": "world",
+      "text": "Colorado's rewritten AI law, the UK's companion-chatbot ban for under-18s, and a16z-backed compute marketplace Ornn signal a week of regulatory and structural shifts across the industry."
+    }
+  ],
+  "headline": "instant upgrade",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "OpenAI had a busy Wednesday, shipping a new default model and spreadsheet integrations to millions of users.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "GPT-5.5 Instant is now ChatGPT's default",
+          "summary": "OpenAI replaced GPT-5.3 Instant with GPT-5.5 Instant as the default model for all ChatGPT users today. The update brings better multi-turn context, more reliable instruction-following, and smarter shopping and local search results. Paid users get three months to keep using GPT-5.3 Instant via model settings before it's retired.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "model-update"
+          ]
+        },
+        {
+          "title": "ChatGPT lands inside Excel and Google Sheets",
+          "summary": "OpenAI is rolling out ChatGPT for Excel and Google Sheets globally, embedding a native sidebar that lets users build, clean, update, and explain spreadsheets in place. The feature is available across consumer and business plans. It's one of the more practical product integrations OpenAI has shipped this year.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "productivity",
+            "integrations"
+          ]
+        },
+        {
+          "title": "Codex Remote goes GA on all plans",
+          "summary": "OpenAI's Codex Remote feature is now generally available to all ChatGPT plan tiers. Users can start or continue coding work on a connected Mac or Windows machine from the mobile app, with authenticated QR pairing for security. Developer mode also arrives for the in-app browser, giving Codex Chrome DevTools Protocol access for debugging.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "codex",
+            "devtools"
+          ]
+        },
+        {
+          "title": "New MCP connectors from Stripe, Vercel, Monday and more",
+          "summary": "OpenAI is rolling out a new batch of MCP access connectors built by partners and reviewed internally, covering tools like Amplitude, Fireflies, Vercel, Monday.com, Stripe, Hex, and Jam.dev. The connectors are available to Enterprise, Edu, Business, Pro, and Plus customers with connectors enabled. More are expected on a rolling basis.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
+          "tags": [
+            "openai",
+            "integrations",
+            "enterprise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "From a VC firm's vindication to a compute marketplace seed round, the money keeps flowing into AI infrastructure.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Menlo Ventures raises $3B after Anthropic pays off",
+          "summary": "Menlo Ventures announced $3 billion in new funds \u2014 the largest raise in its 50-year history \u2014 powered largely by its early bet on Anthropic. The firm's Anthropic stake is now worth roughly $14 billion after it preemptively led the model maker's Series D at an $18 billion valuation in 2024. Its companion Anthology fund has also grown from $100 million to nearly $250 million deployed.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+          "tags": [
+            "venture-capital",
+            "anthropic",
+            "fundraising"
+          ]
+        },
+        {
+          "title": "a16z backs compute marketplace Ornn with $33M seed",
+          "summary": "Ornn, a startup building a marketplace where AI compute power can be bought and sold, raised $33 million in a seed round led by Andreessen Horowitz's crypto arm, with Galaxy Ventures, Nordstar, and SV Angel also participating. a16z general partner Ali Yahya called it the firm's first investment in a compute marketplace specifically. The round reflects growing conviction that AI infrastructure liquidity is itself a business.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "a16z",
+            "seed-round"
+          ]
+        },
+        {
+          "title": "Sarvam hits unicorn status with $234M round",
+          "summary": "Indian AI startup Sarvam raised $234 million at a $1.5 billion valuation, with HCLTech contributing $150 million as lead strategic investor. Bessemer Venture Partners, Khosla Ventures, and Peak XV Partners also participated. The company, which launched open-source models in 30B and 105B parameters earlier this year, is targeting a total of $300 million for the round.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "open-source"
+          ]
+        },
+        {
+          "title": "Ex-Infosys CEO's Hang Ten Systems raises $32M seed",
+          "summary": "Hang Ten Systems, a new startup founded by a former Infosys chief aiming to disrupt the IT services industry, raised a $32 million seed round led by Mayfield with a strategic investment from Aramco Ventures. The company is positioning itself as an AI-native challenger to legacy IT services firms. Details on the product remain sparse, but the pedigree and Aramco backing signal serious intent.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/",
+          "tags": [
+            "enterprise",
+            "seed-round",
+            "it-services"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "AI regulation is fracturing across borders \u2014 state by state, country by country \u2014 with no federal glue in sight.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Colorado rewrites its AI law \u2014 again",
+          "summary": "Colorado's reenacted AI law, taking effect January 1, 2027, shifts focus from algorithmic discrimination to adverse outcomes in consequential decisions across six domains including employment, housing, and healthcare. Organizations must give advance notice of AI use and provide post-adverse-outcome notices with rights to human review. The law's back-and-forth \u2014 enacted 2024, delayed, challenged, now rewritten \u2014 underscores how unstable U.S. state AI governance remains.",
+          "source": "mintz.com",
+          "url": "https://www.mintz.com/insights-center/viewpoints/54731/2026-06-12-colorados-not-finished-regulating-ai-reenacted-ai-law",
+          "tags": [
+            "regulation",
+            "colorado",
+            "policy"
+          ]
+        },
+        {
+          "title": "UK bans companion AI chatbots for under-18s",
+          "summary": "The UK government announced it will ban \"romantic companion\" AI chatbots for all users under 18, alongside a broader social media ban for under-16s modeled on Australia's approach. The rules follow a consultation on online harms and are expected to be laid before Parliament before the end of 2026, entering force in Spring 2027. It's one of the most direct government interventions yet targeting AI companionship products.",
+          "source": "simmons-simmons.com",
+          "url": "https://www.simmons-simmons.com/en/publications/cmqtmrwqa0040vevw5by0h69a/ai-view-june-2026",
+          "tags": [
+            "regulation",
+            "uk",
+            "consumer-safety"
+          ]
+        },
+        {
+          "title": "Court rules AI prompts are discoverable in litigation",
+          "summary": "A federal magistrate judge in Conservation Law Foundation v. Shell Oil ordered a plaintiff to produce the AI prompts its expert used in preparing her report, treating them as part of the expert's methodology rather than protected drafting material. The ruling is one of the clearest signals yet that AI-assisted expert work invites new discovery obligations. Lawyers using AI tools in litigation now have a concrete precedent to contend with.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "legal",
+            "discovery",
+            "court"
+          ]
+        },
+        {
+          "title": "UAE consolidates AI governance into single federal authority",
+          "summary": "The UAE merged its AI office, digital government sector, and federal privacy regulator into a new unified Federal Authority for Artificial Intelligence and Data, reporting directly to the Cabinet. Minister of State for AI Omar Sultan Al Olama will chair the body, which will develop national AI strategy, policy, and regulatory standards. It's a significant centralization move that contrasts sharply with the fragmented U.S. and EU approaches.",
+          "source": "simmons-simmons.com",
+          "url": "https://www.simmons-simmons.com/en/publications/cmqtmrwqa0040vevw5by0h69a/ai-view-june-2026",
+          "tags": [
+            "regulation",
+            "uae",
+            "governance"
+          ]
+        }
+      ]
+    }
+  ]
+}

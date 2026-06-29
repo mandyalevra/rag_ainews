@@ -1,0 +1,209 @@
+{
+  "date": "June 18, 2026",
+  "iso": "2026-06-18",
+  "issue": 53,
+  "weekday": "Thursday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's Gemma 4 12B brings encoder-free multimodal AI to laptops, while OpenAI expands Codex with role-specific plugins and a new Sites feature for building shareable apps."
+    },
+    {
+      "catId": "money",
+      "text": "Baseten is closing a jaw-dropping $1.5B round at a $13B valuation \u2014 a 160% jump in under six months \u2014 as inference infrastructure spending goes parabolic."
+    },
+    {
+      "catId": "world",
+      "text": "US AI regulation remains a patchwork as states keep legislating and Congress stalls, while Florida's lawsuit against OpenAI over ChatGPT safety risks intensifies the legal pressure on frontier model makers."
+    }
+  ],
+  "headline": "inference goes parabolic",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "From on-device multimodal models to AI-powered Pixel features, the shipping pace is relentless.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemma 4 12B lands on your laptop",
+          "summary": "Google released Gemma 4 12B, its first mid-sized open model with native audio input and a novel encoder-free architecture that handles vision, audio, and text directly in the LLM backbone. It runs locally with just 16GB of VRAM and benchmarks close to the larger 26B MoE model. Released under Apache 2.0, it also ships with a Skills Repository to help agents build agentic workflows with Gemma.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-source",
+            "multimodal",
+            "on-device"
+          ]
+        },
+        {
+          "title": "Codex gets plugins, annotations, and Sites",
+          "summary": "OpenAI expanded Codex today with six new role-specific plugins that make it useful for non-coders, plus inline annotations for refining results in place. A new Sites feature \u2014 rolling out in preview for Business and Enterprise \u2014 lets Codex generate interactive dashboards and apps shareable via URL within a workspace.",
+          "source": "openai.com",
+          "url": "https://openai.com/index/codex-for-every-role-tool-workflow/",
+          "tags": [
+            "devtools",
+            "productivity",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "ChatGPT gets World Cup mode and pronunciation audio",
+          "summary": "OpenAI's June 18 release notes add conversational World Cup coverage \u2014 schedules, predictions, and team storylines \u2014 alongside text-and-audio pronunciation guidance in over 60 languages. The update also streamlines conversation sharing to a single click and lets users highlight text to start a note or save to their Library.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "chatgpt",
+            "features",
+            "ux"
+          ]
+        },
+        {
+          "title": "ChatGPT Enterprise gets spend controls and credit analytics",
+          "summary": "OpenAI launched a Global Admin Console for ChatGPT Enterprise that unifies ChatGPT and Codex credit usage into one view, with breakdowns by user, product, and model. Admins can now set workspace-wide default limits, configure group-level caps, and approve individual credit requests \u2014 giving large deployments real budget discipline for the first time.",
+          "source": "openai.com",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls/",
+          "tags": [
+            "enterprise",
+            "pricing",
+            "admin"
+          ]
+        },
+        {
+          "title": "June Pixel Drop brings AI video, music, and floating apps",
+          "summary": "Google's June Pixel Drop rolls out Gemini Omni-powered video creation and music generation directly on Pixel phones \u2014 just describe an idea or upload a photo and get a full audio track or video clip. Multitasking gets a boost with Bubbles, which turns any app into a floating window, and emergency features now auto-notify contacts during crash or fall detection events.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "pixel",
+            "android",
+            "ai-features"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Inference, agents, and sovereign AI are pulling in enormous checks as investor appetite shows no sign of cooling.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Baseten raising $1.5B \u2014 valuation tripled in five months",
+          "summary": "AI inference startup Baseten is finalizing a $1.5B round co-led by Spark Capital, Sands Capital, Altimeter, and Wellington Management, which would value it at $13B \u2014 up from $5B just five months ago. The WSJ notes it's a split-priced round, with some investors coming in at $11B, a sign of how startups are engineering headline numbers. The speed of re-ups here is a proxy for how hot inference infrastructure has become.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+          "tags": [
+            "inference",
+            "mega-round",
+            "valuation"
+          ]
+        },
+        {
+          "title": "General Intuition eyes $300M at $2B to teach agents space and time",
+          "summary": "General Intuition, a New York startup that spun out of gaming clip platform Medal just eight months ago with a $134M seed, is now in talks to raise $300M at a $2B valuation. The company is building a foundation model that trains AI agents to navigate spatial and temporal environments. Backers reportedly include Jeff Bezos and Eric Schmidt alongside Khosla Ventures and General Catalyst.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+          "tags": [
+            "agents",
+            "seed-to-series",
+            "world-models"
+          ]
+        },
+        {
+          "title": "Sarvam hits unicorn status with $234M led by HCLTech",
+          "summary": "Indian AI startup Sarvam closed a $234M funding round at a $1.5B valuation, with HCLTech committing $150M as lead strategic investor. Bessemer Venture Partners joined existing backers Khosla Ventures and Peak XV Partners. The raise comes after Sarvam launched open-source models at 30B and 105B parameters earlier this year and is targeting a total of $300M for its Series B.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "open-source"
+          ]
+        },
+        {
+          "title": "Swiss privacy-first AI startup Prem targets $100M Series A",
+          "summary": "Prem AI, based in Switzerland and focused on helping hedge funds and law firms run AI models on private infrastructure, is raising $100M at a target valuation of at least $500M. CEO Simone Giacomelli says the round is expected to close in Q3. The raise reflects growing enterprise demand for sovereign, on-premise AI deployments that keep sensitive data out of public clouds.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-18/swiss-ai-startup-prem-is-raising-100-million-series-a-round",
+          "tags": [
+            "privacy",
+            "enterprise",
+            "series-a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "AI's legal and regulatory walls are closing in from all directions \u2014 courts, statehouses, and attorney generals.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Florida sues OpenAI over ChatGPT safety cover-up",
+          "summary": "Florida Attorney General James Uthmeier filed the first state-led civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly concealed ChatGPT's serious risks \u2014 including responses that promote self-harm, dependency-inducing design, and data collection from minors. The suit is framed under deceptive trade practices law and cites a specific incident in which a man died after interacting with the chatbot. Congress has yet to act, leaving state AGs to advance the accountability fight.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/",
+          "tags": [
+            "litigation",
+            "openai",
+            "consumer-protection"
+          ]
+        },
+        {
+          "title": "Courts rule AI expert prompts are discoverable evidence",
+          "summary": "A federal magistrate in Conservation Law Foundation v. Shell Oil ordered plaintiffs to hand over the AI prompts their expert used in preparing her report, treating them as part of methodology rather than protected drafting material. The ruling is one of the clearest signals yet that AI-assisted expert work is fully in scope for litigation discovery. Lawyers relying on AI tools for case preparation now face a new exposure they cannot paper over.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "discovery",
+            "legal"
+          ]
+        },
+        {
+          "title": "Congress stalls as states sprint on AI rules",
+          "summary": "With the Great American AI Act still a discussion draft and the Trump administration having abandoned its FDA-for-AI proposal, states are filling the vacuum fast \u2014 Connecticut enacted a sweeping AI law covering chatbots, frontier models, and employment decisions, and Louisiana became the 22nd state with a comprehensive consumer data privacy law. A Midwest locality is reportedly eyeing the country's strictest AI auditing rules. Multi-state organizations now face a genuinely unmanageable patchwork.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "regulation",
+            "federal",
+            "state-law"
+          ]
+        },
+        {
+          "title": "Anthropic negotiates White House deal over Mythos ban",
+          "summary": "Anthropic is in active talks with the White House following a Commerce Department export directive that forced it to disable Fable 5 and Mythos access, raising alarms across both the AI safety and national security communities. Cybersecurity executives have publicly urged the administration to ease the restrictions, arguing they hamper legitimate defense use cases. The standoff sits at the uncomfortable intersection of export control law, AI safety governance, and commercial viability.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "anthropic",
+            "export-controls",
+            "national-security"
+          ]
+        },
+        {
+          "title": "UK CMA forces Google to let publishers opt out of AI search",
+          "summary": "The UK Competition and Markets Authority imposed new conduct requirements on Google Search, giving publishers the right to opt out of having their content used in AI Overviews and for fine-tuning AI models. Google must also provide clear attribution with links inside AI-generated results. The intervention is one of the first concrete regulatory wins for news publishers in the AI era and a model other regulators may follow.",
+          "source": "note.com",
+          "url": "https://note.com/yasuhitoo/n/n6007ab8cfa88?hl=en",
+          "tags": [
+            "uk",
+            "cma",
+            "publishers",
+            "search"
+          ]
+        }
+      ]
+    }
+  ]
+}

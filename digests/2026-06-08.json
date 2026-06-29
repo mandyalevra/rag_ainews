@@ -1,0 +1,208 @@
+{
+  "date": "June 08, 2026",
+  "iso": "2026-06-08",
+  "issue": 43,
+  "weekday": "Monday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Anthropic dropped Claude Fable 5, its most capable model yet, with built-in safeguards and a restricted 'Mythos 5' version for cyberdefenders \u2014 while Google's Gemini landed inside Apple's Xcode and Foundation Models framework at WWDC."
+    },
+    {
+      "catId": "money",
+      "text": "PhysicsX hit a $2.4B valuation on $300M from Temasek, and China's Moonshot AI is chasing a $30B valuation in its third fundraise in six months."
+    },
+    {
+      "catId": "world",
+      "text": "Colorado's AI Act enforcement deadline looms on June 30 as states keep filling the federal void, and Trump's new executive order asks AI labs to voluntarily submit frontier models for government review before release."
+    }
+  ],
+  "headline": "fable, unlocked",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest model launch of the year arrives with a safety asterisk, Google rewires itself into Apple, and ChatGPT gets a full-screen editor.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Claude Fable 5 is here \u2014 with a locked door inside",
+          "summary": "Anthropic launched Claude Fable 5 today, calling it state-of-the-art across software engineering, vision, and scientific research. A stripped-down 'Mythos 5' variant \u2014 the same model with certain safeguards removed \u2014 is reserved for US government cyberdefenders through Project Glasswing. Both are priced at $10 per million input tokens and $50 per million output tokens, less than half the cost of the previous Mythos Preview.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "tags": [
+            "models",
+            "safety",
+            "pricing"
+          ]
+        },
+        {
+          "title": "Gemini moves into Apple's house",
+          "summary": "At WWDC, Google announced that Apple developers can now call Gemini models directly through Apple's Foundation Models framework starting with iOS 27, macOS 27, and related platforms. Gemini is also integrated into Xcode as an agentic coding assistant that handles multi-step tasks without switching tools. Developers can get started via a free-tier Gemini API key from Google AI Studio.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/bringing-gemini-models-to-apple-developers/",
+          "tags": [
+            "devtools",
+            "apple",
+            "gemini"
+          ]
+        },
+        {
+          "title": "ChatGPT ships interactive charts and a full-screen editor",
+          "summary": "OpenAI's June 8 update brings interactive bar, line, pie, and scatter charts directly into conversations, along with a full-screen writing editor for long-form documents like essays and PRDs. Paid users can now also edit messages that already have attachments and long-press the send button to pick a one-off model without changing their default.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "chatgpt",
+            "ux",
+            "openai"
+          ]
+        },
+        {
+          "title": "Google gives website owners an AI Search opt-out",
+          "summary": "Google is testing a new Search Console toggle that lets website owners decide whether their content appears in AI Overviews, AI Mode, and Discover's generative features. Sites that opt out lose AI-driven traffic entirely but the choice won't affect rankings in standard search results. The rollout starts with a subset of UK publishers before going global.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/products/search/new-controls-website-owners/",
+          "tags": [
+            "search",
+            "publishers",
+            "google"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B brings multimodal AI to your laptop",
+          "summary": "Google released Gemma 4 12B, a locally runnable open model that needs only 16GB of VRAM and is the first mid-sized Gemma to accept native audio input alongside images and text. Its encoder-free architecture pipes all modalities directly into the LLM backbone, pushing benchmark scores close to the larger 26B MoE model. It ships under an Apache 2.0 licence.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+          "tags": [
+            "open-source",
+            "models",
+            "on-device"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Manufacturing AI, Chinese chatbots, and a legendary VC all made headlines with eye-popping numbers this week.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "PhysicsX valued at $2.4B to put AI inside jet engines",
+          "summary": "British startup PhysicsX raised $300 million in a Series C led by Singapore's Temasek, with Nvidia and Applied Materials among returning backers. The company builds AI models that simulate and optimise physical components like jet engines and semiconductors \u2014 a market Jeff Bezos is also reportedly pursuing. The round triples its previous valuation of roughly $1 billion.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "manufacturing",
+            "series-c",
+            "deep-tech"
+          ]
+        },
+        {
+          "title": "Moonshot AI eyes $30B valuation \u2014 its third round in six months",
+          "summary": "China's Moonshot AI, maker of the Kimi chatbot, is seeking up to $2 billion in new funding at a $30 billion valuation, even as it finalises a separate Meituan-led round at $20 billion. If it closes at target, the startup will have grown its valuation seven-fold since December 2025. The frenzied pace reflects the intensifying capital arms race among Chinese frontier AI labs.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/china-s-moonshot-ai-seeks-30-billion-value-in-new-funding-talks",
+          "tags": [
+            "china",
+            "funding",
+            "chatbot"
+          ]
+        },
+        {
+          "title": "Benchmark breaks its own rules with a $2B double fund",
+          "summary": "Benchmark Capital, famous for keeping funds capped near $425 million, has closed $2 billion across two vehicles: a $1.25 billion growth fund \u2014 its first ever \u2014 and a $750 million early-stage fund. The growth vehicle will make just five to six large bets on existing and new portfolio companies. Recent AI bets include Cursor, Manus, Sierra, and Legora.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/benchmark-raises-its-first-ever-growth-fund-as-part-of-2b-capital-raise/",
+          "tags": [
+            "vc",
+            "benchmark",
+            "funding"
+          ]
+        },
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam raised $234 million at a $1.5 billion valuation, with HCLTech contributing $150 million as lead strategic investor and Bessemer, Khosla, and Peak XV also participating. The company recently launched open-source models at 30B and 105B parameters and is targeting a $300 million Series B total. The round follows just $41 million raised across its seed and Series A.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "open-source"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The federal-versus-state AI governance battle is reaching a boiling point, while Colorado's deadline and Trump's new executive order keep regulators and lawyers very busy.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Colorado's AI Act deadline is three weeks away \u2014 and nobody agrees",
+          "summary": "Colorado's AI Act enforcement is set for June 30, 2026, but the state legislature is simultaneously weighing a full repeal and a reset to January 2027 under a revised framework. The tension mirrors a national standoff: the Trump administration wants to preempt state AI laws it considers innovation-limiting, while California, Texas, and Connecticut have already enacted their own frameworks. Engineering and legal teams have no clear answer on which rules will actually apply.",
+          "source": "cognoscerellc.com",
+          "url": "https://cognoscerellc.com/news/2026-06-08-review/",
+          "tags": [
+            "regulation",
+            "colorado",
+            "federal-vs-state"
+          ]
+        },
+        {
+          "title": "Trump orders voluntary AI model review before release",
+          "summary": "President Trump signed an executive order on June 2 directing leading AI companies to voluntarily submit frontier models for a 30-day government cybersecurity review prior to public launch. The order also tasks CISA with building an AI cybersecurity clearinghouse and explicitly bars mandatory licensing or pre-approval requirements. Critics note the voluntary framing leaves compliance entirely up to companies.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "executive-order",
+            "trump",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "GitHub Copilot switches to credit-based pricing \u2014 devs brace for bill shock",
+          "summary": "As of June 1, GitHub migrated all Copilot plans from fixed per-seat pricing to a usage-based AI Credits model, with code review now also consuming Actions minutes. Teams running agentic or long multi-step coding sessions face unpredictable cost spikes, prompting GitHub to introduce user-level budget controls and an upgrade path to Copilot Max. The change is already drawing comparisons to early AWS surprise invoices.",
+          "source": "cognoscerellc.com",
+          "url": "https://cognoscerellc.com/news/2026-06-08-review/",
+          "tags": [
+            "github",
+            "pricing",
+            "devtools"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI, claims ChatGPT harms children",
+          "summary": "Florida's Attorney General filed the state's first civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly concealed serious safety risks and marketed ChatGPT to minors. The complaint cites deceptive trade practices, dependency-inducing design, and data collection from children under Florida consumer protection law. The case adds to a growing pile of state-level legal actions targeting AI companies' accountability.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "lawsuit",
+            "openai",
+            "children"
+          ]
+        },
+        {
+          "title": "UK's CMA forces Google to let publishers opt out of AI search",
+          "summary": "The UK Competition and Markets Authority imposed conduct requirements on Google Search, giving publishers an opt-out mechanism for AI Overviews and related generative features, as well as the ability to refuse their content being used for fine-tuning. Google must also provide clear attribution with links to source content within AI-generated results. The CMA said it will monitor compliance and consider further measures if needed.",
+          "source": "note.com",
+          "url": "https://note.com/yasuhitoo/n/n6007ab8cfa88?hl=en",
+          "tags": [
+            "uk",
+            "cma",
+            "publishers"
+          ]
+        }
+      ]
+    }
+  ]
+}

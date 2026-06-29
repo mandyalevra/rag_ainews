@@ -1,0 +1,186 @@
+{
+  "date": "May 16, 2026",
+  "iso": "2026-05-16",
+  "issue": 20,
+  "weekday": "Saturday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "GPT-5.5 lands in Codex for all paid users while OpenAI quietly rolls out free ChatGPT access for US K\u201312 teachers through mid-2027."
+    },
+    {
+      "catId": "money",
+      "text": "GPU-rental startup Modal is in talks to raise at a $4.5 billion valuation \u2014 an 80% jump from just a few months ago \u2014 as AI infrastructure demand keeps climbing."
+    },
+    {
+      "catId": "world",
+      "text": "A new Penn/Annenberg survey finds nearly two-thirds of Americans think the government has done too little to regulate AI, even as House negotiators debate preempting state-level rules."
+    }
+  ],
+  "headline": "regulate this, please",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "New model drops and a free tier for teachers dominate the product feed this week.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "GPT-5.5 Arrives in Codex",
+          "summary": "OpenAI has made GPT-5.5 available to all paid users inside Codex, its AI coding environment. The rollout follows earlier video generation issues that have since been resolved. Users on older Codex versions are advised to update to get access.",
+          "source": "status.openai.com",
+          "url": "https://status.openai.com/history",
+          "tags": [
+            "openai",
+            "coding",
+            "models"
+          ]
+        },
+        {
+          "title": "ChatGPT Goes Free for US Teachers",
+          "summary": "OpenAI is offering a dedicated ChatGPT plan for verified K\u201312 teachers in the US at no cost through June 2027. The plan includes GPT-5.1, voice mode, image generation, deep research, and admin controls built for school compliance including FERPA protections. Students are explicitly excluded for now, with a separate offering potentially coming later.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/pl-pl/articles/12844995-chatgpt-dla-nauczycieli",
+          "tags": [
+            "openai",
+            "education",
+            "free tier"
+          ]
+        },
+        {
+          "title": "Replicate's Model Buffet Keeps Growing",
+          "summary": "Replicate's explore page is overflowing with fresh model drops: Alibaba's Happy Horse 1.0 for text-to-video, ByteDance's Seedance 2.0 with native audio, Anthropic's Claude Opus 4.7, and MiniMax's Music 2.6 for full-song generation. Google's Veo cost-efficient video model and a sub-dollar avatar lipsync model round out the week's additions. The breadth signals that multi-modal generation is quickly becoming a commodity API.",
+          "source": "replicate.com",
+          "url": "https://replicate.com/explore",
+          "tags": [
+            "video-gen",
+            "multimodal",
+            "api"
+          ]
+        },
+        {
+          "title": "Seedream 5.0 Lite Brings Reasoning to Image Gen",
+          "summary": "Seedream 5.0 Lite, now on Replicate, pairs image generation with built-in reasoning and example-based editing, plus deep domain knowledge for specialized use cases. It joins a competitive image-editing tier alongside GPT Image 1.5 and FLUX.2, which Replicate now openly benchmarks for product photography and portrait preservation tasks.",
+          "source": "replicate.com",
+          "url": "https://replicate.com/collections/image-editing",
+          "tags": [
+            "image-gen",
+            "reasoning",
+            "product-photography"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "AI infrastructure valuations are racing ahead of fundamentals, and ex-Alibaba talent is cashing in on name recognition.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Modal Eyes $4.5B Valuation After Revenue Surge",
+          "summary": "Modal, which rents Nvidia GPUs and developer tooling for model training and agent workloads, is in advanced talks to raise at roughly $4.5 billion \u2014 an 80% premium to its valuation from just a few months ago. The leap reflects a surge in revenue as demand for scalable AI compute infrastructure continues to outpace supply. Details of the round's size have not yet been disclosed.",
+          "source": "theinformation.com",
+          "url": "https://www.theinformation.com/articles",
+          "tags": [
+            "funding",
+            "gpu-cloud",
+            "infrastructure"
+          ]
+        },
+        {
+          "title": "Alibaba's Ex-Qwen Lead Chases $2B AI Lab",
+          "summary": "Junyang Lin, formerly the lead researcher behind Alibaba's Qwen model family, is seeking several hundred million dollars to launch a new AI lab, with a target post-money valuation of around $2 billion. The fundraise is still in early discussions but has already attracted serious interest, according to two people with direct knowledge. Lin's departure adds to a wave of senior Chinese AI researchers striking out independently.",
+          "source": "theinformation.com",
+          "url": "https://www.theinformation.com/articles",
+          "tags": [
+            "funding",
+            "china",
+            "foundation-models"
+          ]
+        },
+        {
+          "title": "Ex-Meta Star Raises $4.6B for Self-Improving AI",
+          "summary": "A former Meta AI researcher has closed a $4.6 billion funding round led by GV and Greycroft, with notable participation from both Nvidia and AMD, to pursue self-improving AI systems. The round is one of the largest bets yet on autonomous AI research and development pipelines. Nvidia and AMD's co-investment signals hardware giants are hedging on whoever cracks the self-improvement loop first.",
+          "source": "scmp.com",
+          "url": "https://www.scmp.com/topics/artificial-intelligence",
+          "tags": [
+            "funding",
+            "self-improving-ai",
+            "nvidia"
+          ]
+        },
+        {
+          "title": "Sierra Space Pulls in $550M for Defense Push",
+          "summary": "Sierra Space Corp. has raised $550 million as it accelerates a pivot toward becoming a serious US defense contractor. The round gives the space startup fresh runway to compete for government contracts in an era where space infrastructure is increasingly treated as a national security asset.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/canada",
+          "tags": [
+            "defense",
+            "space",
+            "funding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Americans want AI regulated, Congress is arguing about who gets to do it, and Trump and Xi are discussing AI guardrails in Beijing.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Two-Thirds of Americans Say Government Is Asleep on AI",
+          "summary": "A new nationally representative survey from Penn's Annenberg Public Policy Center finds that nearly two-thirds of Americans \u2014 cutting across party lines \u2014 believe the government has done too little to regulate AI. Only 21% would support a new data center in their area, and anxiety about jobs and energy costs is running high. The findings land six months before midterms, making AI regulation a live electoral issue for the first time.",
+          "source": "inquirer.com",
+          "url": "https://www.inquirer.com/news/artificial-intelligence-polling-survey-penn-annenberg-20260516.html",
+          "tags": [
+            "regulation",
+            "public-opinion",
+            "policy"
+          ]
+        },
+        {
+          "title": "House Talks Float Blocking State AI Laws",
+          "summary": "Congressional negotiations between Reps. Trahan and Obernolte are exploring a federal preemption that would override some state AI regulations, framed narrowly around cutting-edge model development. Safety advocates are alarmed, warning it will become a 'litigation magnet' that companies use to challenge kids' safety and privacy laws in court. The talks sparked immediate Democratic blowback, with Massachusetts legislators urging Trahan to walk away.",
+          "source": "politico.com",
+          "url": "https://www.politico.com/news/2026/05/15/house-ai-talks-model-vetting-00924955",
+          "tags": [
+            "regulation",
+            "congress",
+            "preemption"
+          ]
+        },
+        {
+          "title": "Trump and Xi Weigh AI Guardrails in Beijing",
+          "summary": "At a summit in Beijing, Presidents Trump and Xi discussed potential safety protocols for AI alongside the fate of Nvidia H200 chip exports to China, which Trump described as a 'sovereign decision' for Beijing. Tech CEOs including Jensen Huang and Tim Cook joined the US delegation, underscoring how AI and semiconductor policy have become inseparable from top-level diplomacy. The outcome could reshape chip export rules and AI development timelines on both sides.",
+          "source": "scmp.com",
+          "url": "https://www.scmp.com/topics/artificial-intelligence",
+          "tags": [
+            "geopolitics",
+            "china",
+            "semiconductors"
+          ]
+        },
+        {
+          "title": "EU's AI Omnibus Lands, Critics Call It Timid",
+          "summary": "The European Union's long-awaited AI Omnibus has arrived, consolidating and adjusting obligations under the AI Act, but critics say it lacks ambition and waters down key provisions. Attention is already shifting to the accompanying Digital Omnibus package, which will govern the data infrastructure underpinning AI development. The twin packages represent Europe's most significant attempt yet to balance innovation incentives with regulatory guardrails.",
+          "source": "euronews.com",
+          "url": "https://www.euronews.com/special/artificial-intelligence",
+          "tags": [
+            "eu",
+            "regulation",
+            "ai-act"
+          ]
+        }
+      ]
+    }
+  ]
+}

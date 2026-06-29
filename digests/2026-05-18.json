@@ -1,0 +1,208 @@
+{
+  "date": "May 18, 2026",
+  "iso": "2026-05-18",
+  "issue": 22,
+  "weekday": "Monday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "GLM-5 launches as the most capable open-source model yet, scaling to 744B parameters and topping benchmarks in reasoning, coding, and agentic tasks."
+    },
+    {
+      "catId": "money",
+      "text": "Agentic AI startup Dust closed a $40M Series B led by Sequoia, while Modal is in talks to raise at a $4.5B valuation \u2014 an 80% jump from just months ago."
+    },
+    {
+      "catId": "world",
+      "text": "The Trump-Xi summit wrapped without resolving AI chip export controls, leaving Nvidia H20 sales to China in limbo as both sides spar over guardrails."
+    }
+  ],
+  "headline": "chips, no deal",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "A wave of heavyweight open-source model releases is redefining what 'open' can compete with.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "GLM-5 arrives: 744B params, open-source, agentic-first",
+          "summary": "Zhipu AI's GLM-5 scales to 744B total parameters (40B active) trained on 28.5T tokens, targeting complex systems engineering and long-horizon agentic tasks. It integrates DeepSeek Sparse Attention to cut deployment costs and introduces a novel asynchronous RL infrastructure called Slime for post-training. On AIME 2026 and agentic benchmarks, it claims best-in-class performance among open-source models and closes the gap with frontier closed models.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/unsloth/GLM-5-GGUF",
+          "tags": [
+            "open-source",
+            "agents",
+            "reasoning"
+          ]
+        },
+        {
+          "title": "Qwen3.5 gets 1.5\u20132x faster with MTP speculative decoding",
+          "summary": "Unsloth's GGUF releases of Qwen3.5 (122B and 397B variants) now support Multi-Token Prediction speculative decoding after the llama.cpp MTP branch merged on May 16, unlocking roughly 1.5\u20132x faster local inference. The models default to thinking mode with a 262K context window and support 201 languages. Unsloth also offers free Colab notebooks for fine-tuning and RL on all Qwen3.5 sizes.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-MTP-GGUF",
+          "tags": [
+            "open-source",
+            "inference",
+            "quantization"
+          ]
+        },
+        {
+          "title": "IBM launches Open Agent Leaderboard to benchmark full agent systems",
+          "summary": "IBM Research's new Open Agent Leaderboard evaluates complete agent systems \u2014 not just underlying models \u2014 reporting both quality and cost side by side. It ships alongside Exgentic, an open framework for running and reproducing evaluations, and covers five models across five agents and six benchmarks. Early results show open-weight models trail frontier closed-source systems by 18\u201329 percentage points on average.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+          "tags": [
+            "agents",
+            "benchmarks",
+            "open-source"
+          ]
+        },
+        {
+          "title": "Replicate's explore page overflows with new multimodal models",
+          "summary": "This week's Replicate catalog additions include Alibaba's Happy Horse 1.0 text-to-video, ByteDance's Seedance 2.0 with native audio, Google's Veo 3.1 Lite for cost-efficient video generation, and xAI's Grok Imagine Video. On the image side, Black Forest Labs shipped Flux 2 Max and Google dropped Nano Banana 2 with conversational editing. The breadth signals a genuine multimodal model explosion across labs of all sizes.",
+          "source": "replicate.com",
+          "url": "https://replicate.com/explore",
+          "tags": [
+            "video-gen",
+            "image-gen",
+            "multimodal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Agentic AI, deep tech, and GPU infrastructure are pulling in serious capital as valuations reset upward fast.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Dust raises $40M Series B for human-agent collaboration",
+          "summary": "Agentic AI platform Dust secured a $40 million Series B led by Abstract and Sequoia, positioning itself as infrastructure for teams that blend human workers with AI agents. The round reflects growing enterprise appetite for structured agent deployment rather than one-off LLM integrations. Snowflake also participated, signaling data-platform convergence with the agentic layer.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/pro/enterprise-software-deals/2026/05/18/agentic-ai-dust-snowflake-sequoia",
+          "tags": [
+            "agents",
+            "series-b",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "Modal in talks to raise at $4.5B \u2014 up 80% in months",
+          "summary": "GPU cloud and inference startup Modal is negotiating a new round at roughly $4.5 billion, an 80% premium to its valuation from earlier this year, driven by surging revenue from developers running models and agents at scale. The steep markup reflects how quickly demand for managed inference infrastructure has outpaced supply. No lead investor has been named publicly yet.",
+          "source": "theinformation.com",
+          "url": "https://www.theinformation.com/articles",
+          "tags": [
+            "gpu-cloud",
+            "infrastructure",
+            "valuation"
+          ]
+        },
+        {
+          "title": "Playground Global closes $475M fund IV for deep tech",
+          "summary": "Palo Alto-based Playground Global announced a $475 million fourth fund, its largest yet, focused on deep technology at the earliest stages. The firm previously raised $410 million for fund three and distinguishes itself from conventional venture by betting on hardware, robotics, and frontier science. The close signals that deep tech remains a magnet for LP capital even as software AI dominates headlines.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/2026/05/18/playground-global-fund",
+          "tags": [
+            "deep-tech",
+            "fund",
+            "venture"
+          ]
+        },
+        {
+          "title": "Edge-chip startup SiMa.ai raising at $1.4B valuation",
+          "summary": "San Jose-based SiMa.ai, which builds inference chips for edge devices like drones and cameras, is in talks to raise at a $1.4 billion valuation, per The Information. The round signals that investors still see a market for non-Nvidia silicon in constrained edge environments despite Nvidia's dominance in data-center AI. Terms and lead investor have not been disclosed.",
+          "source": "theinformation.com",
+          "url": "https://www.theinformation.com/articles",
+          "tags": [
+            "chips",
+            "edge-ai",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Nectar Social pulls $30M Series A backed by Menlo and Anthropic fund",
+          "summary": "AI-powered marketing platform Nectar Social raised a $30 million Series A led by Menlo Ventures through its Anthology Fund, which was created alongside Anthropic. The startup positions itself as a full marketing operating system, automating campaign creation, targeting, and performance analysis. The Anthropic connection underscores how Claude's ecosystem is becoming a go-to backing signal for enterprise AI rounds.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/category/artificial-intelligence/",
+          "tags": [
+            "marketing-ai",
+            "series-a",
+            "anthropic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The Trump-Xi summit left the biggest AI question \u2014 chip exports \u2014 dangling, while state legislatures and publishers keep filing their own answers.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Trump-Xi summit ends with chip talks unresolved",
+          "summary": "Two days of talks in Beijing between Presidents Trump and Xi concluded without a breakthrough on AI chip export controls, rare earths, or formal AI safety guardrails. Both sides discussed Nvidia H200 shipments, which China called a 'sovereign decision,' and weighed loose AI risk protocols, but no binding agreement emerged. Senate Majority Leader Schumer separately criticized the administration for approving H200 sales to Alibaba and Tencent.",
+          "source": "aihub.com",
+          "url": "https://aihub.com/policy",
+          "tags": [
+            "geopolitics",
+            "export-controls",
+            "nvidia"
+          ]
+        },
+        {
+          "title": "Elsevier sues Meta over Llama training on scraped papers",
+          "summary": "Science publisher Elsevier has joined a class-action lawsuit against Meta, alleging that millions of copyrighted academic papers were scraped without authorization to train the Llama model family. The suit marks the first major science publisher to take direct legal action in the AI training-data copyright wave. It adds pressure on labs to demonstrate data provenance at a moment when both EU and US regulators are scrutinizing the issue.",
+          "source": "aihub.com",
+          "url": "https://aihub.com/policy",
+          "tags": [
+            "copyright",
+            "meta",
+            "llama"
+          ]
+        },
+        {
+          "title": "State AI bill count hits 1,999 as 23 states move this week",
+          "summary": "As of May 18, ailawsbystate.com counts 1,999 total AI-related bills published across all 50 US jurisdictions, with 80 newly published and activity in 23 states in the past week alone. Notable updates include New Jersey's AI Image Disclosure Act and AI Likeness Protection Act, New York's ban on AI in corrections risk assessments, and Texas bills regulating autonomous vehicles and AI in insurance claim denials. The sheer volume underscores that US AI regulation is happening at the state level whether or not Congress acts.",
+          "source": "ailawsbystate.com",
+          "url": "https://www.ailawsbystate.com/press/this-week",
+          "tags": [
+            "regulation",
+            "state-law",
+            "policy"
+          ]
+        },
+        {
+          "title": "UK launches \u00a3500M Sovereign AI Unit backing seven startups",
+          "summary": "The British government unveiled a \u00a3500 million ($635 million) Sovereign AI Unit that will provide equity investment, supercomputing access, and operational support to seven domestic AI companies. The move is explicitly framed around national AI sovereignty \u2014 ensuring the UK has homegrown frontier capability rather than depending entirely on US or Chinese models. It mirrors similar moves by France and Germany to build nationally anchored AI champions.",
+          "source": "aihub.com",
+          "url": "https://aihub.com/policy",
+          "tags": [
+            "uk",
+            "sovereign-ai",
+            "policy"
+          ]
+        },
+        {
+          "title": "Pope Leo XIV condemns AI in warfare",
+          "summary": "Pope Leo XIV issued a formal condemnation of the use of artificial intelligence in warfare, warning of a 'spiral of annihilation' driven by autonomous weapons systems. The statement is the Catholic Church's most direct intervention in the AI arms-race debate and is likely to amplify calls at the UN and G7 level for binding restrictions on lethal autonomous weapons. It follows similar warnings from AI safety researchers about the pace of military AI deployment.",
+          "source": "aihub.com",
+          "url": "https://aihub.com/policy",
+          "tags": [
+            "AI-safety",
+            "military",
+            "ethics"
+          ]
+        }
+      ]
+    }
+  ]
+}

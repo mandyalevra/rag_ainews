@@ -1,0 +1,198 @@
+{
+  "date": "June 22, 2026",
+  "iso": "2026-06-22",
+  "issue": 57,
+  "weekday": "Monday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Anthropic launches Claude Fable 5 \u2014 its most capable publicly available model yet \u2014 alongside the restricted Mythos 5 for cyberdefenders, while GitHub Copilot brings Claude into JetBrains IDEs as a public preview agent provider."
+    },
+    {
+      "catId": "money",
+      "text": "Baseten hits a $13 billion valuation on a $1.5 billion Series F, and Groq raises $650 million to pivot from chip-making to AI compute provider."
+    },
+    {
+      "catId": "world",
+      "text": "States keep filling the federal AI governance vacuum as Connecticut enacts sweeping AI law and the EU advances AI Act implementation, while Florida's AG sues OpenAI over ChatGPT safety risks."
+    }
+  ],
+  "headline": "fable goes live",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Anthropic drops its biggest model ever, Google wraps up a monster May, and GitHub's IDE gets smarter.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Claude Fable 5 arrives \u2014 and it's already rationed",
+          "summary": "Anthropic launched Claude Fable 5 today, calling it state-of-the-art on nearly all capability benchmarks, with standout performance in software engineering, vision, and scientific research. A restricted sibling, Mythos 5, ships to cyberdefenders through Project Glasswing with safeguards lifted in select areas. Pricing is $10 per million input tokens and $50 per million output tokens \u2014 less than half the cost of Mythos Preview \u2014 but subscription access is being staged due to anticipated demand pressure.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "tags": [
+            "anthropic",
+            "models",
+            "pricing",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "GitHub Copilot adds Claude as agent in JetBrains",
+          "summary": "GitHub's latest JetBrains update puts Claude into public preview as an agent provider inside Copilot Chat, letting developers pick between agents without leaving their IDE. The release also adds org-level custom agents, a message-queuing system for Copilot CLI sessions, and a per-turn AI credits indicator. Cloud agent \u2014 previously behind a preview flag \u2014 is now generally available.",
+          "source": "github.blog",
+          "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides/",
+          "tags": [
+            "devtools",
+            "copilot",
+            "agents",
+            "jetbrains"
+          ]
+        },
+        {
+          "title": "Google's agentic Gemini era, by the numbers",
+          "summary": "Google's May recap confirms the full scope of its I/O announcements: Gemini 3.5 for multi-step agentic workflows, Gemini Omni for any-input-to-video creation, Universal Cart across Search and YouTube, and new hardware including the Googlebook laptop line. The Google Health app and Fitbit Air round out a consumer push that puts Gemini intelligence into daily wellness. Android Halo debuts as the on-phone hub for tracking all running agents.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "hardware",
+            "agents"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs on a laptop, hears audio natively",
+          "summary": "Google released Gemma 4 12B, a mid-size open model that bridges its edge-friendly 4B and the larger 26B MoE, fitting into 16 GB of VRAM. It is the first Gemma model with native audio input, achieved by routing vision and audio directly into the LLM backbone without separate encoders. Released under Apache 2.0, it ships with Multi-Token Prediction drafters for lower latency and a new Skills Repository for agent development.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-source",
+            "google",
+            "multimodal",
+            "on-device"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Compute infrastructure is where the money is flowing hardest this week, with billion-dollar rounds stacking up.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Baseten hits $13B on a $1.5B Series F",
+          "summary": "Baseten, which supplies software and compute to companies running lower-cost AI models, closed a $1.5 billion Series F at a $13 billion valuation. The round was co-led by Altimeter and positions Baseten as a major pick-and-shovel play for the inference boom. CEO Tuhin Srivastava framed the raise as fuel for expanding capacity to meet surging model-serving demand.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/videos/2026-06-22/ai-services-startup-baseten-nabs-13-billion-valuation-video",
+          "tags": [
+            "compute",
+            "infrastructure",
+            "Series F",
+            "inference"
+          ]
+        },
+        {
+          "title": "Groq raises $650M to become a compute provider",
+          "summary": "Groq closed a $650 million round led by board-represented existing investors Disruptive and Infinitum, aimed at expanding data center capacity as the chip startup repositions itself as an AI computing services company. The pivot follows a deal with Nvidia and signals Groq is betting its LPU hardware advantage can anchor a broader cloud-compute offering. The raise confirms that owning the stack \u2014 not just the chip \u2014 is the new competitive target.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-22/groq-raises-650-million-to-help-startup-pivot-after-nvidia-deal",
+          "tags": [
+            "compute",
+            "chips",
+            "funding",
+            "groq"
+          ]
+        },
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam raised $234 million at a $1.5 billion valuation, led by HCLTech with $150 million, and joined by Bessemer, Khosla Ventures, and Peak XV. The company, which builds open-source large language models tailored for Indian languages, is targeting a total Series B of $300 million. The round comes after the release of 30B and 105B parameter open-source models earlier this year.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "unicorn",
+            "India",
+            "open-source",
+            "Series B"
+          ]
+        },
+        {
+          "title": "Menlo Ventures raises $3B, crediting its Anthropic bet",
+          "summary": "Menlo Ventures announced $3 billion in new funds \u2014 its largest raise in 50 years \u2014 driven primarily by returns from its early, bet-the-firm investment in Anthropic. Its Anthropic stake is now estimated to be worth roughly $14 billion, up from an $18 billion valuation at the time of the Series D it led. The firm's co-investment fund with Anthropic, Anthology, has also grown from $100 million to roughly $250 million deployed.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+          "tags": [
+            "VC",
+            "Anthropic",
+            "fund",
+            "returns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Regulation is going state by state while courts start demanding AI receipts.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "States fill the federal vacuum, one law at a time",
+          "summary": "Connecticut enacted a sweeping state AI law covering companion chatbots, frontier model governance, and AI in employment decisions, becoming one of the most substantive state-level frameworks in the US. Louisiana became the 22nd state to pass a consumer data privacy law, and a Midwest locality is reportedly eyeing the country's strictest AI auditing rules. With Congress stalled and the federal 'FDA for AI' proposal abandoned, organizations now face an accelerating patchwork of state obligations.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "regulation",
+            "state law",
+            "policy",
+            "privacy"
+          ]
+        },
+        {
+          "title": "Trump's AI executive order: voluntary, with teeth",
+          "summary": "President Trump signed an executive order on June 2 directing a voluntary pre-release review process for frontier AI models, inviting NSA and DoD to evaluate cutting-edge models up to 30 days before public launch. The order explicitly bars any new mandatory licensing or permitting regime for AI development, framing it as a national security and cybersecurity measure rather than a regulatory one. Industry leaders including Microsoft and Anthropic endorsed the order, while questions persist about how voluntary the review will remain in practice.",
+          "source": "latimes.com",
+          "url": "https://www.latimes.com/politics/story/2026-06-02/trump-signs-executive-order-to-vet-top-ai-models-for-national-security-risks",
+          "tags": [
+            "executive order",
+            "Trump",
+            "national security",
+            "policy"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over ChatGPT safety risks",
+          "summary": "Florida Attorney General James Uthmeier filed the first state-led civil lawsuit against OpenAI and CEO Sam Altman, alleging the company concealed serious risks of ChatGPT and marketed it to residents including children. The complaint invokes deceptive trade practices, citing dangerous responses, dependency-inducing design, and data collection from minors. The suit follows a shooting at Florida State University in which the gunman reportedly used ChatGPT, and marks a significant escalation in state-level AI accountability efforts.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "litigation",
+            "OpenAI",
+            "consumer protection",
+            "Florida"
+          ]
+        },
+        {
+          "title": "Court rules AI prompts are discoverable evidence",
+          "summary": "A federal magistrate judge ordered a plaintiff to produce the AI prompts its expert used in preparing a litigation report, treating them as part of the expert's methodology rather than protected drafting material. The ruling in Conservation Law Foundation Inc. v. Shell Oil Company is one of the clearest signals yet that AI-assisted expert work invites scrutiny of the inputs, not just the outputs. Litigators are now on notice: if your expert used AI to do the work, the prompts may end up in discovery.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "discovery",
+            "litigation",
+            "AI evidence"
+          ]
+        }
+      ]
+    }
+  ]
+}

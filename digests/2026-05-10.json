@@ -1,0 +1,197 @@
+{
+  "date": "May 10, 2026",
+  "iso": "2026-05-10",
+  "issue": 14,
+  "weekday": "Sunday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "OpenAI's ChatGPT spreadsheet integration is now live for nearly all plan tiers, letting users build and edit Excel and Google Sheets files with natural language directly in a sidebar."
+    },
+    {
+      "catId": "money",
+      "text": "Ramp is in talks to hit a $40B+ valuation just six months after its $32B round, while Kalshi doubled its valuation to $22B in five months."
+    },
+    {
+      "catId": "world",
+      "text": "Tech lobbying has hit $340M in Q1 2026 alone as OpenAI, Meta, and Coinbase race to shape AI legislation before the midterms reshape Congress."
+    }
+  ],
+  "headline": "lobbying buys the blueprint",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The latest AI models, integrations, and developer tools making moves this week.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "ChatGPT moves into your spreadsheet",
+          "summary": "OpenAI has launched ChatGPT for Excel and Google Sheets, a sidebar-native AI experience available to nearly all plan tiers \u2014 from Free to Enterprise. It can build spreadsheets from scratch, explain formulas, and make edits via natural language. Business and Enterprise customers get a free preview through June 2, 2026, after which usage counts against plan credits.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/zh-hant-hk/articles/20001063-%E6%B8%AC%E8%A9%A6%E7%89%88-chatgpt-for-excel-and-google-sheets",
+          "tags": [
+            "openai",
+            "productivity",
+            "integrations"
+          ]
+        },
+        {
+          "title": "GPT-5.4 mini rolls out as a fallback model",
+          "summary": "OpenAI has deployed GPT-5.4 mini inside ChatGPT, but it won't appear as a selectable option in the model picker. Instead, it acts as a fallback for Plus, Pro, and paid users who hit their GPT-5.4 Thinking usage limits, keeping reasoning capabilities available during heavy use sessions. Free and Go users can access it via the 'Thinking' menu toggle.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/pl-pl/articles/9624314-model-release-notes",
+          "tags": [
+            "openai",
+            "gpt-5",
+            "models"
+          ]
+        },
+        {
+          "title": "FLUX 2 arrives with 8-reference character consistency",
+          "summary": "Black Forest Labs' FLUX 2 Max model now accepts up to eight reference images and maintains character consistency across image batches, making it useful for product photography, e-commerce, and cinematic keyframe generation. A lighter sibling, FLUX 2 Klein 4B, supports up to five references and generates images faster. Both are available via Replicate's API.",
+          "source": "replicate.com",
+          "url": "https://replicate.com/collections/flux",
+          "tags": [
+            "image-generation",
+            "api",
+            "flux"
+          ]
+        },
+        {
+          "title": "Anthropic's Mythos finds bugs in Firefox",
+          "summary": "Anthropic's ultra-powerful Mythos AI model was used by Mozilla to identify high-severity security bugs in Firefox, marking one of the first high-profile cases of a frontier model being applied directly to open-source software vulnerability discovery. The news follows Mythos's debut, which prompted the federal CIO to convene discussions about releasing a modified government version.",
+          "source": "coaio.com",
+          "url": "https://coaio.com/news/2026/05/breaking-tech-news-on-may-8-2026-ai-innovations-space-races-and-2pcc/",
+          "tags": [
+            "anthropic",
+            "cybersecurity",
+            "mythos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Valuations are climbing fast as AI infrastructure dollars flood into fintech, defense, and beyond.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Ramp eyes $40B+ valuation in fresh talks",
+          "summary": "Fintech darling Ramp is in advanced discussions for a new funding round that would value the company at more than $40 billion \u2014 up from $32 billion just six months ago. The rapid valuation climb reflects sustained investor appetite for AI-powered financial tools even as broader markets remain choppy.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/10/the-hottest-place-for-startups-to-strike-a-deal-the-f1-paddock/",
+          "tags": [
+            "fintech",
+            "valuation",
+            "funding"
+          ]
+        },
+        {
+          "title": "Kalshi doubles to $22B in five months",
+          "summary": "Prediction market platform Kalshi has doubled its valuation to $22 billion just five months after its last raise, signaling strong momentum for regulated event-contract markets. The company has benefited from surging user interest in political and economic prediction markets as U.S. policy uncertainty climbs.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com",
+          "tags": [
+            "prediction-markets",
+            "valuation",
+            "fintech"
+          ]
+        },
+        {
+          "title": "Nvidia pours $40B into AI equity deals this year",
+          "summary": "Nvidia has already committed $40 billion to equity investments in AI companies in 2026, cementing its role not just as a chip supplier but as a major strategic investor across the AI stack. The scale of the bets underscores how chipmakers are racing to lock in relationships with frontier labs and cloud infrastructure players before the market consolidates.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com",
+          "tags": [
+            "nvidia",
+            "investment",
+            "ai-infrastructure"
+          ]
+        },
+        {
+          "title": "F1 paddock becomes startup deal room",
+          "summary": "Formula 1 race weekends have quietly emerged as one of the hottest venues for venture deal-making, with founders, investors, and tech executives using paddock access to forge relationships away from the conference circuit. TechCrunch reports the trend is accelerating in 2026 as the sport's global expansion puts it in front of a wealthier, more connected audience.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/10/the-hottest-place-for-startups-to-strike-a-deal-the-f1-paddock/",
+          "tags": [
+            "venture",
+            "networking",
+            "startups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "AI regulation is converging from every direction \u2014 Congress, the states, the courts, and the lobbying industry.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "$340M: tech's Q1 lobbying splurge",
+          "summary": "Technology and telecom interests spent more than $340 million on federal lobbying in just the first quarter of 2026 \u2014 more than the entire 2022 midterm cycle. OpenAI, Meta, and Coinbase have each more than doubled their in-house lobbying staff since January, with a new industry group called the American Innovation Compact running TV ads framing AI oversight as a threat to U.S. competitiveness.",
+          "source": "thechroniclepage.com",
+          "url": "https://thechroniclepage.com/article/tech-lobbying-surge-reshapes-policy-agenda-ahead-of-2026-midterms",
+          "tags": [
+            "lobbying",
+            "policy",
+            "openai"
+          ]
+        },
+        {
+          "title": "Congress closes in on a national AI framework",
+          "summary": "Reps. Lieu and Obernolte introduced the American Leadership in Artificial Intelligence Act, a consolidated bipartisan bill that pulls together provisions from prior legislation and the 2024 AI Task Force report. Separately, a White House official signaled states may retain some AI regulatory authority \u2014 particularly on child safety and government procurement \u2014 while a national baseline takes shape.",
+          "source": "nextgov.com",
+          "url": "https://www.nextgov.com/topic/regulations/more/?page=1",
+          "tags": [
+            "regulation",
+            "congress",
+            "bipartisan"
+          ]
+        },
+        {
+          "title": "Pentagon breaks up with single-vendor AI",
+          "summary": "The Pentagon's Under Secretary for Research and Engineering declared the Defense Department will 'never again' rely on a single AI provider, announcing new flexible contracts with multiple Big Tech firms as a direct counterstatement to its ongoing conflict with Anthropic. The Commerce Department's AI safety center is simultaneously opening classified model evaluations to Google DeepMind, Microsoft, and xAI.",
+          "source": "nextgov.com",
+          "url": "https://www.nextgov.com/artificial-intelligence/",
+          "tags": [
+            "defense",
+            "procurement",
+            "anthropic"
+          ]
+        },
+        {
+          "title": "AI regulation: when, not if",
+          "summary": "A new analysis finds that 1,561 AI-related bills have been introduced in U.S. states so far in 2026 \u2014 a record \u2014 even as federal legislation stalls across fragmented committee jurisdictions. Polling shows 68% of voters now call tech regulation a top priority, up from 41% in 2024, and more Americans worry federal AI rules won't go far enough than worry they'll go too far.",
+          "source": "brucemehlman.substack.com",
+          "url": "https://brucemehlman.substack.com/p/six-chart-sunday-ai-regulations-are",
+          "tags": [
+            "regulation",
+            "policy",
+            "public-opinion"
+          ]
+        },
+        {
+          "title": "GUARD Act sparks First Amendment fight",
+          "summary": "The Senate Judiciary Committee's passage of the GUARD Act \u2014 targeting AI chatbots with age verification, content mandates, and criminal penalties up to $100,000 per violation \u2014 has ignited a First Amendment debate. Critics argue the bill forces companies to suppress constitutionally protected speech and compels government-scripted disclosures in every user interaction, a model they say Congress cannot constitutionally impose.",
+          "source": "theblaze.com",
+          "url": "https://www.theblaze.com/columns/opinion/overzealous-ai-regulation-is-a-danger-to-free-speech",
+          "tags": [
+            "regulation",
+            "free-speech",
+            "chatbots"
+          ]
+        }
+      ]
+    }
+  ]
+}

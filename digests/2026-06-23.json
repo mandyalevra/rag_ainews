@@ -1,0 +1,191 @@
+{
+  "date": "June 23, 2026",
+  "iso": "2026-06-23",
+  "issue": 58,
+  "weekday": "Tuesday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Anthropic launched Claude Tag, letting enterprise teams @-mention Claude directly in Slack channels where it learns context, works async, and takes initiative without being prompted."
+    },
+    {
+      "catId": "money",
+      "text": "Groq raised $650 million to pivot from chip startup to full AI compute provider, expanding data center capacity after its Nvidia deal."
+    },
+    {
+      "catId": "world",
+      "text": "Florida became the first U.S. state to sue OpenAI over harms to minors, while the EU AI Act extended compliance deadlines and the UK introduced cross-economy AI sandboxing powers."
+    }
+  ],
+  "headline": "tag, you're it",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The agentic era gets more collaborative, with AI shipping into the places teams already live.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "@Claude joins your Slack",
+          "summary": "Anthropic launched Claude Tag today in beta for Enterprise and Team customers \u2014 a version of Claude that lives inside Slack channels, builds memory over time, takes async tasks, and proactively surfaces things teams need to know. Unlike a single-user chatbot, one Claude interacts with the whole channel, picks up threads mid-conversation, and can even schedule work for itself hours or days out. It runs on Opus 4.8 and replaces the existing Claude Slack app.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news/introducing-claude-tag",
+          "tags": [
+            "agents",
+            "collaboration",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "Google's June Pixel Drop lands with Gemini Omni",
+          "summary": "Google pushed its June Pixel Drop today, bringing Gemini Omni video creation and AI music generation to Pixel phones \u2014 you can now describe an idea or upload a photo and get a full audio track with lyrics. The update also integrates Emergency Sharing with crash and fall detection, automatically alerting chosen contacts when danger is detected. Android 17 and Wear OS 7 are part of the rollout.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "google",
+            "gemini",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs on a laptop, skips the encoders",
+          "summary": "Google released Gemma 4 12B, an open-weight multimodal model that fits in 16GB of VRAM and processes vision and audio directly through the LLM backbone \u2014 no separate encoders. It's positioned between Google's lightweight edge model and its larger 26B MoE, with benchmark performance nearing the bigger model. Released under Apache 2.0 with native audio input, it's the first mid-sized Gemma to support sound.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-weights",
+            "multimodal",
+            "devtools"
+          ]
+        },
+        {
+          "title": "Google's May recap: Gemini 3.5, Universal Cart, and a new laptop",
+          "summary": "Google's May 2026 roundup confirmed the full scope of Google I/O announcements: Gemini 3.5 for agentic coding, Gemini Omni for any-to-video creation, and a new Googlebook laptop built around AI from the ground up. Universal Cart now lets you add items across Search, YouTube, Gmail, and Gemini in one place. The Google Health app and Fitbit Air wearable round out a hardware-meets-AI product blitz.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "hardware",
+            "agents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Compute, compliance, and sovereign AI are pulling in capital from all directions.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Groq raises $650M to become an AI cloud",
+          "summary": "Groq closed a $650 million round led by existing board investors Disruptive and Infinitum, money earmarked for expanding data center capacity as the company shifts from custom AI chip maker to full-stack inference cloud provider. The pivot follows a deal with Nvidia that changed the competitive landscape for the startup. The raise signals investor confidence that fast inference infrastructure has a durable market even as big cloud providers build their own.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-22/groq-raises-650-million-to-help-startup-pivot-after-nvidia-deal",
+          "tags": [
+            "infrastructure",
+            "compute",
+            "Series-unknown"
+          ]
+        },
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Bengaluru-based Sarvam raised $234 million led by HCLTech \u2014 which contributed $150 million \u2014 with Bessemer, Khosla, and Peak XV also participating, pushing the company's valuation to $1.5 billion. The round follows Sarvam's release of open-source models at 30B and 105B parameters and reflects a global push for sovereign AI capabilities outside U.S. and Chinese ecosystems. The company is still targeting a total of $300 million for the round.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "unicorn",
+            "India",
+            "Series-B",
+            "sovereign-AI"
+          ]
+        },
+        {
+          "title": "Coralogix bets $200M on watching your AI agents",
+          "summary": "Monitoring startup Coralogix raised a $200 million Series F at a $1.6 billion valuation, just 11 months after its $115 million Series E \u2014 an unusually fast return to market driven by surging demand for AI agent observability tools. The round was led by Advent and Canada Pension Plan Investment Board, with the thesis that autonomous AI systems will require a new generation of monitoring infrastructure to debug and manage at scale. Total funding now stands at $550 million.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "infrastructure",
+            "agents",
+            "Series-F"
+          ]
+        },
+        {
+          "title": "PhysicsX hits $2.4B making AI for jet engines",
+          "summary": "London-based PhysicsX raised $300 million at a $2.4 billion valuation \u2014 roughly 2.5x its previous mark \u2014 to expand AI models that simulate and optimize physical components like jet engines and semiconductors. Singapore's Temasek led the Series C, joined by Nvidia and Applied Materials as returning investors. The company competes in a manufacturing AI field that has attracted interest from Jeff Bezos, among others.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "manufacturing",
+            "Series-C",
+            "deeptech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "States are suing, Europe is clarifying, and courts are now asking what prompts your expert fed the AI.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Florida sues OpenAI over harm to kids",
+          "summary": "Florida became the first U.S. state to file a civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly released addictive and unsafe technology that caused documented harm to minors \u2014 including alleged encouragement of self-harm and dependency-inducing design. The complaint targets data collection from under-13s and cites deceptive trade practices, opening a new front in AI accountability litigation that other states may follow. OpenAI disputes the claims and points to its existing safety measures.",
+          "source": "tlt.com",
+          "url": "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-june-2026",
+          "tags": [
+            "litigation",
+            "children",
+            "OpenAI",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Court rules AI prompts are discoverable evidence",
+          "summary": "A federal magistrate judge in Conservation Law Foundation v. Shell Oil ordered plaintiffs to produce the AI prompts their expert used when preparing a litigation report, treating them as methodology rather than protected work product. The ruling is one of the clearest signals yet that AI-assisted expert work carries new discovery obligations \u2014 whatever you fed the model could end up in front of opposing counsel. Expect this to reshape how law firms and expert witnesses document AI use.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "litigation",
+            "discovery",
+            "courts",
+            "legal"
+          ]
+        },
+        {
+          "title": "EU buys more time, UK builds sandboxes",
+          "summary": "The EU AI Act's 'Digital Omnibus' update pushed compliance deadlines for high-risk AI to late 2027 and 2028, while the European Commission published draft transparency guidelines for AI-generated content. Across the Channel, the UK's Regulating for Growth Bill introduced cross-economy sandboxing powers that would let regulators temporarily relax rules so AI products can be tested in real-world conditions. Both moves signal that major jurisdictions are in implementation mode rather than debate mode.",
+          "source": "tlt.com",
+          "url": "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-june-2026",
+          "tags": [
+            "EU-AI-Act",
+            "UK",
+            "regulation",
+            "policy"
+          ]
+        },
+        {
+          "title": "Connecticut joins the state AI regulation wave",
+          "summary": "Connecticut enacted one of the most comprehensive state AI laws in the U.S. on May 27, covering companion chatbots, frontier model governance, and AI use in employment decisions. It follows Colorado's revised AI Act and Louisiana's new consumer data privacy law, and precedes what Tech Policy Press reports is a Midwest locality eyeing the nation's strictest AI auditing rules. With Congress still stalled on federal AI legislation, the state-by-state patchwork is accelerating.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "regulation",
+            "state-law",
+            "US-policy"
+          ]
+        }
+      ]
+    }
+  ]
+}

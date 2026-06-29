@@ -1,0 +1,219 @@
+{
+  "date": "April 28, 2026",
+  "iso": "2026-04-28",
+  "issue": 2,
+  "weekday": "Tuesday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "GitHub Copilot expanded its agent ecosystem with Claude and Codex integrations, marking a shift toward multi-model developer tooling."
+    },
+    {
+      "catId": "money",
+      "text": "ComfyUI hit a $500M valuation after raising $30M, making it one of the most valuable open-source AI tool companies."
+    },
+    {
+      "catId": "world",
+      "text": "120,000 authors filed for a share of Anthropic's $1.5B copyright settlement, setting a precedent for AI training data compensation."
+    }
+  ],
+  "headline": "musk vs altman",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "New model releases, developer APIs, and platform updates landed across the AI ecosystem.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "GitHub Copilot adds Claude and Codex to Agent HQ",
+          "summary": "GitHub's Agent HQ now lets developers pick between Anthropic's Claude and OpenAI's Codex directly inside GitHub and VS Code. The feature is in public preview for Copilot Pro+ and Enterprise subscribers, expanding the platform's multi-agent orchestration ambitions first unveiled at Universe 2025.",
+          "source": "github.blog",
+          "url": "https://github.blog/news-insights/company-news/",
+          "tags": [
+            "devtools",
+            "agents",
+            "copilot"
+          ]
+        },
+        {
+          "title": "GitHub Copilot SDK opens to all developers",
+          "summary": "A new GitHub Copilot SDK is now in technical preview, letting any application embed a programmable agent layer that can plan tasks, invoke tools, edit files, and run commands. GitHub is positioning this as a way to bake AI-native workflows into third-party apps, not just its own surfaces.",
+          "source": "github.blog",
+          "url": "https://github.blog/news-insights/company-news/",
+          "tags": [
+            "devtools",
+            "sdk",
+            "agents"
+          ]
+        },
+        {
+          "title": "OpenAI restructures ChatGPT Pro into two tiers",
+          "summary": "OpenAI has split its $200 ChatGPT Pro plan, adding a new $100 mid-tier that offers 5x usage limits over Plus and 10x Codex access through May 31. The restructure reflects growing demand for Codex and Deep Research among professional users who don't need the full unlimited-tier firepower.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/id-id/articles/9793128-about-chatgpt-pro-plans",
+          "tags": [
+            "pricing",
+            "openai",
+            "chatgpt"
+          ]
+        },
+        {
+          "title": "Google donates Agent Payments Protocol to FIDO Alliance",
+          "summary": "Google open-sourced version 0.2 of its Agent Payments Protocol (AP2) on GitHub and handed stewardship to the FIDO Alliance. The update introduces 'Human Not Present' payment flows, allowing AI agents to autonomously complete pre-authorized purchases \u2014 like snagging concert tickets the instant they go on sale.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/",
+          "tags": [
+            "agents",
+            "payments",
+            "standards"
+          ]
+        },
+        {
+          "title": "FLUX.2 family brings sub-second image gen to production",
+          "summary": "Black Forest Labs' FLUX.2 lineup on Replicate now spans three tiers: Max for ultra-high-fidelity product photography, Pro for high-volume editing with structured JSON prompting, and Klein 4B \u2014 a 4-billion-parameter distilled model capable of sub-second generation for real-time apps. All tiers support multi-reference image blending.",
+          "source": "replicate.com",
+          "url": "https://replicate.com/collections/flux",
+          "tags": [
+            "image-gen",
+            "api",
+            "black-forest-labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Big checks flew across AI infrastructure, insurtech, defense, and fintech this week.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "DeepMind co-founder raises $1.1B for Ineffable Intelligence",
+          "summary": "David Silver, the DeepMind researcher behind AlphaGo, has secured $1.1 billion for his new British AI lab Ineffable Intelligence at a $5.1 billion valuation. The startup is pursuing AI systems that learn without human-labeled data, betting on reinforcement learning as the path to more autonomous AI.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=g6fPa1pfpF0",
+          "tags": [
+            "funding",
+            "research",
+            "reinforcement-learning"
+          ]
+        },
+        {
+          "title": "Tencent and Alibaba circle DeepSeek at $20B+ valuation",
+          "summary": "Chinese tech giants Tencent and Alibaba are in advanced talks to invest in DeepSeek, the AI lab owned by hedge fund High-Flyer Capital Management, at a valuation exceeding $20 billion. It would be DeepSeek's first external fundraise, underscoring how seriously Chinese incumbents are taking the upstart's rapid rise.",
+          "source": "theinformation.com",
+          "url": "https://www.theinformation.com/topics/tencent",
+          "tags": [
+            "funding",
+            "china",
+            "deepseek"
+          ]
+        },
+        {
+          "title": "Space defense startup True Anomaly lands $650M Series D",
+          "summary": "True Anomaly, which builds autonomous spacecraft and software for U.S. national security missions, closed a $650 million Series D that lifts its total funding to $1 billion. The round signals sustained investor appetite for AI-driven defense technology as geopolitical tensions around space assets intensify.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/pro/all-deals/2026/04/28/space-defense-true-anomaly-650-million",
+          "tags": [
+            "defense",
+            "space",
+            "series-d"
+          ]
+        },
+        {
+          "title": "Counterpart raises $96M to insure AI-related damage",
+          "summary": "Insurtech startup Counterpart closed a $96 million round, bringing total capital to $106 million, to expand its AI-powered liability insurance products. The raise comes as enterprises face mounting legal exposure from AI errors, bias claims, and regulatory penalties.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/pro/fintech-deals/2026/04/28/counterpart-ai-insurance-96-million",
+          "tags": [
+            "insurtech",
+            "funding",
+            "risk"
+          ]
+        },
+        {
+          "title": "Windmill pulls $12M to reinvent AI-era performance reviews",
+          "summary": "HR tech startup Windmill raised $12 million across pre-seed and seed rounds to build fairer, more frequent performance evaluations using AI. The founders argue that as AI-driven workplace anxiety grows, companies need objective and auditable feedback systems that reduce managerial bias.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/pro/enterprise-software-deals/2026/04/28/hr-tech-windmill-performance-ai",
+          "tags": [
+            "hr-tech",
+            "seed",
+            "workplace-ai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Courts, regulators, and geopolitical rivalries are reshaping the rules of the AI game.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Musk vs. Altman trial kicks off in California",
+          "summary": "Jury selection began Monday in San Francisco for Elon Musk's lawsuit against Sam Altman and OpenAI, with opening arguments set for Tuesday. Musk is seeking up to $150 billion in damages, alleging OpenAI betrayed its nonprofit charter when it pivoted toward a for-profit structure \u2014 a case that could redefine how AI companies are legally obligated to honor their founding missions.",
+          "source": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/topic/us-judges-ai-policies",
+          "tags": [
+            "lawsuit",
+            "openai",
+            "musk"
+          ]
+        },
+        {
+          "title": "DOJ backs xAI lawsuit to kill Colorado's AI Act",
+          "summary": "The Department of Justice intervened on April 24 in xAI's lawsuit challenging Colorado's sweeping AI Act, marking the first time the federal government has moved to invalidate a state AI law under Trump's Executive Order 14365. The DOJ argued the law violates the Equal Protection Clause by compelling AI companies to factor demographic characteristics into model design, framing state-level AI regulation as a barrier to national competitiveness.",
+          "source": "governmentcontractorcomplianceupdate.com",
+          "url": "https://www.governmentcontractorcomplianceupdate.com/2026/04/28/federal-government-intervenes-in-case-seeking-to-invalidate-colorado-ai-law/",
+          "tags": [
+            "regulation",
+            "colorado",
+            "doj"
+          ]
+        },
+        {
+          "title": "China blocks Meta's $2B acquisition of Manus",
+          "summary": "Beijing formally blocked Meta's $2 billion bid to acquire Manus, an AI agent startup, following a months-long regulatory probe. The decision underscores how cross-border AI acquisitions are increasingly caught in geopolitical crossfire, with data sovereignty and AI agent capabilities now treated as strategic national interests.",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+          "tags": [
+            "geopolitics",
+            "meta",
+            "regulation"
+          ]
+        },
+        {
+          "title": "OpenAI ends Microsoft exclusivity, expands to AWS",
+          "summary": "OpenAI has resolved its long-running legal and commercial tensions with Microsoft, clearing the way to offer its models on Amazon Web Services and potentially other cloud providers. The deal marks a significant shift from the exclusive Azure partnership that defined OpenAI's commercial infrastructure for years.",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/legal/litigation/microsoft-end-exclusive-license-openais-technology-2026-04-27/",
+          "tags": [
+            "openai",
+            "microsoft",
+            "cloud"
+          ]
+        },
+        {
+          "title": "AI's regulatory honeymoon is officially over in 2026",
+          "summary": "A wave of major AI regulations is hitting simultaneously: the EU AI Act's high-risk provisions take full effect in August with penalties up to \u20ac35 million, Colorado's AI Act is due June 30, California's AI Transparency Act kicks in by August, and a 42-state attorney general coalition is ramping up coordinated enforcement. Companies that treated compliance as optional are now facing a hard reckoning.",
+          "source": "kavout.com",
+          "url": "https://www.kavout.com/market-lens/is-the-ai-regulatory-honeymoon-truly-over",
+          "tags": [
+            "regulation",
+            "compliance",
+            "eu-ai-act"
+          ]
+        }
+      ]
+    }
+  ]
+}

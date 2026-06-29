@@ -1,0 +1,207 @@
+{
+  "date": "May 28, 2026",
+  "iso": "2026-05-28",
+  "issue": 32,
+  "weekday": "Thursday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google unleashed Gemini 3.5 Live Translate across 70+ languages and OpenAI quietly retired canvas as GPT-5.5 Instant becomes ChatGPT's new default model."
+    },
+    {
+      "catId": "money",
+      "text": "Anthropic quietly dropped Claude Opus 4.8 today, signaling another step up in its agentic and coding capabilities."
+    },
+    {
+      "catId": "world",
+      "text": "CNN sued Perplexity AI for scraping 17,000-plus stories, OpenAI published an EU-aligned governance framework, and Colorado reenacted a revised AI law \u2014 all on the same day."
+    }
+  ],
+  "headline": "nine lawsuits, one day",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest model drops and product launches hitting users right now.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "GPT-5.5 Instant is ChatGPT's new default",
+          "summary": "OpenAI replaced GPT-5.3 Instant with GPT-5.5 Instant as the default model for all ChatGPT users today, promising sharper accuracy, better image understanding, and more natural conversational pacing. Canvas is out \u2014 writing and code now live directly in chat as blocks. Paid users get three months to migrate off GPT-5.3 Instant before it's retired.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "models"
+          ]
+        },
+        {
+          "title": "Gemini 3.5 Live Translate speaks 70+ languages in real time",
+          "summary": "Google's new Gemini 3.5 Live Translate model delivers near-instant speech-to-speech translation across more than 70 languages, preserving a speaker's intonation and pitch. It's rolling out today on Google Translate for Android and iOS, and entering private preview in Google Meet for Workspace customers. Developers can access it now via the Gemini Live API and Google AI Studio.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+          "tags": [
+            "google",
+            "gemini",
+            "translation",
+            "audio"
+          ]
+        },
+        {
+          "title": "Anthropic ships Claude Opus 4.8",
+          "summary": "Anthropic today introduced Claude Opus 4.8, an upgrade to its flagship Opus model class with stronger performance across coding, agentic tasks, and professional work. The release emphasizes consistency for long-running autonomous workflows, a growing priority as enterprises push models into multi-step pipelines.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news",
+          "tags": [
+            "anthropic",
+            "claude",
+            "models",
+            "agents"
+          ]
+        },
+        {
+          "title": "Google Gemini gets a small-business brain",
+          "summary": "Google announced new Gemini features specifically for small business owners, including a direct Google Business Profile integration that lets the AI assistant read customer reviews, questions, and performance data. A new Business notebooks feature lets owners organize workflows and generate on-brand content. Both features begin rolling out globally this month.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
+          "tags": [
+            "google",
+            "gemini",
+            "small-business",
+            "productivity"
+          ]
+        },
+        {
+          "title": "ChatGPT for Clinicians launches free in the US",
+          "summary": "OpenAI opened a free tier of ChatGPT built specifically for verified US clinicians, supporting evidence review, clinical documentation, and medical literature research with citations and CME credit tracking. The launch marks OpenAI's most direct push yet into point-of-care healthcare workflows.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "healthcare",
+            "chatgpt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "The funding rounds and valuations moving AI's money map.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam closed $234 million in funding led by HCLTech, pushing its valuation to $1.5 billion and cementing its status as a unicorn. Bessemer Venture Partners joined alongside existing backers Khosla Ventures and Peak XV Partners, with the company targeting a total raise of $300 million for its Series B. Sarvam has been building open-source models in the 30B and 105B parameter range aimed at Indian language needs.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "funding",
+            "india",
+            "unicorn",
+            "open-source"
+          ]
+        },
+        {
+          "title": "Black Forest Labs raises $300M at $3.25B valuation",
+          "summary": "Black Forest Labs, the image generation startup behind the FLUX model family, has raised $300 million at a $3.25 billion valuation. The round reflects sustained investor appetite for foundation model companies outside the text-generation mainstream, particularly those with strong developer adoption.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/tag/a16z/",
+          "tags": [
+            "funding",
+            "image-generation",
+            "foundation-models"
+          ]
+        },
+        {
+          "title": "Swiss AI privacy startup Prem targets $100M Series A",
+          "summary": "Zurich-based Prem AI, which helps hedge funds and law firms run AI models entirely on private infrastructure, is raising a $100 million Series A targeting a valuation of at least $500 million. The round is expected to close in Q3 2026, capitalizing on growing enterprise demand for air-gapped AI deployments as data sovereignty concerns intensify.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-18/swiss-ai-startup-prem-is-raising-100-million-series-a-round",
+          "tags": [
+            "funding",
+            "privacy",
+            "enterprise",
+            "europe"
+          ]
+        },
+        {
+          "title": "a16z backs compute marketplace Ornn with $33M",
+          "summary": "Ornn raised $33 million in a seed round led by Andreessen Horowitz's crypto arm to build a marketplace where AI compute power can be bought and sold like a commodity. Galaxy Ventures, Nordstar, and SV Angel also participated \u2014 marking a16z's first investment in a compute marketplace. The bet reflects mounting pressure on AI labs to find flexible GPU supply outside locked-in hyperscaler contracts.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "funding",
+            "compute",
+            "a16z",
+            "infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The lawsuits, regulations, and political fights reshaping AI's rules.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "CNN sues Perplexity, making it nine plaintiffs deep",
+          "summary": "CNN filed a copyright and trademark lawsuit against Perplexity AI in the Southern District of New York today, alleging the AI search engine scraped and redistributed more than 17,000 of its news stories, photos, and videos. Perplexity now faces active suits from nine media and reference organizations including the New York Times, News Corp, Reddit, and Japan's Yomiuri Shimbun. The lawsuits collectively represent the most concentrated legal assault on an AI company's content practices to date.",
+          "source": "techtimes.com",
+          "url": "https://www.techtimes.com/articles/317461/20260531/ai-regulation-2026-opens-three-fronts-cnn-sues-perplexity-openai-aligns-eu-rules.htm",
+          "tags": [
+            "copyright",
+            "perplexity",
+            "media",
+            "litigation"
+          ]
+        },
+        {
+          "title": "OpenAI publishes EU and California-aligned governance framework",
+          "summary": "Hours after the CNN-Perplexity suit dropped, OpenAI published its Frontier Governance Framework, formally mapping its internal safety practices onto both the EU AI Act's Code of Practice and California's Transparency in Frontier AI Act. The document is an unusually public alignment move, signaling OpenAI's willingness to operate under emerging regulatory frameworks rather than fight them. Anthropic endorsed the approach and said it would support implementation.",
+          "source": "techtimes.com",
+          "url": "https://www.techtimes.com/articles/317461/20260531/ai-regulation-2026-opens-three-fronts-cnn-sues-perplexity-openai-aligns-eu-rules.htm",
+          "tags": [
+            "openai",
+            "regulation",
+            "eu-ai-act",
+            "governance"
+          ]
+        },
+        {
+          "title": "Connecticut's sweeping AI law takes effect",
+          "summary": "Connecticut enacted one of the most comprehensive state AI laws in the US on May 27, covering companion chatbots, frontier model governance, and AI use in employment decisions. The law sets a new benchmark for state-level AI regulation and adds another layer to the patchwork that multi-state businesses must now navigate. It arrives as the federal government continues to retreat from a unified national AI framework.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "regulation",
+            "connecticut",
+            "state-law",
+            "employment"
+          ]
+        },
+        {
+          "title": "Colorado rewrites its AI Act \u2014 again",
+          "summary": "Colorado passed SB 26-189 this month, repealing and replacing its landmark 2024 AI Act with a notice-and-disclosure regime focused on automated decision-making rather than algorithmic discrimination. The revision came after xAI sued to block the original law and the DOJ intervened, forcing a legislative reset. Organizations doing business in Colorado now have until January 1, 2027 to comply with the new framework.",
+          "source": "mintz.com",
+          "url": "https://www.mintz.com/insights-center/viewpoints/54731/2026-06-12-colorados-not-finished-regulating-ai-reenacted-ai-law",
+          "tags": [
+            "regulation",
+            "colorado",
+            "state-law",
+            "litigation"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "date": "May 31, 2026",
+  "iso": "2026-05-31",
+  "issue": 35,
+  "weekday": "Sunday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's I/O blitz landed Gemini 3.5, Gemini Omni, a new Googlebook laptop, and a June Pixel Drop packed with AI video and music creation tools."
+    },
+    {
+      "catId": "money",
+      "text": "India's Sarvam hit unicorn status with a $234M raise led by HCLTech, while General Intuition is in talks for $300M at a $2B valuation."
+    },
+    {
+      "catId": "world",
+      "text": "A 99-1 Senate vote killed a 10-year moratorium on state AI laws, cementing the patchwork as all 50 states now have active AI legislation in play."
+    }
+  ],
+  "headline": "fifty states, zero consensus",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google's agentic era went full throttle in May, while OpenAI kept iterating its model stack at a dizzying clip.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Google drops Gemini 3.5, Omni, and a new laptop",
+          "summary": "At Google I/O 2026, Google announced Gemini 3.5 for agentic and coding workflows and Gemini Omni, a model that generates high-quality video from any input \u2014 images, audio, text, or video. The company also unveiled the Googlebook, a laptop built from the ground up around Gemini intelligence, plus a new Google Health app and the Fitbit Air tracker.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "gemini",
+            "hardware",
+            "agentic"
+          ]
+        },
+        {
+          "title": "June Pixel Drop brings AI video and music to your pocket",
+          "summary": "Google's June Pixel Drop adds Gemini Omni-powered video creation and music generation directly on Pixel phones \u2014 describe an idea or upload a photo and get a full audio track with lyrics. The update also brings Android 17, Wear OS 7, floating app multitasking, and emergency sharing integration with crash and fall detection.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "pixel",
+            "gemini",
+            "mobile"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs on your laptop, no encoder needed",
+          "summary": "Google released Gemma 4 12B, an open-weights multimodal model under Apache 2.0 that fits in 16 GB of VRAM and accepts vision and audio inputs natively \u2014 no separate encoders. It lands between the edge-friendly E4B and the larger 26B MoE model, and ships with multi-token prediction drafters to cut latency.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-weights",
+            "multimodal",
+            "devtools"
+          ]
+        },
+        {
+          "title": "OpenAI launches GPT-5.3-Codex and open-weights reasoning models",
+          "summary": "OpenAI shipped GPT-5.3-Codex, billed as its most capable agentic coding model by merging the Codex and GPT-5 training stacks, along with a cheaper GPT-5-Codex-Mini for longer sessions. It also released two open-weight models \u2014 gpt-oss-120b and gpt-oss-20b \u2014 for teams wanting to self-host, and updated GPT-5.5 Instant as the new ChatGPT default.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "tags": [
+            "openai",
+            "coding",
+            "open-weights"
+          ]
+        },
+        {
+          "title": "Cohere ships Command A+ and its first agentic coding model",
+          "summary": "Cohere rounded out its Command A family with Command A+, a 218B-parameter MoE model combining vision, reasoning, translation, and agentic tasks in one. It also released North Mini Code, a 30B MoE model small enough to run locally and aimed squarely at agentic coding workflows.",
+          "source": "docs.cohere.com",
+          "url": "https://docs.cohere.com/changelog",
+          "tags": [
+            "cohere",
+            "coding",
+            "enterprise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "India minted a new AI unicorn, a spatial-intelligence startup is chasing a $2B valuation, and monitoring infrastructure is pulling serious capital.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam hits unicorn status with $234M Series B",
+          "summary": "Indian AI startup Sarvam raised $234 million at a $1.5 billion valuation, with $150 million coming from HCLTech as lead strategic investor; Bessemer, Khosla Ventures, and Peak XV also participated. The company, which launched open-source 30B and 105B models earlier this year, is targeting a total of $300 million for the round.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "series-b"
+          ]
+        },
+        {
+          "title": "General Intuition eyes $300M at $2B valuation",
+          "summary": "General Intuition, which builds foundation models teaching AI agents to navigate space and time, is in talks to raise roughly $300 million, which would push its valuation just above $2 billion. The New York startup spun out of gaming clip platform Medal just eight months ago with a $134M seed and counts Jeff Bezos, Eric Schmidt, Khosla Ventures, and General Catalyst among its backers.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+          "tags": [
+            "agents",
+            "spatial-ai",
+            "series-a"
+          ]
+        },
+        {
+          "title": "Coralogix raises $200M to monitor the agentic stack",
+          "summary": "AI observability startup Coralogix closed a $200 million Series F at a $1.6 billion valuation, betting that autonomous agent deployments will create massive demand for monitoring and troubleshooting infrastructure. The round was led by Advent and CPPIB and comes just 11 months after its $115M Series E, bringing total funding to $550 million.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "infrastructure",
+            "observability",
+            "series-f"
+          ]
+        },
+        {
+          "title": "a16z backs compute marketplace Ornn in $33M seed",
+          "summary": "Ornn, a marketplace where AI compute can be bought and sold like a commodity, raised $33 million in a seed round led by a16z crypto alongside Galaxy Ventures, Nordstar, and SV Angel. General partner Ali Yahya called it a16z's first investment in a compute marketplace.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "marketplace",
+            "a16z"
+          ]
+        },
+        {
+          "title": "Pramaana Labs snags $27M to bring formal verification to AI",
+          "summary": "Pramaana Labs closed a $27 million seed round led by Khosla Ventures to apply formal verification techniques to AI systems, with Accel, BoldCap, Nexus, Premji Invest, and Unbound also participating. The startup is targeting a gap in AI reliability that has become increasingly urgent as autonomous agents handle higher-stakes decisions.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "tags": [
+            "safety",
+            "verification",
+            "seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The Senate crushed a federal AI moratorium 99-1, locking in the state-by-state patchwork just as Colorado rewrote its own landmark law.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Senate votes 99-1 to keep state AI laws alive",
+          "summary": "A House Republican proposal to impose a 10-year moratorium on state AI enforcement was stripped from the budget reconciliation bill by a near-unanimous Senate vote, effectively confirming that federal preemption of state AI law is politically dead for now. All 50 states have now introduced AI-related legislation, and over 2,182 AI bills are active across the country with inconsistent definitions and enforcement mechanisms.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "regulation",
+            "federal",
+            "preemption"
+          ]
+        },
+        {
+          "title": "Colorado rewrites its landmark AI act \u2014 again",
+          "summary": "Governor Polis signed SB 26-189 on May 14, replacing Colorado's original first-in-the-nation AI law with a narrower transparency-and-notice framework effective January 1, 2027. The rewrite came after xAI sued over the original law's constitutionality and the DOJ intervened to support the challenge, forcing a legislative retreat from the broader algorithmic-discrimination standard.",
+          "source": "mintz.com",
+          "url": "https://www.mintz.com/insights-center/viewpoints/54731/2026-06-12-colorados-not-finished-regulating-ai-reenacted-ai-law",
+          "tags": [
+            "colorado",
+            "regulation",
+            "state-law"
+          ]
+        },
+        {
+          "title": "Trump signs AI innovation executive order, skips mandates",
+          "summary": "President Trump's June 2 executive order on AI directs agencies to harden federal cybersecurity, create a voluntary frontier-model deployment framework, and prioritize criminal enforcement against AI-enabled cyberattacks \u2014 but explicitly bars any licensing, preclearance, or permitting requirements for AI development. The order gives frontier model developers a path to a classified federal benchmarking process and a 30-day early-access window before public release.",
+          "source": "mayerbrown.com",
+          "url": "https://www.mayerbrown.com/en/insights/publications/2026/06/president-trump-signs-executive-order-on-advanced-ai-innovation-and-security",
+          "tags": [
+            "executive-order",
+            "trump",
+            "federal-policy"
+          ]
+        },
+        {
+          "title": "Court rules AI prompts are fair game in discovery",
+          "summary": "In Conservation Law Foundation v. Shell Oil Company, a federal magistrate judge ordered the plaintiff to produce the AI prompts its expert used to prepare her report, treating them as part of discoverable methodology rather than protected work product. The ruling sets a significant precedent for any litigation where AI-assisted expert analysis is introduced.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "discovery",
+            "litigation"
+          ]
+        },
+        {
+          "title": "FTC settles with three firms over fake AI claims",
+          "summary": "The FTC reached $930,000 in settlements with three marketing companies that made deceptive claims about their AI capabilities, establishing live enforcement precedents under existing consumer protection law in the absence of any federal AI statute. The Take It Down Act also took effect May 19, giving the FTC new tools against non-consensual intimate imagery generated by AI.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "ftc",
+            "enforcement",
+            "consumer-protection"
+          ]
+        }
+      ]
+    }
+  ]
+}

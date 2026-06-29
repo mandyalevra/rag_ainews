@@ -1,0 +1,222 @@
+{
+  "date": "May 20, 2026",
+  "iso": "2026-05-20",
+  "issue": 24,
+  "weekday": "Wednesday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google I/O 2026 unleashed Gemini 3.5 and Gemini Omni alongside new hardware like the Googlebook and Fitbit Air, while Cohere dropped Command A+ as an open-source enterprise model on the same day."
+    },
+    {
+      "catId": "money",
+      "text": "Sarvam hit unicorn status with a $234M round led by HCLTech, crowning it India's newest AI unicorn at a $1.5B valuation."
+    },
+    {
+      "catId": "world",
+      "text": "The Trump White House shelved a frontier AI review executive order after Musk and Zuckerberg pushed back, deepening the US federal governance vacuum as states race to fill it."
+    }
+  ],
+  "headline": "google's agentic moment",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google went all-in on agentic AI at I/O, while rivals kept shipping fast.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini 3.5 and Omni arrive at Google I/O",
+          "summary": "Google declared the start of the agentic Gemini era at I/O 2026, launching Gemini 3.5 for complex multi-step workflows and Gemini Omni for video generation from any input type. The announcements were bundled with new hardware \u2014 the Googlebook laptop and Fitbit Air tracker \u2014 plus a Universal Cart for cross-platform shopping and a revamped Google Health app. Search also gets information agents that monitor topics in the background and send proactive updates.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "agentic",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Cohere ships Command A+ open-source for sovereign AI",
+          "summary": "Cohere released Command A+ today, positioning it as an open-source enterprise model built specifically for sovereign critical infrastructure use cases. The launch targets organizations that need agentic capabilities without relying on cloud-hosted proprietary models. It follows the earlier reveal of North Mini Code, Cohere's first developer-focused model.",
+          "source": "cohere.com",
+          "url": "https://cohere.com/blog",
+          "tags": [
+            "cohere",
+            "open-source",
+            "enterprise",
+            "sovereign-ai"
+          ]
+        },
+        {
+          "title": "ChatGPT gets personal finance, clinician mode, and Images 2.0",
+          "summary": "OpenAI rolled out a busy stack of updates in May: a personal finance experience for Plus users, ChatGPT for Clinicians offering free access and CME credit support for verified US doctors, and ChatGPT Images 2.0 on all plans. GPT-5.5 Instant is now the default model replacing GPT-5.3 Instant, bringing better accuracy, image understanding, and shorter responses. Memory improvements also landed, letting ChatGPT pull context from past chats and connected Gmail.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "health",
+            "finance",
+            "models"
+          ]
+        },
+        {
+          "title": "OpenAI Codex gains Goal Mode and remote Mac lock use",
+          "summary": "Codex shipped a meaningful update with Goal Mode now generally available across the app, IDE extension, and CLI \u2014 letting developers define an outcome and let Codex keep iterating autonomously. New Appshots let users attach a live app window to a Codex thread for instant visual context. Locked computer use means Codex can keep working remotely even after a Mac locks, a meaningful unlock for longer background tasks.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "codex",
+            "devtools",
+            "agentic"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs multimodal AI on a laptop",
+          "summary": "Google released Gemma 4 12B, a mid-sized open model that drops the traditional multimodal encoder architecture and feeds vision and audio directly into the LLM backbone. It runs on consumer laptops with 16GB of VRAM under an Apache 2.0 license, and benchmarks close to the larger 26B MoE model. Native audio input and Multi-Token Prediction drafters round out a model designed to bring agentic multimodal work off the cloud.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "google",
+            "open-source",
+            "multimodal",
+            "on-device"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "India minted a new AI unicorn and agent identity security attracted fresh stealth capital.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Bengaluru-based Sarvam raised $234M in a Series B led by HCLTech, with Bessemer Venture Partners, Khosla Ventures, and Peak XV also participating, valuing the company at $1.5B. The round reflects the global push for sovereign AI, with governments and enterprises wanting control over critical AI infrastructure. Sarvam plans to raise a total of $300M for the round and builds large open-source models targeting Indian languages and enterprise use.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "funding",
+            "india",
+            "unicorn",
+            "sovereign-ai"
+          ]
+        },
+        {
+          "title": "NewCore raises $66M to give AI agents an identity",
+          "summary": "Cybersecurity startup NewCore emerged from stealth with $66M in seed funding led by Cyberstarts, with Index Ventures and Evolution Equity Partners participating, at a $300M post-money valuation. The company is building infrastructure to authenticate, govern, and control AI agents at enterprise scale \u2014 a problem that barely existed two years ago. The raise reflects growing investor conviction that agentic AI creates an entirely new attack surface.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+          "tags": [
+            "funding",
+            "cybersecurity",
+            "ai-agents",
+            "stealth"
+          ]
+        },
+        {
+          "title": "Factory hits $1.5B valuation for enterprise AI coding",
+          "summary": "Factory reached a $1.5B valuation as it scales AI coding tooling built specifically for large enterprise environments, rather than individual developers. The company differentiates from consumer-focused tools like Cursor by targeting complex codebases and org-wide deployment workflows. Its growth comes as enterprise demand for AI coding infrastructure outpaces the tooling supply.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/tag/khosla-ventures/",
+          "tags": [
+            "valuation",
+            "enterprise",
+            "coding",
+            "ai-tools"
+          ]
+        },
+        {
+          "title": "Unconventional AI confirms $475M seed \u2014 yes, seed",
+          "summary": "Unconventional AI officially confirmed a $475M seed round, one of the largest seed raises on record for any startup. Details on the company's product direction remain scarce, but the scale of the raise signals investor appetite for foundation-layer AI bets outside the established labs. Lightspeed is among the backers, according to reports.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/tag/lightspeed/",
+          "tags": [
+            "funding",
+            "seed",
+            "foundation-models"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The US federal AI governance picture kept fragmenting while states and courts filled the void.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "White House shelves frontier AI review order after Musk, Zuckerberg pushback",
+          "summary": "The Trump White House postponed signing an executive order on May 21 that would have created a voluntary federal review process for frontier AI models before public release, after President Trump expressed concern it would slow AI development. Reports indicate Elon Musk and Mark Zuckerberg both lobbied against it. The move deepens the US federal governance vacuum at a moment when states are moving aggressively to fill it.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "policy",
+            "trump",
+            "regulation",
+            "federal"
+          ]
+        },
+        {
+          "title": "Colorado rewrites its landmark AI law under industry and DOJ pressure",
+          "summary": "Governor Polis signed SB 189 on May 14, formally repealing and replacing Colorado's original 2024 AI Act with a narrower transparency-and-notice framework that takes effect January 1, 2027. The rewrite came after xAI sued over the original law's constitutionality and the Department of Justice intervened in support of the challenge. The episode is being cited as a cautionary tale about how quickly compliance roadmaps can be invalidated by political and legal pressure.",
+          "source": "mintz.com",
+          "url": "https://www.mintz.com/insights-center/viewpoints/54731/2026-06-12-colorados-not-finished-regulating-ai-reenacted-ai-law",
+          "tags": [
+            "regulation",
+            "colorado",
+            "state-law",
+            "ai-act"
+          ]
+        },
+        {
+          "title": "EU AI Act high-risk obligations pushed to December 2027",
+          "summary": "The European Council, Parliament, and Commission reached a provisional agreement to delay Annex III use-based high-risk AI obligations by 16 months, moving the deadline from August 2026 to December 2027. However, the grace period for labelling AI-generated content was actually shortened from six months to three, pulling that specific deadline forward to December 2026. Organizations relying on the longer window for synthetic content transparency now have less runway than expected.",
+          "source": "insights.flank.ai",
+          "url": "https://insights.flank.ai/horizon-scans/legal-horizon-scan-may-2026.html",
+          "tags": [
+            "eu-ai-act",
+            "regulation",
+            "europe",
+            "compliance"
+          ]
+        },
+        {
+          "title": "DOD deploys commercial AI on classified networks; NSA launches AI task force",
+          "summary": "The Department of Defense announced agreements with major tech companies to run commercial AI systems on classified military networks in May, while the NSA and Cyber Command jointly launched an AI task force to accelerate frontier model deployment across Pentagon operations. The moves reflect the Trump administration's framing of AI as a national security asset rather than a regulatory subject. Google DeepMind, Microsoft, and xAI separately agreed to give the Commerce Department early access to unreleased models for capability evaluations.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "national-security",
+            "dod",
+            "military",
+            "policy"
+          ]
+        },
+        {
+          "title": "DOGE's ChatGPT-assisted grant cuts ruled unconstitutional",
+          "summary": "A federal court ruled that DOGE personnel violated constitutional equal protection and free speech rights when they terminated over $100 million in National Endowment for the Humanities grants using ChatGPT, after the AI used protected characteristics like race and gender as targeting criteria. The case is one of the first judicial rulings directly challenging government use of AI in consequential administrative decisions. It sets an early precedent for accountability when AI-assisted bureaucratic action discriminates.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "courts",
+            "doge",
+            "ai-liability",
+            "civil-rights"
+          ]
+        }
+      ]
+    }
+  ]
+}

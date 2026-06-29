@@ -1,0 +1,186 @@
+{
+  "date": "June 15, 2026",
+  "iso": "2026-06-15",
+  "issue": 50,
+  "weekday": "Monday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Anthropic launched Claude Fable 5, its most capable public model ever, with a restricted 'Mythos 5' variant for government cyber partners \u2014 at half the price of its predecessor."
+    },
+    {
+      "catId": "money",
+      "text": "Indian AI startup Sarvam hit unicorn status with a $234M round led by HCLTech, valuing it at $1.5B."
+    },
+    {
+      "catId": "world",
+      "text": "The UK banned romantic AI chatbots for under-18s and social media for under-16s, while US states keep piling on AI laws Congress refuses to write."
+    }
+  ],
+  "headline": "fable five arrives",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest model drops and product launches hitting users right now.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Claude Fable 5 is Anthropic's most powerful public model yet",
+          "summary": "Anthropic launched Claude Fable 5 today, a Mythos-class model it describes as state-of-the-art across software engineering, scientific research, and vision tasks. A restricted 'Mythos 5' variant \u2014 the same underlying model with cyber safeguards lifted \u2014 is being deployed through a US government partnership called Project Glasswing. Both models are priced at $10 per million input tokens, less than half the cost of the previous Mythos Preview.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "tags": [
+            "models",
+            "safety",
+            "pricing"
+          ]
+        },
+        {
+          "title": "Google recaps a month of agentic Gemini launches",
+          "summary": "Google's May 2026 roundup covers Gemini 3.5 for agentic coding, Gemini Omni for multimodal creation from any input, and a slate of new hardware including the Googlebook laptop and Fitbit Air tracker. New consumer features include Universal Cart for cross-merchant shopping and an Android Halo interface for monitoring AI agents running in the background.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "gemini",
+            "agents",
+            "hardware"
+          ]
+        },
+        {
+          "title": "ChatGPT gets interactive charts, a full-screen editor, and CarPlay",
+          "summary": "OpenAI's latest release notes bundle several quality-of-life upgrades: answers can now render interactive bar, line, and scatter charts inline, and a full-screen writing block handles long-form documents with a table of contents and download support. ChatGPT also rolled out hands-free access via Apple CarPlay and launched a free 'ChatGPT for Clinicians' tier for verified US healthcare providers.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "chatgpt",
+            "features",
+            "healthcare"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs multimodal AI on your laptop",
+          "summary": "Google released Gemma 4 12B under an Apache 2.0 license, a mid-sized open model designed to run locally on consumer hardware with just 16GB of RAM. It ditches traditional multimodal encoders entirely, routing vision and audio directly into the LLM backbone, and includes native audio input support \u2014 a first for the Gemma family at this size.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-source",
+            "multimodal",
+            "on-device"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "The funding rounds, valuations, and bets shaping who builds the AI stack.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam raised $234 million in a Series B led by HCLTech, pushing its valuation to $1.5 billion and cementing its status as a unicorn. Bessemer Venture Partners joined existing backers Khosla Ventures and Peak XV Partners, and Sarvam is targeting a total of $300 million for the round after launching open-source models at 30B and 105B parameters earlier this year.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "unicorn",
+            "india",
+            "series-b"
+          ]
+        },
+        {
+          "title": "NewCore raises $66M to give AI agents real identities",
+          "summary": "Cybersecurity startup NewCore emerged from stealth with $66 million in seed funding, targeting the growing problem of authenticating and governing AI agents as enterprises deploy them at scale. The round was led by Cyberstarts with Index Ventures and Evolution Equity Partners participating, valuing NewCore at $300 million post-investment.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+          "tags": [
+            "cybersecurity",
+            "agents",
+            "seed"
+          ]
+        },
+        {
+          "title": "PhysicsX hits $2.4B valuation with $300M raise for manufacturing AI",
+          "summary": "London-based PhysicsX, which builds AI models for manufacturing components like jet engines and semiconductors, closed a $300 million Series C led by Singapore's Temasek. Nvidia and Applied Materials are among its backers, and the round tripled its valuation from roughly $1 billion at its last raise.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "manufacturing",
+            "series-c",
+            "deep-tech"
+          ]
+        },
+        {
+          "title": "Coralogix banks $200M to watch the AI agent layer",
+          "summary": "Observability startup Coralogix raised $200 million in a Series F, betting that the proliferation of autonomous AI agents will generate massive demand for monitoring and troubleshooting infrastructure. The round, led by Advent and the Canada Pension Plan Investment Board, values the company at $1.6 billion and follows a $115 million raise just 11 months ago.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "observability",
+            "infrastructure",
+            "series-f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Regulation, government moves, and the legal fights defining AI's guardrails.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "UK bans romantic AI chatbots for under-18s and social media for under-16s",
+          "summary": "The UK government announced today it will ban 'romantic companion' AI chatbots for all users under 18 and social media access for under-16s, following Australia's lead. Ofcom has been ordered to rapidly study age-assurance measures, with the first tranche of regulations expected before Parliament by end of 2026 and entering force in Spring 2027.",
+          "source": "simmons-simmons.com",
+          "url": "https://www.simmons-simmons.com/en/publications/cmqtmrwqa0040vevw5by0h69a/ai-view-june-2026",
+          "tags": [
+            "uk",
+            "children",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Anthropic's Fable 5 hit with Commerce Department export directive",
+          "summary": "The US Commerce Department issued an export directive that forced Anthropic to temporarily disable Fable 5 and Mythos access for certain users, creating a live collision between national security export controls and AI safety governance. Policy analysts flagged potential fallout for AI safety frameworks if export control logic begins shaping which users can access frontier models.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "export-controls",
+            "national-security",
+            "anthropic"
+          ]
+        },
+        {
+          "title": "States keep writing AI laws Congress won't",
+          "summary": "Connecticut's sweeping AI law \u2014 covering companion chatbots, frontier model governance, and AI in employment \u2014 became the most substantive state-level AI framework in the US to date after its May 27 enactment, while Louisiana became the 22nd state to pass consumer data privacy legislation. A proposed 10-year federal moratorium on state AI enforcement was crushed 99-1 in the Senate, leaving a patchwork of 2,182-plus AI-related bills across all 50 states.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "us-policy",
+            "state-law",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Court rules AI prompts used by experts are discoverable in litigation",
+          "summary": "A federal magistrate judge ordered a plaintiff to hand over the AI prompts its expert used to prepare a litigation report, treating them as part of the expert's methodology rather than protected drafting material. The ruling in Conservation Law Foundation v. Shell Oil sets a significant precedent: if an expert outsourced analytical work to an AI, opposing counsel can demand to see exactly how they asked the question.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "litigation",
+            "discovery",
+            "courts"
+          ]
+        }
+      ]
+    }
+  ]
+}

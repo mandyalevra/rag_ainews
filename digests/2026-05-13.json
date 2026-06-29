@@ -1,0 +1,208 @@
+{
+  "date": "May 13, 2026",
+  "iso": "2026-05-13",
+  "issue": 17,
+  "weekday": "Wednesday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Alibaba drops Qwen3.6, a coding-focused open-weight model series with 262K context and thinking-by-default inference, while Google rolls out Personal Intelligence in Australia."
+    },
+    {
+      "catId": "money",
+      "text": "Anduril doubles its valuation to $61B on a fresh $5B raise, and Isomorphic Labs pulls in $2.1B for AI drug discovery."
+    },
+    {
+      "catId": "world",
+      "text": "White House AI executive action stalls amid internal infighting, with officials openly contradicting each other on whether to create an FDA-style review process for frontier models."
+    }
+  ],
+  "headline": "washington can't decide",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "New models and features landing in developer hands right now.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Qwen3.6 arrives with think-first coding chops",
+          "summary": "Alibaba has released Qwen3.6, the first open-weight model in its 3.6 series, in 27B and 35B-A3B MoE sizes with a 262K-token context window. The model defaults to a reasoning 'thinking' mode before responding and ships with improved agentic coding, frontend workflow handling, and better tool-calling for nested objects. It supports developer roles for use in Codex and OpenCode, and can be run or fine-tuned directly in Unsloth Studio.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B",
+          "tags": [
+            "open-source",
+            "coding",
+            "llm"
+          ]
+        },
+        {
+          "title": "Google brings Personal Intelligence to Australia",
+          "summary": "Google is expanding its Personal Intelligence feature in the Gemini app to Australian users, connecting Gmail, Google Photos, YouTube, and Search so the assistant can reason across a user's personal data. The rollout starts with AI Plus, Pro, and Ultra subscribers before reaching free accounts. Users control exactly which apps are linked, and the experience works across web, Android, and iOS.",
+          "source": "blog.google",
+          "url": "https://blog.google/intl/en-au/products/explore-get-answers/personal-intelligence-australia/",
+          "tags": [
+            "google",
+            "gemini",
+            "personalization"
+          ]
+        },
+        {
+          "title": "Infinity-Parser2 tops document-parsing benchmarks",
+          "summary": "Infly has released Infinity-Parser2-Pro and Infinity-Parser2-Flash, document understanding models that claim state-of-the-art results on olmOCR-Bench (87.6%) and ParseBench (74.3%), beating DeepSeek-OCR-2 and MinerU-2.5. The Flash variant runs 3.68x faster than its predecessor, jumping from 441 to 1,624 tokens per second. Both models are trained on a 5-million-sample synthetic dataset using a multi-task reinforcement learning approach.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/infly/Infinity-Parser2-Pro",
+          "tags": [
+            "ocr",
+            "document-ai",
+            "open-source"
+          ]
+        },
+        {
+          "title": "NVIDIA drops 8M-sample open dataset for vision tasks",
+          "summary": "NVIDIA has released an eight-million-sample open dataset alongside new tooling designed to accelerate OCR, image reasoning, and image and video question-answering tasks. The release is part of the Nemotron family of foundation models, which spans language, vision, retrieval, speech, and safety. The datasets and model weights are hosted publicly on Hugging Face.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/nvidia",
+          "tags": [
+            "nvidia",
+            "dataset",
+            "vision"
+          ]
+        },
+        {
+          "title": "SenseNova U1 unifies vision understanding and generation",
+          "summary": "SenseTime has open-sourced SenseNova U1, a multimodal model series that handles visual understanding, reasoning, and image generation within a single architecture rather than relying on modality adapters. Two sizes are available \u2014 an 8B dense model and an A3B MoE variant \u2014 along with GGUF quantized weights for low-VRAM inference. The companion OpenClaw toolkit ships U1 as a ready-to-use agent skill with a unified tool-calling interface.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
+          "tags": [
+            "multimodal",
+            "open-source",
+            "generation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "The rounds, valuations, and bets shaping the AI economy.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Anduril hits $61B on a $5B Series H",
+          "summary": "Defense tech company Anduril has closed a $5 billion Series H led by Thrive Capital and Andreessen Horowitz, more than doubling its valuation from $30.5B to $61B in under a year. The company has now raised more than $11 billion in total from investors. The raise comes as autonomous weapons and AI-powered defense platforms draw surging institutional interest.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+          "tags": [
+            "defense-tech",
+            "funding",
+            "a16z"
+          ]
+        },
+        {
+          "title": "Isomorphic Labs banks $2.1B for AI drug discovery",
+          "summary": "Isomorphic Labs, the Google-originated AI drug discovery spinout, has closed a $2.1 billion Series B. The round positions the company to scale its AlphaFold-derived platform toward clinical drug development pipelines. It is one of the largest single raises in biotech AI to date.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/pro/biotech-deals/2026/05/12/isomorphic-labs-google-ai-drug-discovery",
+          "tags": [
+            "biotech",
+            "drug-discovery",
+            "google"
+          ]
+        },
+        {
+          "title": "Qwen's ex-lead researcher seeks $2B valuation for new lab",
+          "summary": "Junyang Lin, the former lead researcher behind Alibaba's Qwen model family, is raising several hundred million dollars for a new independent AI lab expected to be valued at around $2 billion. The discussions are ongoing, according to people with direct knowledge of the matter. Lin's exit from Alibaba follows a broader wave of top Chinese AI researchers spinning out to launch their own frontier labs.",
+          "source": "theinformation.com",
+          "url": "https://www.theinformation.com/articles",
+          "tags": [
+            "china",
+            "ai-lab",
+            "fundraising"
+          ]
+        },
+        {
+          "title": "Helsing targets $1.2B raise at $18B valuation",
+          "summary": "Daniel Ek-backed European defense AI company Helsing is looking to raise $1.2 billion at an $18 billion valuation, according to reports. The raise would mark a significant step up for the Munich-based startup, which builds AI software for fighter jets and battlefield systems. It reflects the continued investor appetite for defense AI across both the US and Europe.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+          "tags": [
+            "defense-tech",
+            "europe",
+            "funding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Regulation, geopolitics, and the legal fights reshaping AI.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "White House AI policy stalls in public infighting",
+          "summary": "Internal disagreements are blocking any White House executive action on frontier AI, with officials openly contradicting each other after NEC Director Kevin Hassett floated an FDA-style review process for powerful models only to be walked back by Chief of Staff Susie Wiles and former AI advisor David Sacks. The delay is compounded by Trump's upcoming Beijing summit, with industry insiders saying the administration may hold all AI policy decisions until after China talks conclude. NIST's recently announced frontier model testing agreements with Google DeepMind, Microsoft, and xAI were quietly pulled from its website days after publication, with no official explanation.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/2026/05/13/ai-executive-action-white-house-infighting",
+          "tags": [
+            "regulation",
+            "white-house",
+            "policy"
+          ]
+        },
+        {
+          "title": "China denied access to Anthropic and OpenAI's top models",
+          "summary": "Both Anthropic and OpenAI have rejected requests from Chinese entities seeking access to their most advanced models, including Mythos and GPT-5.5-Cyber. The refusals are heightening US-China AI rivalry ahead of Trump's Beijing summit, where AI is expected to be a central agenda item. Experts warn that competition dynamics may overshadow any joint efforts to establish safety guardrails.",
+          "source": "aihub.com",
+          "url": "https://aihub.com/policy",
+          "tags": [
+            "geopolitics",
+            "china",
+            "export-controls"
+          ]
+        },
+        {
+          "title": "Colorado rewrites its landmark AI law",
+          "summary": "Colorado's legislature passed SB 26-189 on May 9, replacing its first-in-the-nation AI consumer protection act with a more business-friendly regime focused on disclosure requirements and limited consumer rights. The bill now awaits the governor's signature ahead of the original law's June 30 effective date. The rewrite comes after years of industry pushback and reflects a broader national trend of states softening early AI legislation under pressure.",
+          "source": "jdsupra.com",
+          "url": "https://www.jdsupra.com/topics/artificial-intelligence/new-legislation/ai-act/",
+          "tags": [
+            "state-law",
+            "regulation",
+            "colorado"
+          ]
+        },
+        {
+          "title": "EU AI Act gets targeted amendments and delays",
+          "summary": "The European Parliament and Council reached a provisional agreement on May 7 to amend the EU AI Act as part of the Digital Omnibus initiative, delaying and simplifying certain high-risk AI obligations. The deal reduces compliance burdens for developers ahead of the Act's full enforcement timeline. It is the first significant legislative rollback of the Act since it came into force.",
+          "source": "jdsupra.com",
+          "url": "https://www.jdsupra.com/topics/artificial-intelligence/new-legislation/ai-act/",
+          "tags": [
+            "eu",
+            "ai-act",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Elsevier sues Meta over Llama training data",
+          "summary": "Science publisher Elsevier has joined a class-action lawsuit against Meta, alleging that copyrighted scientific papers were scraped without authorization and used to train the Llama model family. The suit adds a major academic publisher to a growing roster of copyright plaintiffs targeting AI companies over training data practices. Meta has not publicly commented on the new filing.",
+          "source": "aihub.com",
+          "url": "https://aihub.com/policy",
+          "tags": [
+            "copyright",
+            "meta",
+            "llama"
+          ]
+        }
+      ]
+    }
+  ]
+}

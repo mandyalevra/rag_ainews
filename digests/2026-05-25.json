@@ -1,0 +1,222 @@
+{
+  "date": "May 25, 2026",
+  "iso": "2026-05-25",
+  "issue": 29,
+  "weekday": "Monday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google I/O 2026 unleashed Gemini 3.5 and Gemini Omni alongside a wave of agentic features spanning search, shopping, health, and a brand-new laptop called the Googlebook."
+    },
+    {
+      "catId": "money",
+      "text": "Sarvam hit unicorn status with a $234M round led by HCLTech, making it India's newest AI unicorn at a $1.5B valuation."
+    },
+    {
+      "catId": "world",
+      "text": "Connecticut enacted the most sweeping state AI law yet while Colorado scrapped its landmark AI Act, deepening America's regulatory patchwork just as the federal government retreats further from oversight."
+    }
+  ],
+  "headline": "gemini takes everything",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google's I/O blitz rewrote what an AI assistant can do, while OpenAI quietly kept pace with model upgrades and clinical tools.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini 3.5 and Gemini Omni arrive",
+          "summary": "Google officially launched Gemini 3.5 at I/O 2026, a frontier model built for complex multi-step agentic workflows across apps, alongside Gemini Omni, which can accept images, audio, video, and text as input and generate high-quality video grounded in real-world knowledge. The Gemini app is getting a new UI, personalized daily briefs, and a proactive assistant mode that manages your inbox and schedule in the background. New hardware including the Googlebook laptop and Fitbit Air tracker rounds out the rollout.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "models",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Computer use lands inside Gemini 3.5 Flash",
+          "summary": "Google has baked computer-use capability directly into Gemini 3.5 Flash, letting developers build agents that can see, reason, and click across browser, mobile, and desktop environments without a separate model. It includes enterprise safeguards that require explicit user confirmation for sensitive actions and can auto-stop tasks if a prompt injection is detected. Access is live today via the Gemini API and Gemini Enterprise Agent Platform.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+          "tags": [
+            "gemini",
+            "agents",
+            "devtools",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "Gemini 3.5 Live Translate speaks 70+ languages in real time",
+          "summary": "Google's new Gemini 3.5 Live Translate model delivers near-real-time speech-to-speech translation across more than 70 languages, preserving the speaker's intonation, pacing, and pitch. It is rolling out now in Google Translate on Android and iOS, in private preview for Google Meet enterprise users, and via the Gemini Live API for developers. Google Meet previously supported only five languages for live translation.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+          "tags": [
+            "google",
+            "translation",
+            "audio",
+            "workspace"
+          ]
+        },
+        {
+          "title": "ChatGPT gets GPT-5.5 Instant as default, clinician mode, and Images 2.0",
+          "summary": "OpenAI is rolling out GPT-5.5 Instant as ChatGPT's new default model for all users, replacing GPT-5.3 Instant with improvements in accuracy, image understanding, and STEM reasoning. The company also launched ChatGPT for Clinicians, a free verified tier supporting evidence review, documentation, and CME credit for US healthcare providers, and introduced ChatGPT Images 2.0 across all plans. A new full-screen writing editor now handles long-form documents like essays, PRDs, and reports with save-to-Library support.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "models",
+            "healthcare"
+          ]
+        },
+        {
+          "title": "Gemini connects to your Google Business Profile",
+          "summary": "Google announced new Gemini features for small businesses at its Google for Brazil event, letting owners link their Google Business Profile directly to the Gemini app so the AI can access real customer reviews, questions, and performance data. A new Business notebooks feature organizes workflows, tracks tasks, and generates branded content in one place. Both features are rolling out globally this month.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
+          "tags": [
+            "google",
+            "gemini",
+            "small-business",
+            "productivity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "India's AI scene minted a new unicorn, while agent security, formal verification, and compute marketplaces all attracted fresh capital.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam raised $234 million in a Series B round led by HCLTech, valuing the company at $1.5 billion and making it India's newest AI unicorn. Bessemer Venture Partners joined alongside existing backers Khosla Ventures and Peak XV Partners, and Sarvam is targeting a total raise of $300 million. The funding follows the company's launch of open-source models at 30B and 105B parameters earlier this year.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "funding",
+            "open-source"
+          ]
+        },
+        {
+          "title": "NewCore raises $66M to give AI agents identities",
+          "summary": "Cybersecurity startup NewCore emerged from stealth with $66 million in seed funding to solve the authentication and governance problem that arises when companies deploy AI agents at scale. The round was led by Cyberstarts, with Index Ventures and Evolution Equity Partners participating, valuing NewCore at $300 million post-investment. The company argues that as AI agents become de-facto employees, they need the same identity and access controls as humans.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+          "tags": [
+            "security",
+            "agents",
+            "enterprise",
+            "seed"
+          ]
+        },
+        {
+          "title": "Pramaana Labs grabs $27M to bring formal verification to AI",
+          "summary": "Pramaana Labs closed a $27 million seed round led by Khosla Ventures to apply formal verification techniques to AI systems, with participation from Accel, BoldCap, Nexus Venture Partners, Premji Invest, and Unbound. Formal verification uses mathematical proofs to guarantee software behavior, and Pramaana is betting the approach can address reliability gaps in production AI. The raise signals growing investor appetite for AI trustworthiness infrastructure beyond standard benchmarking.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "tags": [
+            "safety",
+            "verification",
+            "seed",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "a16z backs compute marketplace Ornn with $33M",
+          "summary": "Ornn raised $33 million in a seed round led by Andreessen Horowitz to build a marketplace where AI compute power can be bought and sold, with Galaxy Ventures, Nordstar, and SV Angel also participating. It marks a16z's first investment in a compute marketplace, with general partner Ali Yahya citing the critical need for liquid infrastructure markets as AI demand scales. a16z crypto led the round, suggesting the platform may incorporate on-chain settlement mechanics.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "infrastructure",
+            "a16z",
+            "seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The US federal AI vacuum widened as states raced to fill it, courts weighed in on AI in litigation, and a Commerce Department directive quietly cut off Anthropic's Fable and Mythos.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Connecticut sets the new bar for state AI law",
+          "summary": "Connecticut enacted one of the most comprehensive state AI laws in the US, covering companion chatbots, frontier model governance, AI in employment decisions, and whistleblower protections for AI safety concerns. The law passed on May 27, 2026 and analysts are already calling it the new benchmark for state-level AI regulation. It arrives just as Colorado formally repealed and replaced its own landmark AI Act with a narrower transparency-and-notice framework after pressure from industry, an xAI lawsuit, and DOJ intervention.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "regulation",
+            "connecticut",
+            "colorado",
+            "state-law"
+          ]
+        },
+        {
+          "title": "Trump shelved the AI model review executive order",
+          "summary": "The White House postponed signing an executive order that would have formalized a voluntary federal review process for frontier AI models before public release, with President Trump expressing concern it would block AI development. The decision deepens the federal governance vacuum, leaving companies facing a patchwork of over 2,182 AI-related bills across all 50 states with inconsistent definitions and enforcement mechanisms. Google DeepMind, Microsoft, and xAI had already agreed to give the Commerce Department early access to unreleased models under a separate voluntary arrangement.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "trump",
+            "executive-order",
+            "federal",
+            "governance"
+          ]
+        },
+        {
+          "title": "Anthropic cut off Fable and Mythos on a Commerce order",
+          "summary": "Anthropic disabled access to its Fable 5 and Mythos AI products following a directive from the Commerce Department, marking one of the first direct applications of export-control-style authority to a commercial AI safety product. The move raises unsettling questions about how national security restrictions could shape which AI tools reach developers and researchers. Policy observers flagged it as a preview of how frontier model governance and export controls may increasingly collide.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "anthropic",
+            "export-control",
+            "national-security",
+            "governance"
+          ]
+        },
+        {
+          "title": "Court rules AI expert prompts are fair game in discovery",
+          "summary": "A federal magistrate judge ordered a plaintiff to produce the AI prompts its expert used when preparing her report in Conservation Law Foundation Inc. v. Shell Oil Company, treating the prompts as part of the expert's methodology rather than protected drafting material. The ruling is one of the clearest signals yet that AI-assisted expert work will face the same discovery scrutiny as any other methodology. Legal teams using AI in litigation now have a concrete precedent to plan around.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "litigation",
+            "discovery",
+            "legal"
+          ]
+        },
+        {
+          "title": "Musk's $150B OpenAI lawsuit tossed by federal judge",
+          "summary": "A US District Judge dismissed Elon Musk's $150 billion lawsuit against OpenAI and Sam Altman after a federal jury found that claims of breach of charitable trust and unjust enrichment fell outside the statute of limitations. The dismissal closes what had been a high-profile legal battle over OpenAI's transformation from nonprofit to for-profit, at least at the federal level. Musk had argued OpenAI betrayed its founding mission when it took on outside investment.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "musk",
+            "openai",
+            "lawsuit",
+            "courts"
+          ]
+        }
+      ]
+    }
+  ]
+}

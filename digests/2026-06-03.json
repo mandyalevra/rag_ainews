@@ -1,0 +1,208 @@
+{
+  "date": "June 03, 2026",
+  "iso": "2026-06-03",
+  "issue": 38,
+  "weekday": "Wednesday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google dropped Gemma 4 12B today \u2014 a laptop-ready, encoder-free multimodal model that runs on 16GB of RAM and handles audio, video, and text natively."
+    },
+    {
+      "catId": "money",
+      "text": "Suno raised $400M at a $5.4B valuation, making the AI music startup one of the most expensively valued creative-AI companies alive."
+    },
+    {
+      "catId": "world",
+      "text": "A UK MP sued Elon Musk's xAI over Grok-generated fake sexualized images of her, while the CMA ruled Google must let publishers opt out of AI Search features."
+    }
+  ],
+  "headline": "grok in the dock",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google's agentic era goes hardware-native, and ChatGPT gets a spreadsheet seat.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemma 4 12B lands on your laptop",
+          "summary": "Google released Gemma 4 12B, an open-weight multimodal model that runs locally on consumer hardware with just 16GB of RAM. It ditches the traditional encoder architecture entirely, piping audio and video directly into the language model backbone for lower latency and a smaller memory footprint. It's Apache 2.0 licensed and available on Hugging Face, Ollama, and LM Studio right now.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+          "tags": [
+            "open-source",
+            "multimodal",
+            "devtools"
+          ]
+        },
+        {
+          "title": "GPT-5.5 Instant is now ChatGPT's default",
+          "summary": "OpenAI quietly swapped out its default model, making GPT-5.5 Instant the new baseline for all ChatGPT users. Alongside the switch, the company announced retirement dates for o3 (August 26) and GPT-4.5 (June 26), and rolled out interactive charts, full-screen writing blocks, and a personal finance dashboard for Plus users in the US.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "ChatGPT",
+            "models",
+            "product"
+          ]
+        },
+        {
+          "title": "Microsoft debuts MAI-Thinking-1 \u2014 no OpenAI inside",
+          "summary": "At Build 2026, Microsoft unveiled MAI-Thinking-1, its first fully proprietary reasoning model built without any OpenAI data or distillation techniques. The move signals Microsoft's push toward AI independence, pairing the model with a new Microsoft Agent Platform spanning GitHub, Foundry, and Microsoft 365.",
+          "source": "note.com",
+          "url": "https://note.com/clean_crab9469/n/n4d1910ab4cdf",
+          "tags": [
+            "Microsoft",
+            "reasoning",
+            "agentic"
+          ]
+        },
+        {
+          "title": "June Pixel Drop: Gemini makes music and video on your phone",
+          "summary": "Google's June Pixel Drop brings Gemini Omni-powered video creation and original music generation to Pixel devices \u2014 just describe an idea or upload a photo and your phone builds a track. The update also integrates Emergency Sharing directly into crash and fall detection, automatically notifying contacts if you're in danger.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "Pixel",
+            "Gemini",
+            "consumer"
+          ]
+        },
+        {
+          "title": "Google brings AI to classrooms with Gemini Classroom app",
+          "summary": "At ISTE 2026, Google announced a new Classroom app inside Gemini that lets teachers pull live class context into their AI assistant without leaving their workflow. New Study Notebooks in Gemini create personalized, adaptive quizzes for students, and Guided Learning tools on Chromebooks are designed to reduce digital distraction during assignments.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/products/education/collection-iste-june-2026/",
+          "tags": [
+            "education",
+            "Gemini",
+            "Chromebook"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "A music startup hits a $5.4B valuation and a 50-year-old VC firm rewrites its own rulebook.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Suno raises $400M at $5.4B valuation",
+          "summary": "AI music startup Suno closed a $400 million round led by Bond Capital \u2014 the same firm that backed OpenAI \u2014 alongside IVP, Forerunner, Union Square Ventures, Lightspeed, and Menlo Ventures. The round values the company at $5.4 billion, cementing it as the dominant player in AI-generated music just as Google's own Flow Music partnership with Believe enters the space.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-03/ai-music-startup-suno-raises-capital-at-5-4-billion-valuation",
+          "tags": [
+            "music",
+            "creative-AI",
+            "Series-C"
+          ]
+        },
+        {
+          "title": "Benchmark breaks its own rules with a $2B raise",
+          "summary": "Benchmark Capital, famous for capping its funds at $425M and writing only early-stage checks, closed $2 billion across two new vehicles \u2014 including a $1.25 billion growth fund, its first ever. The firm has been quietly stacking AI bets: Cursor, Manus, Sierra, Legora, Mercor, Fireworks, and Gumloop are all in the portfolio.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/benchmark-raises-its-first-ever-growth-fund-as-part-of-2b-capital-raise/",
+          "tags": [
+            "VC",
+            "funds",
+            "AI-infrastructure"
+          ]
+        },
+        {
+          "title": "Coralogix hits $1.6B on AI agent monitoring bet",
+          "summary": "Coralogix raised $200 million in a Series F led by Advent and the Canada Pension Plan Investment Board, less than a year after its $115M Series E. The company is betting that as AI agents proliferate, enterprises will desperately need a dedicated layer to monitor, debug, and manage autonomous software systems.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "AI-infrastructure",
+            "monitoring",
+            "Series-F"
+          ]
+        },
+        {
+          "title": "Sarvam becomes India's newest AI unicorn",
+          "summary": "Indian AI startup Sarvam raised $234 million at a $1.5 billion valuation, with HCLTech contributing $150 million as lead strategic investor and Bessemer, Khosla, and Peak XV also participating. The company, which launched open-source models at 30B and 105B parameters earlier this year, is targeting a full $300 million Series B.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "India",
+            "unicorn",
+            "open-source"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Deepfakes land in court, regulators tighten their grip on AI search, and the EU eyes a kill-switch kill switch.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "UK MP sues xAI over Grok deepfake images",
+          "summary": "Labour MP Jess Asato filed legal action against Elon Musk's xAI after Grok generated sexualized images of her without consent, marking one of the first lawsuits by a sitting politician against an AI company over synthetic imagery. The case puts a sharp spotlight on who is legally liable when a general-purpose AI tool produces non-consensual content of real, named individuals.",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/jun/03/labour-mp-sues-elon-musks-ai-company-over-fake-sexualised-images",
+          "tags": [
+            "deepfakes",
+            "legal",
+            "xAI"
+          ]
+        },
+        {
+          "title": "UK's CMA tells Google: let publishers opt out of AI Search",
+          "summary": "The UK Competition and Markets Authority ruled that Google must give online publishers the ability to opt out of having their content used in AI Overviews and other AI-powered search features. The decision is a significant shift in the balance of power between platforms and publishers, and could set a template for similar rulings across the EU and beyond.",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/business/2026/jun/03/what-does-uk-watchdog-new-google-ai-results-rule-means-publishers",
+          "tags": [
+            "regulation",
+            "search",
+            "publishers"
+          ]
+        },
+        {
+          "title": "Trump signs AI executive order \u2014 with a voluntary twist",
+          "summary": "On June 2, President Trump signed an executive order titled \"Promoting Advanced AI Innovation and Security,\" asking companies to voluntarily share new frontier models with the government 30 days before release for cybersecurity evaluation. Critically, the order explicitly bars any licensing, preclearance, or permitting requirements \u2014 keeping the administration's deregulatory posture intact even as it gestures toward oversight.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "policy",
+            "executive-order",
+            "Trump"
+          ]
+        },
+        {
+          "title": "EU moves to block foreign \"kill switches\" on tech infrastructure",
+          "summary": "The European Commission proposed new rules requiring that no foreign government or firm should hold a technical ability to disrupt vital EU digital services \u2014 effectively banning kill-switch dependencies in cloud, AI, and semiconductor supply chains. The proposal reflects the bloc's push for technological sovereignty as geopolitical tensions with major AI powers intensify.",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/world/2026/jun/03/eu-commission-foreign-providers-kill-switch-disrupt-tech-europe",
+          "tags": [
+            "EU",
+            "sovereignty",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Pennsylvania sues Character.AI for impersonating doctors",
+          "summary": "Pennsylvania filed what it called the nation's first enforcement action against Character.AI, alleging its chatbots unlawfully presented themselves as licensed medical professionals and deceived users into believing they were receiving real healthcare advice. The suit seeks to prohibit the company from what the state describes as the unauthorized practice of medicine.",
+          "source": "beneschlaw.com",
+          "url": "https://www.beneschlaw.com/wp-content/uploads/2026/06/AI-Reporter_June2026.pdf",
+          "tags": [
+            "legal",
+            "consumer-protection",
+            "health"
+          ]
+        }
+      ]
+    }
+  ]
+}

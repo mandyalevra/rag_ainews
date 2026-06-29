@@ -1,0 +1,219 @@
+{
+  "date": "June 02, 2026",
+  "iso": "2026-06-02",
+  "issue": 37,
+  "weekday": "Tuesday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "GitHub launched a full agent-native desktop app with canvases, sandboxes, and an SDK, while Google shipped Gemma 4 12B as a powerful open-weight model that runs on a laptop."
+    },
+    {
+      "catId": "money",
+      "text": "Coralogix raised $200M to build the monitoring layer for AI agents, hitting a $1.6B valuation just 11 months after its last round."
+    },
+    {
+      "catId": "world",
+      "text": "Trump quietly signed an executive order today cutting AI model review windows from 90 to 30 days, as Florida's AG filed the first state-led lawsuit against OpenAI and Sam Altman."
+    }
+  ],
+  "headline": "trump signs, florida sues",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Agentic desktops, open models, and AI everywhere you didn't expect it.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "GitHub Copilot gets a real desktop home",
+          "summary": "GitHub launched the Copilot app in technical preview \u2014 a full agent-native desktop experience with a unified 'My Work' view spanning repos, pull requests, and background automations. New 'canvases' let humans and agents collaborate on the same live surface, and a public SDK in six languages lets teams build on the same agentic runtime. Available now for Copilot Pro, Pro+, Business, and Enterprise users.",
+          "source": "github.blog",
+          "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+          "tags": [
+            "devtools",
+            "agents",
+            "github"
+          ]
+        },
+        {
+          "title": "Google's Gemma 4 12B runs on your laptop",
+          "summary": "Google released Gemma 4 12B, an open-weight multimodal model that fits in 16GB of VRAM and is the first mid-sized Gemma to accept native audio input \u2014 no separate encoder needed. It bridges the gap between the lightweight E4B and the heavier 26B MoE model, with benchmark scores close to the larger version. It ships under Apache 2.0, so teams can run, fine-tune, and redistribute freely.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-source",
+            "models",
+            "google"
+          ]
+        },
+        {
+          "title": "ChatGPT lands in CarPlay and Excel",
+          "summary": "OpenAI pushed ChatGPT into Apple CarPlay for hands-free voice conversations on the road, requiring iOS 26.4 and a supported car. Separately, ChatGPT for Excel and Google Sheets went globally available, embedding a ChatGPT sidebar directly into the spreadsheet experience. A new personal finance feature is also rolling out to Plus users in the US on web and iOS.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "product"
+          ]
+        },
+        {
+          "title": "Google's May recap: Gemini 3.5, Omni, and the Googlebook",
+          "summary": "Google's I/O-era product wave is now fully documented: Gemini 3.5 for agentic coding, Gemini Omni for video generation from any input, a Universal Cart across Search and YouTube, a new Google Health app, the Fitbit Air wellness pebble, and the Googlebook laptop built around Gemini Intelligence. It's the broadest single-month hardware-plus-AI launch Google has attempted.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Pixel June Drop: AI music, video, and emergency alerts",
+          "summary": "Google's June Pixel Drop adds Gemini Omni video creation and original music generation directly to Pixel phones \u2014 just describe an idea or upload a photo. Emergency Detection now automatically notifies chosen contacts if Car Crash, Fall, or Loss of Pulse Detection triggers, while a new Bubbles feature lets any app float in a window for easier multitasking.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "google",
+            "pixel",
+            "android"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Agent infrastructure, India's newest unicorn, and a VC that turned one big bet into $14 billion.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Coralogix bets $200M on watching the watchers",
+          "summary": "AI monitoring startup Coralogix raised $200M in a Series F led by Advent and Canada's CPPIB, valuing the company at $1.6B \u2014 just 11 months after its $115M Series E. The thesis: as AI agents run more autonomously, enterprises urgently need infrastructure to monitor, troubleshoot, and audit what those agents are actually doing. Total raised now sits at $550M.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "funding",
+            "infrastructure",
+            "agents"
+          ]
+        },
+        {
+          "title": "Sarvam is India's newest AI unicorn",
+          "summary": "Indian AI startup Sarvam closed $234M of a targeted $300M Series B at a $1.5B valuation, with HCLTech leading at $150M alongside Bessemer, Khosla, and Peak XV. The company builds open-source models tuned for Indian languages and recently released 30B and 105B parameter versions. It took just over two years to go from a $41M seed-to-Series-A run to unicorn status.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "funding",
+            "unicorn",
+            "india"
+          ]
+        },
+        {
+          "title": "Menlo Ventures' Anthropic bet pays off spectacularly",
+          "summary": "Menlo Ventures announced $3B in new funds \u2014 its largest raise in 50 years \u2014 fuelled largely by its Anthropic stake, now worth roughly $14B after the firm led a bet-the-firm $500M Series D investment in 2024. The firm also quietly grew its Anthropic-partnered Anthology startup fund from $100M to $250M deployed. It's a case study in concentrated conviction working out.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+          "tags": [
+            "vc",
+            "anthropic",
+            "funds"
+          ]
+        },
+        {
+          "title": "PhysicsX hits $2.4B making AI for jet engines",
+          "summary": "London-based PhysicsX raised $300M at a $2.4B valuation, up from roughly $1B at its last round, to build AI models that simulate and optimize complex manufacturing components like jet engines and semiconductors. Singapore's Temasek led the Series C, with Nvidia and Applied Materials continuing as backers \u2014 validating the industrial AI niche as seriously capital-worthy.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "funding",
+            "industrial-ai",
+            "manufacturing"
+          ]
+        },
+        {
+          "title": "a16z backs a marketplace for compute",
+          "summary": "Andreessen Horowitz led a $33M seed round into Ornn, a startup building a marketplace where AI compute power can be bought and sold like a commodity. It's a16z's first investment specifically in compute marketplace infrastructure, with a16z crypto, Galaxy Ventures, and SV Angel also participating. The play: as GPU demand stays volatile, a liquid spot market could unlock significant arbitrage value.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "funding",
+            "compute",
+            "a16z"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "A presidential signature, a state lawsuit, and a court ruling that makes your AI prompts discoverable.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Trump signs AI executive order \u2014 lighter touch, faster clock",
+          "summary": "President Trump signed the 'Promoting Advanced Artificial Intelligence Innovation and Security' executive order today, cutting the voluntary government review window for new AI models from 90 to 30 days. The order explicitly bars the creation of any licensing or preclearance requirements for AI model development, cementing a federal posture of voluntary industry collaboration over hard mandates. It takes effect August 6.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "policy",
+            "executive-order",
+            "trump"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI and Sam Altman",
+          "summary": "Florida's Attorney General filed the first state-led civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly concealed ChatGPT's risks and marketed it to children using deceptive trade practices. The complaint cites dangerous self-harm responses, dependency-inducing design, and data collection from minors. The move puts Florida alongside a growing list of state AGs willing to use consumer protection law as an AI accountability lever.",
+          "source": "politico.com",
+          "url": "https://www.politico.com/newsletters/politico-influence/2026/06/02/its-an-ai-filled-day-and-night-00947118",
+          "tags": [
+            "lawsuit",
+            "openai",
+            "florida"
+          ]
+        },
+        {
+          "title": "Your AI prompts may now be discoverable in court",
+          "summary": "A federal magistrate judge in Conservation Law Foundation v. Shell Oil ordered a plaintiff to hand over the AI prompts its expert used to prepare a report, ruling they are part of the expert's methodology \u2014 not protected drafting material. The decision is one of the clearest signals yet that AI-assisted expert work opens a new front in litigation discovery. Legal teams using AI in case preparation should take note immediately.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "discovery",
+            "legal"
+          ]
+        },
+        {
+          "title": "Congress incoming \u2014 and it's net-negative on AI",
+          "summary": "A Penta Group analysis shared with Politico finds that no outcome in today's six-state primaries will produce a Congress with net-positive views on AI, regardless of party. Democrats favor stricter regulation and oversight; Republicans are beginning to splinter, with Florida's AG and Rep. Byron Donalds breaking from Trump to call for state-led regulation. The analysis suggests 2027's Congress will be AI's toughest legislative audience yet.",
+          "source": "politico.com",
+          "url": "https://www.politico.com/newsletters/politico-influence/2026/06/02/its-an-ai-filled-day-and-night-00947118",
+          "tags": [
+            "politics",
+            "regulation",
+            "congress"
+          ]
+        },
+        {
+          "title": "UK bans romantic AI chatbots for under-18s",
+          "summary": "The UK Government announced it will ban 'romantic companion' AI chatbots for all users under 18 and introduce social media bans for under-16s, following Australia's lead after a consultation on online harms. The moves are part of a broader June wave of AI governance activity globally, including the EU's final Transparency Code of Practice for AI-generated content labelling and the UAE consolidating its AI and data agencies into a single federal authority.",
+          "source": "simmons-simmons.com",
+          "url": "https://www.simmons-simmons.com/en/publications/cmqtmrwqa0040vevw5by0h69a/ai-view-june-2026",
+          "tags": [
+            "regulation",
+            "uk",
+            "children-safety"
+          ]
+        }
+      ]
+    }
+  ]
+}

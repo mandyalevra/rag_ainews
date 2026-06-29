@@ -1,0 +1,196 @@
+{
+  "date": "June 17, 2026",
+  "iso": "2026-06-17",
+  "issue": 52,
+  "weekday": "Wednesday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "GPT-5.5 Instant is now the default ChatGPT model, while Google's June Pixel Drop ships AI video, music creation, and emergency auto-sharing to Pixel devices."
+    },
+    {
+      "catId": "money",
+      "text": "Kuaishou's Kling AI is seeking $2 billion at an $18 billion valuation with General Atlantic in talks to lead, as India's Sarvam hits unicorn status on a $234 million raise."
+    },
+    {
+      "catId": "world",
+      "text": "A federal court ruled that AI prompts used by expert witnesses are discoverable in litigation, putting AI methodology squarely inside the discovery process for the first time."
+    }
+  ],
+  "headline": "prompts on the stand",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "New model defaults, Pixel AI drops, and an open-source image challenger arrive all at once.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "GPT-5.5 Instant takes the default seat",
+          "summary": "OpenAI has replaced GPT-5.3 Instant with GPT-5.5 Instant as the default model for all ChatGPT users, promising sharper accuracy, better image understanding, and smarter web-search decisions. Paid users get a three-month grace period to keep using 5.3 before it retires. The rollout also brings a new Scheduled Tasks page so users can manage recurring AI work from one place in the sidebar.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/zh-hans-cn/articles/6825453-chatgpt-%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "model-update"
+          ]
+        },
+        {
+          "title": "June Pixel Drop: AI music, video, and emergency sharing",
+          "summary": "Google's June Pixel Drop lands Android 17 and Wear OS 7 alongside a batch of Gemini-powered creative tools \u2014 users can now generate original music tracks from a photo or text prompt and edit videos through natural conversation with Gemini Omni. Emergency Detection now automatically pings chosen contacts when Crash, Fall, or Loss of Pulse Detection fires. Floating app bubbles and Voice Translate on Pixel 10a round out the quality-of-life additions.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "google",
+            "pixel",
+            "gemini",
+            "android"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs frontier reasoning on a laptop",
+          "summary": "Google released Gemma 4 12B, an open Apache 2.0 model that sits between its 4B edge model and the 26B MoE, fitting into 16 GB of VRAM with native audio input and no separate multimodal encoders. Benchmark performance reportedly approaches the larger 26B sibling, making it a practical local option for agentic and coding workflows. Google is also shipping a Skills Repository so developers can plug Gemma directly into agent pipelines.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "google",
+            "open-source",
+            "gemma",
+            "on-device"
+          ]
+        },
+        {
+          "title": "Boogu-Image-0.1 Turbo ships with ComfyUI support",
+          "summary": "Boogu released its open-source unified image generation family today, including Base, Turbo, and Edit variants under an Apache 2.0 licence. The Turbo variant uses four-step distillation for fast photorealistic output, while the Edit model handles image-to-image transformations from a single reference. ComfyUI integration also dropped today, making it plug-and-play for existing local-gen workflows.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/Boogu/Boogu-Image-0.1-Turbo",
+          "tags": [
+            "open-source",
+            "image-gen",
+            "comfyui"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Video AI, sovereign AI, formal verification, and AI-for-manufacturing all draw serious cheques this week.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Kling AI eyes $2B raise at $18B valuation",
+          "summary": "Kuaishou's video AI unit Kling AI is in advanced talks with General Atlantic to anchor a funding round targeting over $2 billion, which would value the company at $18 billion \u2014 down from an initial $20 billion ask. The round is being structured ahead of a planned IPO, and landing a major US backer is a key strategic goal for the Chinese firm. Kling competes in an increasingly crowded AI video generation market alongside Sora, Runway, and others.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-17/kuaishou-kling-ai-seeks-2-billion-at-18-billion-value-from-general-atlantic",
+          "tags": [
+            "video-ai",
+            "fundraising",
+            "china",
+            "ipo"
+          ]
+        },
+        {
+          "title": "Sarvam becomes India's newest AI unicorn",
+          "summary": "Bengaluru-based Sarvam has closed $234 million of a targeted $300 million Series B, reaching a $1.5 billion valuation and joining India's unicorn club. HCLTech anchored the round with $150 million, joined by Bessemer Venture Partners, Khosla Ventures, and Peak XV Partners. The company launched open-source models at 30B and 105B parameters earlier this year and positions itself as sovereign AI infrastructure for India.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "sovereign-ai",
+            "series-b"
+          ]
+        },
+        {
+          "title": "Pramaana Labs bags $27M to verify AI with math",
+          "summary": "Pramaana Labs announced a $27 million seed round led by Khosla Ventures, with Accel, Nexus Venture Partners, Premji Invest, and others participating. The startup is applying formal verification \u2014 the technique used to prove chip and software correctness \u2014 to AI systems, aiming to give enterprises provable guarantees about model behaviour. It is one of the largest seed rounds in the formal-methods-meets-AI space to date.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "tags": [
+            "seed",
+            "ai-safety",
+            "formal-verification",
+            "khosla"
+          ]
+        },
+        {
+          "title": "PhysicsX hits $2.4B on AI for jet engines and chips",
+          "summary": "London-based PhysicsX raised $300 million in a Series C led by Singapore's Temasek, lifting its valuation to roughly $2.4 billion \u2014 up from just under $1 billion at its last round. The startup builds AI models that simulate the physics of high-stakes manufacturing components like jet engines and semiconductors, with Nvidia and Applied Materials among its existing backers. The raise signals deepening institutional appetite for AI applied to physical-world engineering.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "series-c",
+            "manufacturing",
+            "physical-ai",
+            "temasek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "AI prompts enter the courtroom, states keep writing their own rules, and Connecticut sets a new US benchmark.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Court rules AI expert prompts are discoverable",
+          "summary": "In Conservation Law Foundation v. Shell Oil Company, a federal magistrate judge ordered a plaintiff to hand over the AI prompts its expert used when preparing her report, treating them as methodology rather than protected drafting material. The ruling is one of the clearest signals yet that litigants cannot shield AI-assisted expert work from discovery, effectively putting prompt engineering inside the evidentiary record. Legal teams using AI for expert preparation now face a new disclosure calculus.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "litigation",
+            "discovery",
+            "ai-law",
+            "courts"
+          ]
+        },
+        {
+          "title": "Connecticut sets a new US state AI benchmark",
+          "summary": "Connecticut enacted one of the most comprehensive state AI laws in the US on May 27, covering companion chatbots, frontier model governance, and AI use in employment decisions. The law adds to a rapidly thickening patchwork of state obligations as Congress continues to stall on federal AI legislation. Legal analysts are calling it a new floor for what substantive state-level AI governance looks like.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "regulation",
+            "state-law",
+            "connecticut",
+            "governance"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over ChatGPT safety concealment",
+          "summary": "Florida's Attorney General filed the first state-led civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly hid serious risks of ChatGPT and marketed it aggressively to residents including children. The complaint cites deceptive trade practices, responses that promote self-harm, dependency-inducing design, and data collection from minors. The suit is being watched as a test of whether consumer protection law can impose AI safety accountability in the absence of federal rules.",
+          "source": "myfloridalegal.com",
+          "url": "https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-first-nation-state-led-lawsuit-against-openai-ceo",
+          "tags": [
+            "lawsuit",
+            "openai",
+            "consumer-protection",
+            "florida"
+          ]
+        },
+        {
+          "title": "Trump's AI executive order: innovation yes, licensing no",
+          "summary": "President Trump signed an executive order on June 2 titled 'Promoting Advanced Artificial Intelligence Innovation and Security,' which explicitly bars the creation of any licensing, preclearance, or permitting requirements for AI model development or distribution. The order prioritises voluntary, industry-collaborative frameworks and focuses federal AI effort on hardening government and critical infrastructure against cyber threats. It takes effect August 6, setting a clear federal posture as states move in the opposite direction.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "executive-order",
+            "trump",
+            "federal-policy",
+            "regulation"
+          ]
+        }
+      ]
+    }
+  ]
+}

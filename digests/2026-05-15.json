@@ -1,0 +1,219 @@
+{
+  "date": "May 15, 2026",
+  "iso": "2026-05-15",
+  "issue": 19,
+  "weekday": "Friday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "PwC is rolling out Claude to hundreds of thousands of professionals globally, anchoring a new AI-native finance business unit on Anthropic's technology."
+    },
+    {
+      "catId": "money",
+      "text": "Runway hit a $5.3B valuation and added $40M ARR in Q2, while UK chip startup Fractile quietly raised $220M to challenge Nvidia's dominance."
+    },
+    {
+      "catId": "world",
+      "text": "The Musk v. Altman trial wrapped closing arguments with jurors now deliberating a verdict that could force OpenAI to restructure or pay billions."
+    }
+  ],
+  "headline": "nine jurors decide",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Enterprise AI deployments went deep this week, with Claude colonizing the Fortune 500 and ChatGPT moving into your spreadsheet sidebar.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "PwC goes all-in on Claude",
+          "summary": "Anthropic and PwC expanded their strategic alliance, with PwC rolling out Claude Code and Claude Cowork to its global workforce of hundreds of thousands of professionals. The firm is standing up a new Office of the CFO business unit built entirely on Claude \u2014 the first standalone practice anchored in a single AI provider's stack. Claude is already live in production across insurance underwriting, mainframe modernization, and private equity deal-making, cutting delivery times by up to 70%.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+          "tags": [
+            "enterprise",
+            "claude",
+            "partnerships"
+          ]
+        },
+        {
+          "title": "ChatGPT lives inside your spreadsheet now",
+          "summary": "OpenAI launched ChatGPT for Excel and Google Sheets, a sidebar-native AI that can build, update, and explain multi-tab spreadsheets using natural language. It's available globally to Free through Enterprise users, though Business and Enterprise customers get a free preview only through June 2, 2026. The feature sits directly inside the spreadsheet environment rather than requiring a context switch to the main ChatGPT interface.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/es-419/articles/20001063-chatgpt-for-excel-and-google-sheets",
+          "tags": [
+            "openai",
+            "productivity",
+            "spreadsheets"
+          ]
+        },
+        {
+          "title": "OpenAI launches DeployCo with $4B war chest",
+          "summary": "OpenAI stood up a new unit called the OpenAI Deployment Company, backed by over $4 billion from 19 partners including Brookfield and TPG. The unit embeds OpenAI engineers directly inside corporations to accelerate frontier model integration \u2014 a consulting-meets-infra play that takes the company well beyond API sales. Anthropic appears to be running a parallel strategy through its PwC alliance.",
+          "source": "distillintelligence.com",
+          "url": "https://www.distillintelligence.com/briefings/ai-leaders-2026-05-15",
+          "tags": [
+            "openai",
+            "enterprise",
+            "deployment"
+          ]
+        },
+        {
+          "title": "Video generation gets crowded and capable",
+          "summary": "Replicate's model catalogue now spans ByteDance's Seedance 2.0, Google's Veo 3.1, Runway Gen-4.5, and Alibaba's Happy Horse 1.0 \u2014 all accessible via a single API line. Runway Gen-4.5 currently tops the Artificial Analysis text-to-video benchmark, while Veo 3.1 adds native audio including dialogue and ambient soundscapes. The open-source Wan 2.7 rounds out the options for teams that want to self-host.",
+          "source": "replicate.com",
+          "url": "https://replicate.com/collections/image-to-video",
+          "tags": [
+            "video-gen",
+            "api",
+            "multimodal"
+          ]
+        },
+        {
+          "title": "xAI's Grok Build enters coding agent race",
+          "summary": "xAI launched Grok Build, a coding agent, in public beta \u2014 entering a field now crowded with Claude Code, OpenAI's Codex mobile app, and GitHub Copilot. The beta release lands the same week OpenAI also shipped 'Daybreak,' a cyber-defense-focused coding tool. Moonshot AI's Kimi WebBridge browser extension also debuted, signalling the agentic coding war has fully moved from demos to live products.",
+          "source": "distillintelligence.com",
+          "url": "https://www.distillintelligence.com/briefings/ai-leaders-2026-05-15",
+          "tags": [
+            "coding-agents",
+            "xai",
+            "agentic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "A British chip startup, a filmmaker-turned-AI-giant, and a GPU-rental platform all made headlines in a funding Friday that reinforced AI infrastructure as the dominant investment thesis.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Fractile raises $220M to put AI on custom silicon",
+          "summary": "UK chip startup Fractile closed a $220 million Series B led by Accel, Factorial Funds, and Peter Thiel's Founders Fund, with Felicis, 8VC, and Conviction also participating. The company previously raised just $22.5 million in January, making this a dramatic step-change in backing. Fractile is building chips designed to run large language models locally rather than in the cloud \u2014 a direct bet against Nvidia's data-center dominance.",
+          "source": "sifted.eu",
+          "url": "https://sifted.eu/articles/fractile-220m-accel",
+          "tags": [
+            "chips",
+            "hardware",
+            "series-b"
+          ]
+        },
+        {
+          "title": "Runway: $5.3B valuation, $40M ARR added in one quarter",
+          "summary": "Runway is now valued at $5.3 billion after raising $860 million in total, including a $315 million round from AMD Ventures and Nvidia in February. The company added $40 million in annual recurring revenue in Q2 2026 alone and is expanding into Japan with a $40 million commitment. Founded without Stanford pedigree or a nine-figure seed, Runway is now going head-to-head with Google in AI video generation.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+          "tags": [
+            "video-ai",
+            "growth",
+            "valuation"
+          ]
+        },
+        {
+          "title": "Modal in talks to raise at $4.5B \u2014 up 80% from months ago",
+          "summary": "Modal, a startup that rents Nvidia GPUs and provides developer tooling for running and training models, is in advanced talks to raise at a roughly $4.5 billion valuation. That marks an 80% premium over its valuation from just a few months prior, reflecting surging demand for GPU-rental infrastructure as agentic workloads scale. The round details remain undisclosed but the valuation jump underscores how quickly AI infrastructure multiples are moving.",
+          "source": "theinformation.com",
+          "url": "https://www.theinformation.com/articles",
+          "tags": [
+            "gpu-cloud",
+            "infrastructure",
+            "fundraise"
+          ]
+        },
+        {
+          "title": "Anduril raises $5B, doubles valuation to $61B",
+          "summary": "Defense tech company Anduril closed a $5 billion round that doubled its valuation to $61 billion, cementing its position as one of the most valuable private defense companies in the world. The raise comes as investment in defense-tech startups is on pace to significantly exceed last year's total, with software for autonomous systems drawing particular interest. Arkeus, a smaller defense-software startup focused on autonomous systems, separately disclosed an $18 million Series A on the same day.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
+          "tags": [
+            "defense-tech",
+            "autonomous",
+            "mega-round"
+          ]
+        },
+        {
+          "title": "Qwen's former lead researcher seeks $200M+ for new AI lab",
+          "summary": "Junyang Lin, the former lead researcher behind Alibaba's Qwen model family, is seeking to raise several hundred million dollars for a new independent AI lab expected to be valued at around $2 billion post-funding. The move follows a pattern of elite model researchers spinning out to found well-capitalized competitors \u2014 echoing the origins of Anthropic, Mistral, and xAI. Discussions are ongoing and no lead investor has been announced.",
+          "source": "theinformation.com",
+          "url": "https://www.theinformation.com/articles",
+          "tags": [
+            "ai-lab",
+            "fundraise",
+            "china"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "A historic jury deliberation, an EU regulatory clock ticking toward August, and Singapore's quiet move to govern agentic AI all define the week in AI policy.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Musk v. Altman: the jury is out \u2014 literally",
+          "summary": "The landmark trial between Elon Musk and OpenAI wrapped closing arguments this week, with nine jurors now deliberating whether OpenAI and Microsoft breached a charitable trust when the nonprofit added its for-profit arm. Testimony from Sam Altman, Ilya Sutskever, and Satya Nadella centered on the company's founding mission and whether that mission was abandoned. A verdict against OpenAI could force a structural restructuring, trigger SEC investigations into AI charitable trusts, and hand competitive advantage to Anthropic and Google DeepMind.",
+          "source": "distillintelligence.com",
+          "url": "https://www.distillintelligence.com/briefings/ai-leaders-2026-05-15",
+          "tags": [
+            "openai",
+            "legal",
+            "governance"
+          ]
+        },
+        {
+          "title": "EU AI Act full enforcement arrives August 2",
+          "summary": "The EU AI Act enters full enforcement on August 2, 2026, with regulators tracking 30 active regulatory entries and 8 items flagged as critical impact this week alone. A provisional agreement on the EU Digital Omnibus was passed May 7, extending the AI sandbox deadline to August 2027 and reducing transparency grace periods. The pace of regulatory change jumped sharply this week: total tracked entries went from 5 last week to 30.",
+          "source": "agentscout.live",
+          "url": "https://agentscout.live/policy/ai-regulation/data/ai-regulation-tracker-20260515/",
+          "tags": [
+            "eu",
+            "regulation",
+            "enforcement"
+          ]
+        },
+        {
+          "title": "White House formally accuses China of industrial-scale model distillation",
+          "summary": "The White House formally accused Chinese companies of conducting industrial-scale distillation of US frontier AI models using jailbreaking techniques \u2014 effectively copying capability from American systems at scale. The accusation lands as China's own AI compliance deadlines approach, with a July 1 filing deadline for public generative AI services and the Qinglang enforcement campaign already penalizing unregistered AI apps. DeepSeek's V4 preview release simultaneously triggered mandatory algorithm filing requirements under Chinese law.",
+          "source": "agentscout.live",
+          "url": "https://agentscout.live/policy/ai-regulation/data/ai-regulation-tracker-20260515/",
+          "tags": [
+            "china",
+            "policy",
+            "geopolitics"
+          ]
+        },
+        {
+          "title": "Singapore launches the first agentic AI governance framework",
+          "summary": "Singapore's IMDA and PDPC published what is being described as the world's first governance framework specifically designed for agentic AI systems \u2014 AI that autonomously plans and executes multi-step tasks. The framework addresses accountability gaps that existing AI governance tools weren't built for, particularly around autonomous decision-making chains where no single human approves each action. It arrives as agentic deployments move from pilots to production across global enterprises.",
+          "source": "agentscout.live",
+          "url": "https://agentscout.live/policy/ai-regulation/data/ai-regulation-tracker-20260515/",
+          "tags": [
+            "singapore",
+            "agentic",
+            "governance"
+          ]
+        },
+        {
+          "title": "OpenAI faces three new lawsuits in one week",
+          "summary": "OpenAI is simultaneously defending itself in the Musk trial while facing new lawsuits alleging it shared user data with Google and Meta, a Florida attorney general probe into uncharted legal territory, and a California case claiming chatbot advice contributed to a fatal overdose. A separate lawsuit seeks to halt ChatGPT Health entirely. The legal pile-on reflects how quickly AI liability questions are moving from theory to courtroom.",
+          "source": "distillintelligence.com",
+          "url": "https://www.distillintelligence.com/briefings/ai-leaders-2026-05-15",
+          "tags": [
+            "openai",
+            "legal",
+            "liability"
+          ]
+        }
+      ]
+    }
+  ]
+}

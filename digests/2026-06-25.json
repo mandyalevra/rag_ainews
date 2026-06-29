@@ -1,0 +1,186 @@
+{
+  "date": "June 25, 2026",
+  "iso": "2026-06-25",
+  "issue": 60,
+  "weekday": "Thursday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Anthropic launched Claude Fable 5 and Mythos 5 today \u2014 its most capable models ever \u2014 with Fable 5 open to all and Mythos 5 restricted to government-vetted cyber defenders."
+    },
+    {
+      "catId": "money",
+      "text": "Menlo Ventures closed a $3 billion fund \u2014 its largest in 50 years \u2014 largely on the back of its Anthropic stake now worth roughly $14 billion."
+    },
+    {
+      "catId": "world",
+      "text": "The Trump administration is vetting frontier AI models before public release, forcing OpenAI and Anthropic to restrict their newest systems to government-approved partners."
+    }
+  ],
+  "headline": "who's allowed in",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest model launches and product updates hitting users right now.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Claude Fable 5 arrives \u2014 with a locked twin",
+          "summary": "Anthropic launched Claude Fable 5 today, its most capable model ever, available to all users and developers at $10 per million input tokens and $50 per million output tokens. Alongside it comes Claude Mythos 5 \u2014 the same underlying model but with cybersecurity safeguards lifted \u2014 restricted exclusively to government-vetted cyber defenders through Project Glasswing. Fable 5 uses a new classifier system to detect and block misuse, making it the first Mythos-class model Anthropic has deemed safe for general release.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "tags": [
+            "anthropic",
+            "models",
+            "safety"
+          ]
+        },
+        {
+          "title": "GPT-5.5 Instant is now ChatGPT's default model",
+          "summary": "OpenAI quietly swapped out GPT-5.3 Instant as the default model for all ChatGPT users, replacing it with GPT-5.5 Instant, which brings improved reasoning, better multi-turn context handling, and stronger instruction-following. The update also doubles memory capacity for Plus and Pro users and rolls out alongside Codex Remote going generally available \u2014 letting users start and manage coding sessions from their phone. A personal finance dashboard and ChatGPT for Clinicians are also shipping today.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "models"
+          ]
+        },
+        {
+          "title": "Google's Gemma 4 12B runs multimodal AI on your laptop",
+          "summary": "Google released Gemma 4 12B, an open-source multimodal model that fits in 16GB of VRAM and is the first mid-sized Gemma to accept native audio input alongside images and text. The model skips traditional multimodal encoders entirely, feeding vision and audio directly into the LLM backbone for a leaner architecture. It ships under Apache 2.0, ready to run locally on consumer hardware.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "google",
+            "open-source",
+            "multimodal"
+          ]
+        },
+        {
+          "title": "Boogu-Image-0.1-Turbo hotfix patches visual artifacts",
+          "summary": "The open-source Boogu-Image-0.1-Turbo model received a hotfix today addressing visual artifacts that appeared at non-standard aspect ratios and background overfitting issues. The patch drops updated weights on Hugging Face with no feature changes \u2014 just cleaner output. An image-to-image Edit-Turbo variant is also teased as coming soon.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/Boogu/Boogu-Image-0.1-Turbo",
+          "tags": [
+            "open-source",
+            "image-gen",
+            "huggingface"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "The funding rounds, valuations, and bets shaping who builds the AI future.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Menlo Ventures closes $3B fund on the back of Anthropic",
+          "summary": "Menlo Ventures announced $3 billion in new funds \u2014 the largest raise in its 50-year history \u2014 powered almost entirely by the appreciation of its Anthropic stake, now worth roughly $14 billion after an initial $500 million bet in 2024. The firm admits it was a white-knuckle moment when it led Anthropic's Series D at an $18 billion valuation. That gamble has since become one of the most profitable venture positions in AI history.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+          "tags": [
+            "venture",
+            "anthropic",
+            "fundraising"
+          ]
+        },
+        {
+          "title": "a16z backs Ornn's compute marketplace with $33M",
+          "summary": "Andreessen Horowitz led a $33 million seed round into Ornn, a startup building a marketplace where AI compute power can be bought and sold like a commodity. It marks a16z crypto's first investment in a compute marketplace, with Galaxy Ventures and SV Angel also participating. The bet reflects growing conviction that GPU access will become a traded asset class as AI infrastructure demand intensifies.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "a16z",
+            "compute",
+            "infrastructure"
+          ]
+        },
+        {
+          "title": "Sarvam hits $1.5B unicorn valuation with $234M raise",
+          "summary": "Bengaluru-based AI startup Sarvam closed $234 million in Series B funding led by HCLTech, pushing its valuation to $1.5 billion and making it India's newest AI unicorn. The company, which released open-source models at 30B and 105B parameters earlier this year, is targeting a total raise of $300 million. Bessemer, Khosla Ventures, and Peak XV Partners also participated.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "open-source"
+          ]
+        },
+        {
+          "title": "NewCore raises $66M to give AI agents verified identities",
+          "summary": "Cybersecurity startup NewCore emerged from stealth with $66 million in seed funding to tackle a problem most companies haven't hit yet: how to authenticate and govern AI agents operating autonomously inside enterprise systems. The round was led by Cyberstarts with Index Ventures and Evolution Equity, valuing the company at $300 million. As agentic AI deployments scale, NewCore is betting identity management for non-human workers becomes critical infrastructure.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+          "tags": [
+            "cybersecurity",
+            "agents",
+            "identity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "How governments, courts, and regulators are reshaping the rules of AI.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Trump's team is deciding who gets the newest AI models",
+          "summary": "The Trump administration is now vetting frontier AI models before public release under a June executive order, and both OpenAI and Anthropic have complied by restricting their newest systems to government-approved partners. OpenAI's GPT-5.6 Sol is available only to cleared customers, while Anthropic's Mythos 5 was taken offline and then partially redeployed after the Commerce Department reviewed it. Critics in Congress warn there is no law, no process, and no oversight \u2014 just White House appointees deciding who's in and who's out.",
+          "source": "securityweek.com",
+          "url": "https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/",
+          "tags": [
+            "regulation",
+            "trump",
+            "national-security"
+          ]
+        },
+        {
+          "title": "UK bans romantic AI chatbots for under-18s",
+          "summary": "The UK government announced it will ban AI companion chatbots that simulate romantic relationships for all users under 18, alongside a broader social media ban for under-16s modelled on Australia's approach. The first tranche of regulations is expected before Parliament by end of 2026, entering force in Spring 2027 \u2014 though the timeline may shift following Prime Minister Starmer's resignation on June 22. The move signals a growing international consensus around protecting minors from relationship-simulating AI.",
+          "source": "simmons-simmons.com",
+          "url": "https://www.simmons-simmons.com/en/publications/cmqtmrwqa0040vevw5by0h69a/ai-view-june-2026",
+          "tags": [
+            "uk",
+            "regulation",
+            "children"
+          ]
+        },
+        {
+          "title": "Court rules AI prompts are discoverable in litigation",
+          "summary": "A federal magistrate judge has ordered a plaintiff to hand over the AI prompts its expert used when preparing a legal report, treating them as methodology rather than protected drafting material. The ruling in Conservation Law Foundation v. Shell Oil Company is one of the clearest signals yet that using AI in expert work opens up that work to opposing counsel. Lawyers relying on AI-assisted analysis now face meaningful discovery exposure.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "litigation",
+            "discovery"
+          ]
+        },
+        {
+          "title": "UAE consolidates all AI and data governance under one authority",
+          "summary": "The UAE established a new Federal Authority for Artificial Intelligence and Data on June 14, merging several existing bodies into a single entity reporting directly to the Cabinet. The authority will develop national AI strategy, propose legislation, and set standards \u2014 chaired by Minister of State for AI Omar Sultan Al Olama. The consolidation positions the UAE as one of the most centralised AI governance regimes in the world.",
+          "source": "simmons-simmons.com",
+          "url": "https://www.simmons-simmons.com/en/publications/cmqtmrwqa0040vevw5by0h69a/ai-view-june-2026",
+          "tags": [
+            "uae",
+            "governance",
+            "policy"
+          ]
+        }
+      ]
+    }
+  ]
+}

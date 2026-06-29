@@ -1,0 +1,208 @@
+{
+  "date": "May 26, 2026",
+  "iso": "2026-05-26",
+  "issue": 30,
+  "weekday": "Tuesday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's I/O blitz delivered Gemini 3.5, Gemini Omni, a new Googlebook laptop, and a Universal Cart that spans Search, YouTube, and Gmail."
+    },
+    {
+      "catId": "money",
+      "text": "Sarvam raised $234M to become India's newest AI unicorn, with HCLTech leading a $1.5B valuation round."
+    },
+    {
+      "catId": "world",
+      "text": "Connecticut enacted a sweeping AI law covering companion chatbots and frontier models, while Colorado quietly gutted its own landmark statute under industry pressure."
+    }
+  ],
+  "headline": "prompts on trial",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "From Gemini Omni to GPT-5.5, the model race just got faster and weirder.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Google's agentic era is officially open",
+          "summary": "At Google I/O 2026, Google launched Gemini 3.5 for complex agentic workflows and Gemini Omni, which generates high-quality video from any combination of text, audio, images, and video. The update also introduced Android Halo to manage agents in the background, a Universal Cart for shopping across all Google surfaces, and the Googlebook laptop built ground-up for Gemini intelligence.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "gemini",
+            "agents",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs on your laptop \u2014 no cloud needed",
+          "summary": "Google released Gemma 4 12B, an open-weight multimodal model that fits in 16GB of VRAM, making it the first mid-sized model in the Gemma family to support native audio inputs. Its encoder-free architecture routes vision and audio directly into the LLM backbone, pushing benchmark performance close to the larger 26B MoE model. It ships under Apache 2.0 license.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-weights",
+            "multimodal",
+            "on-device"
+          ]
+        },
+        {
+          "title": "GPT-5.5 Instant is now ChatGPT's default model",
+          "summary": "OpenAI replaced GPT-5.3 Instant with GPT-5.5 Instant as the default for all ChatGPT users, promising cleaner prose, better image understanding, and smarter web-search decisions. The update also retires the canvas feature in GPT-5.5 tiers, replacing it with native writing blocks and code blocks directly in chat. Paid users keep GPT-5.3 access for three more months before sunset.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "model-update"
+          ]
+        },
+        {
+          "title": "ChatGPT for Clinicians launches free for US doctors",
+          "summary": "OpenAI opened a free, verified tier of ChatGPT specifically for licensed US clinicians, offering evidence review, clinical documentation, and deep research across medical literature. The product includes trusted citation search and support for earning CME credits on eligible clinical questions. It marks OpenAI's most direct push yet into professional healthcare workflows.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "healthcare",
+            "openai",
+            "professional"
+          ]
+        },
+        {
+          "title": "June Pixel Drop brings Gemini Omni video and music to your pocket",
+          "summary": "Google's June Pixel Drop ships Android 17 and Wear OS 7 alongside AI-powered video creation and original music generation powered by Gemini Omni on Pixel devices. Emergency Sharing now automatically notifies chosen contacts when Car Crash, Fall, or Loss of Pulse Detection fires. The update also expands Ask Photos editing to the UK, Germany, France, Spain, and Italy.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "pixel",
+            "android",
+            "gemini"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Sovereign AI, spatial intelligence, and compute marketplaces are where the big bets landed.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam hits unicorn status with $234M round",
+          "summary": "Bengaluru-based Sarvam raised $234M at a $1.5B valuation, with HCLTech writing a $150M lead check to back India's drive for sovereign AI infrastructure. Bessemer, Khosla Ventures, and Peak XV also joined a round that follows Sarvam's launch of 30B and 105B open-source models earlier this year. The company is targeting $300M total for its Series B.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "series-b"
+          ]
+        },
+        {
+          "title": "General Intuition in talks for $300M at $2B valuation",
+          "summary": "General Intuition, which trains AI agents on spatial and temporal reasoning using video game footage, is in advanced talks to raise roughly $300M \u2014 just eight months after spinning out of game-clip platform Medal with a $134M seed. Jeff Bezos and Eric Schmidt are among the new backers, joining existing investors Khosla Ventures and General Catalyst. The deal would nearly double the startup's valuation to just over $2B.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+          "tags": [
+            "agents",
+            "gaming",
+            "series-a"
+          ]
+        },
+        {
+          "title": "a16z backs compute marketplace Ornn with $33M seed",
+          "summary": "Ornn raised $33M in a seed round led by Andreessen Horowitz to build a marketplace where AI compute power can be bought and sold like a commodity. a16z crypto participated alongside Galaxy Ventures, Nordstar, and SV Angel \u2014 marking a16z's first bet on a dedicated compute exchange. The raise signals growing investor conviction that compute liquidity is the next infrastructure layer AI needs.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "infrastructure",
+            "a16z"
+          ]
+        },
+        {
+          "title": "Pramaana Labs scores $27M to bring formal verification to AI",
+          "summary": "Pramaana Labs closed a $27M seed round led by Khosla Ventures, with Accel, Nexus, BoldCap, Premji Invest, and Unbound also participating. The startup is building tools to formally verify AI system behavior \u2014 applying mathematical proof techniques to ensure models do what they claim. It enters a growing market as regulators worldwide demand more rigorous AI accountability.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "tags": [
+            "safety",
+            "verification",
+            "seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Courts are discovering AI prompts, states are rewriting law mid-stream, and Florida is suing OpenAI.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Court rules expert AI prompts are discoverable evidence",
+          "summary": "In Conservation Law Foundation v. Shell Oil, a federal magistrate judge ordered plaintiffs to hand over the AI prompts their expert used to prepare her report, treating them as part of the expert's methodology rather than protected drafts. The ruling is one of the clearest signals yet that attorneys using AI in litigation cannot treat prompt inputs as work-product. Expect this precedent to reshape how law firms document AI-assisted expert work.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "discovery",
+            "litigation"
+          ]
+        },
+        {
+          "title": "Connecticut sets new state AI benchmark; Colorado quietly retreats",
+          "summary": "Connecticut enacted SB 5 on May 27, establishing the most comprehensive US state AI law to date, covering companion chatbots, frontier model governance, and AI in employment decisions. Meanwhile, Colorado's Governor signed SB 26-189 on May 14, effectively gutting the state's landmark 2024 AI Act after xAI sued and the DOJ intervened, replacing it with a narrow notice-and-disclosure framework effective January 1, 2027. The divergence illustrates how radically different the state-by-state patchwork is becoming.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "regulation",
+            "state-law",
+            "policy"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over ChatGPT safety deception",
+          "summary": "Florida Attorney General James Uthmeier filed a civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly concealed risks of ChatGPT and marketed it aggressively to Florida residents including children. The complaint cites deceptive trade practices, responses that could promote self-harm, dependency-inducing design, and data collection from minors. It is the first state-led civil lawsuit against OpenAI and opens a new front of consumer-protection litigation against major AI companies.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "openai",
+            "lawsuit",
+            "consumer-protection"
+          ]
+        },
+        {
+          "title": "Musk's $150B OpenAI lawsuit dismissed; IPO path clears",
+          "summary": "A US District Judge dismissed Elon Musk's $150 billion lawsuit against OpenAI and Sam Altman after a federal jury found the breach-of-charitable-trust and unjust enrichment claims fell outside the statute of limitations. The verdict removes the most significant legal obstacle to OpenAI's anticipated IPO, which analysts expect could value the company above $900 billion. Musk's years-long legal campaign against his former co-founders effectively ended in court.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "openai",
+            "musk",
+            "ipo"
+          ]
+        },
+        {
+          "title": "White House shelves voluntary frontier AI review order",
+          "summary": "The Trump administration postponed signing an executive order that would have created a voluntary federal review process for frontier AI models before public release, with President Trump citing concerns it would slow AI development. The reversal leaves the US without any federal pre-release oversight mechanism and deepens reliance on fragmented state laws, even as the DoD simultaneously signed deals to deploy commercial AI on classified military networks. All 50 US states have now introduced AI-related legislation, producing over 2,182 bills with conflicting requirements.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "federal-policy",
+            "trump",
+            "regulation"
+          ]
+        }
+      ]
+    }
+  ]
+}

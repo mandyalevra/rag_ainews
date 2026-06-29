@@ -1,0 +1,220 @@
+{
+  "date": "June 06, 2026",
+  "iso": "2026-06-06",
+  "issue": 41,
+  "weekday": "Saturday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's Gemma 4 12B brings laptop-ready multimodal AI with native audio and open Apache 2.0 licensing, while OpenAI's GPT-Rosalind targets life sciences research at enterprise scale."
+    },
+    {
+      "catId": "money",
+      "text": "India's Sarvam hits unicorn status at $1.5B on a $234M round led by HCLTech, as AI infrastructure and monitoring startups pile up fresh hundreds of millions."
+    },
+    {
+      "catId": "world",
+      "text": "Trump signed a new AI executive order favoring voluntary industry oversight, while the House floated the Great American AI Act and Florida's AG sued OpenAI over ChatGPT harms."
+    }
+  ],
+  "headline": "models, mandates, millions",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "From open-weight laptop models to specialized science research tools, this week's product wave is broad and fast.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemma 4 12B lands on your laptop",
+          "summary": "Google released Gemma 4 12B, a multimodal open model that runs on just 16GB of VRAM and is the first mid-sized Gemma with native audio inputs. It skips traditional multimodal encoders entirely, routing vision and audio straight into the LLM backbone for a leaner architecture. Released under Apache 2.0, it also ships with a Skills Repository to help developers build agentic workflows.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-source",
+            "multimodal",
+            "on-device"
+          ]
+        },
+        {
+          "title": "GPT-Rosalind gets smarter for drug discovery",
+          "summary": "OpenAI updated its GPT-Rosalind series, a life-sciences-specific model built on GPT-5.5's agentic capabilities, with stronger performance in medicinal chemistry, genomics, and wet lab troubleshooting. The company also introduced LifeSciBench, an expert-judged benchmark spanning six real scientific workflow areas. Access is available in research preview to eligible organizations via OpenAI's trusted-access structure.",
+          "source": "openai.com",
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "tags": [
+            "biotech",
+            "research",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "ChatGPT gets personal finance, charts, and a new default model",
+          "summary": "OpenAI rolled out a personal finance dashboard for Plus users in the US, letting them connect bank accounts and ask questions grounded in their financial data. GPT-5.5 Instant is now the default model for all ChatGPT users, replacing GPT-5.3 Instant, which gets a three-month grace period for paid users. Interactive charts, a full-screen writing editor, and improved multilingual dictation also shipped this week.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "chatgpt",
+            "personal-finance",
+            "model-update"
+          ]
+        },
+        {
+          "title": "Google's May blitz: Gemini 3.5, Omni, Googlebook, and more",
+          "summary": "Google's I/O-anchored May recap confirms Gemini 3.5 as its new frontier agent model and Gemini Omni as a full multimodal creation engine that turns any input into video. New hardware \u2014 the Googlebook laptop and Fitbit Air tracker \u2014 launched alongside a Universal Cart for cross-service shopping and the Google Health app. The company also committed $10M via its REPLIQA initiative to apply quantum AI to life sciences.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "gemini",
+            "hardware",
+            "agentic"
+          ]
+        },
+        {
+          "title": "June Pixel Drop brings AI video, music, and emergency alerts",
+          "summary": "Google's June Pixel Drop adds Gemini Omni-powered video creation and original music generation directly on Pixel phones, letting users blend text, images, and clips into custom content. A new Bubbles feature lets any app float as a window for easier multitasking. Emergency Detection now automatically notifies chosen contacts if a crash, fall, or loss of pulse is detected.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "pixel",
+            "gemini",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Unicorns minted, monitoring startups flush, and a VC firm that bet everything on Anthropic is now counting the returns.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn",
+          "summary": "Indian AI startup Sarvam raised $234M at a $1.5B valuation, with HCLTech leading at $150M and Bessemer, Khosla, and Peak XV joining in. The round follows Sarvam's launch of open-source models at 30B and 105B parameters earlier this year, and the company is targeting a total of $300M for its Series B. The raise cements India's growing role as both a producer and backer of frontier AI.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "open-source"
+          ]
+        },
+        {
+          "title": "Coralogix raises $200M to watch the watchers",
+          "summary": "AI agent monitoring startup Coralogix closed a $200M Series F just 11 months after its $115M Series E, valuing the company at $1.6B post-money. The round was led by Advent and Canada Pension Plan Investment Board, with Greenfield and Brighton Park joining. The bet: as autonomous software agents proliferate, someone has to monitor, troubleshoot, and govern them.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "infrastructure",
+            "monitoring",
+            "series-f"
+          ]
+        },
+        {
+          "title": "PhysicsX hits $2.4B making AI for jet engines and chips",
+          "summary": "London-based PhysicsX raised $300M at a $2.4B valuation to build AI models for manufacturing complex components like jet engines and semiconductors. Singapore's Temasek led the Series C, with Nvidia, Applied Materials, Intrepid, and M&G Catalyst also in. The startup's valuation has grown nearly three-fold from its last round.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "manufacturing",
+            "series-c",
+            "deeptech"
+          ]
+        },
+        {
+          "title": "Menlo Ventures raises $3B \u2014 the Anthropic bet paid off",
+          "summary": "Menlo Ventures announced its largest fund ever at $3B, driven heavily by its Anthropic stake now worth roughly $14B. The firm's preemptive $500M+ Series D lead in Anthropic back in 2024 \u2014 a bet-the-firm move at the time \u2014 has become one of venture's biggest recent wins. Their joint $100M startup fund with Anthropic, Anthology, has since deployed closer to $250M.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+          "tags": [
+            "vc",
+            "anthropic",
+            "fund"
+          ]
+        },
+        {
+          "title": "a16z backs Ornn to build a marketplace for AI compute",
+          "summary": "Ornn raised $33M in a seed round led by Andreessen Horowitz to create a marketplace where AI compute can be bought and sold like a commodity. It marks a16z's first investment in a compute marketplace, with a16z crypto, Galaxy Ventures, Nordstar, and SV Angel also participating. The startup is betting that fragmented GPU supply and soaring AI demand create a natural trading venue.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "marketplace",
+            "seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Washington signed, sued, and legislated all in the same week, while courts started treating AI prompts as legal evidence.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Trump's AI executive order goes light on rules",
+          "summary": "President Trump signed the executive order 'Promoting Advanced Artificial Intelligence Innovation and Security' on June 2, favoring voluntary industry collaboration over mandatory regulation and explicitly ruling out any pre-approval or licensing system for AI models. A 30-day voluntary government review window for powerful new models replaces the earlier draft's 90-day version. The order also prioritizes AI-enabled cyber defense for federal and critical infrastructure systems.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "executive-order",
+            "trump",
+            "regulation"
+          ]
+        },
+        {
+          "title": "The Great American AI Act enters the chat",
+          "summary": "House members released a discussion draft of the Great American AI Act, a bipartisan bill that would create an AI Standards and Innovation Center inside the Department of Commerce and require frontier AI developers to publish safety frameworks, report incidents, and accept independent audits. Crucially, it would preempt state AI model regulations for three years after enactment, setting up a direct clash with state-level efforts. The bill reflects Congress's growing appetite to establish federal guardrails before the 2027 session.",
+          "source": "note.com",
+          "url": "https://note.com/yasuhitoo/n/n6007ab8cfa88?hl=en",
+          "tags": [
+            "legislation",
+            "congress",
+            "federal"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over ChatGPT harms",
+          "summary": "Florida's Republican Attorney General filed a civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly concealed ChatGPT's risks and marketed it aggressively to residents, including children. The complaint cites deceptive trade practices, dependency-inducing design, data collection from minors, and dangerous outputs including content that could encourage self-harm. The suit is notable as a state-led consumer protection action against an AI company, and it signals a fracture in GOP unity on AI \u2014 Florida's AG moved opposite to the Trump administration's light-touch posture.",
+          "source": "politico.com",
+          "url": "https://www.politico.com/newsletters/politico-influence/2026/06/02/its-an-ai-filled-day-and-night-00947118",
+          "tags": [
+            "lawsuit",
+            "openai",
+            "consumer-protection"
+          ]
+        },
+        {
+          "title": "UK's CMA forces Google to give publishers AI opt-outs",
+          "summary": "The UK Competition and Markets Authority imposed new conduct requirements on Google Search, requiring it to offer publishers a genuine opt-out from having their content used in AI Overviews and for fine-tuning AI models. Google must also provide clear attribution and links within AI-generated summaries. The intervention hands news organizations meaningful leverage they've lacked since AI search summaries began displacing direct web traffic.",
+          "source": "note.com",
+          "url": "https://note.com/yasuhitoo/n/n6007ab8cfa88?hl=en",
+          "tags": [
+            "uk",
+            "cma",
+            "google",
+            "publishers"
+          ]
+        },
+        {
+          "title": "A court rules: AI prompts can be subpoenaed",
+          "summary": "In Conservation Law Foundation v. Shell Oil, a federal magistrate judge ordered a plaintiff to produce the AI prompts its expert used in preparing her report, treating them as part of her methodology rather than protected drafting material. The ruling is one of the clearest signals yet that using AI in expert analysis opens the door to full discovery of how that AI was directed. Legal teams are now on notice: what you prompt is what you may have to disclose.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "discovery",
+            "legal"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "date": "June 10, 2026",
+  "iso": "2026-06-10",
+  "issue": 45,
+  "weekday": "Wednesday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google dropped DiffusionGemma today \u2014 an open, 26B MoE model that generates text 4x faster than standard LLMs by processing entire blocks in parallel instead of token by token."
+    },
+    {
+      "catId": "money",
+      "text": "PhysicsX, a British AI startup building models for jet engines and semiconductors, raised $300M at a $2.4B valuation led by Singapore's Temasek."
+    },
+    {
+      "catId": "world",
+      "text": "The EU published a new Code of Practice on labelling AI-generated content today, extending AI Act obligations into consumer-facing transparency for the first time."
+    }
+  ],
+  "headline": "diffusion ignition",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest model and product launches hitting developers and consumers right now.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "DiffusionGemma goes 4x faster \u2014 and open",
+          "summary": "Google released DiffusionGemma today, an experimental 26B Mixture-of-Experts model that generates entire 256-token blocks simultaneously instead of one token at a time, hitting over 1,000 tokens per second on an H100. It ships under an Apache 2.0 license on Hugging Face, making it freely usable for researchers building speed-critical tools like inline editors or code infill systems. Quality trails standard Gemma 4 for now, but the architecture opens genuinely new design space.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+          "tags": [
+            "open-source",
+            "google",
+            "inference",
+            "devtools"
+          ]
+        },
+        {
+          "title": "ChatGPT's model picker gets a plain-English makeover",
+          "summary": "OpenAI simplified its model selector today, replacing confusing names like Thinking Standard and Thinking Extended with plain tiers \u2014 Instant, Medium, High, and Extra High \u2014 rolling out to Plus and Pro users globally. The update also lets users toggle whether Instant auto-escalates to Medium when a task demands more reasoning. Separately, GPT-5.5 Instant is now available to all ChatGPT users regardless of plan.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "ux",
+            "models"
+          ]
+        },
+        {
+          "title": "Pixel phones get AI video, music, and floating app windows",
+          "summary": "Google's June Pixel Drop brings Gemini Omni-powered video creation and music generation directly to Pixel devices \u2014 you describe an idea or upload a photo and Gemini builds a track with lyrics and custom tempo. A new Bubbles feature lets any app float as a compact overlay, and Emergency Sharing now auto-notifies contacts if Car Crash, Fall, or Loss of Pulse Detection fires. The rollout begins today across Pixel devices.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "google",
+            "pixel",
+            "gemini",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Gemini Omni and Gemini 3.5: Google's May recap in one place",
+          "summary": "Google's May 2026 roundup confirms the full scope of its I/O launches: Gemini Omni handles any-to-video generation, Gemini 3.5 powers multi-step agentic workflows, and the Gemini app now runs proactive background tasks like inbox management and appointment scheduling. New hardware \u2014 the Googlebook laptop and Fitbit Air wellness pebble \u2014 ships purpose-built for these models. The Universal Cart also launched, letting users add items across Search, YouTube, and Gmail in one checkout flow.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "hardware",
+            "agents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "The funding rounds, valuations, and bets that show where capital thinks AI is going.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "PhysicsX hits $2.4B making AI for jet engines",
+          "summary": "London-based PhysicsX raised $300M in a Series C led by Singapore's Temasek, tripling its valuation from roughly $1B to $2.4B. The startup builds AI simulation models for manufacturing components including jet engines and semiconductors, competing against players backed by Jeff Bezos. Nvidia and Applied Materials, both existing backers, continued their support alongside new investors Intrepid Growth Partners and M&G Catalyst.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "deeptech",
+            "manufacturing",
+            "series-c",
+            "uk"
+          ]
+        },
+        {
+          "title": "F2 raises $14M to bring AI to private credit",
+          "summary": "F2, which uses AI to help credit investors and banks manage complex transactions, closed a $14M seed round led by HighlandX with Y Combinator, Left Lane Capital, NFX, and Torch Capital participating. Total equity raised now stands at $24M. CEO Don Muir told Axios the capital will accelerate the platform's expansion into bank partnerships and larger credit portfolios.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/pro/fintech-deals/2026/06/10/f2-ai-private-credit-seed-14-million",
+          "tags": [
+            "fintech",
+            "seed",
+            "private-credit",
+            "yc"
+          ]
+        },
+        {
+          "title": "Coralogix bets $200M that someone has to watch the agents",
+          "summary": "AI monitoring startup Coralogix raised a $200M Series F at a $1.6B valuation, just 11 months after its $115M Series E \u2014 a pace that reflects accelerating investor appetite for AI infrastructure tooling. The round was led by Advent and the Canada Pension Plan Investment Board, with Coralogix arguing that the rise of autonomous agents creates urgent demand for a new monitoring and observability layer. Total funding now sits at $550M.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "infrastructure",
+            "observability",
+            "series-f",
+            "agents"
+          ]
+        },
+        {
+          "title": "Sarvam becomes India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam closed a $234M funding round led by HCLTech, pushing its valuation to $1.5B and making it one of the country's newest AI unicorns. Bessemer Venture Partners joined existing backers Khosla Ventures and Peak XV, with Sarvam aiming to raise a total of $300M for the round. The company launched open-source models at 30B and 105B parameters earlier this year.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "open-source",
+            "series-b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The regulatory fights, legal precedents, and political battles reshaping how AI gets built and governed.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "EU says label your AI content \u2014 starting now",
+          "summary": "The European Commission published a new Code of Practice today requiring consumer-facing AI content to be clearly marked and labelled, extending EU AI governance well beyond the AI Act's original scope. The move closes a gap that allowed companies to defer content-transparency obligations, and signals that the Commission intends to enforce disclosure norms through multiple overlapping instruments. Organizations that have been waiting on AI Act timelines now face a new, parallel compliance track.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "eu",
+            "regulation",
+            "transparency",
+            "ai-act"
+          ]
+        },
+        {
+          "title": "AI prompts are now fair game in court discovery",
+          "summary": "A federal magistrate judge in Conservation Law Foundation v. Shell Oil ruled that the AI prompts an expert used to prepare her report must be produced in discovery, treating them as part of the expert's methodology rather than protected drafting material. The decision is one of the clearest signals yet that courts view AI-assisted expert work as fully subject to adversarial scrutiny. Litigators relying on AI tools for expert analysis should assume their prompt histories are discoverable.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "litigation",
+            "discovery",
+            "legal"
+          ]
+        },
+        {
+          "title": "The $20M primary that's really about AI regulation",
+          "summary": "Two competing AI-focused super PACs are pouring a combined $20M into New York's 12th congressional district Democratic primary, making it the most expensive proxy fight yet over how hard Congress should clamp down on AI. The race pits AI regulation advocate Alex Bores against opponents including Assemblyman Micah Lasher and Jack Schlossberg, with each side treating the outcome as a signal about the political viability of aggressive AI oversight. The spending marks a clear escalation from policy debate to direct electoral combat.",
+          "source": "digitalmindnews.com",
+          "url": "https://digitalmindnews.com/enterprise/ai-regulation-battle-heats-up-in-june-2026/",
+          "tags": [
+            "politics",
+            "regulation",
+            "congress",
+            "elections"
+          ]
+        },
+        {
+          "title": "States keep legislating as Washington stays quiet",
+          "summary": "Connecticut enacted one of the most comprehensive state AI laws in the US on May 27, covering companion chatbots, frontier model governance, and employment decisions, while Louisiana became the 22nd state to pass a consumer data privacy law. With the Trump administration having abandoned its FDA-for-AI proposal and Congress stalled on the Great American AI Act, state-level rules are now the primary compliance surface for most AI deployments. Multi-state organizations face an accelerating patchwork with no federal preemption in sight.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-02/monthly",
+          "tags": [
+            "policy",
+            "state-law",
+            "regulation",
+            "compliance"
+          ]
+        }
+      ]
+    }
+  ]
+}

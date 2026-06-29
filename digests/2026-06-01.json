@@ -1,0 +1,208 @@
+{
+  "date": "June 01, 2026",
+  "iso": "2026-06-01",
+  "issue": 36,
+  "weekday": "Monday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's May recap and June Pixel Drop land simultaneously, flooding the market with Gemini Omni video creation, Gemma 4 12B for laptops, and ChatGPT's personal finance dashboard for Plus users."
+    },
+    {
+      "catId": "money",
+      "text": "Vast, a 3D-modeling startup founded by a 29-year-old gamer, hits a $1 billion valuation after raising nearly $200 million \u2014 China's latest AI unicorn minted today."
+    },
+    {
+      "catId": "world",
+      "text": "Anthropic files a confidential S-1 with the SEC on the same day the Great American AI Act drops a proposal to preempt state AI laws for three years, reshaping the regulatory landscape in one week."
+    }
+  ],
+  "headline": "anthropic goes public",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "A historic product avalanche as Google's I/O recap, Pixel Drop, and OpenAI's ChatGPT updates all land at once.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini Omni can now make videos from anything",
+          "summary": "Google's May 2026 recap confirms Gemini Omni accepts text, images, audio, and video as input and generates high-quality video grounded in real-world knowledge. The model launched at Google I/O alongside Gemini 3.5, which powers multi-step agentic workflows across apps. Gemini Spark, a 24/7 proactive assistant, is rolling out to Google AI Pro and Ultra subscribers first.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "gemini",
+            "video-ai",
+            "agents"
+          ]
+        },
+        {
+          "title": "June Pixel Drop: music, video, and floating app bubbles",
+          "summary": "The June Pixel Drop brings Gemini Omni video creation and original music generation directly to Pixel phones \u2014 describe an idea or upload a photo and get a full audio track back. Any app can now be turned into a floating bubble window for smoother multitasking. Emergency Detection now simultaneously calls services and notifies chosen contacts during crashes, falls, or loss of pulse.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "pixel",
+            "gemini",
+            "android"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs multimodal AI on your laptop",
+          "summary": "Google's new open-weight Gemma 4 12B model handles vision and audio inputs natively without separate encoders, running on just 16GB of VRAM. It's positioned between the lightweight E4B and the 26B MoE model, and is the first mid-sized Gemma to support native audio. Released under Apache 2.0, it's designed for agentic workflows on everyday hardware.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-source",
+            "gemma",
+            "on-device"
+          ]
+        },
+        {
+          "title": "ChatGPT gets personal finance, CarPlay, and a clinician mode",
+          "summary": "OpenAI is rolling out a personal finance dashboard to Plus users in the US, letting them connect financial accounts and ask ChatGPT questions grounded in their real data. A new ChatGPT for Clinicians version launches free for verified US doctors, with clinical search, CME credit support, and deep medical literature research. CarPlay support also arrives for hands-free voice conversations on iOS 26.4 and newer.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "chatgpt",
+            "finance",
+            "healthcare"
+          ]
+        },
+        {
+          "title": "GitHub switches to usage-based AI credits pricing",
+          "summary": "Starting June 1, GitHub is moving from flat-fee Copilot pricing to an AI Credits model, hitting individual plan users and agentic sessions hardest first. Business and Enterprise plans have their own separate transition timelines. The shift reflects GitHub's bet that heavy agentic usage should be metered rather than bundled.",
+          "source": "mml-studio.com",
+          "url": "https://mml-studio.com/blog/ai-weekly-june-1-7-2026/",
+          "tags": [
+            "github",
+            "pricing",
+            "devtools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Multiple billion-dollar moments today as 3D modeling, monitoring infrastructure, and app-creation startups all land fresh checks.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Gamer-founded Vast becomes China's newest AI unicorn",
+          "summary": "Vast, a Beijing-based 3D-modeling startup founded by 29-year-old gamer Luma He, raised nearly $200 million to cross the $1 billion valuation mark. Ince Capital and a China Life Insurance-backed venture fund led the round, with Genesis Capital and existing backers also participating. The company is targeting the booming demand for 3D assets in gaming, film, and industrial design.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-01/gen-z-gamer-s-3d-model-startup-becomes-china-s-latest-ai-unicorn",
+          "tags": [
+            "unicorn",
+            "china",
+            "3d-ai"
+          ]
+        },
+        {
+          "title": "Sekai raises $20M to let anyone build apps with a text prompt",
+          "summary": "Sekai, a platform that lets users create mini applications through natural language prompts, has closed a $20 million Series A co-led by Khosla Ventures and Connect Ventures. CEO Lucky Zhang told Axios the funds will go toward expanding the platform's capabilities and user base. The startup previously raised $6 million in seed funding from Mayfield in 2025.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/2026/06/01/sekai-mini-app-startup-funding",
+          "tags": [
+            "series-a",
+            "no-code",
+            "khosla"
+          ]
+        },
+        {
+          "title": "Coralogix raises $200M to watch over AI agents",
+          "summary": "Software-monitoring startup Coralogix closed a $200 million Series F just 11 months after its last raise, valuing it at $1.6 billion post-money. The bet: as AI agents proliferate, enterprises will need a new generation of monitoring and troubleshooting tools to keep autonomous software in check. The round was led by Advent and Canada's CPPIB, bringing total funding to $550 million.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "series-f",
+            "infrastructure",
+            "agents"
+          ]
+        },
+        {
+          "title": "Sarvam hits unicorn status with $234M round led by HCLTech",
+          "summary": "Indian AI startup Sarvam has raised $234 million at a $1.5 billion valuation, with HCLTech committing $150 million as lead strategic investor. Bessemer Venture Partners, Khosla Ventures, and Peak XV Partners also joined the Series B. Sarvam launched open-source models at 30B and 105B parameters earlier this year and is targeting a $300 million total raise.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "unicorn",
+            "india",
+            "open-source"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "A week of seismic policy moves: Anthropic's IPO filing, a sweeping federal AI bill, a new executive order, and Florida suing OpenAI.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Anthropic files confidential S-1, IPO clock starts",
+          "summary": "Anthropic filed a confidential draft S-1 with the SEC on June 1, formally beginning its path to the public markets. The move comes as the AI safety company has been scaling rapidly and attracting major strategic investment from Amazon and Google. An IPO would be one of the most closely watched tech listings since OpenAI's rumored public offering.",
+          "source": "mml-studio.com",
+          "url": "https://mml-studio.com/blog/ai-weekly-june-1-7-2026/",
+          "tags": [
+            "ipo",
+            "anthropic",
+            "sec"
+          ]
+        },
+        {
+          "title": "The Great American AI Act wants to freeze state laws for three years",
+          "summary": "Representatives Jay Obernolte and Lori Trahan unveiled a 269-page bipartisan draft bill proposing the most comprehensive federal AI framework yet, with a headline provision preempting state AI laws on frontier-model development for three years. The bill would also require large frontier AI developers to publish safety frameworks, report incidents, and accept independent audits. It directly challenges state-level efforts in Colorado, Connecticut, and others that have been filling the federal void.",
+          "source": "mml-studio.com",
+          "url": "https://mml-studio.com/blog/ai-weekly-june-1-7-2026/",
+          "tags": [
+            "legislation",
+            "federal",
+            "preemption"
+          ]
+        },
+        {
+          "title": "Trump signs AI executive order \u2014 voluntary, not mandatory",
+          "summary": "President Trump signed the executive order 'Promoting Advanced Artificial Intelligence Innovation and Security' on June 2, cementing an innovation-first posture that explicitly bars any mandatory licensing or permitting for AI model development. The order creates a Treasury-run AI cybersecurity clearinghouse and allows developers to voluntarily give the government up to 30 days of pre-release frontier model access. Critics note the contrast with the stricter pre-release testing framework the White House quietly shelved weeks earlier.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "executive-order",
+            "trump",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over ChatGPT safety deception",
+          "summary": "Florida's Attorney General filed a civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly concealed serious risks of ChatGPT while actively marketing it to Florida residents, including children. The complaint cites deceptive trade practices including responses that could promote self-harm, dependency-inducing design, and data collection from minors. The suit is framed under consumer protection law and adds Florida to a growing list of states taking OpenAI to court.",
+          "source": "alisarmustafa.substack.com",
+          "url": "https://alisarmustafa.substack.com/p/the-ai-policy-newsletter-06022026",
+          "tags": [
+            "lawsuit",
+            "openai",
+            "consumer-protection"
+          ]
+        },
+        {
+          "title": "EU delays AI Act deadlines, Pope Leo weighs in",
+          "summary": "The European Parliament and Council reached a provisional agreement to delay AI Act compliance deadlines \u2014 biometrics, education, and employment systems now have until December 2027, while product-embedded AI gets until August 2028. Separately, Pope Leo issued his first encyclical, 'Magnifica Humanitas,' calling for stronger AI regulation, independent oversight, and limits on autonomous weapons. European tech CEOs from ASML, Airbus, Mistral, and others simultaneously urged the EU to simplify rather than extend its regulatory reach.",
+          "source": "alisarmustafa.substack.com",
+          "url": "https://alisarmustafa.substack.com/p/the-ai-policy-newsletter-06022026",
+          "tags": [
+            "eu-ai-act",
+            "policy",
+            "global"
+          ]
+        }
+      ]
+    }
+  ]
+}

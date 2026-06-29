@@ -1,0 +1,232 @@
+{
+  "date": "June 11, 2026",
+  "iso": "2026-06-11",
+  "issue": 46,
+  "weekday": "Thursday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Anthropic launched Claude Corps, a national fellowship program, while also announcing enterprise partnerships with TCS and DXC to bring Claude into regulated industries like banking and aviation."
+    },
+    {
+      "catId": "money",
+      "text": "Jeff Bezos's AI startup Prometheus raised $12 billion at a $41 billion valuation, drawing in JPMorgan, Goldman Sachs, and BlackRock."
+    },
+    {
+      "catId": "world",
+      "text": "A federal court ruled that DOGE violated constitutional rights by using ChatGPT to terminate over $100 million in humanities grants, targeting them by race and gender."
+    }
+  ],
+  "headline": "prompts on trial",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest AI labs kept shipping, from Anthropic's civic fellowship to Google's Pixel AI drop.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Anthropic launches Claude Corps fellowship",
+          "summary": "Anthropic announced Claude Corps, a national fellowship program targeting early-career people passionate about bringing AI benefits to communities across America. The launch came alongside two major enterprise deals: TCS and DXC will both integrate Claude into systems used by banks, airlines, and other regulated industries.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news/introducing-claude-corps",
+          "tags": [
+            "anthropic",
+            "enterprise",
+            "fellowship"
+          ]
+        },
+        {
+          "title": "Google's June Pixel Drop goes heavy on AI creation",
+          "summary": "Google's June Pixel Drop brings Gemini Omni-powered video creation and AI music generation to Pixel phones, letting users blend text, images, and video into original clips or describe a vibe and get a full audio track back. The update also adds floating app bubbles for multitasking and automatic emergency-contact notifications when crash or fall detection triggers.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "google",
+            "pixel",
+            "gemini",
+            "hardware"
+          ]
+        },
+        {
+          "title": "xAI ships Grok 4 with a government tier",
+          "summary": "xAI released Grok 4, claiming it is the most intelligent model in the world, with native tool use and real-time search available to SuperGrok and API customers. Alongside it, xAI unveiled Grok For Government, a suite of frontier AI products offered first to U.S. government customers, and a new SuperGrok Heavy tier for the most powerful variant.",
+          "source": "x.ai",
+          "url": "https://x.ai/news",
+          "tags": [
+            "xai",
+            "grok",
+            "government",
+            "models"
+          ]
+        },
+        {
+          "title": "ChatGPT personal finance rolls out to Plus users",
+          "summary": "OpenAI began rolling out its personal finance experience in ChatGPT to Plus users in the U.S. on web and iOS, with Android support for Pro and Plus users also live. Eligible users can securely connect supported financial accounts, view a dashboard, and ask ChatGPT questions grounded in their actual financial context.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "fintech",
+            "consumer"
+          ]
+        },
+        {
+          "title": "Google expands Gemini into classrooms and study tools",
+          "summary": "At ISTE 2026, Google unveiled a new Classroom app inside Gemini that lets educators pull in real class context for lesson planning, plus Study Notebooks that generate personalized quizzes adapting as students learn. New Guided Learning tools on Chromebooks are also rolling out to cut down on digital distractions during assignments.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/products/education/collection-iste-june-2026/",
+          "tags": [
+            "google",
+            "education",
+            "gemini",
+            "edtech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Bezos goes big, India mints a new unicorn, and AI infrastructure keeps pulling nine-figure checks.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Bezos's Prometheus valued at $41 billion",
+          "summary": "Prometheus, the AI startup led by Jeff Bezos, raised $12 billion in a round valuing the company at $41 billion, with JPMorgan Chase, Goldman Sachs, BlackRock, and Bezos himself all participating. The raise cements Bezos as a major independent player in the AI boom alongside his existing investment in Amazon's AI push.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
+          "tags": [
+            "funding",
+            "bezos",
+            "mega-round"
+          ]
+        },
+        {
+          "title": "Sarvam becomes India's newest AI unicorn",
+          "summary": "Indian AI startup Sarvam raised $234 million at a $1.5 billion valuation in a Series B led by HCLTech, with Bessemer Venture Partners, Khosla Ventures, and Peak XV also joining. The raise follows the company's release of open-source models at 30 billion and 105 billion parameters and marks a dramatic jump from the $41 million it had raised across its seed and Series A.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "funding",
+            "india",
+            "unicorn",
+            "open-source"
+          ]
+        },
+        {
+          "title": "Equal AI grabs $30M to kill spam calls in India",
+          "summary": "Equal AI raised $30 million in Series B funding led by Prosus Ventures and Tomales Bay Capital to scale its AI-powered call-screening product for Indian consumers. The round has an unusual tranche structure that lets the startup advertise its highest achieved valuation even though the bulk of equity was sold at a lower price.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/11/equal-ai-raises-30m-to-screen-calls-so-indians-dont-have-to/",
+          "tags": [
+            "funding",
+            "india",
+            "consumer-ai",
+            "series-b"
+          ]
+        },
+        {
+          "title": "PhysicsX hits $2.4B making AI for jet engines",
+          "summary": "London-based PhysicsX raised $300 million at a $2.4 billion valuation to build AI models for manufacturing complex components like jet engines and semiconductors, tripling its valuation from its last round. Temasek led the Series C, with Nvidia and Applied Materials continuing as backers.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "funding",
+            "deeptech",
+            "manufacturing",
+            "series-c"
+          ]
+        },
+        {
+          "title": "Coralogix raises $200M to watch AI agents",
+          "summary": "Boston-based Coralogix closed a $200 million Series F at a $1.6 billion valuation, betting that the explosion of autonomous AI agents will create massive demand for a new generation of monitoring and observability tools. The round came just 11 months after its $115 million Series E, led by Advent and the Canada Pension Plan Investment Board.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "funding",
+            "infrastructure",
+            "agents",
+            "series-f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Courts are treating AI prompts like evidence, DOGE's ChatGPT use backfired badly, and regulation is fracturing across fifty states.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Court: DOGE used ChatGPT to illegally kill grants",
+          "summary": "A U.S. District Court ruled that DOGE personnel violated constitutional equal protection and free speech rights when they used ChatGPT to terminate more than $100 million in National Endowment for the Humanities grants, with protected characteristics like race and gender used as targeting criteria. The ruling is one of the most consequential judicial findings yet about the government's misuse of AI tools.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "doge",
+            "courts",
+            "policy",
+            "openai"
+          ]
+        },
+        {
+          "title": "Expert AI prompts are now fair game in discovery",
+          "summary": "In Conservation Law Foundation v. Shell Oil, a federal magistrate judge ordered a plaintiff to produce the AI prompts its expert used to prepare her report, treating them as part of the expert's methodology rather than protected drafting material. The ruling puts AI prompt engineering squarely into litigation strategy for the first time.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "litigation",
+            "legal",
+            "policy"
+          ]
+        },
+        {
+          "title": "EU finalizes AI transparency labeling code",
+          "summary": "On June 10, the European Commission released the final version of its Transparency Code of Practice under the AI Act, requiring providers to apply machine-readable watermarks or metadata to AI-generated content and deployers to label deepfakes and AI-written text on matters of public interest. The code is the EU's most concrete enforcement mechanism yet for AI content provenance.",
+          "source": "simmons-simmons.com",
+          "url": "https://www.simmons-simmons.com/en/publications/cmqtmrwqa0040vevw5by0h69a/ai-view-june-2026",
+          "tags": [
+            "eu",
+            "regulation",
+            "transparency",
+            "ai-act"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over ChatGPT safety concealment",
+          "summary": "Florida Attorney General James Uthmeier filed the first state-led civil lawsuit against OpenAI and CEO Sam Altman, alleging the company knowingly concealed serious risks of ChatGPT and marketed it aggressively to Florida residents including children. The complaint cites deceptive trade practices, dependency-inducing design, and inaccurate responses that were systematically downplayed.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "openai",
+            "lawsuit",
+            "consumer-protection",
+            "florida"
+          ]
+        },
+        {
+          "title": "All 50 states now have AI bills \u2014 and they conflict",
+          "summary": "A new Cloud Security Alliance research note found that U.S. legislators have introduced over 2,182 AI-related bills across all 50 states, with inconsistent definitions, audit timelines, and enforcement mechanisms creating a compliance nightmare for companies operating nationally. The Senate voted 99-1 to strip a proposed 10-year federal moratorium on state AI enforcement from budget reconciliation, leaving the patchwork firmly intact.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "regulation",
+            "states",
+            "policy",
+            "federal"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "date": "May 05, 2026",
+  "iso": "2026-05-05",
+  "issue": 9,
+  "weekday": "Tuesday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Alibaba's Qwen3.6 landed as a major open-weight coding model while NVIDIA dropped Nemotron 3 Nano with a 1M-token context window for on-device agents."
+    },
+    {
+      "catId": "money",
+      "text": "Sierra hit a $15.8B valuation after locking up $950M, while ElevenLabs revealed BlackRock and celebrity backers as it crossed $500M ARR."
+    },
+    {
+      "catId": "world",
+      "text": "The Trump White House reversed course on AI laissez-faire, with Google, Microsoft, and xAI joining OpenAI and Anthropic in pre-release government model reviews triggered by fears over Anthropic's Mythos."
+    }
+  ],
+  "headline": "the honeymoon ends",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Open models and marketing platforms dominated the day's releases.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Qwen3.6 goes open-weight with agentic coding chops",
+          "summary": "Alibaba dropped Qwen3.6 in 27B and 35B-A3B variants, with the standout feature being Thinking Preservation \u2014 the ability to retain reasoning context across conversation turns for more consistent, efficient agent workflows. The model supports a native 262K-token context window extensible to over 1 million tokens, and ships with improved tool-calling and developer role support for environments like Codex. Unsloth has already released multiple quantized builds for Apple Silicon via MLX.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/unsloth/Qwen3.6-27B",
+          "tags": [
+            "open-source",
+            "llm",
+            "agents",
+            "coding"
+          ]
+        },
+        {
+          "title": "NVIDIA's Nemotron 3 Nano: 3B active params, 1M context",
+          "summary": "NVIDIA unveiled Nemotron 3 Nano, a hybrid Mamba-2 and Transformer MoE model with 30B total but only 3B active parameters, designed for on-device agentic tasks. It features a 1-million-token context window, toggleable reasoning mode with configurable thinking budgets, and claims up to 4\u00d7 faster inference than its predecessor. The model is served via vLLM and SGLang and is part of NVIDIA's broader open-model push on Hugging Face.",
+          "source": "huggingface.co",
+          "url": "https://huggingface.co/nvidia",
+          "tags": [
+            "nvidia",
+            "slm",
+            "agents",
+            "on-device"
+          ]
+        },
+        {
+          "title": "Google Marketing Live 2026: Meridian Studio and GeoX debut",
+          "summary": "At Google Marketing Live, Google announced Meridian Studio, a Google Cloud-powered enterprise platform that lets marketing teams build and manage high-volume Marketing Mix Models at scale. Alongside it, Meridian GeoX brings open-source geo-experimentation for measuring media channel performance with CFO-ready ground-truth validation. A no-code Google Tag upgrade and a new Data Manager map view round out the measurement overhaul.",
+          "source": "blog.google",
+          "url": "https://blog.google/products/ads-commerce/google-marketing-live-2026-turn-your-data-into-decisions/",
+          "tags": [
+            "google",
+            "marketing",
+            "measurement",
+            "adtech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Agentic AI startups are commanding eye-watering valuations as celebrity investors pile into voice AI.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sierra hits $15.8B after $950M raise",
+          "summary": "Agentic enterprise AI startup Sierra closed a $950 million funding round led by Tiger Global and GV, pushing its valuation up nearly 60% to $15.8 billion. The round underscores surging investor appetite for companies building autonomous AI workflows for enterprise customers. Sierra is now one of the most valuable private AI companies in the agentic space.",
+          "source": "axios.com",
+          "url": "https://www.axios.com/pro/enterprise-software-deals/2026/05/04/sierra-ai-valuation-agentic-enterprise",
+          "tags": [
+            "agents",
+            "enterprise",
+            "series-d",
+            "tiger-global"
+          ]
+        },
+        {
+          "title": "ElevenLabs crosses $500M ARR, names BlackRock and Jamie Foxx as backers",
+          "summary": "Voice AI company ElevenLabs revealed the full investor roster for its February $500M Series D, including institutions BlackRock, Wellington, and D.E. Shaw alongside enterprises like NVIDIA, Salesforce, and Deutsche Telekom, plus celebrities Jamie Foxx, Eva Longoria, and Squid Game creator Hwang Dong-hyuk. The company simultaneously announced it surpassed $500M in ARR after adding $100M in net new ARR in Q1 2026 alone. A second $100M tender offer and a planned Robinhood Ventures retail investment opportunity were also disclosed.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-longoria-as-new-investors/",
+          "tags": [
+            "voice-ai",
+            "series-d",
+            "arr",
+            "celebrity-investors"
+          ]
+        },
+        {
+          "title": "CopilotKit raises $27M to wire AI agents into apps",
+          "summary": "Seattle-based CopilotKit closed a $27M Series A led by Glilot Capital, NFX, and SignalFire to help developers embed app-native AI agents directly into their products. The 25-person team plans to use the capital to grow engineering and go-to-market functions. The raise reflects continued investor conviction in developer tooling for agentic AI deployment.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
+          "tags": [
+            "devtools",
+            "agents",
+            "series-a",
+            "funding"
+          ]
+        },
+        {
+          "title": "Lithosquare raises $25M to find critical metals with AI",
+          "summary": "Paris-based Lithosquare secured a $25M equity seed round co-led by World Fund and Kindred Capital to use AI in accelerating the discovery of copper and other critical metal deposits globally. The startup competes in a space occupied by Kobold Metals, which raised $537M at a $3B valuation last year. Lithosquare's model charges an upfront baseline payment for exploration with outcome-based payments and eventual revenue-sharing on future mines.",
+          "source": "sifted.eu",
+          "url": "https://sifted.eu/articles/lithosquare-critical-metals-fundraise",
+          "tags": [
+            "climate-tech",
+            "mining",
+            "seed",
+            "deeptech"
+          ]
+        },
+        {
+          "title": "India's Krutrim pivots from model-builder to cloud services",
+          "summary": "Krutrim, India's first GenAI unicorn founded by Bhavish Aggarwal, is stepping back from its ambition to build domestic foundation models and shifting toward AI cloud services. The company posted roughly $31.5M in revenue for FY2026 \u2014 a 3\u00d7 year-over-year increase \u2014 and recorded its first annual net profit with margins exceeding 10%. The pivot signals how difficult it is for regional players to compete with OpenAI, Anthropic, and xAI on raw model capability.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/",
+          "tags": [
+            "india",
+            "pivot",
+            "cloud",
+            "unicorn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The U.S. government's hands-off AI era quietly ended this week as Anthropic's Mythos model spooked the White House into action.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Google, Microsoft, xAI sign pre-release government review deals",
+          "summary": "The U.S. Commerce Department's Center for AI Standards and Innovation announced that Google, Microsoft, and xAI have agreed to give the government early access to AI models before public release, joining OpenAI and Anthropic in the program. The agreements were catalyzed by alarm over Anthropic's Mythos model, which cybersecurity officials say has an unprecedented ability to identify and exploit software vulnerabilities. The White House is also reportedly drafting an executive order to formalize a government AI vetting working group \u2014 a sharp reversal from Trump's day-one repeal of Biden's AI safety order.",
+          "source": "insurancejournal.com",
+          "url": "https://www.insurancejournal.com/news/national/2026/05/05/868576.htm",
+          "tags": [
+            "regulation",
+            "white-house",
+            "national-security",
+            "anthropic"
+          ]
+        },
+        {
+          "title": "Mythos rattles Washington: the model that changed the conversation",
+          "summary": "Anthropic's Mythos AI system has become the unlikely catalyst for a U.S. regulatory pivot, after demonstrations showed it could autonomously identify cybersecurity weaknesses in ways that alarmed officials including White House Chief of Staff Susie Wiles and National Cyber Director Sean Cairncross. The NSA is reportedly already deploying Mythos against Microsoft software to probe federal infrastructure, while the Pentagon has simultaneously moved to phase out Anthropic as a supplier \u2014 creating a paradox where the government both fears and uses the model. The dueling lawsuits between DoD and Anthropic add another layer of tension to any formal review agreement.",
+          "source": "insurancejournal.com",
+          "url": "https://www.insurancejournal.com/news/national/2026/05/05/868576.htm",
+          "tags": [
+            "anthropic",
+            "mythos",
+            "national-security",
+            "pentagon"
+          ]
+        },
+        {
+          "title": "The OpenAI trial: Musk's threatening text takes center stage",
+          "summary": "The Musk v. OpenAI trial continued in Oakland before Judge Yvonne Gonzalez Rogers, with a court filing revealing a text Musk sent to OpenAI president Greg Brockman on April 25: \"By the end of this week, you and Sam will be the most hated men in America.\" Musk had already testified that his company distilled OpenAI's model outputs to train Grok, and faced questions about his own 2017 attempt to convert OpenAI to a for-profit \u2014 the same act he is suing OpenAI for. Brockman is expected to testify this week.",
+          "source": "businessinsider.com",
+          "url": "https://www.businessinsider.com/elon-musk-open-ai-trial-offered-settlement-to-brockman-2026-5",
+          "tags": [
+            "openai",
+            "musk",
+            "trial",
+            "court"
+          ]
+        },
+        {
+          "title": "OPM goes all-in: five LLMs on every federal desk",
+          "summary": "Office of Personnel Management Director Scott Kupor revealed that OPM has deployed five separate LLMs on employees' computers, claiming this puts the agency in the top fraction of federal AI adoption. An AI ambassador program now covers more than 10% of OPM's 2,000 employees, with a mandate to replace routinized tasks rather than eliminate jobs outright. All models are FedRAMP-approved versions with PII and security rules baked in, and employees are required to log AI use in official records for FOIA purposes.",
+          "source": "politico.com",
+          "url": "https://www.politico.com/newsletters/west-wing-playbook-remaking-government/2026/05/04/all-in-on-ai-00905740",
+          "tags": [
+            "federal-government",
+            "opm",
+            "workforce",
+            "policy"
+          ]
+        }
+      ]
+    }
+  ]
+}

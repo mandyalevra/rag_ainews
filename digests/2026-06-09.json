@@ -1,0 +1,209 @@
+{
+  "date": "June 09, 2026",
+  "iso": "2026-06-09",
+  "issue": 44,
+  "weekday": "Tuesday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Anthropic launched Claude Fable 5, its most capable publicly available model ever, at half the price of its predecessor, while also debuting the restricted Claude Mythos 5 for cybersecurity partners."
+    },
+    {
+      "catId": "money",
+      "text": "PhysicsX, a British AI-for-manufacturing startup, raised $300M at a $2.4B valuation led by Singapore's Temasek, with Nvidia and Applied Materials among its backers."
+    },
+    {
+      "catId": "world",
+      "text": "Trump signed an executive order on June 2 promoting AI innovation and cybersecurity, mandating a voluntary pre-release review framework for frontier models and prioritizing criminal enforcement against AI-enabled cybercrime."
+    }
+  ],
+  "headline": "fable goes live",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest model drops and product launches hitting developers and consumers right now.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Claude Fable 5 arrives \u2014 Mythos 5 follows for the few",
+          "summary": "Anthropic released Claude Fable 5 today, calling it the most capable model it has ever made generally available, with state-of-the-art results across software engineering, vision, and scientific research. A companion model, Claude Mythos 5, ships simultaneously but is locked to a narrow group of US government cybersecurity partners via Project Glasswing. Both are priced at $10 per million input tokens and $50 per million output tokens \u2014 less than half the cost of the previous Mythos Preview.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "tags": [
+            "models",
+            "anthropic",
+            "pricing"
+          ]
+        },
+        {
+          "title": "Gemini lands inside Xcode and Apple's Foundation Models",
+          "summary": "Google announced at WWDC that Apple developers can now call cloud-hosted Gemini models directly through Apple's native Foundation Models framework starting with iOS 27 and macOS 27. Gemini is also integrated into Xcode as an agentic coding assistant, letting developers review code, fix bugs, and build features without leaving the IDE. The integration is available as a preview via the Firebase Apple SDK today.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/bringing-gemini-models-to-apple-developers/",
+          "tags": [
+            "google",
+            "apple",
+            "devtools",
+            "wwdc"
+          ]
+        },
+        {
+          "title": "ChatGPT gets interactive charts, full-screen writing, and personal finance",
+          "summary": "OpenAI pushed a cluster of UX upgrades on June 8: answers can now render interactive bar, line, pie, and scatter charts inline, and longer documents open in a focused full-screen editor with table of contents and download support. A personal finance experience is also rolling out to Plus users in the US, alongside doubled memory capacity for paid subscribers.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "ux",
+            "finance"
+          ]
+        },
+        {
+          "title": "June Pixel Drop adds AI video, music creation, and emergency sharing",
+          "summary": "Google's June Pixel Drop brings Gemini Omni-powered video creation and original music generation to Pixel phones, letting users blend text, images, and clips or describe a vibe to generate a full audio track. The update also adds floating app bubbles for multitasking, real-time voice translation on more devices, and automatic emergency contact notifications when crash or fall detection triggers.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+          "tags": [
+            "google",
+            "pixel",
+            "android",
+            "gemini"
+          ]
+        },
+        {
+          "title": "Cohere ships North Mini Code, its first developer-focused model",
+          "summary": "Cohere today announced North Mini Code, its first model aimed squarely at developers rather than enterprise deployments. The launch marks a strategic pivot toward the coding assistant market where Anthropic and OpenAI already compete aggressively.",
+          "source": "cohere.com",
+          "url": "https://cohere.com/blog",
+          "tags": [
+            "cohere",
+            "models",
+            "devtools",
+            "coding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "The funding rounds, valuations, and investor bets defining the AI economy this week.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "PhysicsX hits $2.4B making AI for jet engines and chips",
+          "summary": "London-based PhysicsX raised $300 million in a Series C led by Singapore's sovereign fund Temasek, valuing the company at roughly $2.4 billion \u2014 up from under $1 billion at its last round. The startup builds AI simulation models for manufacturing high-stakes components like jet engines and semiconductors, and counts Nvidia and Applied Materials as backers alongside new investors Intrepid Growth Partners and M&G Catalyst.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "funding",
+            "manufacturing",
+            "deeptech",
+            "series-c"
+          ]
+        },
+        {
+          "title": "Bezos' Prometheus AI valued at $41B in mega-round",
+          "summary": "Prometheus, the AI startup led by Jeff Bezos, closed $12 billion in new funding at a $41 billion valuation, with JPMorgan Chase, Goldman Sachs, and BlackRock all writing checks. The raise cements Bezos as one of the most consequential individual backers in the current AI boom alongside his Amazon-adjacent investments.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
+          "tags": [
+            "funding",
+            "bezos",
+            "megadeal",
+            "valuation"
+          ]
+        },
+        {
+          "title": "Sarvam becomes India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam raised $234 million in a Series B led by HCLTech, hitting a $1.5 billion valuation and joining the unicorn club. Bessemer Venture Partners joined alongside existing backers Khosla Ventures and Peak XV Partners, and the company plans to raise a total of $300 million for the round following earlier open-source model launches in 30B and 105B parameter sizes.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "funding",
+            "india",
+            "unicorn",
+            "series-b"
+          ]
+        },
+        {
+          "title": "Coralogix raises $200M to monitor the AI agent layer",
+          "summary": "AI observability startup Coralogix closed a $200 million Series F at a $1.6 billion valuation, betting that the explosion of autonomous AI agents will create massive demand for monitoring and troubleshooting infrastructure. The round came just 11 months after its $115 million Series E and was led by Advent and the Canada Pension Plan Investment Board.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "funding",
+            "infrastructure",
+            "agents",
+            "series-f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The regulations, court rulings, and geopolitical moves shaping where AI is allowed to go.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Trump EO demands pre-release frontier model access for the feds",
+          "summary": "President Trump signed an executive order on June 2 directing agencies to strengthen AI-enabled cybersecurity defenses and establishing a voluntary framework under which frontier model developers would give the federal government up to 30 days of early access before broader public release. The order stops short of any licensing or permitting requirements, maintains a pro-innovation stance, and separately directs the Justice Department to prioritize criminal enforcement against AI-enabled cyberattacks.",
+          "source": "mayerbrown.com",
+          "url": "https://www.mayerbrown.com/en/insights/publications/2026/06/president-trump-signs-executive-order-on-advanced-ai-innovation-and-security",
+          "tags": [
+            "policy",
+            "us-government",
+            "cybersecurity",
+            "executive-order"
+          ]
+        },
+        {
+          "title": "Illinois passes its own frontier AI Safety Measures Act",
+          "summary": "The Illinois General Assembly adopted the AI Safety Measures Act on May 29, requiring large frontier AI developers to undergo annual independent audits and publish findings summaries, with the full redacted report submitted to state and attorney general offices. The law takes effect January 1, 2027, adding Illinois to a growing roster of states filling the federal governance vacuum with their own binding frameworks.",
+          "source": "simmons-simmons.com",
+          "url": "https://www.simmons-simmons.com/en/publications/cmq6fsigq002ov6ocdbo2l67o/ai-view-june-2026",
+          "tags": [
+            "policy",
+            "illinois",
+            "regulation",
+            "frontier-models"
+          ]
+        },
+        {
+          "title": "EU publishes code of practice on labelling AI-generated content",
+          "summary": "On June 10, the European Commission published a new Code of Practice requiring the marking and labelling of AI-generated content in consumer-facing products, extending EU AI governance obligations beyond the AI Act itself. Combined with draft high-risk classification guidelines still under public consultation, the move leaves organizations with shrinking room to delay EU AI Act compliance planning.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "eu",
+            "ai-act",
+            "transparency",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Court rules AI prompts used by experts are discoverable in litigation",
+          "summary": "In Conservation Law Foundation v. Shell Oil, a federal magistrate judge ordered plaintiffs to produce the AI prompts their expert used when preparing her report, treating those inputs as part of discoverable methodology rather than protected drafting material. The ruling is one of the clearest signals yet that AI-assisted expert work carries real discovery risk, and attorneys should assume prompts could surface in any case.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "litigation",
+            "discovery",
+            "legal"
+          ]
+        }
+      ]
+    }
+  ]
+}

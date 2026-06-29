@@ -1,0 +1,176 @@
+{
+  "date": "May 17, 2026",
+  "iso": "2026-05-17",
+  "issue": 21,
+  "weekday": "Sunday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "OpenAI's Greg Brockman takes over product strategy and is merging ChatGPT with Codex into a unified platform, while GPT-5.5 quietly rolls out to paid Codex users."
+    },
+    {
+      "catId": "money",
+      "text": "Anthropic is fielding investment interest at a staggering $900 billion valuation, and AI-focused Nectar Social closed a $30M Series A led by Menlo Ventures."
+    },
+    {
+      "catId": "world",
+      "text": "China confirmed for the first time it is drafting a comprehensive national AI law, signaling a major step up in formal AI governance."
+    }
+  ],
+  "headline": "china writes the rules",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest product moves in AI this week, from OpenAI's internal reshuffling to a wave of new model releases.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Brockman Takes Product, ChatGPT Meets Codex",
+          "summary": "OpenAI co-founder Greg Brockman has stepped into a product strategy leadership role, with plans to merge ChatGPT and Codex into a single unified platform. The consolidation aims to give developers a seamless experience across conversational AI and code generation. GPT-5.5 has also quietly shipped to all paid Codex users as part of the rollout.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=TpTSFRY23nE",
+          "tags": [
+            "openai",
+            "codex",
+            "strategy"
+          ]
+        },
+        {
+          "title": "ChatGPT Lands Inside Excel and Google Sheets",
+          "summary": "OpenAI has launched a spreadsheet-native ChatGPT experience that lives in a sidebar directly inside Excel and Google Sheets. Users can build, update, and interrogate multi-tab spreadsheets using natural language without leaving the app. It's available globally to Free through Enterprise tiers, with Business and above getting a free preview through June 2, 2026.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/es-es/articles/20001063-chatgpt-for-excel-and-google-sheets",
+          "tags": [
+            "openai",
+            "productivity",
+            "launch"
+          ]
+        },
+        {
+          "title": "ByteDance and Google Flood Replicate With New Models",
+          "summary": "Replicate's explore page is seeing a surge of new releases, including ByteDance's Seedance 2.0 for multimodal video with native audio, Seedream 5 Lite for reasoning-enhanced image generation, and Google's Nano Banana 2 image model with multi-image fusion and 4K output. The pace of model drops is accelerating across every modality.",
+          "source": "replicate.com",
+          "url": "https://replicate.com/explore",
+          "tags": [
+            "video-gen",
+            "image-gen",
+            "bytedance",
+            "google"
+          ]
+        },
+        {
+          "title": "arXiv Drops a One-Year Ban on Careless AI Writing",
+          "summary": "Research repository arXiv has implemented a one-year ban on authors found to have carelessly or excessively used large language models in their submitted papers. The policy is a direct response to growing concern that AI-generated filler is degrading the quality of scientific literature. It marks one of the most concrete enforcement steps any major academic platform has taken.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=TpTSFRY23nE",
+          "tags": [
+            "academia",
+            "policy",
+            "llm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Valuations are climbing to dizzying heights and fresh capital keeps pouring into AI startups despite growing bubble warnings on Wall Street.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Anthropic Eyes $900 Billion Valuation",
+          "summary": "Anthropic is reportedly fielding new investment interest at a $900 billion valuation, a figure that would make it one of the most valuable private companies in history. Observers note that at its prior valuation Anthropic looked underpriced relative to OpenAI, giving investors a perceived entry opportunity. The round has not yet closed.",
+          "source": "theinformation.com",
+          "url": "https://www.theinformation.com/u/katieroofinfo",
+          "tags": [
+            "anthropic",
+            "valuation",
+            "funding"
+          ]
+        },
+        {
+          "title": "Nectar Social Closes $30M Series A",
+          "summary": "AI-powered marketing platform Nectar Social has closed a $30 million Series A led by Menlo Ventures and its Anthology Fund. The raise highlights continued institutional confidence in vertical AI tools designed to automate and optimize business workflows. It was one of the more notable AI funding events of the week.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=TpTSFRY23nE",
+          "tags": [
+            "funding",
+            "marketing-ai",
+            "series-a"
+          ]
+        },
+        {
+          "title": "Wall Street Starts Whispering 'Dot-Com Bubble'",
+          "summary": "Analysts on Wall Street are increasingly comparing the current AI investment frenzy to the speculative peak of the late 1990s dot-com era, warning of inflated valuations and potential market correction. Despite the caution, institutional money keeps arriving \u2014 Brookfield Corporation made a significant investment in an OpenAI unit this week. The tension between fear and FOMO is defining the moment.",
+          "source": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=TpTSFRY23nE",
+          "tags": [
+            "bubble",
+            "wall-street",
+            "openai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "China steps up with formal AI legislation plans while data center backlash and the US-China AI rivalry intensify.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "China Drafts Its First Comprehensive AI Law",
+          "summary": "China's State Council has confirmed for the first time that it is drawing up a comprehensive national AI law, with explicit language about accelerating governance across algorithms, data, computing power, and supply chains. Industry insiders say the move signals that Beijing believes it has accumulated enough regulatory experience to codify the rules of the road. The National People's Congress has listed AI legislation for review for a third consecutive year.",
+          "source": "scmp.com",
+          "url": "https://www.scmp.com/news/china/politics/article/3353834/what-do-chinas-plans-comprehensive-new-ai-law-mean-future-technology",
+          "tags": [
+            "china",
+            "regulation",
+            "policy"
+          ]
+        },
+        {
+          "title": "Data Center Backlash Grows Louder in the US",
+          "summary": "A majority of Americans now oppose AI data centers being built in their communities, according to a new survey, and Utah's massive new data center plan has drawn particular local backlash over land, water, and power concerns. Washington Examiner op-eds this weekend called on industry to counter 'data center doomers' and Chinese fearmongering on AI infrastructure. The fight over where AI gets built is becoming a genuine political flashpoint.",
+          "source": "washingtonexaminer.com",
+          "url": "https://www.washingtonexaminer.com/tag/artificial-intelligence/",
+          "tags": [
+            "infrastructure",
+            "data-centers",
+            "public-opinion"
+          ]
+        },
+        {
+          "title": "AI as a Geopolitical Asset: The Race Sharpens",
+          "summary": "Analysis from multiple outlets this week frames AI increasingly as a defense-industrial and geopolitical asset, with chips, cloud capacity, and data centers tied directly to state power competition. The US-China AI rivalry is described as actively heating up, with both sides accelerating domestic legislation, export controls, and infrastructure investment. Corporate diplomacy \u2014 including tech executives accompanying government delegations \u2014 is blurring the line between private innovation and national strategy.",
+          "source": "p4sc4l.substack.com",
+          "url": "https://p4sc4l.substack.com/p/ai-and-geopolitics-10-may-2026-17",
+          "tags": [
+            "geopolitics",
+            "us-china",
+            "national-security"
+          ]
+        },
+        {
+          "title": "AI Governance Is Being Shaped in Courtrooms, Not Capitals",
+          "summary": "A broad trend analysis this week notes that AI policy is increasingly being written through litigation and regulator-platform bargains rather than clean legislative design. Key battlegrounds include the Musk v. Altman trial over OpenAI's nonprofit mission, state-level efforts to ban AI legal personhood, and ongoing copyright fights involving Anthropic and major publishers. Clean top-down AI legislation remains elusive while the courts fill the vacuum.",
+          "source": "p4sc4l.substack.com",
+          "url": "https://p4sc4l.substack.com/p/ai-and-geopolitics-10-may-2026-17",
+          "tags": [
+            "courts",
+            "governance",
+            "copyright"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "date": "June 27, 2026",
+  "iso": "2026-06-27",
+  "issue": 62,
+  "weekday": "Saturday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's Gemini 3.5 and a wave of new agentic products \u2014 from a redesigned NotebookLM to Gemini baked into Apple's Xcode \u2014 are redefining what AI tools can do on your laptop and phone."
+    },
+    {
+      "catId": "money",
+      "text": "India's Sarvam hit unicorn status with a $234M raise led by HCLTech, while a16z-backed compute marketplace Ornn and PhysicsX's $300M round signal where smart money is flowing."
+    },
+    {
+      "catId": "world",
+      "text": "AI regulation is fracturing fast \u2014 Florida sued OpenAI, the White House reportedly wants to gate GPT-5.6, and states keep legislating while Congress stalls."
+    }
+  ],
+  "headline": "florida pulls the trigger",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google's agentic era arrived in force, with new models, hardware, and research tools reshaping how AI gets built and used.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini lands inside Apple's Xcode",
+          "summary": "Google and Apple quietly made a big deal: starting with iOS 27, developers can call Gemini models directly through Apple's Foundation Models framework. Gemini is also now integrated into Xcode itself, letting developers review code, fix bugs, and ship features without switching windows. Firebase AI Logic handles the backend so no separate server infrastructure is needed.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/bringing-gemini-models-to-apple-developers/",
+          "tags": [
+            "gemini",
+            "apple",
+            "devtools"
+          ]
+        },
+        {
+          "title": "NotebookLM becomes a full research engine",
+          "summary": "Google upgraded NotebookLM with Gemini 3.5 and a secure cloud computer that can run code, generate charts, build PDFs, and even export PowerPoints. You can now start a project with just a loose idea and the tool will find and organise sources from the web for you. The upgrade is live globally for Google AI Ultra subscribers and Workspace business accounts.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/",
+          "tags": [
+            "notebooklm",
+            "research",
+            "gemini"
+          ]
+        },
+        {
+          "title": "ChatGPT gets personal finance and a new default model",
+          "summary": "OpenAI rolled out personal finance features to Plus users, letting them securely connect bank accounts and ask ChatGPT questions grounded in their real financial data. Simultaneously, GPT-5.5 Instant replaced GPT-5.3 Instant as ChatGPT's default model for all users, with improvements across accuracy, image understanding, and STEM. A free ChatGPT for Clinicians tier also launched for verified US healthcare workers.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "chatgpt",
+            "openai",
+            "fintech",
+            "healthcare"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs on your laptop",
+          "summary": "Google released Gemma 4 12B, a multimodal open model that fits in 16GB of RAM and handles audio, video, and text inputs without separate encoders. It's the first mid-sized Gemma model with native audio support and benchmarks close to the much larger 26B MoE model. It ships under Apache 2.0, so anyone can build with it commercially.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "gemma",
+            "open-source",
+            "on-device",
+            "multimodal"
+          ]
+        },
+        {
+          "title": "Google's Googlebook and Universal Cart take shape",
+          "summary": "Google's May recap confirmed the Googlebook \u2014 a Gemini-native laptop built with Acer, Asus, Dell, HP, and Lenovo \u2014 alongside Universal Cart, a cross-merchant shopping hub that works inside Search, YouTube, Gmail, and Gemini at once. Fitbit Air, described as a tiny pebble tracker with Afib monitoring, also officially launched. Together they represent Google's biggest hardware and commerce push in years.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "hardware",
+            "shopping",
+            "fitbit",
+            "googlebook"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "A wave of AI infrastructure and sovereign-AI bets dominated June's funding calendar, with unicorns minted from Bengaluru to London.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn",
+          "summary": "Bengaluru-based Sarvam closed $234M at a $1.5B valuation, with HCLTech putting in $150M as lead strategic investor and Bessemer, Khosla, and Peak XV also participating. The company builds open-source models \u2014 including 30B and 105B parameter releases \u2014 aimed at giving governments and enterprises sovereign control over AI infrastructure. Sarvam is targeting a full $300M Series B.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "series-b",
+            "sovereign-ai"
+          ]
+        },
+        {
+          "title": "PhysicsX hits $2.4B making AI for jet engines",
+          "summary": "London-based PhysicsX raised $300M at a $2.4B valuation to build AI models that simulate and optimise physical components like jet engines and semiconductors. Singapore's Temasek led the Series C, with Nvidia and Applied Materials returning as backers. The valuation is roughly three times its last round, reflecting surging demand for AI in deep manufacturing.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "manufacturing",
+            "series-c",
+            "deep-tech",
+            "nvidia"
+          ]
+        },
+        {
+          "title": "a16z bets on Ornn, an AI compute marketplace",
+          "summary": "Andreessen Horowitz led a $33M seed round into Ornn, a startup building a marketplace where AI compute can be bought and sold like a commodity. a16z crypto participated alongside Galaxy Ventures, Nordstar, and SV Angel \u2014 marking a16z's first investment specifically in a compute marketplace. The bet reflects growing conviction that compute access, not just models, will be a durable business.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "seed",
+            "a16z",
+            "infrastructure"
+          ]
+        },
+        {
+          "title": "Coralogix raises $200M to monitor AI agents",
+          "summary": "AI monitoring startup Coralogix closed a $200M Series F just 11 months after its Series E, valuing the company at $1.6B. The thesis: as autonomous AI agents proliferate, someone needs to watch them in production. Advent and the Canada Pension Plan Investment Board led the round, with Coralogix now having raised $550M total.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "monitoring",
+            "series-f",
+            "ai-agents",
+            "infrastructure"
+          ]
+        },
+        {
+          "title": "Swiss startup Prem raises $100M for private AI",
+          "summary": "Zurich-based Prem AI is closing a $100M Series A targeting a $500M+ valuation, selling private AI infrastructure to hedge funds and law firms that cannot send data to the cloud. The round is expected to close in Q3 2026. It reflects a clear market segment: regulated industries willing to pay a premium for on-premise model deployment.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-18/swiss-ai-startup-prem-is-raising-100-million-series-a-round",
+          "tags": [
+            "private-ai",
+            "series-a",
+            "enterprise",
+            "fintech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "AI regulation is moving faster than Congress can write laws, with states, courts, and foreign governments all filling the vacuum.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Florida sues OpenAI over harm to children",
+          "summary": "Florida became the first state to sue OpenAI and CEO Sam Altman, alleging the company knowingly deployed addictive and unsafe technology that has harmed minors \u2014 including alleged encouragement of self-harm and dependency-forming human-like interactions. The state is seeking restrictions on data collection from under-13s and signalled it may pursue other AI developers next. OpenAI rejected the claims, citing its existing safety and parental oversight measures.",
+          "source": "tlt.com",
+          "url": "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-june-2026",
+          "tags": [
+            "openai",
+            "lawsuit",
+            "child-safety",
+            "florida"
+          ]
+        },
+        {
+          "title": "White House wants to gate GPT-5.6",
+          "summary": "Reports surfaced that the White House has asked OpenAI to limit the release of its upcoming GPT-5.6 model to government-approved partners only, an unprecedented intervention in model deployment. The move reflects escalating federal anxiety over advanced AI capabilities and their implications for misinformation and job displacement. A separate public dispute between Anthropic and the Commerce Department over export controls has added further urgency to calls for a coherent federal framework.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "openai",
+            "regulation",
+            "white-house",
+            "export-controls"
+          ]
+        },
+        {
+          "title": "Colorado rewrites its landmark AI law",
+          "summary": "Colorado's governor signed a substantially revised version of its first-in-the-nation AI legislation in May 2026, after the original law was frozen by a court challenge brought by an AI developer with DOJ support. The new law shifts focus from algorithmic discrimination to adverse outcomes in consequential automated decisions, covering six domains including employment, healthcare, and housing. Organisations doing business in Colorado must be compliant by January 1, 2027.",
+          "source": "mintz.com",
+          "url": "https://www.mintz.com/insights-center/viewpoints/54731/2026-06-12-colorados-not-finished-regulating-ai-reenacted-ai-law",
+          "tags": [
+            "colorado",
+            "regulation",
+            "state-law",
+            "automated-decisions"
+          ]
+        },
+        {
+          "title": "Expert AI prompts are now discoverable in court",
+          "summary": "A federal magistrate judge ruled in Conservation Law Foundation v. Shell Oil that the AI prompts an expert used to prepare her report must be produced in discovery, treating them as methodology rather than protected drafting material. The decision is one of the clearest signals yet that using AI in expert work carries real litigation risk. Lawyers and expert witnesses across the country will need to rethink how they document AI-assisted analysis.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "litigation",
+            "discovery",
+            "legal",
+            "ai-evidence"
+          ]
+        },
+        {
+          "title": "EU AI Act gets more time, UK gets sandboxes",
+          "summary": "The EU Parliament and Council agreed in May to extend compliance deadlines for high-risk AI systems \u2014 standalone systems now have until December 2027, product-embedded systems until August 2028 \u2014 as part of a 'Digital Omnibus' simplification package. In the UK, the King's Speech introduced cross-economy sandboxing powers letting AI products be tested under temporarily relaxed rules. Both moves signal regulators prioritising workability over speed.",
+          "source": "tlt.com",
+          "url": "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-june-2026",
+          "tags": [
+            "eu-ai-act",
+            "uk",
+            "sandbox",
+            "compliance"
+          ]
+        }
+      ]
+    }
+  ]
+}

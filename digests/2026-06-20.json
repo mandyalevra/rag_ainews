@@ -1,0 +1,206 @@
+{
+  "date": "June 20, 2026",
+  "iso": "2026-06-20",
+  "issue": 55,
+  "weekday": "Saturday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Anthropic launched Claude Fable 5, its most capable model ever, with built-in safeguards that reroute sensitive queries to a safer fallback model."
+    },
+    {
+      "catId": "money",
+      "text": "Menlo Ventures closed a $3 billion fund \u2014 its largest in 50 years \u2014 fueled by an Anthropic stake now worth roughly $14 billion."
+    },
+    {
+      "catId": "world",
+      "text": "The US Commerce Department ordered Anthropic to pull Fable 5 and Mythos 5 over national security concerns, marking a new frontier in AI export control."
+    }
+  ],
+  "headline": "fable, interrupted",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The biggest model drop of the year lands with a twist: guardrails baked in by design.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Claude Fable 5 arrives \u2014 with a built-in safety net",
+          "summary": "Anthropic launched Claude Fable 5, calling it state-of-the-art across software engineering, vision, and scientific research \u2014 especially on long, complex tasks. The catch: a classifier system intercepts cybersecurity, biology, and chemistry queries and hands them off to the less capable Claude Opus 4.8 instead. Pricing is $10 per million input tokens and $50 per million output, less than half the cost of the previous Mythos Preview.",
+          "source": "anthropic.com",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "tags": [
+            "anthropic",
+            "models",
+            "safety"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs on your laptop, no encoder needed",
+          "summary": "Google released Gemma 4 12B, a mid-sized open model that skips the usual vision and audio encoders entirely \u2014 inputs flow straight into the LLM backbone, cutting latency and memory use. It fits in 16GB of VRAM, making it the first Gemma model genuinely comfortable on a consumer laptop. The Apache 2.0 license and compatibility with Hugging Face, llama.cpp, and MLX make it an easy grab for developers.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "google",
+            "open-source",
+            "devtools"
+          ]
+        },
+        {
+          "title": "ChatGPT gets a personal finance dashboard and clinician mode",
+          "summary": "OpenAI rolled out a personal finance experience letting Plus users in the US securely link bank accounts and interrogate their spending through chat. Separately, verified US clinicians can now access a free ChatGPT tier built for real clinical work, including evidence review, documentation support, and CME credit eligibility. Both features reflect OpenAI's push to move ChatGPT from general assistant toward domain-specific professional tool.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "fintech",
+            "healthcare"
+          ]
+        },
+        {
+          "title": "Google's agentic era: Gemini 3.5, Universal Cart, and the Googlebook",
+          "summary": "Google's May recap confirmed the full scope of its Google I/O push: Gemini 3.5 for agentic coding and long-horizon tasks, a Universal Cart that lets you add items across Search, YouTube, and Gmail in one place, and the Googlebook \u2014 a new laptop form factor built for Gemini Intelligence, made by Acer, Asus, Dell, HP, and Lenovo. The Gemini app also got a proactive redesign that manages inboxes and schedules in the background without being asked.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "gemini",
+            "hardware",
+            "agents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "A week of conviction bets: VCs doubling down on Anthropic, India's sovereign AI, and industrial simulation.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Menlo's Anthropic gamble paid off \u2014 massively",
+          "summary": "Menlo Ventures announced $3 billion in new funds, the largest raise in its 50-year history, with its Anthropic stake now valued at roughly $14 billion. The firm led Anthropic's Series D in 2024 with over $500 million when the startup was worth $18 billion \u2014 a bet it described as white-knuckling at the time. The firm's Anthology fund, a $100 million vehicle co-launched with Anthropic, has since deployed closer to $250 million.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+          "tags": [
+            "venture-capital",
+            "anthropic",
+            "funding"
+          ]
+        },
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam raised $234 million led by HCLTech, pushing its valuation to $1.5 billion and making it India's latest AI unicorn. Bessemer Venture Partners joined alongside existing backers Khosla Ventures and Peak XV, and the company is targeting a total of $300 million for its Series B. Sarvam earlier this year released open-source models at 30 billion and 105 billion parameters.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "open-source",
+            "funding"
+          ]
+        },
+        {
+          "title": "Groq raises $650M to pivot from chips to cloud compute",
+          "summary": "Groq closed a $650 million round led by existing investors Disruptive and Infinitum, aiming to expand its data center capacity and reposition itself as an AI computing provider rather than a chip maker. The raise follows a reported deal with Nvidia and signals that Groq is betting its future on selling inference as a service at scale.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-22/groq-raises-650-million-to-help-startup-pivot-after-nvidia-deal",
+          "tags": [
+            "groq",
+            "infrastructure",
+            "funding",
+            "chips"
+          ]
+        },
+        {
+          "title": "PhysicsX hits $2.4B valuation with Temasek-led $300M round",
+          "summary": "London-based PhysicsX, which builds AI models for manufacturing components like jet engines and semiconductors, raised $300 million at a $2.4 billion valuation \u2014 up from roughly $1 billion at its last round. Temasek led the Series C, with Nvidia and Applied Materials among the returning backers. The company competes in a field that now includes Jeff Bezos-backed entrants.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "manufacturing",
+            "deep-tech",
+            "funding"
+          ]
+        },
+        {
+          "title": "NewCore emerges with $66M to put identities on AI agents",
+          "summary": "Cybersecurity startup NewCore came out of stealth with $66 million in seed funding to solve what it calls the coming crisis of AI agent authentication \u2014 how to verify, govern, and revoke access for autonomous systems acting as employees. Cyberstarts led the round, with Index Ventures and Evolution Equity Partners participating, valuing NewCore at $300 million post-investment.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+          "tags": [
+            "cybersecurity",
+            "agents",
+            "funding",
+            "identity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Governments are no longer just watching AI \u2014 they're pulling the plug on it.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "US government forces Anthropic to yank Fable 5 distribution",
+          "summary": "The Commerce Department issued an export directive compelling Anthropic to halt distribution of both Fable 5 and Mythos 5, citing national security concerns over potential guardrail bypasses. The move is one of the most direct government interventions in a commercial AI model release to date, and policy analysts warn it could reshape how AI safety frameworks intersect with export control law. Anthropic had already launched the models with built-in classifiers, making the directive a notable escalation beyond what the company's own safeguards addressed.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "regulation",
+            "anthropic",
+            "export-controls",
+            "national-security"
+          ]
+        },
+        {
+          "title": "Trump signs AI executive order \u2014 no licensing, more cyber defense",
+          "summary": "On June 2, President Trump signed an executive order promoting AI innovation while hardening government systems against cyber threats, explicitly ruling out any licensing or preclearance requirements for AI model development. The order prioritizes voluntary, industry-collaborative mechanisms and creates a clearinghouse for AI cybersecurity. It also establishes benchmarks for frontier model cyber capabilities \u2014 a soft accountability lever that stops well short of mandatory oversight.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "policy",
+            "white-house",
+            "cybersecurity",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Connecticut becomes the new state AI regulation benchmark",
+          "summary": "Connecticut enacted a sweeping state AI law on May 27 covering companion chatbots, frontier model governance, and AI use in employment decisions \u2014 one of the most substantive state-level frameworks in the US so far. It adds to an accelerating patchwork that now includes Louisiana's new data privacy law (the 22nd state to enact one) and Colorado's revised AI Act, which was scaled back after xAI sued and the DOJ intervened. With federal legislation stalled, multi-state companies are navigating an increasingly fragmented compliance map.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "regulation",
+            "state-law",
+            "privacy",
+            "governance"
+          ]
+        },
+        {
+          "title": "Court rules AI prompts are discoverable in expert litigation",
+          "summary": "A federal magistrate judge in Conservation Law Foundation v. Shell Oil ordered plaintiffs to produce the AI prompts their expert used in preparing her report, treating them as part of the expert's methodology rather than protected drafting material. The ruling is one of the clearest signals yet that AI-assisted expert work carries discovery obligations \u2014 and that attorneys can no longer treat prompts as invisible scaffolding. Litigators are now on notice that the inputs matter as much as the outputs.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "legal",
+            "courts",
+            "discovery",
+            "litigation"
+          ]
+        }
+      ]
+    }
+  ]
+}

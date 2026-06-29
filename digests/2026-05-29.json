@@ -1,0 +1,208 @@
+{
+  "date": "May 29, 2026",
+  "iso": "2026-05-29",
+  "issue": 33,
+  "weekday": "Friday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's I/O 2026 blitz dropped Gemini 3.5 with native computer use, a live speech translator across 70+ languages, and the Googlebook laptop built ground-up for AI agents."
+    },
+    {
+      "catId": "money",
+      "text": "India's Sarvam hit unicorn status with a $234M round led by HCLTech, while General Intuition eyes $300M to teach AI agents how to move through space and time."
+    },
+    {
+      "catId": "world",
+      "text": "Connecticut became the seventh U.S. state to sign a comprehensive AI law today, covering companion chatbots, automated hiring tools, and frontier model oversight."
+    }
+  ],
+  "headline": "connecticut signs, google ships",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google's I/O 2026 wave of releases reshapes what AI assistants can see, hear, and do.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini 3.5 Flash gets built-in computer use",
+          "summary": "Google has integrated computer use natively into Gemini 3.5 Flash, letting developers build agents that can see and act across browser, mobile, and desktop environments without a separate model. Previously a standalone capability, it now ships with enterprise safeguards including explicit user confirmation for sensitive actions and automatic task halting if prompt injection is detected. Developers can access it today via the Gemini API and Gemini Enterprise Agent Platform.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+          "tags": [
+            "gemini",
+            "agents",
+            "devtools"
+          ]
+        },
+        {
+          "title": "Gemini 3.5 Live Translate speaks 70+ languages in real time",
+          "summary": "Google's new Gemini 3.5 Live Translate model does near-real-time speech-to-speech translation across more than 70 languages, preserving the speaker's intonation, pacing, and pitch. It's rolling out today to developers via the Gemini Live API, to Google Translate on Android and iOS, and enters private preview in Google Meet for Workspace business customers. Google Meet's previous translation ceiling was just five languages.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+          "tags": [
+            "translation",
+            "audio",
+            "gemini"
+          ]
+        },
+        {
+          "title": "Gemini Omni can generate video from any input",
+          "summary": "Announced at Google I/O 2026, Gemini Omni accepts images, audio, video, and text simultaneously and generates high-quality video grounded in Gemini's real-world knowledge. Google also unveiled the Googlebook, a new laptop built specifically around Gemini Intelligence with a Magic Pointer for contextual suggestions and deep Android phone integration. Universal Cart, a cross-merchant shopping hub embedded across Search, YouTube, Gmail, and Gemini, also launched alongside.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "multimodal",
+            "video",
+            "hardware"
+          ]
+        },
+        {
+          "title": "GPT-5.5 Instant is now ChatGPT's default model",
+          "summary": "OpenAI quietly swapped GPT-5.3 Instant for GPT-5.5 Instant as the default model for all ChatGPT users, promising sharper accuracy, better image understanding, and less bullet-heavy prose. The update also retired the canvas writing surface in favor of integrated writing blocks and code blocks directly in chat. Paid users get three months to opt back into GPT-5.3 Instant before it's retired.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "models"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B runs multimodal AI on a laptop",
+          "summary": "Google's new open Gemma 4 12B model brings multimodal intelligence \u2014 including native audio inputs \u2014 to consumer laptops with just 16GB of VRAM, no separate vision or audio encoders required. It benchmarks close to Google's larger 26B mixture-of-experts model at less than half the memory footprint, and is released under an Apache 2.0 license. It's available now on Hugging Face, Kaggle, LM Studio, and Ollama.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-source",
+            "on-device",
+            "multimodal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "India mints a new AI unicorn while spatial-AI and compute-marketplace startups race to lock in capital.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam hits $1.5B unicorn valuation with $234M round",
+          "summary": "Indian AI startup Sarvam closed $234 million in Series B funding led by HCLTech, with Bessemer Venture Partners, Khosla Ventures, and Peak XV Partners also participating. The company, which launched open-source models at 30B and 105B parameters earlier this year, is targeting a total raise of $300 million. The round values Sarvam at $1.5 billion, making it India's newest AI unicorn.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "series-b"
+          ]
+        },
+        {
+          "title": "General Intuition eyes $300M to teach agents space and time",
+          "summary": "New York-based General Intuition, which spun out of gaming-clip platform Medal just eight months ago with a $134M seed, is in talks to raise roughly $300 million at a valuation just over $2 billion. The startup is building a foundation model trained to help AI agents navigate physical and temporal environments, with backers including Jeff Bezos, Eric Schmidt, Khosla Ventures, and General Catalyst. No close has been announced yet.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+          "tags": [
+            "agents",
+            "spatial-ai",
+            "seed"
+          ]
+        },
+        {
+          "title": "a16z backs Ornn's $33M compute marketplace",
+          "summary": "Andreessen Horowitz led a $33 million seed round into Ornn, a marketplace where AI compute power can be bought and sold, marking a16z's first investment in a compute-exchange platform. Galaxy Ventures, Nordstar, and SV Angel also participated. a16z crypto general partner Ali Yahya called it a bet on infrastructure liquidity for the AI era.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "infrastructure",
+            "a16z"
+          ]
+        },
+        {
+          "title": "Pramaana Labs raises $27M to bring formal verification to AI",
+          "summary": "Pramaana Labs announced a $27 million seed round led by Khosla Ventures, with Accel, BoldCap, Nexus Venture Partners, Premji Invest, and Unbound also joining. The startup is applying formal verification methods \u2014 historically used to prove software correctness \u2014 to AI systems, aiming to give enterprises mathematical guarantees about model behavior. It's an early but high-stakes bet as AI liability frameworks begin to take shape.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "tags": [
+            "safety",
+            "enterprise",
+            "seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Connecticut's sweeping AI law signed today caps a month of state-level regulation that's outpacing anything happening in Washington.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Connecticut signs the most ambitious state AI law yet",
+          "summary": "Governor Lamont signed the Connecticut Artificial Intelligence Responsibility and Transparency Act (SB 5) today, making Connecticut the seventh U.S. state with an AI-specific legal framework. The law covers companion chatbots, frontier model safety mandates, automated hiring and firing tools, generative content provenance, and whistleblower protections for AI developers \u2014 one of the broadest scopes of any state bill to date. Core disclosure rules kick in October 1, 2026, with stricter pre-decision notice requirements following a year later.",
+          "source": "securiti.ai",
+          "url": "https://securiti.ai/ai-roundup/may-2026/",
+          "tags": [
+            "connecticut",
+            "regulation",
+            "employment"
+          ]
+        },
+        {
+          "title": "Colorado rewrites its landmark AI Act \u2014 again",
+          "summary": "Colorado Governor Polis signed SB 26-189 on May 14, repealing and replacing the state's original 2024 AI Act after a constitutional challenge by an AI developer and DOJ intervention froze enforcement. The rewritten law drops the concept of algorithmic discrimination in favor of a notice-and-disclosure regime for automated decision-making, and pushes the effective date to January 1, 2027. The episode is the clearest example yet of how litigation is actively reshaping AI regulation in real time.",
+          "source": "mintz.com",
+          "url": "https://www.mintz.com/insights-center/viewpoints/54731/2026-06-12-colorados-not-finished-regulating-ai-reenacted-ai-law",
+          "tags": [
+            "colorado",
+            "regulation",
+            "litigation"
+          ]
+        },
+        {
+          "title": "Trump kills 'FDA for AI,' deepening the federal vacuum",
+          "summary": "The Trump administration formally abandoned its proposal for a unified federal AI oversight body modeled on the FDA as of May 22, leaving no comprehensive federal AI framework in sight. The retreat is accelerating state-level action, with 45 of 50 states having introduced AI legislation by early 2026 and a Midwest locality reportedly eyeing the nation's strictest AI auditing rules. Experts warn the resulting patchwork is creating compliance chaos for companies operating across multiple states.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-02/monthly",
+          "tags": [
+            "federal",
+            "policy",
+            "regulation"
+          ]
+        },
+        {
+          "title": "A court rules AI prompts are discoverable in litigation",
+          "summary": "In Conservation Law Foundation v. Shell Oil, a federal magistrate judge ordered plaintiffs to produce the AI prompts their expert used when preparing her report, treating them as part of the expert's methodology rather than privileged drafting material. The ruling is one of the most direct judicial statements yet on AI transparency in legal proceedings, and signals that using AI to do expert work without disclosure carries real procedural risk. Legal teams across the country are now reassessing how they document AI-assisted analysis.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "discovery",
+            "litigation"
+          ]
+        },
+        {
+          "title": "FTC settles AI deception cases; Take It Down Act goes live",
+          "summary": "The FTC reached $930,000 settlements with three marketing firms that made deceptive claims about their AI capabilities, establishing live enforcement precedents under existing consumer-protection law. Separately, the Take It Down Act \u2014 targeting non-consensual intimate AI-generated imagery \u2014 took effect May 19, giving the FTC new tools even as Congress stalls on broader AI legislation. Together the moves confirm that federal AI enforcement is advancing through existing agencies, not new frameworks.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "ftc",
+            "enforcement",
+            "deepfakes"
+          ]
+        }
+      ]
+    }
+  ]
+}

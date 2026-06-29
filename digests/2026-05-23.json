@@ -1,0 +1,219 @@
+{
+  "date": "May 23, 2026",
+  "iso": "2026-05-23",
+  "issue": 27,
+  "weekday": "Saturday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google's I/O blitz delivered Gemini 3.5, Gemini Omni, a new Googlebook laptop, and a Universal Cart that shops across the entire Google ecosystem."
+    },
+    {
+      "catId": "money",
+      "text": "Indian AI startup Sarvam hit unicorn status with a $234M round led by HCLTech, valuing it at $1.5B."
+    },
+    {
+      "catId": "world",
+      "text": "The White House shelved its frontier-AI review executive order after Trump worried it would stifle development, leaving the US with no federal oversight framework as states race to fill the void."
+    }
+  ],
+  "headline": "states fill the vacuum",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google's I/O wave keeps crashing ashore, while OpenAI quietly reshuffles its model lineup.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini Omni can turn anything into video",
+          "summary": "Google launched Gemini Omni at I/O 2026, a model that accepts any combination of text, images, audio, and video as input and generates high-quality video grounded in real-world knowledge. It's already live in the Gemini app and baked into the June Pixel Drop, where users can create original music tracks just by describing an idea or uploading a photo. The move positions Google as a direct rival to dedicated video-generation startups.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "multimodal",
+            "video-generation"
+          ]
+        },
+        {
+          "title": "Gemini 3.5 is built to act, not just answer",
+          "summary": "Google's new Gemini 3.5 family combines frontier reasoning with native action-taking, designed to execute complex multi-step agentic workflows across apps. The updated Gemini app now proactively manages inboxes, schedules appointments, and sends daily briefs without being asked. Android Halo, a new phone interface layer, lets users monitor all their running agents without disrupting their current task.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "google",
+            "agents",
+            "gemini"
+          ]
+        },
+        {
+          "title": "OpenAI ships GPT-5.3-Codex, its first unified coding agent",
+          "summary": "OpenAI released GPT-5.3-Codex, combining its Codex and GPT-5 training stacks into a single model that is roughly 25% faster than its predecessor and sets new benchmark highs. Unlike earlier code-generation tools, it's designed as a steerable coding agent you can redirect mid-task. A smaller GPT-5-Codex-Mini variant also launched, offering up to 4x more usage within existing ChatGPT subscriptions.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "tags": [
+            "openai",
+            "coding",
+            "agents"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B brings multimodal AI to your laptop",
+          "summary": "Google released Gemma 4 12B under Apache 2.0, a model that runs locally on consumer hardware with just 16GB of RAM. Its encoder-free architecture pipes vision and audio directly into the LLM backbone, cutting latency and memory overhead while matching benchmark performance close to Google's larger 26B model. It's the first mid-sized Gemma model to support native audio inputs.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "google",
+            "open-source",
+            "on-device"
+          ]
+        },
+        {
+          "title": "Google gives website owners an AI Search opt-out switch",
+          "summary": "Google is testing a new Search Console toggle that lets website owners decide whether their content appears in AI Overviews, AI Mode, and related generative search features. Sites that opt out lose the traffic and impressions those features generate, but their organic ranking is unaffected. The rollout begins with a subset of UK publishers before expanding globally.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/products/search/new-controls-website-owners/",
+          "tags": [
+            "google",
+            "search",
+            "publishers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "India mints a new AI unicorn, spatial intelligence raises big, and compute gets its own marketplace.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn",
+          "summary": "Sarvam raised $234M at a $1.5B valuation, with $150M coming from HCLTech as lead strategic investor and Bessemer, Khosla, and Peak XV also participating. The company builds open-source models in 30B and 105B parameters aimed at Indian languages and enterprise use cases. It's targeting a full $300M Series B close, more than five times its combined seed and Series A total.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "large-language-models"
+          ]
+        },
+        {
+          "title": "General Intuition eyes $300M to teach AI agents to move through space",
+          "summary": "General Intuition, which spun out of gaming clip platform Medal just eight months ago with a $134M seed, is now in talks to raise $300M at a $2B+ valuation. The New York startup builds foundation models that train AI agents on spatial and temporal reasoning, with Jeff Bezos, Eric Schmidt, Khosla Ventures, and General Catalyst among its backers. The round would mark one of the fastest valuation climbs for a foundation-model startup this year.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+          "tags": [
+            "spatial-ai",
+            "agents",
+            "funding"
+          ]
+        },
+        {
+          "title": "a16z backs Ornn's compute marketplace with $33M",
+          "summary": "Ornn raised $33M in a seed round led by a16z crypto \u2014 the firm's first investment in a compute marketplace \u2014 alongside Galaxy Ventures, Nordstar, and SV Angel. The startup is building a venue where AI compute power can be bought and sold like a commodity exchange. With GPU scarcity still a chokepoint for AI development, liquid compute markets are becoming an investable category.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "a16z",
+            "infrastructure"
+          ]
+        },
+        {
+          "title": "Swiss startup Prem raises $100M to keep AI private",
+          "summary": "Prem AI, which helps hedge funds and law firms run AI models on their own private infrastructure, is raising a $100M Series A targeting a $500M+ valuation. The Zurich-based company's pitch is simple: enterprise customers who cannot send sensitive data to public clouds still need frontier AI. Founder Simone Giacomelli expects the round to close in Q3 2026.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-18/swiss-ai-startup-prem-is-raising-100-million-series-a-round",
+          "tags": [
+            "private-ai",
+            "enterprise",
+            "europe"
+          ]
+        },
+        {
+          "title": "Pramaana Labs raises $27M to make AI provably correct",
+          "summary": "Pramaana Labs closed a $27M seed led by Khosla Ventures, with Accel, Nexus, Premji Invest, and others joining, to bring formal verification techniques to AI systems. Formal verification \u2014 long used in chip design and safety-critical software \u2014 mathematically proves that a system behaves as intended, addressing hallucination and reliability at the root level. It's an early but growing bet that the AI industry's next frontier is correctness, not just capability.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "tags": [
+            "formal-verification",
+            "safety",
+            "seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The federal AI oversight framework collapsed before it launched, and 50 state legislatures are happy to step in.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "Trump shelved the frontier-AI review order",
+          "summary": "The White House postponed signing an executive order that would have created a voluntary federal review process for frontier AI models before public release, after Trump expressed concern it would block AI development. Google DeepMind, Microsoft, and xAI had already agreed to give the Commerce Department's CAISI 30-day early access to unreleased models \u2014 but without the order, the arrangement has no legal backbone. The episode leaves the US as the only major AI power with no formal pre-release evaluation mechanism.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "white-house",
+            "regulation",
+            "frontier-models"
+          ]
+        },
+        {
+          "title": "Colorado's landmark AI law quietly died \u2014 and got replaced",
+          "summary": "Colorado Governor Polis signed SB 189 on May 14, effectively repealing the nation's first comprehensive AI law after xAI sued and the DOJ intervened, replacing it with a much narrower notice-and-disclosure framework effective January 2027. The original law's concept of algorithmic discrimination has been dropped entirely. Companies that spent months building compliance programs around the original rules now have to start over.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "colorado",
+            "regulation",
+            "state-law"
+          ]
+        },
+        {
+          "title": "The \"voluntary\" AI EO has a hidden hook",
+          "summary": "A Lawfare analysis of the June 2 executive order on AI innovation argues that the framework's \"voluntary\" label masks a coercive reality: companies that depend on government contracts face enormous pressure to participate in pre-release model evaluations or risk losing access to the market. The order explicitly disclaims any mandatory licensing regime, but the government-as-customer dynamic creates de facto leverage. It's the same dynamic that has repeatedly turned voluntary standards into effective mandates across tech and defense.",
+          "source": "lawfaremedia.org",
+          "url": "https://www.lawfaremedia.org/article/voluntary--until-the-government-is-your-customer",
+          "tags": [
+            "executive-order",
+            "policy",
+            "national-security"
+          ]
+        },
+        {
+          "title": "Senate hearing: innovation vs. oversight, no resolution",
+          "summary": "The Senate Banking Committee's June 11 AI hearing surfaced a clean fault line: Republicans framed AI dominance as requiring zero friction, while Democrats led by Elizabeth Warren warned of financial systemic risk and lax chip export controls to China. NVIDIA CEO Jensen Huang declined to appear, a pointed absence given the committee's focus on the $5T valuation and chip sales to Chinese military-linked buyers. Senators Warren and Blumenthal used the hearing to introduce the AI Bubble Transparency Act, requiring financial regulators to track AI-related exposures.",
+          "source": "legis1.com",
+          "url": "https://legis1.com/news/senate-ai-hearing-regulation-exposes-innovation",
+          "tags": [
+            "senate",
+            "nvidia",
+            "export-controls"
+          ]
+        },
+        {
+          "title": "Florida sues OpenAI over ChatGPT safety concealment",
+          "summary": "Florida Attorney General James Uthmeier filed the first state-led civil lawsuit against OpenAI and Sam Altman, alleging the company knowingly hid serious risks of ChatGPT while marketing it aggressively to Florida residents including children. The complaint covers deceptive trade practices, dependency-inducing design, data collection from minors, and downplayed hallucinations. It follows a federal court dismissal of Musk's $150B OpenAI suit and signals that state AGs are becoming the primary enforcement vector for AI consumer protection.",
+          "source": "myfloridalegal.com",
+          "url": "https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-first-nation-state-led-lawsuit-against-openai-ceo",
+          "tags": [
+            "openai",
+            "lawsuit",
+            "consumer-protection"
+          ]
+        }
+      ]
+    }
+  ]
+}

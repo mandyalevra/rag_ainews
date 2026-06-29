@@ -1,0 +1,224 @@
+{
+  "date": "May 21, 2026",
+  "iso": "2026-05-21",
+  "issue": 25,
+  "weekday": "Thursday",
+  "readMin": 4,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "OpenAI's Codex gets goal mode GA, appshots, and locked Mac computer use \u2014 making agentic coding sessions genuinely hands-free."
+    },
+    {
+      "catId": "money",
+      "text": "Sarvam raised $234M at a $1.5B valuation to become India's newest AI unicorn, led by HCLTech with Bessemer and Khosla alongside."
+    },
+    {
+      "catId": "world",
+      "text": "The White House quietly shelved its voluntary AI model review executive order today after Musk, Zuckerberg, and other tech figures pushed back hard."
+    }
+  ],
+  "headline": "shelved at the gate",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "The week's biggest model drops and product launches, from agentic coding to AI smart speakers.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Codex goes hands-free with goal mode and locked Mac use",
+          "summary": "OpenAI shipped a raft of Codex upgrades today: goal mode is now generally available across the app, IDE extension, and CLI, letting you define an outcome and let Codex keep working autonomously. New appshots let you attach a live app window to a thread with a hotkey, and locked computer use means Codex keeps running securely even after your Mac locks. Browser annotation and tab-grouping improvements round out the release.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "codex",
+            "devtools",
+            "agentic"
+          ]
+        },
+        {
+          "title": "ChatGPT gets GPT-5.5 Instant, Images 2.0, and a free clinician tier",
+          "summary": "GPT-5.5 Instant becomes ChatGPT's new default model today, replacing GPT-5.3 Instant with better accuracy, image understanding, and multilingual handling. ChatGPT Images 2.0 rolls out to all plans simultaneously. Perhaps most notably, OpenAI is launching a free ChatGPT for Clinicians tier for verified US healthcare providers, complete with clinical search, CME credit support, and deep medical-literature research.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "healthcare",
+            "models"
+          ]
+        },
+        {
+          "title": "Google Home Speaker arrives at $99 with full Gemini inside",
+          "summary": "Google opened pre-orders today for its new Google Home Speaker \u2014 the first audio device built ground-up for Gemini for Home \u2014 priced at $99.99 with units shipping June 25. It drops rigid wake-word commands in favour of natural multi-step conversation, ships with 10 new voices and Continued Conversation in all supported languages, and pairs with Google TV Streamer for spatial surround sound.",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/",
+          "tags": [
+            "google",
+            "hardware",
+            "smart-home",
+            "gemini"
+          ]
+        },
+        {
+          "title": "Gemini app becomes a small-business sidekick",
+          "summary": "Google announced new Gemini app features aimed squarely at small business owners, rolling out globally this month. Owners can now connect their Google Business Profile in a single tap so Gemini can access customer reviews, Q&As, and performance data and draft replies accordingly. A new Business notebooks feature keeps workflows, tasks, and brand context organised in one place.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
+          "tags": [
+            "google",
+            "gemini",
+            "small-business",
+            "productivity"
+          ]
+        },
+        {
+          "title": "ChatGPT spreadsheet integration goes global",
+          "summary": "ChatGPT for Excel and Google Sheets is now available worldwide, embedding a ChatGPT sidebar directly inside both spreadsheet tools. It can handle trackers, budgets, complex formulas, multi-tab files, and messy data cleanup without ever leaving the sheet. The launch also brings full-screen writing blocks to ChatGPT, turning the chat interface into a proper long-form document editor with a persistent Library.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "productivity",
+            "spreadsheets",
+            "enterprise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "The funding rounds, valuations, and bets shaping the AI startup landscape this week.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam hits unicorn status with $234M and HCLTech's backing",
+          "summary": "Indian AI startup Sarvam closed $234M of a targeted $300M Series B at a $1.5B valuation, with HCLTech writing a $150M check as lead strategic investor. Bessemer Venture Partners joined existing backers Khosla Ventures and Peak XV. The round follows Sarvam's release earlier this year of open-source models at 30B and 105B parameters, cementing it as a flagship of India's sovereign AI push.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "series-b",
+            "open-source"
+          ]
+        },
+        {
+          "title": "General Intuition in talks to raise $300M at $2B valuation",
+          "summary": "General Intuition, the New York startup training AI agents on spatial and temporal reasoning using video-game data, is in advanced talks to raise ~$300M at a just-over-$2B valuation. The raise would come only eight months after its $134M seed round, with Jeff Bezos and Eric Schmidt among new backers joining Khosla Ventures and General Catalyst. The company spun out of gaming clip-sharing platform Medal.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+          "tags": [
+            "gaming",
+            "foundation-models",
+            "series-a",
+            "spatial-ai"
+          ]
+        },
+        {
+          "title": "Coralogix raises $200M to monitor the age of AI agents",
+          "summary": "Observability startup Coralogix pulled in $200M in a Series F led by Advent and the Canada Pension Plan Investment Board, valuing it at $1.6B \u2014 just 11 months after its $115M Series E. The company is betting that autonomous AI agents will create explosive demand for a new monitoring and troubleshooting layer, and has now raised $550M in total.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "observability",
+            "infrastructure",
+            "series-f",
+            "ai-agents"
+          ]
+        },
+        {
+          "title": "a16z backs compute marketplace Ornn with $33M seed",
+          "summary": "Ornn, a startup building an open marketplace where AI compute can be bought and sold like a commodity, raised $33M in a seed round led by Andreessen Horowitz's a16z crypto arm. Galaxy Ventures, Nordstar, and SV Angel also participated. a16z general partner Ali Yahya called it the firm's first investment in a dedicated compute marketplace \u2014 a signal that liquid GPU markets are becoming infrastructure bets.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "marketplace",
+            "seed",
+            "a16z"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "Regulation, courtrooms, and geopolitics \u2014 the structural forces that will shape AI long after the product launches fade.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "White House kills its own voluntary AI review order \u2014 today",
+          "summary": "President Trump postponed signing an executive order today that would have created a voluntary federal review process for frontier AI models before public release, after Elon Musk, Mark Zuckerberg, and other industry figures argued it would stifle development. The DoD had already announced deals to put commercial AI on classified networks this month, and the NSA and Cyber Command launched a joint AI task force \u2014 making the shelved order a conspicuous gap in an otherwise aggressive federal AI posture.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "trump",
+            "executive-order",
+            "federal-policy",
+            "regulation"
+          ]
+        },
+        {
+          "title": "NYDFS warns banks: frontier AI is a cybersecurity threat \u2014 issued today",
+          "summary": "The New York Department of Financial Services issued two industry letters today warning regulated financial entities that frontier AI models dramatically amplify threat actors' ability to find and exploit system vulnerabilities. The guidance recommends a suite of security controls and defines a formal 'heightened cybersecurity threat environment' threshold. It arrives as the NSA and Pentagon are simultaneously racing to deploy these same models inside classified infrastructure.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "nydfs",
+            "cybersecurity",
+            "financial-regulation",
+            "frontier-models"
+          ]
+        },
+        {
+          "title": "FTC settles AI deception cases and Musk lawsuit gets tossed",
+          "summary": "The FTC confirmed $930,000 settlements with three marketing firms for making deceptive claims about their AI capabilities, establishing live enforcement precedents under existing consumer-protection law in the absence of federal AI legislation. Separately, a federal judge dismissed Elon Musk's $150B lawsuit against OpenAI and Sam Altman, with a jury finding that the charitable-trust and unjust-enrichment claims were time-barred.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "ftc",
+            "enforcement",
+            "musk",
+            "openai",
+            "litigation"
+          ]
+        },
+        {
+          "title": "States rush to fill the federal vacuum: Connecticut, California, Vermont",
+          "summary": "With Congress having already voted 99-1 to kill a proposed 10-year moratorium on state AI enforcement, states are moving fast: Connecticut enacted one of the most comprehensive state AI laws to date covering companion chatbots, employment decisions, and frontier-model whistleblower protections. California Governor Newsom signed an executive order today directing agencies to plan for AI-driven workforce displacement. Vermont enacted neurological-rights protections for AI use in healthcare, effective July 1.",
+          "source": "securiti.ai",
+          "url": "https://securiti.ai/ai-roundup/may-2026/",
+          "tags": [
+            "state-law",
+            "connecticut",
+            "california",
+            "workforce",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Court rules AI expert prompts are discoverable in litigation",
+          "summary": "A federal magistrate judge in Conservation Law Foundation v. Shell Oil ordered a plaintiff to produce the AI prompts its expert used to prepare her report, treating them as discoverable methodology rather than protected drafting material. The ruling is one of the clearest signals yet that AI-assisted expert work brings new discovery obligations \u2014 and that litigators who use AI tools without documenting their prompts face real exposure.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "litigation",
+            "discovery",
+            "expert-witnesses",
+            "legal"
+          ]
+        }
+      ]
+    }
+  ]
+}

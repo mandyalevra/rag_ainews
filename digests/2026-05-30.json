@@ -1,0 +1,219 @@
+{
+  "date": "May 30, 2026",
+  "iso": "2026-05-30",
+  "issue": 34,
+  "weekday": "Saturday",
+  "readMin": 5,
+  "tldr": [
+    {
+      "catId": "tools",
+      "text": "Google I/O's agentic era arrived in full this month with Gemini 3.5, Gemini Omni, a new Googlebook laptop, and a Universal Cart that spans Search, YouTube, and Gmail."
+    },
+    {
+      "catId": "money",
+      "text": "India's Sarvam hit unicorn status with a $234M round led by HCLTech, while PhysicsX soared to a $2.4B valuation on a $300M raise for AI-powered manufacturing."
+    },
+    {
+      "catId": "world",
+      "text": "The US state AI patchwork hit a new extreme this week \u2014 all 50 states have introduced AI bills, Connecticut signed the country's most sweeping state AI law, and a Senate vote killed a proposed federal moratorium 99-to-1."
+    }
+  ],
+  "headline": "states go rogue",
+  "categories": [
+    {
+      "id": "tools",
+      "emoji": "\ud83d\udd27",
+      "name": "Tools & Products",
+      "tagline": "What shipped today",
+      "blurb": "Google's agentic Gemini era dominates May, while OpenAI quietly retires old models and sharpens its defaults.",
+      "accent": "pink",
+      "stories": [
+        {
+          "title": "Gemini 3.5 and Omni usher in the agentic era",
+          "summary": "At Google I/O 2026, Google launched Gemini 3.5 \u2014 built for multi-step agentic workflows and coding \u2014 alongside Gemini Omni, a multimodal model that takes text, image, audio, and video as input and generates high-quality video output. The Gemini app also got a proactive redesign with personalized daily briefs, inbox management, and a new Android Halo overlay to track agent progress without interrupting your flow. Google rounded out the hardware story with the Googlebook, a laptop built from the ground up for Gemini intelligence.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "gemini",
+            "agents",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Google's Universal Cart wants to own your shopping across every surface",
+          "summary": "Universal Cart lets users add items to a single cart while browsing Search, chatting with Gemini, watching YouTube, or reading Gmail \u2014 then check out across merchants from one hub. It's Google's most direct move yet to embed commerce into every layer of its product stack. Combined with the new Google Health app and Fitbit Air tracker, the company is betting that agentic tools and ambient hardware can own daily life management.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+          "tags": [
+            "shopping",
+            "gemini",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Gemma 4 12B brings multimodal agents to your laptop",
+          "summary": "Google's new open-weight Gemma 4 12B model runs on just 16GB of VRAM and is the first mid-sized Gemma to natively handle audio inputs without a separate encoder. It uses a unified architecture where vision and audio flow directly into the LLM backbone, reaching benchmark performance close to the 26B model. Released under Apache 2.0, it targets developers who want powerful agentic and reasoning capabilities on everyday hardware.",
+          "source": "blog.google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+          "tags": [
+            "open-source",
+            "multimodal",
+            "on-device"
+          ]
+        },
+        {
+          "title": "GPT-5.5 Instant is now ChatGPT's default \u2014 and old models are on the clock",
+          "summary": "OpenAI made GPT-5.5 Instant the new default model for all ChatGPT users, replacing GPT-5.3 Instant with improvements in accuracy, image understanding, and response conciseness. At the same time, the company announced sunset dates for o3 (August 26) and GPT-4.5 (June 26), continuing its model consolidation push. New features rolling out alongside the update include interactive charts in answers, full-screen writing blocks, a personal finance experience, and doubled memory capacity for Plus and Pro users.",
+          "source": "help.openai.com",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "models"
+          ]
+        },
+        {
+          "title": "Microsoft debuts seven in-house AI models and Scout work agent at Build",
+          "summary": "At Build 2026, Microsoft unveiled a family of seven proprietary models \u2014 including MAI-Thinking-1, a 35B-parameter reasoning model built without distilling from third-party frontier models, plus code, image, voice, and transcription variants. The company also introduced Microsoft Scout, an always-on background agent that works across Teams, Outlook, OneDrive, and SharePoint under its own governed Entra identity. Both launches signal Microsoft's push to reduce its dependence on OpenAI models across its product portfolio.",
+          "source": "promptinjection.net",
+          "url": "https://www.promptinjection.net/p/ai-news-roundup-may-26-june-07-2026",
+          "tags": [
+            "microsoft",
+            "agents",
+            "models"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "emoji": "\ud83d\udcb0",
+      "name": "Startups & Money",
+      "tagline": "Who got paid",
+      "blurb": "Unicorns minted in India and Britain, a compute marketplace backed by a16z, and $200M flowing into AI agent monitoring.",
+      "accent": "lilac",
+      "stories": [
+        {
+          "title": "Sarvam is India's newest AI unicorn at $1.5B",
+          "summary": "Indian AI startup Sarvam raised $234M in a Series B round led by HCLTech, with Bessemer Venture Partners joining existing backers Khosla Ventures and Peak XV Partners. The company is targeting a total raise of $300M and is now valued at $1.5 billion, more than two years after its seed and Series A totaled just $41M. Sarvam's models \u2014 released in 30B and 105B parameter sizes \u2014 are designed specifically for Indian languages and enterprise use cases.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "tags": [
+            "india",
+            "unicorn",
+            "series-b"
+          ]
+        },
+        {
+          "title": "PhysicsX raises $300M at $2.4B to bring AI to jet engines and chips",
+          "summary": "London-based PhysicsX, which builds AI models for manufacturing components like jet engines and semiconductors, has raised $300M in a Series C led by Singapore's Temasek, valuing the company at roughly $2.4 billion \u2014 up from under $1B at its last round. Nvidia and Applied Materials joined as returning backers alongside new investors Intrepid Growth Partners and M&G Catalyst. The company competes in a field that includes ventures backed by Amazon founder Jeff Bezos.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/startup-physicsx-hits-2-4-billion-valuation-to-provide-ai-for-manufacturing",
+          "tags": [
+            "manufacturing",
+            "series-c",
+            "deep-tech"
+          ]
+        },
+        {
+          "title": "Coralogix pulls in $200M to monitor the AI agent explosion",
+          "summary": "AI monitoring startup Coralogix raised a $200M Series F just 11 months after its $115M Series E, betting that the proliferation of autonomous AI agents will create massive demand for observability and troubleshooting tools. The round, led by Advent and the Canada Pension Plan Investment Board, values the company at $1.6B post-money and brings total funding to $550M. The rapid re-raise pace reflects how quickly investor appetite for AI infrastructure companies has accelerated.",
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+          "tags": [
+            "infrastructure",
+            "series-f",
+            "observability"
+          ]
+        },
+        {
+          "title": "a16z backs Ornn's $33M bid to build a marketplace for AI compute",
+          "summary": "Ornn, a startup building a marketplace where AI compute power can be bought and sold, raised $33M in a seed round led by Andreessen Horowitz's a16z crypto arm, alongside Galaxy Ventures, Nordstar, and SV Angel. General partner Ali Yahya called it a16z's first investment in a compute marketplace specifically. The bet reflects growing conviction that compute will trade like a commodity as AI infrastructure demand outpaces centralized supply.",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/andreessen-horowitz-backs-compute-marketplace-ornn-in-seed-round",
+          "tags": [
+            "compute",
+            "a16z",
+            "seed"
+          ]
+        },
+        {
+          "title": "Robinhood launches agentic trading and an AI credit card",
+          "summary": "Robinhood announced Agentic Trading and an Agentic Credit Card, letting users connect AI agents that can execute trades or make purchases automatically within limits they define. Users set spending caps and approval requirements while agents handle investment strategy, price tracking, and purchases in the background. It's one of the first mainstream consumer finance products to hand real financial execution \u2014 not just analysis \u2014 to an AI agent.",
+          "source": "promptinjection.net",
+          "url": "https://www.promptinjection.net/p/ai-news-roundup-may-26-june-07-2026",
+          "tags": [
+            "fintech",
+            "agents",
+            "consumer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "emoji": "\ud83c\udf10",
+      "name": "The Bigger Picture",
+      "tagline": "Policy, drama, court",
+      "blurb": "The US AI governance vacuum is being filled by 50 state legislatures at once \u2014 and nobody can agree on the rules.",
+      "accent": "lime",
+      "stories": [
+        {
+          "title": "All 50 states are writing AI law \u2014 and the chaos is just beginning",
+          "summary": "As of May 2026, over 2,182 AI-related bills have been introduced across all 50 US states, with conflicting definitions, audit timelines, and enforcement mechanisms creating a compliance nightmare for multi-state operators. A proposed federal 10-year moratorium on state AI enforcement was defeated 99-to-1 in the Senate, and Congress has not passed preemption legislation despite White House pressure. The Cloud Security Alliance now describes the situation as a structural governance fragmentation that multi-state organizations can no longer plan around.",
+          "source": "labs.cloudsecurityalliance.org",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-us-ai-governance-fragmentation-20260530-cs/",
+          "tags": [
+            "regulation",
+            "federal",
+            "state-law"
+          ]
+        },
+        {
+          "title": "Connecticut's sweeping AI law is the new state benchmark",
+          "summary": "Connecticut enacted SB 5 on May 27, 2026, covering automated employment decisions, AI companion chatbots, synthetic media, and frontier AI whistleblower protections \u2014 analysts called it the most extensive state AI law enacted to date. The law adds to a growing patchwork that now includes new Illinois employment AI rules, Louisiana's comprehensive consumer privacy law (the 22nd US state to pass one), and Colorado's revised AI Act replacing its original landmark legislation. Multi-state companies now face genuinely incompatible obligations with no federal floor in sight.",
+          "source": "originbrief.app",
+          "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-06-15/weekly",
+          "tags": [
+            "connecticut",
+            "state-law",
+            "regulation"
+          ]
+        },
+        {
+          "title": "EU AI Omnibus quietly rewrites the enforcement timeline",
+          "summary": "At 4:30am on May 7, EU legislators reached political agreement on an Omnibus amendment to the AI Act, pushing compliance deadlines for high-risk AI systems in areas like biometrics, employment, and critical infrastructure to December 2027 \u2014 extending the original August 2026 schedule by up to 24 months. Enforcement for certain systems has been centralised in the EU AI Office, and an EU-level regulatory sandbox has been established. The delay is explicitly linked to the absence of published harmonised standards, with none yet appearing in the Official Journal.",
+          "source": "asym-intel.info",
+          "url": "https://asym-intel.info/monitors/ai-governance/2026-05-30-weekly-brief/",
+          "tags": [
+            "eu",
+            "ai-act",
+            "regulation"
+          ]
+        },
+        {
+          "title": "Trump shelved the 'FDA for AI' \u2014 and signed a different order instead",
+          "summary": "The Trump administration abandoned its proposed 'FDA for AI' oversight framework on May 22, eliminating the prospect of a unified federal review process for frontier models before public release. On June 2, President Trump instead signed an executive order promoting AI innovation and cybersecurity that explicitly disclaims any authority to require licensing or preclearance of AI models. The administration has simultaneously moved to embed commercial AI into classified Pentagon systems through agreements with Google DeepMind, Microsoft, and xAI for early access to unreleased frontier models.",
+          "source": "techpolicy.press",
+          "url": "https://www.techpolicy.press/may-2026-us-tech-policy-roundup/",
+          "tags": [
+            "trump",
+            "federal-policy",
+            "regulation"
+          ]
+        },
+        {
+          "title": "A court just made AI prompts discoverable in litigation",
+          "summary": "In Conservation Law Foundation v. Shell Oil, a federal magistrate judge ordered plaintiffs to produce the AI prompts their expert used in preparing her report, treating them as part of the expert's methodology rather than protected drafting material. The ruling is one of the clearest signals yet that courts view AI-assisted expert work as subject to the same discovery rules as any other methodology. Legal teams using AI in litigation now face real exposure over what they type into the chatbox.",
+          "source": "alston.com",
+          "url": "https://www.alston.com/en/insights/publications/2026/06/ai-quarterly-2026-q2",
+          "tags": [
+            "courts",
+            "discovery",
+            "litigation"
+          ]
+        }
+      ]
+    }
+  ]
+}
