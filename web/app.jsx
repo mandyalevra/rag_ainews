@@ -151,7 +151,7 @@ const CategoryGrid = ({ digest, onOpen }) => (
 
 // ─── STORY CARDS ───────────────────────────────────────────────────────────
 const StoryCard = ({ story, accent, index }) => {
-  const [open, setOpen] = useState(index === 0);
+  const [open, setOpen] = useState(true);
   const a = ACCENTS[accent];
   return (
     <article className={`story ${open ? "open" : ""}`} style={{ "--cat-deep": a.deep, "--cat-bg": a.bg, "--cat-soft": a.soft }}>
