@@ -219,6 +219,60 @@ def generate_digest(claude: anthropic.Anthropic, raw: str, today_date: date) -> 
     return json.loads(text)
 
 
+def evaluate_digest(claude: anthropic.Anthropic, digest: dict, raw: str) -> dict:
+    """Non-blocking quality check on a freshly generated digest.
+
+    Runs cheap structural checks first, then asks a second Claude call to
+    verify every claim in the digest is actually backed by the raw search
+    results it was generated from. Returns {"passed": bool, "issues": [str]}.
+    """
+    issues: list[str] = []
+
+    if not digest.get("headline"):
+        issues.append("Missing headline")
+    if not digest.get("tldr"):
+        issues.append("Missing TL;DR")
+
+    seen_titles: set[str] = set()
+    for cat in digest.get("categories", []):
+        if not cat.get("stories"):
+            issues.append(f"Category '{cat.get('name')}' has no stories")
+        for story in cat.get("stories", []):
+            title = (story.get("title") or "").strip().lower()
+            if title and title in seen_titles:
+                issues.append(f"Duplicate story title: {story.get('title')}")
+            seen_titles.add(title)
+            if not (story.get("url") or "").startswith("http"):
+                issues.append(f"Bad/missing URL for story: {story.get('title')}")
+
+    judge_prompt = (
+        "You are fact-checking an AI-generated news digest against the raw search "
+        "results it was built from. Flag any claim in the digest's headline, TL;DR, "
+        "or story summaries that is NOT supported by the raw source material below "
+        "— fabricated details, wrong numbers, or exaggerated framing.\n\n"
+        f"RAW SOURCE MATERIAL:\n{raw[:12000]}\n\n"
+        f"DIGEST TO CHECK:\n{json.dumps(digest, indent=2)}\n\n"
+        'Respond with JSON only, no other text: {"grounded": true/false, "unsupported_claims": ["..."]}'
+    )
+    try:
+        response = claude.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=1024,
+            messages=[{"role": "user", "content": judge_prompt}],
+        )
+        text = response.content[0].text.strip()
+        if text.startswith("```"):
+            text = re.sub(r"^```(?:json)?\n?", "", text)
+            text = re.sub(r"\n?```$", "", text)
+        result = json.loads(text)
+        if not result.get("grounded", True):
+            issues.extend(f"Unsupported claim: {c}" for c in result.get("unsupported_claims", []))
+    except Exception as e:
+        issues.append(f"Eval judge call failed: {e}")
+
+    return {"passed": len(issues) == 0, "issues": issues}
+
+
 def markdown_from_digest(digest: dict) -> str:
     cat_labels = {
         "tools": "🔧 AI Tool & Product News",
@@ -449,6 +503,20 @@ def main(force: bool = False) -> None:
     print("\nSynthesizing digest with Claude...\n")
     raw = build_raw_context(all_results, trending)
     digest = generate_digest(claude, raw, today)
+
+    print("Running content eval...")
+    eval_result = evaluate_digest(claude, digest, raw)
+    if eval_result["passed"]:
+        print("  [eval] Passed — no issues found.")
+    else:
+        print(f"  [eval] Flagged {len(eval_result['issues'])} issue(s):")
+        for issue in eval_result["issues"]:
+            print(f"    - {issue}")
+        # Monitor mode: alert, but still publish — see main.py notes on graduating to gating.
+        send_failure_alert(
+            "\n".join(eval_result["issues"]),
+            context="content eval (non-blocking, digest still published)",
+        )
 
     json_path.write_text(json.dumps(digest, indent=2))
     md_path.write_text(markdown_from_digest(digest))
