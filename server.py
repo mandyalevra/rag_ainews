@@ -134,13 +134,18 @@ async def semantic_search(q: str, n: int = 15):
     results = []
     for s, score in zip(meta, scores):
         score = float(score)
-        # Boost exact matches so they always surface above pure semantic results
+        # Boost exact matches so they always surface above pure semantic results.
+        # Penalize the absence of one too — without this, a story that's merely
+        # topically similar (e.g. "Series C" for a "series b" query) can share
+        # enough embedding similarity to outrank or masquerade as a real match.
         title_lower = s.get("title", "").lower()
         summary_lower = s.get("summary", "").lower()
         if q_lower in title_lower:
             score += 0.25
         elif q_lower in summary_lower:
             score += 0.12
+        else:
+            score *= 0.7
 
         if score > 0.35:
             out = dict(s)
