@@ -219,12 +219,18 @@ def generate_digest(claude: anthropic.Anthropic, raw: str, today_date: date) -> 
     return json.loads(text)
 
 
-def evaluate_digest(claude: anthropic.Anthropic, digest: dict, raw: str) -> dict:
+def evaluate_digest(
+    claude: anthropic.Anthropic,
+    digest: dict,
+    raw: str,
+    embed_model: TextEmbedding | None = None,
+) -> dict:
     """Non-blocking quality check on a freshly generated digest.
 
-    Runs cheap structural checks first, then asks a second Claude call to
-    verify every claim in the digest is actually backed by the raw search
-    results it was generated from. Returns {"passed": bool, "issues": [str]}.
+    Runs cheap structural checks first, a semantic near-duplicate check
+    against the full story history, then asks a second Claude call to
+    verify every claim is actually backed by the raw search results it was
+    generated from. Returns {"passed": bool, "issues": [str]}.
     """
     issues: list[str] = []
 
@@ -264,6 +270,39 @@ def evaluate_digest(claude: anthropic.Anthropic, digest: dict, raw: str) -> dict
                 issues.append(f"{overlap:.0%} of today's story titles match {prev_files[0].name} — possible stale/replicated content")
         except Exception:
             pass
+
+    # Semantic near-duplicate check against the ENTIRE story history, not
+    # just yesterday — catches the "same story, different wording, any day"
+    # case that exact-text matching above cannot. Reuses embed_model if the
+    # caller already has one loaded (e.g. for build_embeddings_index right
+    # after) instead of loading a second copy of the model.
+    emb_path = Path("web/embeddings.json")
+    today_stories = [s for c in digest.get("categories", []) for s in c.get("stories", [])]
+    if emb_path.exists() and today_stories:
+        try:
+            historical = json.loads(emb_path.read_text())
+            if historical:
+                if embed_model is None:
+                    embed_model = TextEmbedding("BAAI/bge-small-en-v1.5")
+                texts = [f"{s.get('title', '')}. {s.get('summary', '')}" for s in today_stories]
+                today_vecs = np.array(list(embed_model.embed(texts)), dtype=np.float32)
+                hist_matrix = np.array([h["embedding"] for h in historical], dtype=np.float32)
+                today_norms = np.linalg.norm(today_vecs, axis=1, keepdims=True)
+                hist_norms = np.linalg.norm(hist_matrix, axis=1, keepdims=True)
+                sims = (today_vecs @ hist_matrix.T) / (today_norms @ hist_norms.T)
+
+                threshold = 0.90  # calibrated against real repeats found in history (0.90-0.995)
+                for i, story in enumerate(today_stories):
+                    best_j = int(np.argmax(sims[i]))
+                    best_score = float(sims[i, best_j])
+                    if best_score > threshold:
+                        match = historical[best_j]
+                        issues.append(
+                            f"Possible repeat of a past story ({best_score:.0%} semantic match to "
+                            f"{match['digestIso']}): '{story.get('title')}' ~ '{match['title']}'"
+                        )
+        except Exception as e:
+            issues.append(f"Semantic duplicate check failed: {e}")
 
     judge_prompt = (
         "You are fact-checking an AI-generated news digest against the raw search "
@@ -525,8 +564,13 @@ def main(force: bool = False) -> None:
     raw = build_raw_context(all_results, trending)
     digest = generate_digest(claude, raw, today)
 
+    # Loaded once and shared between the eval's duplicate check and the
+    # embeddings index build below, so this process only pays the cost of
+    # loading the embedding model a single time.
+    embed_model = TextEmbedding("BAAI/bge-small-en-v1.5")
+
     print("Running content eval...")
-    eval_result = evaluate_digest(claude, digest, raw)
+    eval_result = evaluate_digest(claude, digest, raw, embed_model=embed_model)
     if eval_result["passed"]:
         print("  [eval] Passed — no issues found.")
     else:
@@ -550,7 +594,7 @@ def main(force: bool = False) -> None:
     print("Generating audio digest...")
     generate_audio(digest)
 
-    build_embeddings_index()
+    build_embeddings_index(model=embed_model)
 
     divider = "─" * 60
     print(divider)
