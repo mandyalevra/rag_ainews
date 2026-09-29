@@ -353,6 +353,7 @@ def generate_audio(digest: dict) -> None:
         print(f"  [audio] Saved → {audio_path}")
     except Exception as e:
         print(f"  [audio] Failed: {e}")
+        send_failure_alert(str(e), context="audio generation")
 
 
 def build_embeddings_index() -> None:
@@ -481,9 +482,10 @@ def main(force: bool = False) -> None:
         print("  → Pushed to GitHub")
     except subprocess.CalledProcessError as e:
         print(f"  → Git push failed (non-fatal): {e}")
+        send_failure_alert(str(e), context="git push")
 
 
-def send_failure_alert(error: str) -> None:
+def send_failure_alert(error: str, context: str = "the daily digest") -> None:
     api_key = os.environ.get("RESEND_API_KEY", "")
     if not api_key:
         return
@@ -493,8 +495,8 @@ def send_failure_alert(error: str) -> None:
         resend.Emails.send({
             "from": os.environ.get("RESEND_FROM_EMAIL", "digest@mandyalevra.com"),
             "to": ["mandy.alevra@gmail.com"],
-            "subject": f"⚠️ by mandy, daily — digest failed {date.today().isoformat()}",
-            "html": f"<p>The daily digest failed to run on {date.today().isoformat()}.</p><pre>{error}</pre><p>Check the VPS logs: <code>tail -50 ~/rag_ainews/digest.log</code></p>",
+            "subject": f"⚠️ by mandy, daily — {context} failed {date.today().isoformat()}",
+            "html": f"<p>{context} failed to run on {date.today().isoformat()}.</p><pre>{error}</pre><p>Check the VPS logs: <code>tail -50 ~/rag_ainews/digest.log</code></p>",
         })
         print("  → Failure alert sent to mandy.alevra@gmail.com")
     except Exception as e:
