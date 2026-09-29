@@ -1,4 +1,6 @@
+import asyncio
 import json
+import os
 import threading
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -69,6 +71,20 @@ async def subscribe(req: SubscribeRequest):
 @app.get("/subscribers")
 async def get_subscribers():
     return {"subscribers": load_subscribers(), "count": len(load_subscribers())}
+
+
+@app.post("/api/admin/rebuild-embeddings")
+async def rebuild_embeddings_endpoint(secret: str = ""):
+    """One-off maintenance hook: rebuilds the embeddings index using this
+    process's already-loaded model, instead of spawning a separate process
+    that would load a second copy and risk OOM on a memory-constrained box."""
+    expected = os.environ.get("ADMIN_SECRET", "")
+    if not expected or secret != expected:
+        raise HTTPException(status_code=403, detail="forbidden")
+    from main import build_embeddings_index
+    model = get_model()
+    await asyncio.get_event_loop().run_in_executor(None, build_embeddings_index, model)
+    return {"status": "done"}
 
 
 _index_lock = threading.Lock()

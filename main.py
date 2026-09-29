@@ -430,7 +430,7 @@ def generate_audio(digest: dict) -> None:
         send_failure_alert(str(e), context="audio generation")
 
 
-def build_embeddings_index() -> None:
+def build_embeddings_index(model: TextEmbedding | None = None) -> None:
     json_files = sorted(Path("digests").glob("*.json"))
     if not json_files:
         return
@@ -474,7 +474,8 @@ def build_embeddings_index() -> None:
                 all_stories.append(story)
 
     if new_stories:
-        model = TextEmbedding("BAAI/bge-small-en-v1.5")
+        if model is None:
+            model = TextEmbedding("BAAI/bge-small-en-v1.5")
         texts = [f"{s['title']}. {s['summary']}" for _, s in new_stories]
         embeddings = list(model.embed(texts))
         for (idx, story), vec in zip(new_stories, embeddings):
