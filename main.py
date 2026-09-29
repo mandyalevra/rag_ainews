@@ -583,6 +583,17 @@ def main(force: bool = False) -> None:
             context="content eval (non-blocking, digest still published)",
         )
 
+    # Persist every eval result (pass or fail) so pass rate and recurring
+    # issues can be tracked over time — the only place this used to go was
+    # a buried log line, which made it impossible to ever answer "how often
+    # does this actually fire" or measure a false-positive rate.
+    with open("evals.jsonl", "a") as f:
+        f.write(json.dumps({
+            "date": today.isoformat(),
+            "passed": eval_result["passed"],
+            "issues": eval_result["issues"],
+        }) + "\n")
+
     json_path.write_text(json.dumps(digest, indent=2))
     md_path.write_text(markdown_from_digest(digest))
 

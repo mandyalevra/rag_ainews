@@ -20,3 +20,6 @@ subscribers.json
 
 # Audio files — generated on VPS, served directly, not committed
 web/audio/
+
+# Eval run history — generated on VPS
+evals.jsonl
