@@ -238,6 +238,7 @@ const CategoryCard = ({ cat, index, onOpen }) => {
       <div className="cat-emoji" aria-hidden="true">${cat.emoji}</div>
       <div className="cat-meta">
         <span className="cat-tagline">${cat.tagline}</span>
+        <span className="cat-meta-dot">·</span>
         <span className="cat-count">${cat.stories.length} stories</span>
       </div>
       <h3 className="cat-name">${cat.name}</h3>

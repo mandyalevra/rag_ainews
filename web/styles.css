@@ -314,7 +314,7 @@ body {
 .cat-card:hover .cat-emoji { transform: rotate(-8deg) scale(1.15); }
 
 .cat-meta {
-  display: flex; justify-content: space-between; align-items: baseline;
+  display: flex; justify-content: flex-start; align-items: baseline; gap: 8px;
   font-family: var(--font-mono);
   font-size: 11px;
   margin-bottom: 8px;
@@ -322,6 +322,7 @@ body {
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+.cat-meta-dot { opacity: 0.6; }
 .cat-name {
   font-family: var(--font-display);
   font-size: 36px;
