@@ -443,7 +443,7 @@ def build_embeddings_index() -> None:
     if existing_path.exists():
         try:
             for s in json.loads(existing_path.read_text()):
-                key = f"{s['digestIso']}:{s['url']}"
+                key = f"{s['digestIso']}:{s.get('title', '')}:{s['url']}"
                 existing[key] = s
         except Exception:
             pass
@@ -466,7 +466,7 @@ def build_embeddings_index() -> None:
                     "catAccent": cat["accent"],
                     **s,
                 }
-                key = f"{digest['iso']}:{s.get('url', '')}"
+                key = f"{digest['iso']}:{s.get('title', '')}:{s.get('url', '')}"
                 if key in existing:
                     story["embedding"] = existing[key]["embedding"]
                 else:
