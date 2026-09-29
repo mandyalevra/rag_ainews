@@ -245,6 +245,26 @@ def evaluate_digest(claude: anthropic.Anthropic, digest: dict, raw: str) -> dict
             if not (story.get("url") or "").startswith("http"):
                 issues.append(f"Bad/missing URL for story: {story.get('title')}")
 
+    # Guard against a fetch/generation hiccup silently reusing yesterday's
+    # content instead of failing loudly. Compares against the most recent
+    # digest already on disk (today's hasn't been written yet at this point).
+    prev_files = sorted(Path("digests").glob("*.json"), reverse=True)
+    if prev_files:
+        try:
+            prev = json.loads(prev_files[0].read_text())
+            prev_headline = (prev.get("headline") or "").strip().lower()
+            cur_headline = (digest.get("headline") or "").strip().lower()
+            if cur_headline and cur_headline == prev_headline:
+                issues.append(f"Headline identical to previous digest ({prev_files[0].name}): '{digest.get('headline')}'")
+
+            prev_titles = {s.get("title", "").strip().lower() for c in prev.get("categories", []) for s in c.get("stories", [])}
+            cur_titles = {s.get("title", "").strip().lower() for c in digest.get("categories", []) for s in c.get("stories", [])}
+            overlap = len(cur_titles & prev_titles) / len(cur_titles) if cur_titles else 0
+            if overlap > 0.4:
+                issues.append(f"{overlap:.0%} of today's story titles match {prev_files[0].name} — possible stale/replicated content")
+        except Exception:
+            pass
+
     judge_prompt = (
         "You are fact-checking an AI-generated news digest against the raw search "
         "results it was built from. Flag any claim in the digest's headline, TL;DR, "
