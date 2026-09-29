@@ -473,7 +473,7 @@ def main(force: bool = False) -> None:
     # Push updated web files to GitHub so Railway auto-deploys with fresh data
     print("\nPushing to GitHub...")
     try:
-        subprocess.run(["git", "add", "web/data.js", "web/embeddings.json", "web/index.html", f"digests/{today.isoformat()}.json", f"digests/{today.isoformat()}.md"], check=True)
+        subprocess.run(["git", "add", "web/data.js", "web/embeddings.json", "web/index.html"], check=True)
         result = subprocess.run(["git", "diff", "--cached", "--quiet"])
         if result.returncode != 0:
             subprocess.run(["git", "commit", "-m", f"digest: {today.isoformat()}"], check=True)
