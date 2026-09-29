@@ -71,24 +71,53 @@ async def get_subscribers():
     return {"subscribers": load_subscribers(), "count": len(load_subscribers())}
 
 
-@app.get("/api/search")
-async def semantic_search(q: str, n: int = 15):
+_index_lock = threading.Lock()
+_index_cache = {"mtime": None, "meta": None, "matrix": None, "norms": None}
+
+
+def get_index():
+    """Load + cache the embeddings index in memory, rebuilding only when
+    web/embeddings.json changes on disk (once/day, via the digest pipeline).
+    Avoids re-reading and re-parsing an ~18MB JSON file on every keystroke."""
     emb_path = Path("web/embeddings.json")
     if not emb_path.exists():
+        return None
+
+    mtime = emb_path.stat().st_mtime
+    if _index_cache["mtime"] == mtime:
+        return _index_cache
+
+    with _index_lock:
+        if _index_cache["mtime"] == mtime:
+            return _index_cache
+        stories = json.loads(emb_path.read_text())
+        matrix = np.array([s["embedding"] for s in stories], dtype=np.float32)
+        norms = np.linalg.norm(matrix, axis=1)
+        meta = [{k: v for k, v in s.items() if k != "embedding"} for s in stories]
+        _index_cache.update(mtime=mtime, meta=meta, matrix=matrix, norms=norms)
+        return _index_cache
+
+
+@app.get("/api/search")
+async def semantic_search(q: str, n: int = 15):
+    index = get_index()
+    if index is None:
         return {"results": [], "query": q, "error": "embeddings index not built yet"}
 
-    stories = json.loads(emb_path.read_text())
+    meta, matrix, norms = index["meta"], index["matrix"], index["norms"]
     model = get_model()
 
-    query_vec = np.array(list(model.embed([q]))[0])
+    query_vec = np.array(list(model.embed([q]))[0], dtype=np.float32)
     query_norm = np.linalg.norm(query_vec)
     q_lower = q.lower()
 
-    results = []
-    for s in stories:
-        vec = np.array(s["embedding"])
-        score = float(np.dot(query_vec, vec) / (query_norm * np.linalg.norm(vec)))
+    # Vectorized cosine similarity against every story in one matrix op,
+    # instead of a per-story Python loop.
+    scores = (matrix @ query_vec) / (norms * query_norm)
 
+    results = []
+    for s, score in zip(meta, scores):
+        score = float(score)
         # Boost exact matches so they always surface above pure semantic results
         title_lower = s.get("title", "").lower()
         summary_lower = s.get("summary", "").lower()
@@ -98,7 +127,7 @@ async def semantic_search(q: str, n: int = 15):
             score += 0.12
 
         if score > 0.35:
-            out = {k: v for k, v in s.items() if k != "embedding"}
+            out = dict(s)
             out["score"] = round(min(score, 1.0), 4)
             results.append(out)
 
