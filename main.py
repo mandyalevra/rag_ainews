@@ -512,6 +512,17 @@ def build_embeddings_index(model: TextEmbedding | None = None) -> None:
                     new_stories.append((len(all_stories), story))
                 all_stories.append(story)
 
+    # Safety cap: this VPS has OOM'd twice trying to embed a large backlog
+    # (400+ stories) in a single run. Normal daily volume is ~10-15 new
+    # stories, so capping well above that still covers routine operation —
+    # if a backlog ever builds up again (e.g. from a cache invalidation),
+    # it heals itself gradually over several days instead of risking the
+    # whole box in one run.
+    MAX_NEW_EMBEDDINGS_PER_RUN = 30
+    if len(new_stories) > MAX_NEW_EMBEDDINGS_PER_RUN:
+        print(f"  → {len(new_stories)} new stories found, capping to {MAX_NEW_EMBEDDINGS_PER_RUN} this run (remainder retried on future runs)")
+        new_stories = new_stories[:MAX_NEW_EMBEDDINGS_PER_RUN]
+
     if new_stories:
         if model is None:
             model = TextEmbedding("BAAI/bge-small-en-v1.5")
@@ -523,6 +534,11 @@ def build_embeddings_index(model: TextEmbedding | None = None) -> None:
         print(f"  → Embedded {len(new_stories)} new stories")
     else:
         print("  → No new stories to embed")
+
+    # Only keep stories that actually got an embedding — anything left over
+    # from the cap above is simply excluded this run and will be retried
+    # automatically next time, since it's still missing from the cache.
+    all_stories = [s for s in all_stories if "embedding" in s]
 
     existing_path.write_text(json.dumps(all_stories))
     print(f"  → {len(all_stories)} total stories in web/embeddings.json")
