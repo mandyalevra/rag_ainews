@@ -103,6 +103,12 @@ Rules:
 - Return only the JSON object, nothing else
 - If a story's URL or title matches something in the "### Trending (most-covered today)" section, strongly prefer it: put it first in its category and treat it as a strong headline candidate
 
+Political neutrality (always applies, to headline, tldr, and every story summary):
+- This is an AI industry newsletter, not a political one. When a story involves elections, legislation, or a political party, describe what happened and what it means for AI policy/industry — never frame it as a party or ideology "winning," "losing," or being vindicated
+- Never use loaded ideological labels (e.g. "doomers", "accelerationists") to characterize a political party's platform or an election outcome — those terms describe AI-policy positions, not partisan tribes, and pinning one to the other reads as editorializing
+- Do not imply the newsletter has a stance on which party, politician, or policy outcome is good or bad. State the regulatory/industry fact plainly and move on
+- If the day's biggest story is political, the headline should center the AI policy or industry substance (what regulation, what impact on companies), not the partisan framing
+
 Headline rules (most important — read carefully):
 - 2–4 words, all lowercase, captures the day's single biggest story
 - Vary the STRUCTURE day to day — rotate between these forms and never repeat a form used recently:
@@ -305,13 +311,21 @@ def evaluate_digest(
             issues.append(f"Semantic duplicate check failed: {e}")
 
     judge_prompt = (
-        "You are fact-checking an AI-generated news digest against the raw search "
-        "results it was built from. Flag any claim in the digest's headline, TL;DR, "
-        "or story summaries that is NOT supported by the raw source material below "
-        "— fabricated details, wrong numbers, or exaggerated framing.\n\n"
+        "You are reviewing an AI-generated news digest on two dimensions.\n\n"
+        "1. GROUNDING: fact-check it against the raw search results it was built from. "
+        "Flag any claim in the headline, TL;DR, or story summaries that is NOT supported "
+        "by the raw source material below — fabricated details, wrong numbers, or "
+        "exaggerated framing.\n\n"
+        "2. POLITICAL NEUTRALITY: this is an AI industry newsletter, not a political one. "
+        "Flag any headline, TL;DR line, or summary that frames an election, party, or "
+        "politician as 'winning'/'losing' or vindicated, uses ideological labels (e.g. "
+        "'doomers', 'accelerationists') to characterize a party or electoral outcome, or "
+        "otherwise reads as taking a side on partisan politics rather than reporting the "
+        "AI-policy substance neutrally.\n\n"
         f"RAW SOURCE MATERIAL:\n{raw[:12000]}\n\n"
         f"DIGEST TO CHECK:\n{json.dumps(digest, indent=2)}\n\n"
-        'Respond with JSON only, no other text: {"grounded": true/false, "unsupported_claims": ["..."]}'
+        'Respond with JSON only, no other text: {"grounded": true/false, "unsupported_claims": ["..."], '
+        '"politically_neutral": true/false, "partisan_framing_issues": ["..."]}'
     )
     try:
         response = claude.messages.create(
@@ -326,6 +340,8 @@ def evaluate_digest(
         result = json.loads(text)
         if not result.get("grounded", True):
             issues.extend(f"Unsupported claim: {c}" for c in result.get("unsupported_claims", []))
+        if not result.get("politically_neutral", True):
+            issues.extend(f"Partisan framing: {c}" for c in result.get("partisan_framing_issues", []))
     except Exception as e:
         issues.append(f"Eval judge call failed: {e}")
 

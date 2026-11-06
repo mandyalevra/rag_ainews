@@ -30,11 +30,16 @@ def make_digest(headline="today, something happened", tldr=None, categories=None
     }
 
 
-def mock_claude(grounded=True, unsupported_claims=None):
+def mock_claude(grounded=True, unsupported_claims=None, politically_neutral=True, partisan_framing_issues=None):
     """Fake anthropic client whose messages.create() returns a canned
-    grounding-check response, so no real API call happens."""
+    judge-check response, so no real API call happens."""
     client = MagicMock()
-    payload = json.dumps({"grounded": grounded, "unsupported_claims": unsupported_claims or []})
+    payload = json.dumps({
+        "grounded": grounded,
+        "unsupported_claims": unsupported_claims or [],
+        "politically_neutral": politically_neutral,
+        "partisan_framing_issues": partisan_framing_issues or [],
+    })
     fake_block = MagicMock()
     fake_block.text = payload
     fake_response = MagicMock()
@@ -102,6 +107,17 @@ class EvaluateDigestTests(unittest.TestCase):
         claude = mock_claude(grounded=False, unsupported_claims=["a made-up fact"])
         result = evaluate_digest(claude, make_digest(), raw="unrelated source text")
         self.assertTrue(any("Unsupported claim: a made-up fact" in i for i in result["issues"]))
+
+    def test_partisan_framing_flagged_by_judge(self):
+        # Modeled on the real incident: headline "doomers won the midterms"
+        # framed a party's election win in AI-ideology slang.
+        claude = mock_claude(
+            politically_neutral=False,
+            partisan_framing_issues=["headline frames Democrats' win as 'doomers' winning"],
+        )
+        digest = make_digest(headline="doomers won the midterms")
+        result = evaluate_digest(claude, digest, raw="Democrats won the midterm elections")
+        self.assertTrue(any("Partisan framing: headline frames Democrats' win as 'doomers' winning" in i for i in result["issues"]))
 
     def test_semantic_duplicate_flagged(self):
         fake_vec = [0.1] * 384
